@@ -10,22 +10,70 @@ Table of Contents
 
 * [Preface](preface/)
 * [Introduction](introduction/)
-* PART ONE:
+* [Configuring Your Development Environment]()
+    * Installing SBCL
+    * Choosing a Text Editor
+    * Working From the Command-Line
+* PART ONE: Grokking Lisp
     * [Syntax Overview in 5 minutes]()
     * [The REPL]()
     * [I/O]()
+        * Strings
+        * Writing
+        * Printing
+        * Pretty-Printing
+        * Reading
+        * EVAL
+        * Working with Files and Streams
     * [Numbers & Math]()
-    * [FORMAT macro]()
+        * Numeric Types
+        * Built-in Mathematical Functions
+        * Arrays
+        * Vectors
+    * [Formatted Strings]()
+        * The FORMAT Macro
+        * Conditionals
+        * Iteration
+        * Numbers
+        * Unprintable Objects
+    * [Variables, Parameters, and Constants]()
+        * Global Variables
+        * Local Variables
     * [Lists and List-Operations]()
-    * [Control Structures]()
+        * Consing and Cons-Cells
+        * 
+    * [Conditionals]()
+        * IF, WHEN, UNLESS
+        * COND
+    * [Looping]()
+        * The LOOP Macro
+    * [Control Structures and Programming Paradigms]()
+        * Procedural and Imperative Control Structures
+        * Functional Programming
+        * LAMBDA: Anonymous Functions
+        * Top-level Functions
+        * Local Functions
+        * Defining Macros
+        * Structs
+        * Object-Oriented Programming and CLOS
+        * Classes
+        * Generic Functions
+        * Methods
     * [Extended Data-Types]()
     * [Error Handling]()
-    * [Macros]()
     * [Namespaces, Symbols, Packages, and Systems]()
-    * [CLOS]()
     * [The Compiler]()
+        * Declaring Types
+        * Controlling Compile-Time
+        * Compiler Optimizations
     * [Documentation and Object Inspection]()
+    * [Debugging Your Code]()
     * [Detailed Syntax Review]()
+        * S-Expressions
+        * Atoms
+        * Lists
+        * Quotes
+        * Backtick Syntax
 * PART TWO: 
     * [Quicklisp]()
     * [Write a Simple Web Application]()
