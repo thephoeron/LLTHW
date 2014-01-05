@@ -54,8 +54,11 @@ FAQ
 ---
 
 How long does this book take to complete?
+
 : You should take as long as you need with each module to fully grasp the material.  It's not a race, and the only deadlines are the ones you set for yourself.
+
 : Assuming you already have some programming experience and can do at least one module a day, you should expect to spend at least three months.
 
 What kind of computer do I need?
+
 : Common Lisp is available for nearly every platform, so any personal computer should do.
