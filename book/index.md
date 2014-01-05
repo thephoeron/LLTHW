@@ -19,74 +19,123 @@ Table of Contents
     * [The REPL]()
     * [I/O]()
         * Strings
+        * Characters
         * Writing
         * Printing
         * Pretty-Printing
         * Reading
         * EVAL
-        * Working with Files and Streams
+        * Working with Streams
+        * Paths and Files
+        * Prompting Users
+    * [Lists and List-Operations]()
+        * Consing and Cons-Cells
+        * Quoting Lists
+        * Association Lists
+        * Property Lists
+        * Trees
     * [Numbers & Math]()
         * Numeric Types
         * Built-in Mathematical Functions
         * Arrays
         * Vectors
+    * [Variables, Parameters, and Constants]()
+        * Global Variables
+        * Local Variables
+    * [Functions and Macros]()
+        * LAMBDA: Anonymous Functions
+        * Global Functions
+        * Local Functions
+        * Recursive Functions
+        * Defining Macros
+    * [Extra Credit: A Simple Text Adventure]()
+    * [Namespaces, Symbols, Packages, and Systems]()
+        * Function and Variable Namespaces
+        * Symbol Names
+        * Defining Packages
+        * ASDF and Systems
+        * The Quicklisp Package Manager
+    * [Extra Credit: Write a Simple Web Application]()
+        * Sockets
+        * Introducing Hunchentoot
+        * Serving Static Files
+        * Coding HTML5, CSS3, and JavaScript in Lisp
+    * [Conditionals]()
+        * IF, WHEN, UNLESS
+        * COND
+        * Predicates
+    * [Extra Credit: Write a Command-Line Utility]()
+        * Introducing CLON: The Command-Line Options Nuker
+        * Loading Quicklisp in Lisp Scripts
+        * Defining Your Application's Synopsis
+        * Defining Your Application's Event Loop
+        * Dumping Binaries
+    * [Mapping and Looping]()
+        * `DO` and `DO*`
+        * `DOTIMES`
+        * `DOLIST`
+        * `MAP`
+        * `MAPC` and `MAPL`
+        * Other Mapping Functions
+        * The `LOOP` Macro
+    * [Extra Credit: Revisiting LOOPS with ITERATE]()
     * [Formatted Strings]()
         * The FORMAT Macro
         * Conditionals
         * Iteration
         * Numbers
         * Unprintable Objects
-    * [Variables, Parameters, and Constants]()
-        * Global Variables
-        * Local Variables
-    * [Lists and List-Operations]()
-        * Consing and Cons-Cells
-        * 
-    * [Conditionals]()
-        * IF, WHEN, UNLESS
-        * COND
-    * [Looping]()
-        * The LOOP Macro
-    * [Control Structures and Programming Paradigms]()
-        * Procedural and Imperative Control Structures
+    * [Extra Credit: Write a Domain-Specific Language]()
+    * [Part One in Review]()
+* PART TWO: The Suffusion of Blue
+    * [Programming Paradigms]()
+        * The Multi-Paradigm Approach
+        * Procedural Programming
+        * Imperative Programming
+        * Object-Oriented Programming
         * Functional Programming
-        * LAMBDA: Anonymous Functions
-        * Top-level Functions
-        * Local Functions
-        * Defining Macros
+        * Novel Paradigms
+    * [Extra Credit: Threading and Memoization]()
+    * [Logic and Advanced Math]()
+        * Logic Functions
+        * Arrays
+        * Vectors
+        * Integer Functions
+        * Floats
+    * [Extra Credit: Using Regular Expressions in Lisp]()
+    * [Objects and Control Structures]()
+        * Blocks
+        * Tagbodys
+        * GO
+        * PROG, PROGN
         * Structs
-        * Object-Oriented Programming and CLOS
-        * Classes
-        * Generic Functions
-        * Methods
+        * CLOS
     * [Extended Data-Types]()
-    * [Error Handling]()
-    * [Namespaces, Symbols, Packages, and Systems]()
+        * Hash-Tables
+        * Sequences
+        * Sets
+        * Type Definition
+        * CLOS for Type Definition
+    * [Extra Credit: An Improved Text Adventure Engine]()
+    * [Conditions and Error Handling]()
+    * [Extra Credit: Write a 2D Game]()
     * [The Compiler]()
         * Declaring Types
         * Controlling Compile-Time
         * Compiler Optimizations
     * [Documentation and Object Inspection]()
+    * [Extra Credit: Using Foreign Libraries in Lisp]()
     * [Debugging Your Code]()
+    * [Extra Credit: Write a Foreign Function Interface]()
+    * [Essential Lisp Libraries]()
     * [Detailed Syntax Review]()
         * S-Expressions
         * Atoms
         * Lists
         * Quotes
         * Backtick Syntax
-* PART TWO: 
-    * [Quicklisp]()
-    * [Write a Simple Web Application]()
-    * [Write a Command-Line Utility]()
-    * [Write a Text Adventure]()
-    * [Write a 2D Game]()
-    * [Using Foreign Libraries in Lisp]()
-    * [Write a Foreign Function Interface]()
-    * [Write a DSL]()
-    * [Using Regular Expressions in Lisp]()
-    * [Revisiting LOOPS with ITERATE]()
-    * [Essential Lisp Libraries]()
-* PART THREE:
+        * CLOS and the Meta-Object Protocol
+* PART THREE: Lisp So(u)rcery
     * [Real-world Web Apps]()
     * [Native Mobile Applications]()
     * [Cross-platform Desktop Applications]()
