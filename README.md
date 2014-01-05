@@ -1,4 +1,6 @@
-llthw
+LLTHW
 =====
 
-LLTHW
+The source-repository for LLTHW.
+
+
