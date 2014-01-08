@@ -10,14 +10,14 @@ Table of Contents
 
 * [Preface](preface/)
 * [Introduction](introduction/)
-* [Configuring Your Development Environment]()
+* [Configuring Your Development Environment](configuration/)
     * Installing SBCL
     * Choosing a Text Editor
     * Working From the Command-Line
 * PART ONE: Grokking Lisp
-    * [Syntax Overview in 5 minutes]()
-    * [The REPL]()
-    * [I/O]()
+    * [Syntax Overview in 5 minutes](1-1-0-syntax-overview/)
+    * [The REPL](1-2-0-the-repl/)
+    * [I/O](1-3-0-input-output/)
         * Strings
         * Characters
         * Writing
@@ -145,6 +145,7 @@ Table of Contents
     * [OpenGL, SDL, and 3D Gaming]()
     * [Artificial Intelligence]()
     * [Audio Generation/Manipulation]()
+    * [Scientific Computing]()
     * [Quantum Computing]()
 
 FAQ
