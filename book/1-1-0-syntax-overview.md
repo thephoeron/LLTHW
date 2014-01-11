@@ -4,7 +4,7 @@ LLTHW
 Syntax Overview in 5 Minutes
 ----------------------------
 
-What makes the Lisp family of languages so simple, expressive, and concise, is the syntax.  Using a single form, the S-Expression, you can represent all code and data.  This property is called 'homoiconicity'.
+What makes the Lisp family of languages so simple, expressive, and concise, is the syntax.  Using a single form, the *S-Expression*, you can represent all code and data.  This property is called 'homoiconicity'.
 
 In Lisp, the S-Expression is defined to be either an *Atom* or a *List*.  An *Atom* is an S-Expression that evaluates to itself, while a *List* is a list of S-Expressions.
 
