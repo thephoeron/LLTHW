@@ -14,21 +14,21 @@ Table of Contents
     * Installing SBCL
     * Choosing a Text Editor
     * Working From the Command-Line
+    * Tour of the REPL
 * PART ONE: Grokking Lisp
     * [Syntax Overview in 5 minutes](1-1-0-syntax-overview/)
-    * [The REPL](1-2-0-the-repl/)
-    * [I/O](1-3-0-input-output/)
-        * Strings
-        * Characters
-        * Writing
-        * Printing
-        * Pretty-Printing
-        * Reading
-        * EVAL
-        * Working with Streams
-        * Paths and Files
-        * Prompting Users
-    * [Lists and List-Operations]()
+    * [I/O](1-2-0-input-output/)
+        * [Strings](1-2-01-strings/)
+        * [Characters](1-2-02-chars/)
+        * [Writing](1-2-03-writing/)
+        * [Printing](1-2-04-printing/)
+        * [Pretty-Printing](1-2-05-pprint/)
+        * [Reading](1-2-06-read/)
+        * [EVAL](1-2-07-eval/)
+        * [Working with Streams](1-2-08-streams/)
+        * [Paths and Files](1-2-09-paths-files/)
+        * [Prompting Users](1-2-10-prompts/)
+    * [Lists and List-Operations](1-3-0-lists/)
         * Consing and Cons-Cells
         * Quoting Lists
         * Association Lists
