@@ -15,6 +15,8 @@ Table of Contents
     * Choosing a Text Editor
     * Working From the Command-Line
     * Tour of the REPL
+* [Common Lisp Bootcamp](bootcamp/)
+* [Common Lisp Style Guide](style-guide/)
 * PART ONE: Grokking Lisp
     * [Syntax Overview in 5 minutes](1-1-0-syntax-overview/)
     * [I/O](1-2-0-input-output/)
