@@ -1,6 +1,4 @@
-LLTHW
-=====
+# LLTHW
 
-Configuring Your Common Lisp Developer Environment
---------------------------------------------------
+#### Configuring Your Common Lisp Development Environment
 
