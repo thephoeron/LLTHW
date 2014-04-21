@@ -1,8 +1,6 @@
-LLTHW
-=====
+# LLTHW
 
-Syntax Overview in 5 Minutes
-----------------------------
+#### Syntax Overview in 5 Minutes
 
 What makes the Lisp family of languages so simple, expressive, and concise, is the syntax.  Using a single form, the *S-Expression*, you can represent all code and data.  This property is called 'homoiconicity'.
 
