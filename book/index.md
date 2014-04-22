@@ -147,6 +147,7 @@ Table of Contents
     * [OpenGL, SDL, and 3D Gaming]()
     * [Artificial Intelligence]()
     * [Audio Generation/Manipulation]()
+    * [Cryptography/Security]()
     * [Scientific Computing]()
     * [Quantum Computing]()
 
