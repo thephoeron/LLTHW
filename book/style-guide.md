@@ -30,6 +30,14 @@ Global variables, *i.e.*, variables declared as top-level forms with `defvar` or
 '*my-global-variable*
 ```
 
+#### Parentheses, Indentation, and Whitespace
+
+Parentheses should all close on the same line, when ending multiple forms; while balancing parentheses on separate lines from your code, to demarcate a code block, is common practice in other languages, it is not the case in Common Lisp.  If you are having trouble matching the parentheses in your head, use a source-code editor which highlights matching opening or closing parens.  And since in Lisp, all non-atomic forms are lists, and wrapped in a pair of parentheses, it is also worthwhile to use tools to find unmatched parens.
+
+If you use Emacs (which many Lispers will tell you that you must use), proper indentation is handled quite well; other editors, such as Sublime Text, need a plugin installed to indent Lisp code correctly.  Generally, it is better to use the space character for your indentation, over the Tab; each nested form that lives on its own line should be indented 2 spaces; forms broken into lines for clarity should be lined up in a column.
+
+You only need a single space between forms in a list.  Likewise, you only need one extra line between top-level forms.
+
 #### Comments and Documentation
 
 You should always comment and document your code; that being said, Lisp, when written correctly, can be effectively self-documenting and self-explanatory (see "Decomposition, Refactoring, and Abstraction" below for more information).  Your code should be clean and readable enough that comments and documentation are technically unnecessary, but then write clean, short, and to-the-point comments and documentation strings to expand on what the code itself already says.
