@@ -79,4 +79,25 @@ A multi-paradigm approach to programming that I have found useful is straightfor
 
 #### Cross-Platform Development
 
+Lisp is, by nature, a cross-platform development language; but each implementation of Common Lisp contains implementation-dependent extensions, and platform-specific functionality that is unavoidable.  Generally speaking, you should make every effort to write cross-platform, cross-implementation software, so that it "just works" everywhere.  When a problem requires implementation or platform specific code to solve, take the extra five minutes to find out how to make it work on other platforms.  If you need to, refer to the source code of other popular cross-platform libraries, to see how they approach the problem.
+
+As an example, you can and should write software that takes advantage of 64-bit architectures; but even today, you cannot always count on it being there for your users.  Your software should scale gracefully to 32-bit architectures.  And when certain features require it, document them as such and provide an alternative.
+
+The same is true for web applications.  You can't predict which browser your users will prefer; and users resent getting a page that tells them to upgrade or change their browser.  You have no choice but to support every browser and platform&mdash;so, think about Lisp software the same way, and you will be doing yourself and your users a favour from the beginning.
+
+Be certain to test your code on every platform you have access to, and in multiple implementations of Lisp for each platform. It may seem like a lot of extra work for nothing at first, but it will save you a lot of time down the road.
+
 #### Libraries
+
+As well as learning the Common Lisp language, it is important to familiarize yourself and keep up to date with the wide variety of Lisp libraries available online, particularly those in the Quicklisp package repository.  There are two important reasons for this:
+
+* Instead of reinventing the wheel, you can use a feature-complete, dedicated library to implement your functionality.
+* When you know what libraries are freely available, you can dedicate more of your time to writing and testing new code.
+
+Also, whenever it is both possible and reasonable, the code you write should be packaged into logical units, and distributed as open-source libraries that are loadable through Quicklisp.  Depending on the type of company you work for, however, this may be more difficult than you might expect; most software development shops like to control all IP produced by their employees, even code produced in their off-hours&mdash;if you have a contract, be sure to check with your manager first before you release any software you write into the wild; and in the future, keep an eye out for such clauses and be certain to fight for your right to contribute to open-source software.
+
+Knowing what code to push up from a software project into a general purpose library can be tricky, but there are a few rules you can keep in mind:
+
+* If you find yourself copy and pasting code between projects.
+* If you abstract a common problem into a cleaner syntax.
+* If your code solves a known problem or lack in the Lisp community, that is too general for a specific commercial software project.
