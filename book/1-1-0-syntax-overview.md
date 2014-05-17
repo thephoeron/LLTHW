@@ -60,9 +60,9 @@ Don't worry too much about what you're typing at the moment---just make sure you
 Hello, from Lisp!
 "Hello, from Lisp!"
 * (loop for item in '(this list will get printed in titlecase) do (format t "~@(~A~) " item))
-This List Will Get Printed In Titlecase 
+This List Will Get Printed In Titlecase
 NIL
-* 
+*
 ```
 
 Take a look at what you've typed and ponder it for a moment.  You should notice a few things right away:
@@ -73,4 +73,4 @@ Take a look at what you've typed and ponder it for a moment.  You should notice 
 
 This syntax is often referred to as "Polish prefix-notation".  In the first example, `(+ 10 20 (* 30 2))`, it's pretty clear what's happening: you pass an arbitrary set of numbers to the addition function, and you get back the sum.  In this case, you also passed the *return result* of `(* 30 2)`, which is 30 multiplied by 2.  So instead of having to write something like `10 + 20 + 30 * 2` in other languages, you just have to type the addition symbol once, and order of operation is clear.  For a simple example like this, it may not seem like a big deal yet, but for real-world applications, it greatly simplifies your code.
 
-From this amazingly simple syntax, you can express any program you can imagine, using any programming paradigm you choose
+From this amazingly simple syntax, you can express any program you can imagine, using any programming paradigm you choose.

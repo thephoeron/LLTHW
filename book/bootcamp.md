@@ -24,7 +24,7 @@ But in SBCL, the default prompt is much less informative:
 
 For convenience sake, when you should enter a piece of code in the REPL for immediate evaluation, each line of code will be marked by the SBCL prompt character.  When you should enter all the code given in a file, there will be no prompt character preceding each line, and you will be provided with a file name to enter it in.
 
-Remember, you don't type in the prompt character `*` at the REPL; even if your prompt looks different, the `*` symbolizes all Common Lisp REPLs.
+Remember, you don't type in the prompt character `*` at the REPL; even if your prompt looks different, the `*` symbolizes all Common Lisp REPL prompts.
 
 #### Expressions, Parentheses, and Return Values
 
@@ -48,3 +48,8 @@ And this expression would 'return' the integer `15`, which is typically written 
 
 In Lisp, you don't have to write the addition operator, `+`, over and over between each number you wish to add together.  You are passing parameters to a function, and the function knows to collect the parameters as a set and Sum them.
 
+#### Lists, Cons-cells, and Memory
+
+In Lisp, lists are stored as chains of pointer-pairs, called "cons-cells".  Each cell either points to a memory address where a value is stored, or points to another cons-cell.  The first cell in the cons-cell is referred to as `car`, and the second cell is called `cdr`.  Since the names of the cells might seem strange to you, being artifacts of a long-lost hardware architecture, you can think of them as "first" and "rest" of a list, or the "head" and "tail" of a chain; but for reference, `car` stands for "Contents of Address Register", and `cdr` stands for "Contents of Decrement Register".
+
+This may at first seem like useless and uninteresting historical trivia, but it is important to understand the underlying structure of the language, since a common problem you will face when writing Lisp software is minimizing the number of conses a function performs while executing its body.  You can easily waste a lot of memory and processing power dealing with unnecessary consing, and it is of fundamental importance to programming that you handle resources well. After all, a web-app you write in Lisp may work perfectly when you're testing it yourself, but scale poorly under heavy traffic and crash your server.  You can avoid embarrassing and stressful situations like this by keeping a careful accounting of system resources, ensuring that your software only ever uses the minimum amounts of memory and processor time necessary to keep your application live and running smoothly for everyone.
