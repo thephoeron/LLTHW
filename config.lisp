@@ -1,0 +1,40 @@
+;;;; -*- Mode: LISP; Syntax: COMMON-LISP; Package: LLTHW; Base: 10 -*-
+;;;; file: config.lisp
+
+;;;; Copyright (c) 2012--2014 "the Phoeron" Colin J.E. Lupton <//thephoeron.com>
+;;;; See LICENSE for additional information.
+
+(in-package :llthw)
+
+(defparameter *default-dir*
+  (pathname (directory-namestring #.(or *compile-file-truename*
+                                        *load-truename*))))
+(defparameter *static-dir* (merge-pathnames "static/" *default-dir*))
+(defparameter *book-dir* (merge-pathnames "book/" *default-dir*))
+(defparameter *res-dir* (merge-pathnames "resources/" *default-dir*))
+
+;; Define hunchentoot log files
+(defparameter *acc-log* (merge-pathnames "log/access.log" *default-dir*))
+(defparameter *msg-log* (merge-pathnames "log/message.log" *default-dir*))
+
+;; LLTHW Acceptor
+(defparameter *acc* nil)
+
+(setf hunchentoot:*dispatch-table*
+  (list 'hunchentoot:dispatch-easy-handlers
+        (hunchentoot:create-folder-dispatcher-and-handler "/static/" *static-dir*)))
+
+(setf ;; for utf-8
+      hunchentoot:*default-content-type* "text/html; charset=utf-8"
+      ;; for debug ; hunchentoot:*catch-errors-p* t
+      (cl-who:html-mode) :html5
+      ps:*js-string-delimiter* #\"
+      )
+
+(defun server-type ()
+  "Hunchentoot")
+
+(defun server-version ()
+  hunchentoot::*hunchentoot-version*)
+
+;; EOF

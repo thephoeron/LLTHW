@@ -23,8 +23,10 @@
     :depends-on (:hunchentoot
                  :cl-who
                  :cl-css
+                 :parenscript
                  :3bmd)
     :components ((:file "packages")
+                 (:file "config")
                  (:file "llthw")))
 
 ;; EOF
