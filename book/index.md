@@ -97,7 +97,7 @@ Table of Contents
         * Object-Oriented Programming
         * Functional Programming
         * Novel Paradigms
-    * [Extra Credit: Threading and Memoization]()
+    * [Extra Credit: Threading, Memoization, and Parallel Processing]()
     * [Logic and Advanced Math]()
         * Logic Functions
         * Arrays
