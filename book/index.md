@@ -1,12 +1,10 @@
-LLTHW
-=====
+# LLTHW
 
-Learn Lisp The Hard Way v0.2.0 alpha
+## Learn Lisp The Hard Way v0.2.0 alpha
 
-"the Phoeron" Colin J.E. Lupton
+### "the Phoeron" Colin J.E. Lupton
 
-Table of Contents
------------------
+#### Table of Contents
 
 * [Preface](preface/)
 * [Introduction](introduction/)
@@ -151,8 +149,7 @@ Table of Contents
     * [Scientific Computing]()
     * [Quantum Computing]()
 
-FAQ
----
+#### FAQ
 
 How long does this book take to complete?
 
@@ -162,4 +159,4 @@ How long does this book take to complete?
 
 What kind of computer do I need?
 
-: Common Lisp is available for nearly every platform, so any personal computer should do.
+: Common Lisp is available for nearly every platform. Your personal computer, whether it be a Mac, Windows, or Linux platform, will be fine.  For all the features of this website, however, you may need to update your browser to the latest version of Chrome, Firefox, or Safari.
