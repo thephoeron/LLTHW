@@ -27,6 +27,11 @@
                  :3bmd)
     :components ((:file "packages")
                  (:file "config")
+                 (:file "utils")
+                 (:file "styles")
+                 (:file "scripts")
+                 (:file "templates")
+                 (:file "handlers")
                  (:file "llthw")))
 
 ;; EOF
