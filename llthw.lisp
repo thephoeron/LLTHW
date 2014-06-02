@@ -6,6 +6,19 @@
 
 (in-package :llthw)
 
+(defun llthw-start (&key (port 8080))
+  (when (null *acc*)
+    (setf *acc* (make-instance 'hunchentoot:easy-acceptor :port port)))
+  (hunchentoot:start *acc*))
 
+(defun llthw-stop ()
+  (when *acc*
+    (hunchentoot:stop *acc*))
+  (setf *acc* nil))
+
+(defun llthw-restart ()
+  (llthw-stop)
+  (ql:quickload "llthw")
+  (llthw-start))
 
 ;; EOF

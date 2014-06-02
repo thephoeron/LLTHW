@@ -11,6 +11,9 @@
           :cl-who
           :cl-css
           :3bmd
+          :3bmd-code-blocks
+          :3bmd-definition-lists
+          :3bmd-tables
           :hunchentoot)
     (:export #:*llthw-version*))
 

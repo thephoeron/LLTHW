@@ -29,6 +29,11 @@
       ;; for debug ; hunchentoot:*catch-errors-p* t
       (cl-who:html-mode) :html5
       ps:*js-string-delimiter* #\"
+      3bmd:*smart-quotes* t
+      3bmd-code-blocks:*code-blocks* t
+      3bmd-definition-lists:*definition-lists* t
+      3bmd-tables:*tables* t
+      3bmd-code-blocks:*code-blocks-default-colorize* :common-lisp
       )
 
 (defun server-type ()
