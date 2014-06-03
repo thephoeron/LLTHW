@@ -15,7 +15,12 @@
           (:h3 :align "center"
             "Learn Lisp The Hard Way")
           (:h4 :align "center"
-            "\"the Phoeron\" Colin J.E. Lupton"))))))
+            "\"the Phoeron\" Colin J.E. Lupton")))
+      (:div :id "footer"
+        (:div :class "container"
+          (:p :align "center"
+            (:a :href "http://common-lisp.net/" :alt "Crafted in Common Lisp" :title "Crafted in Common Lisp" "(λ)") (:br)
+            "Powered by Steel Bank Common Lisp, Quicklisp, Hunchentoot, CL-CSS, CL-WHO, Parenscript, 3bmd, and Colorize."))))))
 
 (define-easy-handler (llthw-book-index :uri "/book/") ()
   (llthw-page ()

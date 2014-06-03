@@ -12,6 +12,8 @@
       (:head
         (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css")
         (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css")
+        (:link :rel "stylesheet" :href "/static/css/llthw.css")
+        (:style :type "text/css" (str colorize:*coloring-css*))
         (:title ,title))
       (:body
         (:nav :class "navbar navbar-inverse navbar-static-top" :role "navigation"
@@ -23,7 +25,7 @@
               (:li (:a :href "/book/" "Book"))
               (:li (:a :href "/resources/" "Resources")))))
         ,@body
-        (:script :src "/static/jquery.js" :type "text/javascript")
+        (:script :src "/static/js/jquery.js" :type "text/javascript")
         (:script :src "//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js")))))
 
 (defmacro llthw-page ((&key (title "L(λ)THW")) &body body)
@@ -32,7 +34,8 @@
       (:head
         (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css")
         (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css")
-        (:link :rel "stylesheet" :href "/static/llthw.css")
+        (:link :rel "stylesheet" :href "/static/css/llthw.css")
+        (:style :type "text/css" (str colorize:*coloring-css*))
         (:title ,title))
       (:body
         (:nav :class "navbar navbar-inverse navbar-static-top" :role "navigation"
@@ -51,10 +54,10 @@
               ,@body)
             (:div :class "col-md-4"
               (:div :id "console" :data-spy "affix" :data-offset-top "60" :class "affix"))))
-        (:script :src "/static/jquery.js" :type "text/javascript")
+        (:script :src "/static/js/jquery.js" :type "text/javascript")
         (:script :src "//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js")
-        (:script :src "/static/jscl.js" :type "text/javascript")
-        (:script :src "/static/jqconsole.min.js" :type "text/javascript")
-        (:script :src "/static/llthw.js" :type "text/javascript")))))
+        (:script :src "/static/js/jscl.js" :type "text/javascript")
+        (:script :src "/static/js/jqconsole.min.js" :type "text/javascript")
+        (:script :src "/static/js/llthw.js" :type "text/javascript")))))
 
 ;; EOF
