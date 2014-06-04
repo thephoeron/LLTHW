@@ -11,6 +11,92 @@ body {
   margin-bottom: 0;
 }
 
+.masthead {
+  padding: 60px 0 70px;
+  background: url(/static/img/fractal-splash.png) no-repeat top center;
+  background-size: cover;
+  margin-bottom: 0;
+  background-color: #9933FF;
+  color: #FFFFFF;
+  height: 550px;
+}
+
+.masthead:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(/static/img/pattern.png) repeat center center;
+  opacity: .4;
+  height: 550px;
+}
+
+.masthead .container {
+  position: relative;
+  z-index: 2;
+}
+
+.masthead h1 {
+  font-size: 120px;
+  line-height: 1;
+  letter-spacing: -2px;
+}
+
+.masthead pre {
+  background-color: rgba(0,0,0,.75);
+  color: #c0c0c0;
+  border: 1px solid black;
+}
+
+.masthead p {
+  font-size: 40px;
+  font-weight: 200;
+  line-height: 1.25;
+}
+
+.masthead-links {
+  margin: 0;
+  padding-top: 10px;
+  list-style: none;
+  color: #000;
+}
+
+.masthead-links li {
+  display: inline;
+  padding: 0 10px;
+  color: rgba(0,0,0,.75);
+}
+
+.masthead-links li a {
+  color: #000;
+}
+
+.social-banner {
+  padding: 15px 0;
+  text-align: center;
+  background-color: #e0e0e0;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.social-banner-buttons {
+  margin-left: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.social-banner-buttons li {
+  display: inline-block;
+  padding: 5px 8px;
+  line-height: 1;
+  *display: inline;
+  *zoom: 1;
+}
+
 #footer {
   position: absolute;
   bottom: 0;
@@ -83,3 +169,35 @@ body {
 .jqconsole-error {
     color: red;
 }
+
+/* Styles for COLORIZE package source-code */
+.symbol { color : #770055; background-color : transparent; border: 0px; margin: 0px;}
+a.symbol:link { color : #229955; background-color : transparent; text-decoration: none; border: 0px; margin: 0px; }
+a.symbol:active { color : #229955; background-color : transparent; text-decoration: none; border: 0px; margin: 0px; }
+a.symbol:visited { color : #229955; background-color : transparent; text-decoration: none; border: 0px; margin: 0px; }
+a.symbol:hover { color : #229955; background-color : transparent; text-decoration: none; border: 0px; margin: 0px; }
+.special { color : #FF5000; background-color : inherit; }
+.keyword { color : #770000; background-color : inherit; }
+.comment { color : #007777; background-color : inherit; }
+.string { color : #006600; background-color : inherit; }
+.atom { color : #314F4F; background-color : inherit; }
+.macro { color : #FF5000; background-color : inherit; }
+.variable { color : #36648B; background-color : inherit; }
+.function { color : #8B4789; background-color : inherit; }
+.attribute { color : #FF5000; background-color : inherit; }
+.character { color : #0055AA; background-color : inherit; }
+.syntaxerror { color : #FF0000; background-color : inherit; }
+.diff-deleted { color : #5F2121; background-color : inherit; }
+.diff-added { color : #215F21; background-color : inherit; }
+span.paren1 { background-color : inherit; -webkit-transition: background-color 0.2s linear; }
+span.paren1:hover { color : #333; background-color : rgba(186,255,255,.5); }
+span.paren2 { background-color : inherit; -webkit-transition: background-color 0.2s linear; }
+span.paren2:hover { color : #333; background-color : rgba(255,202,202,.5); }
+span.paren3 { background-color : inherit; -webkit-transition: background-color 0.2s linear; }
+span.paren3:hover { color : #333; background-color : rgba(255,255,186,.5); }
+span.paren4 { background-color : inherit; -webkit-transition: background-color 0.2s linear; }
+span.paren4:hover { color : #333; background-color : rgba(202,202,255,.5); }
+span.paren5 { background-color : inherit; -webkit-transition: background-color 0.2s linear; }
+span.paren5:hover { color : #333; background-color : rgba(202,255,202,.5); }
+span.paren6 { background-color : inherit; -webkit-transition: background-color 0.2s linear; }
+span.paren6:hover { color : #333; background-color : rgba(255,186,255,.5); }

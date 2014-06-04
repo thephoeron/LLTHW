@@ -12,7 +12,9 @@
       (:div :class "container"
         (:p :align "center"
           (:a :href "http://common-lisp.net/" :alt "Crafted in Common Lisp" :title "Crafted in Common Lisp" "(λ)") (:br)
-          "Copyright &copy; 2012 &ndash; 2014, \"the Phoeron\" Colin J.E. Lupton. All Rights Reserved." (:br)
+          "Copyright &copy; 2012 &ndash; 2014, \"the Phoeron\" Colin J.E. Lupton ("
+          (:a :href "http://thephoeron.com/" :target "_blank" :alt "//thephoeron.com/" :title "//thephoeron.com/" "//thephoeron.com/")
+          "). All Rights Reserved." (:br)
           "Powered by "
           (:a :href "http://www.webfaction.com/?affiliate=thephoeron" :target "_blank" "Webfaction") ", "
           (:a :href "http://www.sbcl.org/" :target "_blank" "SBCL") ", "
@@ -34,17 +36,20 @@
         (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css")
         (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css")
         (:link :rel "stylesheet" :href "/static/css/llthw.css")
-        (:style :type "text/css" (str colorize:*coloring-css*))
+        ;(:style :type "text/css" (str colorize:*coloring-css*))
         (:title ,title))
       (:body
         (:nav :class "navbar navbar-inverse navbar-static-top" :role "navigation"
-          (:div :class "container-fluid"
+          (:div :class "container"
             (:div :class "navbar-header"
-              (:a :class "navbar-brand" :href "#" (str (format nil "L(~C)THW" #\greek_small_letter_lamda))))
-            (:ul :class "nav navbar-nav"
-              (:li :class "active" (:a :href "/" "Home"))
-              (:li (:a :href "/book/" "Book"))
-              (:li (:a :href "/resources/" "Resources")))))
+              ;(:a :class "navbar-brand" :href "#" (str (format nil "L(~C)THW" #\greek_small_letter_lamda)))
+              )
+            ;(:ul :class "nav navbar-nav"
+            ;  (:li :class "active" (:a :href "/" "Home"))
+            ;  (:li (:a :href "/try-lisp/" "Try Lisp"))
+            ;  (:li (:a :href "/book/" "Book"))
+            ;  (:li (:a :href "/resources/" "Resources")))
+              ))
         ,@body
         (llthw-footer)
         (:script :src "/static/js/jquery.js" :type "text/javascript")
@@ -57,15 +62,16 @@
         (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css")
         (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css")
         (:link :rel "stylesheet" :href "/static/css/llthw.css")
-        (:style :type "text/css" (str colorize:*coloring-css*))
+        ;(:style :type "text/css" (str colorize:*coloring-css*))
         (:title ,title))
       (:body
         (:nav :class "navbar navbar-inverse navbar-static-top" :role "navigation"
-          (:div :class "container-fluid"
+          (:div :class "container"
             (:div :class "navbar-header"
               (:a :class "navbar-brand" :href "#" (str (format nil "L(~C)THW" #\greek_small_letter_lamda))))
             (:ul :class "nav navbar-nav"
               (:li (:a :href "/" "Home"))
+              (:li (:a :href "/try-lisp/" "Try Lisp"))
               (:li :class "active"
                 (:a :href "/book/" "Book"))
               (:li (:a :href "/resources/" "Resources")))))
