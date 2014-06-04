@@ -3,6 +3,7 @@ html {
   min-height: 100%;
 }
 body {
+  margin-top: 50px;
   /* Margin bottom by footer height */
   margin-bottom: 80px;
 }
@@ -97,6 +98,14 @@ body {
   *zoom: 1;
 }
 
+.navbar-static-top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 #footer {
   position: absolute;
   bottom: 0;
@@ -108,7 +117,9 @@ body {
 }
 
 #console {
-  top: 0px;
+  position: absolute;
+  position: fixed;
+  top: 50px;
   right: 0px;
   float: right;
   background-color:black;
@@ -119,6 +130,7 @@ body {
   width: 620px;
   height: 100%;
   min-height: 480px;
+  max-height: 900px;
 }
 
 #console pre {

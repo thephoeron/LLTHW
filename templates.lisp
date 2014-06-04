@@ -68,20 +68,19 @@
         (:nav :class "navbar navbar-inverse navbar-static-top" :role "navigation"
           (:div :class "container"
             (:div :class "navbar-header"
-              (:a :class "navbar-brand" :href "#" (str (format nil "L(~C)THW" #\greek_small_letter_lamda))))
+              (:a :class "navbar-brand" :href "/" (str (format nil "L(~C)THW" #\greek_small_letter_lamda))))
             (:ul :class "nav navbar-nav"
               (:li (:a :href "/" "Home"))
-              (:li (:a :href "/try-lisp/" "Try Lisp"))
               (:li :class "active"
                 (:a :href "/book/" "Book"))
-              (:li (:a :href "/resources/" "Resources")))))
-        (:div :class "container-fluid"
+              (:li (:a :href "/resources/" "Resources"))
+              (:li (:a :href "/try-lisp/" "Try Lisp"))
+              (:li (:a :href "/get-lisp/" "Get Lisp")))))
+        (:div :class "container"
           (:div :class "row"
-            (:div :class "col-md-2")
-            (:div :class "col-md-6"
-              ,@body)
-            (:div :class "col-md-4"
-              (:div :id "console" :data-spy "affix" :data-offset-top "60" :class "affix"))))
+            (:div :class "col-md-8"
+              ,@body)))
+        (:div :id "console" :data-spy "affix" :data-offset-top "60" :class "affix")
         (llthw-footer)
         (:script :src "/static/js/jquery.js" :type "text/javascript")
         (:script :src "//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js")
