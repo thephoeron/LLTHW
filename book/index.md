@@ -149,11 +149,20 @@
     * [Reverse Engineering]()
     * [Graphics Rendering]()
     * [OpenGL, SDL, and 3D Gaming]()
-    * [Artificial Intelligence]()
     * [Audio Generation/Manipulation]()
+    * [Data Aggregation and Analysis]()
     * [Cryptography/Security]()
+    * [Financial Software and Crypto-Currencies]()
     * [Scientific Computing]()
+    * [Computational Physics]()
     * [Quantum Computing]()
+    * [Natural Language Processing]()
+    * [Artificial Intelligence]()
+    * [Robotics]()
+    * [Space Tech]()
+    * [Neuroscience and Thought-Controlled Computing]()
+    * [A Simple LispOS]()
+    * [Build Your Own Lisp Machine]()
 
 #### FAQ
 
