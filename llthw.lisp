@@ -16,9 +16,9 @@
     (hunchentoot:stop *acc*))
   (setf *acc* nil))
 
-(defun llthw-restart ()
+(defun llthw-restart (&key (port 8080))
   (llthw-stop)
   (ql:quickload "llthw")
-  (llthw-start))
+  (llthw-start :port port))
 
 ;; EOF
