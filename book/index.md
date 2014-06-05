@@ -1,3 +1,8 @@
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li class="active">Book</li>
+</ol>
+
 ```Common Lisp
 ;; Welcome to LLTHW!
 (let* ((a (list 'a 'b 'c 'd)))
@@ -6,15 +11,26 @@
 
 # Table of Contents
 
-* [Preface](preface/)
-* [Introduction](introduction/)
-* [Common Lisp Bootcamp](bootcamp/)
-* [Common Lisp Style Guide](style-guide/)
-* [Configuring Your Development Environment](configuration/)
-    * Installing SBCL
-    * Choosing a Text Editor
-    * Working From the Command-Line
-    * Tour of the REPL
+<dl class="dl-horizontal">
+  <dt>Preface</dt>
+  <dd>
+    <ul>
+      <li><a href="preface/">TANSTAAFL</a></li>
+      <li><a href="introduction/">Lisp: A Future History</a></li>
+      <li><a href="bootcamp/">Common Lisp Bootcamp</a></li>
+      <li><a href="style-guide/">Common Lisp Style Guide</a></li>
+      <li><a href="configuration/">Configuring Your Development Environment</a>
+        <ul>
+          <li><a href="configuration/#installing">Installing SBCL</a></li>
+          <li><a href="configuration/#editor">Choosing an Editor</a></li>
+          <li><a href="configuration/#command-line">Working from the Command-Line</a></li>
+          <li><a href="configuration/#repl">Tour of the REPL</a></li>
+        </ul>
+      </li>
+   </ul>
+</dd>
+</dl>
+
 * PART ONE: Grokking Lisp
     * [Syntax Overview in 5 minutes](1-1-0-syntax-overview/)
     * [I/O](1-2-0-input-output/)
