@@ -1,16 +1,10 @@
-# LLTHW
-
-## Learn Lisp The Hard Way v0.2.0 alpha
-
-### "the Phoeron" Colin J.E. Lupton
-
 ```Common Lisp
 ;; Welcome to LLTHW!
 (let* ((a (list 'a 'b 'c 'd)))
   (format t "~{~A~}" a))
 ```
 
-#### Table of Contents
+# Table of Contents
 
 * [Preface](preface/)
 * [Introduction](introduction/)

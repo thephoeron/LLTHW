@@ -12,6 +12,16 @@ body {
   margin-bottom: 0;
 }
 
+.jumbotron {
+  position: relative;
+  padding: 33px 0;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+  background: url(/static/img/fractal-banner.png) no-repeat center center;
+
+}
+
 .masthead {
   padding: 60px 0 70px;
   background: url(/static/img/fractal-splash.png) no-repeat top center;
@@ -26,7 +36,7 @@ body {
   content: '';
   display: block;
   position: absolute;
-  top: 50px;
+  /*top: 50px;*/top: 0;
   bottom: 0;
   left: 0;
   right: 0;
@@ -50,6 +60,7 @@ body {
   background-color: rgba(0,0,0,.75);
   color: #c0c0c0;
   border: 1px solid black;
+  text-align: left;
 }
 
 .masthead p {
@@ -75,6 +86,38 @@ body {
 
 .masthead-links li a {
   color: #000;
+}
+
+.subhead {
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.subhead:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(/static/img/pattern.png) repeat center center;
+  opacity: .4;
+}
+
+.subhead .container {
+  position: relative;
+  z-index: 2;
+}
+
+.subhead h1 {
+  font-size: 60px;
+}
+.subhead h1 small {
+  color: #e5e5e5;
+}
+.subhead p {
+  margin-bottom: 20px;
 }
 
 .social-banner {
@@ -124,7 +167,7 @@ body {
   top: 50px;
   right: 0px;
   float: right;
-  background-color:black;
+  background-color: transparent;
   font-size: 16px;
   font-family: Courier;
   overflow: hidden;
@@ -136,7 +179,8 @@ body {
 }
 
 #console pre {
-  background-color: black;
+  background-color: rgba(0,0,0,.75);
+  border: 1px solid black;
 }
 
 .parents {

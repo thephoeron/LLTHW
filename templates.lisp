@@ -76,6 +76,10 @@
               (:li (:a :href "/resources/" "Resources"))
               (:li (:a :href "/try-lisp/" "Try Lisp"))
               (:li (:a :href "/get-lisp/" "Get Lisp")))))
+        (:div :class "jumbotron subhead" :id "overview"
+          (:div :class "container"
+            (:h1 :class "title" "L(λ)THW " (:small "Learn Lisp The Hard Way"))
+            (:p :class "lead" "Draft v0.2.0 (alpha) &mdash; \"the Phoeron\" Colin J.E. Lupton")))
         (:div :class "container"
           (:div :class "row"
             (:div :class "col-md-8"
