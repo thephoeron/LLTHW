@@ -61,8 +61,10 @@ body {
 .masthead-links {
   margin: 0;
   padding-top: 10px;
+  padding-left: 0;
   list-style: none;
   color: #000;
+  text-align: center;
 }
 
 .masthead-links li {
@@ -202,14 +204,14 @@ a.symbol:hover { color : #229955; background-color : transparent; text-decoratio
 .diff-deleted { color : #5F2121; background-color : inherit; }
 .diff-added { color : #215F21; background-color : inherit; }
 span.paren1 { background-color : inherit; -webkit-transition: background-color 0.2s linear; }
-span.paren1:hover { color : #333; background-color : rgba(186,255,255,.5); }
+/*span.paren1:hover { color : #333; background-color : rgba(186,255,255,.5); }*/
 span.paren2 { background-color : inherit; -webkit-transition: background-color 0.2s linear; }
-span.paren2:hover { color : #333; background-color : rgba(255,202,202,.5); }
+/*span.paren2:hover { color : #333; background-color : rgba(255,202,202,.5); }*/
 span.paren3 { background-color : inherit; -webkit-transition: background-color 0.2s linear; }
-span.paren3:hover { color : #333; background-color : rgba(255,255,186,.5); }
+/*span.paren3:hover { color : #333; background-color : rgba(255,255,186,.5); }*/
 span.paren4 { background-color : inherit; -webkit-transition: background-color 0.2s linear; }
-span.paren4:hover { color : #333; background-color : rgba(202,202,255,.5); }
+/*span.paren4:hover { color : #333; background-color : rgba(202,202,255,.5); }*/
 span.paren5 { background-color : inherit; -webkit-transition: background-color 0.2s linear; }
-span.paren5:hover { color : #333; background-color : rgba(202,255,202,.5); }
+/*span.paren5:hover { color : #333; background-color : rgba(202,255,202,.5); }*/
 span.paren6 { background-color : inherit; -webkit-transition: background-color 0.2s linear; }
-span.paren6:hover { color : #333; background-color : rgba(255,186,255,.5); }
+/*span.paren6:hover { color : #333; background-color : rgba(255,186,255,.5); }*/
