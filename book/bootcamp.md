@@ -1,8 +1,13 @@
-# LLTHW
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li><a href="/book/">Book</a></li>
+  <li class="active">Preface :: Common Lisp Bootcamp</li>
+</ol>
 
-### Common Lisp Bootcamp
+# Common Lisp Bootcamp
 
-
+> "Relevant quote..."
+> <footer>Source</footer>
 
 #### The REPL
 
@@ -53,3 +58,9 @@ In Lisp, you don't have to write the addition operator, `+`, over and over betwe
 In Lisp, lists are stored as chains of pointer-pairs, called "cons-cells".  Each cell either points to a memory address where a value is stored, or points to another cons-cell.  The first cell in the cons-cell is referred to as `car`, and the second cell is called `cdr`.  Since the names of the cells might seem strange to you, being artifacts of a long-lost hardware architecture, you can think of them as "first" and "rest" of a list, or the "head" and "tail" of a chain; but for reference, `car` stands for "Contents of Address Register", and `cdr` stands for "Contents of Decrement Register".
 
 This may at first seem like useless and uninteresting historical trivia, but it is important to understand the underlying structure of the language, since a common problem you will face when writing Lisp software is minimizing the number of conses a function performs while executing its body.  You can easily waste a lot of memory and processing power dealing with unnecessary consing, and it is of fundamental importance to programming that you handle resources well. After all, a web-app you write in Lisp may work perfectly when you're testing it yourself, but scale poorly under heavy traffic and crash your server.  You can avoid embarrassing and stressful situations like this by keeping a careful accounting of system resources, ensuring that your software only ever uses the minimum amounts of memory and processor time necessary to keep your application live and running smoothly for everyone.
+
+<ul class="pager">
+  <li class="previous"><a href="/book/introduction/">&laquo; Previous</a></li>
+  <li><a href="/book/">Table of Contents</a></li>
+  <li class="next"><a href="/book/style-guide/">Next &raquo;</a><li>
+</ul>

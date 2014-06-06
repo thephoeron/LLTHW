@@ -1,6 +1,13 @@
-# LLTHW
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li><a href="/book/">Book</a></li>
+  <li class="active">Preface :: Common Lisp Style Guide</li>
+</ol>
 
-### Common Lisp Style Guide
+# Common Lisp Style Guide
+
+> "Relevant quote..."
+> <footer>Source</footer>
 
 Style is fundamental to programming&mdash;particularly in Lisp, where the unlimited power and flexibility of paradigm can easily go to your head.  A little carelessness can make for sloppy, illegible code; but if you make a point to consider your code as an artform as well as a tool to get a job done, you, and anyone else who has to read your code later, will thank you for it.
 
@@ -101,3 +108,9 @@ Knowing what code to push up from a software project into a general purpose libr
 * If you find yourself copy and pasting code between projects.
 * If you abstract a common problem into a cleaner syntax.
 * If your code solves a known problem or lack in the Lisp community, that is too general for a specific commercial software project.
+
+<ul class="pager">
+  <li class="previous"><a href="/book/bootcamp/">&laquo; Previous</a></li>
+  <li><a href="/book/">Table of Contents</a></li>
+  <li class="next"><a href="/book/configuration/">Next &raquo;</a><li>
+</ul>

@@ -27,8 +27,77 @@
           <li><a href="configuration/#repl">Tour of the REPL</a></li>
         </ul>
       </li>
-   </ul>
-</dd>
+    </ul>
+  </dd>
+  <dt>PART ONE</dt>
+  <dd>
+    <a href="1-0-0-overview/">Grokking Lisp</a>
+    <ul>
+      <li><a href="1-1-0-syntax-overview/">Lisp in 5 minutes</a></li>
+      <li><a href="1-2-0-input-output/">I/O</a>
+        <ul>
+          <li>Strings</li>
+          <li>Characters</li>
+          <li>Writing</li>
+          <li>Printing</li>
+          <li>Pretty-Printing</li>
+          <li>Reading</li>
+          <li>EVAL</li>
+          <li>Streams</li>
+          <li>Paths and Files</li>
+          <li>Prompting Users</li>
+        </ul>
+      </li>
+      <li><a href="1-3-0-lists/">Lists and List-Operations</a></li>
+      <li><a href="1-4-0-math/">Numbers and Math</a></li>
+      <li><a href="1-5-0-variables/">Variables, Parameters, and Constants</a></li>
+      <li><a href="1-6-0-functions/">Functions and Macros</a></li>
+      <li><a href="1-7-0-text-adventure/">Extra Credit: A Simple Text Adventure</a></li>
+      <li><a href="1-8-0-namespaces/">Namespaces, Symbols, Packages, and Systems</a></li>
+      <li><a href="1-9-0-simple-web-app/">Extra Credit: A Simple Web Application</a></li>
+      <li><a href="1-10-0-conditionals/">Conditionals</a></li>
+      <li><a href="1-11-0-command-line-utility/">Extra Credit: A Command-Line Utility</a></li>
+      <li><a href="1-12-0-map-loop/">Mapping and Looping</a></li>
+      <li><a href="1-13-0-iterate/">Extra Credit: Revisiting Loops with Iterate</a></li>
+      <li><a href="1-14-0-format/">Format Strings</a></li>
+      <li><a href="1-15-0-dsl/">Extra Credit: Domain Specific Languages</a></li>
+      <li><a href="1-16-0-review/">Part One in Review</a></li>
+    </ul>
+  </dd>
+  <dt>PART TWO</dt>
+  <dd>
+    <a href="2-0-0-overview/">The Suffusion of Blue</a>
+    <ul>
+      <li></li>
+    </ul>
+  </dd>
+  <dt>PART THREE</dt>
+  <dd>
+    <a href="3-0-0-overview/">Lisp So(u)rcery</a>
+    <ul>
+      <li>Real-world Web Apps</li>
+      <li>Native Mobile Applications</li>
+      <li>Cross-platform Desktop Applications</li>
+      <li>Drivers, Daemons, and System-Utilities</li>
+      <li>Reverse Engineering</li>
+      <li>Graphics Rendering</li>
+      <li>OpenGL, SDL, and 3D Gaming</li>
+      <li>Audio Generation/Manipulation</li>
+      <li>Data Aggregation and Analysis</li>
+      <li>Cryptography/Security</li>
+      <li>Financial Software and Crypto-Currencies</li>
+      <li>Scientific Computing</li>
+      <li>Computational Physics</li>
+      <li>Quantum Computing</li>
+      <li>Natural Language Processing</li>
+      <li>Artificial Intelligence</li>
+      <li>Robotics</li>
+      <li>Space Tech</li>
+      <li>Neuroscience and Thought-Controlled Computing</li>
+      <li>A Simple LispOS</li>
+      <li>Build Your Own Lisp Machine</li>
+    </ul>
+  </dd>
 </dl>
 
 * PART ONE: Grokking Lisp

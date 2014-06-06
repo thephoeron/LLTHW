@@ -1,10 +1,10 @@
 <ol class="breadcrumb">
   <li><a href="/">Home</a></li>
   <li><a href="/book/">Book</a></li>
-  <li class="active">Preface :: Lisp, a Future History</li>
+  <li class="active">Chapter Name</li>
 </ol>
 
-# Lisp, a Future History
+# Chapter Name
 
 > "Relevant quote..."
 > <footer>Source</footer>
@@ -12,7 +12,7 @@
 Chapter text.
 
 <ul class="pager">
-  <li class="previous"><a href="/book/preface/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/bootcamp/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/">Next &raquo;</a><li>
 </ul>
