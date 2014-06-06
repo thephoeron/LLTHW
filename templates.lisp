@@ -40,7 +40,7 @@
         ;(:style :type "text/css" (str colorize:*coloring-css*))
         (:title ,title))
       (:body
-        (:nav :class "navbar navbar-inverse navbar-static-top" :role "navigation"
+        (:nav :class "navbar navbar-inverse navbar-fixed-top" :role "navigation"
           (:div :class "container"
             (:div :class "navbar-header"
               ;(:a :class "navbar-brand" :href "#" (str (format nil "L(~C)THW" #\greek_small_letter_lamda)))
@@ -53,7 +53,8 @@
               ))
         ,@body
         (llthw-footer)
-        (:script :src "/static/js/jquery.js" :type "text/javascript")
+        (:script :src "//code.jquery.com/jquery-1.11.0.min.js")
+        (:script :src "//code.jquery.com/jquery-migrate-1.2.1.min.js")
         (:script :src "//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js")))))
 
 (defmacro llthw-page ((&key (title "L(λ)THW")) &body body)
@@ -67,7 +68,7 @@
         ;(:style :type "text/css" (str colorize:*coloring-css*))
         (:title ,title))
       (:body
-        (:nav :class "navbar navbar-inverse navbar-static-top" :role "navigation"
+        (:nav :class "navbar navbar-inverse navbar-fixed-top" :role "navigation"
           (:div :class "container"
             (:div :class "navbar-header"
               (:a :class "navbar-brand" :href "/" (str (format nil "L(~C)THW" #\greek_small_letter_lamda))))
@@ -82,16 +83,22 @@
           (:div :class "container"
             (:h1 :class "title" "L(λ)THW " (:small "Learn Lisp The Hard Way"))
             (:p :class "lead" "Draft v0.2.0 (alpha) &mdash; \"the Phoeron\" Colin J.E. Lupton")))
-        (:div :class "container"
+        (:div :class "container" :id "body"
           (:div :class "row"
-            (:div :class "col-md-8"
-              ,@body)))
-        (:div :id "console" :data-spy "affix" :data-offset-top "60" :class "affix")
+            (:div :class "col-md-9" :id "llthwdoc"
+              ,@body)
+            (:div :class "col-md-3"
+              (:div :class "sidebar hidden-print affix" :role "complementary"
+                (:ul :class "nav sidenav"
+                  (:li (:a :href "#top" "Back to Top")))))))
+        ;(:div :id "console" :data-spy "affix" :data-offset-top "60" :class "affix")
         (llthw-footer)
-        (:script :src "/static/js/jquery.js" :type "text/javascript")
+        (:script :src "//code.jquery.com/jquery-1.11.0.min.js")
+        (:script :src "//code.jquery.com/jquery-migrate-1.2.1.min.js")
         (:script :src "//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js")
         (:script :src "/static/js/jscl.js" :type "text/javascript")
         (:script :src "/static/js/jqconsole.min.js" :type "text/javascript")
-        (:script :src "/static/js/llthw.js" :type "text/javascript")))))
+        (:script :src "/static/js/llthw.js" :type "text/javascript")
+        (:script :src "/llthw.js" :type "text/javascript")))))
 
 ;; EOF

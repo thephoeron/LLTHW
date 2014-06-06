@@ -6,4 +6,18 @@
 
 (in-package :llthw)
 
+(define-easy-handler (llthw-js :uri "/llthw.js") ()
+  (setf (content-type*) "text/javascript")
+  (ps
+    ((@ ($ document) ready)
+      (lambda ()
+        ((@ ($ "h1") each)
+          (lambda ()
+            (let* ((the-title ((@ ($ this) text)))
+                   (the-id ((@ ((@ the-title to-lower-case)) replace) #\Space "-")))
+              ((@ ($ this) attr) "id" the-id)
+              ((@ ($ "ul.sidenav") append) (+ "<li><a href='#" the-id "'>" the-title "</a></li>"))
+              (return false))))
+        (return false)))))
+
 ;; EOF

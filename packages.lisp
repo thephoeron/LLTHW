@@ -10,6 +10,7 @@
     (:use :cl
           :cl-who
           :cl-css
+          :parenscript
           :3bmd
           :3bmd-code-blocks
           :3bmd-definition-lists
