@@ -139,8 +139,13 @@ body {
   display: inline-block;
   padding: 5px 8px;
   line-height: 1;
+  vertical-align: middle;
   *display: inline;
   *zoom: 1;
+}
+
+.social-banner-buttons a:hover {
+  text-decoration: none;
 }
 
 .navbar-static-top {

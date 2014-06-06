@@ -36,17 +36,17 @@
         (:div :class "container"
           (:ul :class "social-banner-buttons"
             (:li "Source Code:")
-            (:li (:a :href "http://github.com/thephoeron/llthw" :target "_blank" "github.com/thephoeron/llthw"))
+            (:li (:a :href "http://github.com/thephoeron/llthw" :target "_blank" :title "LLTHW on GitHub" (:i :class "fa fa-code-fork fa-2x")))
             (:li "Connect with the Author:")
-            (:li (:a :href "http://github.com/thephoeron" :target "_blank" "GitHub"))
-            (:li (:a :href "http://twitter.com/thephoeron" :target "_blank" "Twitter"))
-            (:li (:a :href "http://facebook.com/thephoerondotcom" :target "_blank" "Facebook"))
-            (:li (:a :href "https://plus.google.com/111762903517231501866" :target "_blank" "Google+"))
-            (:li (:a :href "http://cjelupton.wordpress.com" :target "_blank" "Wordpress"))
-            ;(:li (:a :href "http://thephoeron.com/" :target "_blank" "Web"))
+            (:li (:a :href "http://github.com/thephoeron" :target "_blank" :title "GitHub" (:i :class "fa fa-github-square fa-2x")))
+            (:li (:a :href "http://twitter.com/thephoeron" :target "_blank" :title "Twitter" (:i :class "fa fa-twitter-square fa-2x")))
+            (:li (:a :href "http://facebook.com/thephoerondotcom" :target "_blank" :title "Facebook" (:i :class "fa fa-facebook-square fa-2x")))
+            (:li (:a :href "https://plus.google.com/111762903517231501866" :target "_blank" :title "Google+" (:i :class "fa fa-google-plus-square fa-2x")))
+            (:li (:a :href "http://cjelupton.wordpress.com" :target "_blank" :title "Wordpress" (:i :class "fa fa-wordpress fa-2x")))
+            (:li (:a :href "http://thephoeron.com/" :target "_blank" :title "Web" (:i :class "fa fa-globe fa-2x")))
             (:li "Donate to this project:")
-            (:li (:a :href "bitcoin:17nWsM2aKqKewm7zDzv3mGUyqzKZKjsJGQ" "Bitcoin"))
-            (:li (:a :href "litecoin:LZfkNpcQetVcNNbpERQoCvRJkVERYry9Me" "Litecoin")))))
+            (:li (:a :href "bitcoin:17nWsM2aKqKewm7zDzv3mGUyqzKZKjsJGQ" :alt "Bitcoin" :title "Bitcoin" (:i :class "fa fa-bitcoin fa-2x")))
+            (:li (:a :href "litecoin:LZfkNpcQetVcNNbpERQoCvRJkVERYry9Me" :alt "Litecoin" :title "Litecoin" (:span :style "font-size: 30px; font-weight: bold; text-decoration: none;" "&#321;"))))))
       (:div :class "container"
         (:div :class "row"
           (:div :class "col-md-12"
