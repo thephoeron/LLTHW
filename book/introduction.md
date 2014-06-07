@@ -4,8 +4,6 @@
   <li class="active">Preface :: Lisp, a Future History</li>
 </ol>
 
-<a name="lisp--a-future-history"></a>
-
 # Lisp, a Future History
 
 > "A generation which ignores history has no past---and no future."
