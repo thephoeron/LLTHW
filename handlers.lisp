@@ -87,63 +87,21 @@
       )))
 
 ;; Book, Contents at a Glance
+;; also available at /book/index/
 (define-easy-handler (llthw-book-index :uri "/book/") ()
   (llthw-page ()
     (cl-who:with-html-output (hunchentoot::*standard-output*)
       (str (3bmd:parse-and-print-to-stream "book/index.md" hunchentoot::*standard-output* :format :html)))))
 
-;; PREFACE
-(define-easy-handler (llthw-book-preface :uri "/book/preface/") ()
-  (llthw-page ()
-    (cl-who:with-html-output (hunchentoot::*standard-output*)
-      (str (3bmd:parse-and-print-to-stream "book/preface.md" hunchentoot::*standard-output* :format :html)))))
+;; Loop over contents of book/ subdirectory, build pages automatically
+(defmacro create-book-pages ()
+  `(progn
+     ,@(loop for file in *book-files*
+             collect `(define-easy-handler (,(intern (format nil "~(llthw-book~A~)" (pathname-name file))) :uri ,(format nil "/book/~(~A~)/" (pathname-name file))) ()
+                        (llthw-page ()
+                          (cl-who:with-html-output (hunchentoot::*standard-output*)
+                            (str (3bmd:parse-and-print-to-stream ,(format nil "book/~(~A~)" (file-namestring file)) hunchentoot::*standard-output* :format :html))))))))
 
-(define-easy-handler (llthw-book-intro :uri "/book/introduction/") ()
-  (llthw-page ()
-    (cl-who:with-html-output (hunchentoot::*standard-output*)
-      (str (3bmd:parse-and-print-to-stream "book/introduction.md" hunchentoot::*standard-output* :format :html)))))
-
-(define-easy-handler (llthw-book-bootcamp :uri "/book/bootcamp/") ()
-  (llthw-page ()
-    (cl-who:with-html-output (hunchentoot::*standard-output*)
-      (str (3bmd:parse-and-print-to-stream "book/bootcamp.md" hunchentoot::*standard-output* :format :html)))))
-
-(define-easy-handler (llthw-book-styleguide :uri "/book/style-guide/") ()
-  (llthw-page ()
-    (cl-who:with-html-output (hunchentoot::*standard-output*)
-      (str (3bmd:parse-and-print-to-stream "book/style-guide.md" hunchentoot::*standard-output* :format :html)))))
-
-(define-easy-handler (llthw-book-configuration :uri "/book/configuration/") ()
-  (llthw-page ()
-    (cl-who:with-html-output (hunchentoot::*standard-output*)
-      (str (3bmd:parse-and-print-to-stream "book/configuration.md" hunchentoot::*standard-output* :format :html)))))
-
-;; PART ONE
-(define-easy-handler (llthw-book-1-0-0-overview :uri "/book/1-0-0-overview/") ()
-  (llthw-page ()
-    (cl-who:with-html-output (hunchentoot::*standard-output*)
-      (str (3bmd:parse-and-print-to-stream "book/1-0-0-overview.md" hunchentoot::*standard-output* :format :html)))))
-
-(define-easy-handler (llthw-book-1-01-0-syntax-overview :uri "/book/1-01-0-syntax-overview/") ()
-  (llthw-page ()
-    (cl-who:with-html-output (hunchentoot::*standard-output*)
-      (str (3bmd:parse-and-print-to-stream "book/1-01-0-syntax-overview.md" hunchentoot::*standard-output* :format :html)))))
-
-(define-easy-handler (llthw-book-1-02-0-input-output :uri "/book/1-02-0-input-output/") ()
-  (llthw-page ()
-    (cl-who:with-html-output (hunchentoot::*standard-output*)
-      (str (3bmd:parse-and-print-to-stream "book/1-02-0-input-output.md" hunchentoot::*standard-output* :format :html)))))
-
-;; PART TWO
-(define-easy-handler (llthw-book-2-0-0-overview :uri "/book/2-0-0-overview/") ()
-  (llthw-page ()
-    (cl-who:with-html-output (hunchentoot::*standard-output*)
-      (str (3bmd:parse-and-print-to-stream "book/2-0-0-overview.md" hunchentoot::*standard-output* :format :html)))))
-
-;; PART THREE
-(define-easy-handler (llthw-book-3-0-0-overview :uri "/book/3-0-0-overview/") ()
-  (llthw-page ()
-    (cl-who:with-html-output (hunchentoot::*standard-output*)
-      (str (3bmd:parse-and-print-to-stream "book/3-0-0-overview.md" hunchentoot::*standard-output* :format :html)))))
+(create-book-pages)
 
 ;; EOF
