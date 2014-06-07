@@ -4,8 +4,8 @@ The source-repository for LLTHW.
 
 #### Supporting this project
 
-You can support this project by your donations:
+You can support this project with your donations:
 
-BTC: 17nWsM2aKqKewm7zDzv3mGUyqzKZKjsJGQ
+Donate Bitcoin: [17nWsM2aKqKewm7zDzv3mGUyqzKZKjsJGQ](bitcoin:17nWsM2aKqKewm7zDzv3mGUyqzKZKjsJGQ)
 
-LTC: LZfkNpcQetVcNNbpERQoCvRJkVERYry9Me
+Donate Litecoin: [LZfkNpcQetVcNNbpERQoCvRJkVERYry9Me](litecoin:LZfkNpcQetVcNNbpERQoCvRJkVERYry9Me)
