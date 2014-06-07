@@ -6,8 +6,8 @@
 
 # Configuring Your Development Environment
 
-> "Relevant quote..."
-> <footer>Source</footer>
+> "A human being should be able to change a diaper, plan an invasion, butcher a hog, conn a ship, design a building, write a sonnet, balance accounts, build a wall, set a bone, comfort the dying, take orders, give orders, cooperate, act alone, solve equations, analyze a new problem, pitch manure, program a computer, cook a tasty meal, fight efficiently, die gallantly. Specialization is for insects."
+> <footer>Robert A. Heinlein, Time Enough For Love</footer>
 
 Now that you've gotten yourself a feel for Common Lisp, you'll want to spend a little time configuring your development environment so that you can dive right into the code.  A lot of configuration choices are a matter of personal taste, but as long as you feel comfortable, and nothing interferes with your ability to learn and hack in Lisp, you can't really go wrong.
 

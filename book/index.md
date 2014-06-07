@@ -68,7 +68,25 @@
   <dd>
     <a href="2-0-0-overview/">The Suffusion of Blue</a>
     <ul>
-      <li></li>
+      <li>Programming Paradigms</li>
+      <li>Extra Credit: Threading, Memoization, and Parallel Processing</li>
+      <li>Logic and Advanced Math</li>
+      <li>Extra Credit: Regular Expressions</li>
+      <li>Objects and Control Structures</li>
+      <li>Extra Credit: The Meta-Object Protocol</li>
+      <li>Extended Types</li>
+      <li>Extra Credit: An Improved Text Adventure Engine</li>
+      <li>Conditions and Error Handling</li>
+      <li>Extra Credit: Write a 2D Game</li>
+      <li>The Compiler</li>
+      <li>Extra Credit: Write a Tree-Shaker</li>
+      <li>Documentation and Inspection</li>
+      <li>Extra Credit: Foreign Libraries in Lisp</li>
+      <li>Debugging</li>
+      <li>Extra Credit: Write a Foreign Function Interface</li>
+      <li>Essential Lisp Libraries</li>
+      <li>Extra Credit: Packaging Lisp Libraries</li>
+      <li>Detailed Syntax Review</li>
     </ul>
   </dd>
   <dt>PART THREE</dt>
@@ -243,7 +261,7 @@
     * [A Simple LispOS]()
     * [Build Your Own Lisp Machine]()
 
-#### FAQ
+# FAQ
 
 How long does this book take to complete?
 
