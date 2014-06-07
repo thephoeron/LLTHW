@@ -28,7 +28,7 @@
     <ul>
       <li><a href="1-01-0-syntax-overview/">Lisp in 5 minutes</a></li>
       <li><a href="1-02-0-input-output/">Printing, Strings and Streams</a></li>
-      <li><a href="1-03-0-getting-input-from-users">Extra Credit: Getting Input from Users</a></li>
+      <li><a href="1-03-0-getting-input-from-users/">Extra Credit: Getting Input from Users</a></li>
       <li><a href="1-04-0-lists/">Lists and List-Operations</a></li>
       <li><a href="1-05-0-/">Extra Credit: Look-up Lists and Trees</a></li>
       <li><a href="1-06-0-math/">Numbers and Math</a></li>
@@ -55,7 +55,7 @@
       <li><a href="2-01-0-/">Programming Paradigms</a></li>
       <li><a href="2-02-0-/">Extra Credit: Regular Expressions</a></li>
       <li><a href="2-03-0-/">Objects and Control Structures</a></li>
-      <li><a href="2-04-0-/">Extra Credit: The Meta-Object Protocol</a></li>
+      <li><a href="2-04-0-/">Extra Credit: Persistence and Databases</a></li>
       <li><a href="2-05-0-/">Extended Types</a></li>
       <li><a href="2-06-0-/">Extra Credit: Threading, Memoization, and Parallel Processing</a></li>
       <li><a href="2-07-0-/">Logic and Advanced Math</a></li>

@@ -1,7 +1,7 @@
 <ol class="breadcrumb">
   <li><a href="/">Home</a></li>
   <li><a href="/book/">Book</a></li>
-  <li><a href="/book/1-0-0-overview/">PART ONE: Grokking Lisp</a></li>
+  <li><a href="/book/1-0-0-overview/">Part One: Grokking Lisp</a></li>
   <li class="active">Syntax Overview in 5 Minutes</li>
 </ol>
 

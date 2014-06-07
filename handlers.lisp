@@ -6,6 +6,7 @@
 
 (in-package :llthw)
 
+;; Splash page
 (define-easy-handler (llthw-splash-page :uri "/") ()
   (basic-llthw-page ()
     (cl-who:with-html-output (hunchentoot::*standard-output*)
@@ -95,6 +96,7 @@
 
 ;; Loop over contents of book/ subdirectory, build pages automatically
 (defmacro create-book-pages ()
+  "Loop over contents of book/ subdirectory, build pages automatically at compile time."
   `(progn
      ,@(loop for file in *book-files*
              collect `(define-easy-handler (,(intern (format nil "~(llthw-book~A~)" (pathname-name file))) :uri ,(format nil "/book/~(~A~)/" (pathname-name file))) ()

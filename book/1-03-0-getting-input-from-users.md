@@ -1,15 +1,16 @@
 <ol class="breadcrumb">
   <li><a href="/">Home</a></li>
   <li><a href="/book/">Book</a></li>
-  <li class="active">Part Two: The Suffusion of Blue</li>
+  <li><a href="/book/1-0-0-overview/">Part One: Grokking Lisp</a></li>
+  <li class="active">Extra Credit: Getting Input From Users</li>
 </ol>
 
-# PART TWO: The Suffusion of Blue
+# Getting Input From Users
 
-> "One man’s 'magic' is another man’s engineering. 'Supernatural' is a null word."
-> <footer>Robert A. Heinlein, Time Enough For Love</footer>
+> "Relevant quote..."
+> <footer>Source</footer>
 
-
+Chapter text.
 
 <ul class="pager">
   <li class="previous"><a href="/book/">&laquo; Previous</a></li>
