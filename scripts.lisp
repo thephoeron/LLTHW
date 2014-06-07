@@ -9,15 +9,13 @@
 (define-easy-handler (llthw-js :uri "/llthw.js") ()
   (setf (content-type*) "text/javascript")
   (ps
-    ((@ ($ document) ready)
+    ((@ ((@ ((@ ($ "#llthwdoc") children)) filter) ":header") each)
       (lambda ()
-        ((@ ($ "h1") each)
-          (lambda ()
-            (let* ((the-title ((@ ($ this) text)))
-                   (the-id ((@ ((@ the-title to-lower-case)) replace) #\Space "-")))
-              ((@ ($ this) attr) "id" the-id)
-              ((@ ($ "ul.sidenav") append) (+ "<li><a href='#" the-id "'>" the-title "</a></li>"))
-              (return false))))
-        (return false)))))
+        (let* ((the-title ((@ ($ this) text)))
+               (the-id ((@ ((@ the-title to-lower-case)) replace) (regex "/[\,\.\!\@\#\$\%\^\&\*\(\)\? ]/g") "-")))
+          ((@ ($ this) attr) "id" the-id)
+          ((@ ($ "ul.sidenav") append) (+ "<li><a href='#" the-id "'>" the-title "</a></li>"))
+          (return true))))
+      ((@ ($ "ul.sidenav") append) "<li><a href='#top'><i class='fa fa-angle-up'></i> Back to Top</a></li>")))
 
 ;; EOF

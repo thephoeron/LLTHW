@@ -116,6 +116,11 @@
     (cl-who:with-html-output (hunchentoot::*standard-output*)
       (str (3bmd:parse-and-print-to-stream "book/configuration.md" hunchentoot::*standard-output* :format :html)))))
 
+(define-easy-handler (llthw-book-1-0-0-overview :uri "/book/1-0-0-overview/") ()
+  (llthw-page ()
+    (cl-who:with-html-output (hunchentoot::*standard-output*)
+      (str (3bmd:parse-and-print-to-stream "book/1-0-0-overview.md" hunchentoot::*standard-output* :format :html)))))
+
 (define-easy-handler (llthw-book-1-1-0-syntax-overview :uri "/book/1-1-0-syntax-overview/") ()
   (llthw-page ()
     (cl-who:with-html-output (hunchentoot::*standard-output*)

@@ -67,7 +67,7 @@
         (:link :rel "stylesheet" :href "/static/css/llthw.css")
         ;(:style :type "text/css" (str colorize:*coloring-css*))
         (:title ,title))
-      (:body
+      (:body :data-spy "scroll" :data-target ".sidebar" :data-offset "90"
         (:nav :class "navbar navbar-inverse navbar-fixed-top" :role "navigation"
           (:div :class "container"
             (:div :class "navbar-header"
@@ -86,11 +86,11 @@
         (:div :class "container" :id "body"
           (:div :class "row"
             (:div :class "col-md-9" :id "llthwdoc"
+              (:a :name "top")
               ,@body)
             (:div :class "col-md-3"
-              (:div :class "sidebar hidden-print affix" :role "complementary"
-                (:ul :class "nav sidenav"
-                  (:li (:a :href "#top" "Back to Top")))))))
+              (:div :class "sidebar hidden-print affix" :data-spy "affix" :data-offset-top "250" :role "complementary"
+                (:ul :class "nav sidenav")))))
         ;(:div :id "console" :data-spy "affix" :data-offset-top "60" :class "affix")
         (llthw-footer)
         (:script :src "//code.jquery.com/jquery-1.11.0.min.js")

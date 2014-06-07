@@ -159,8 +159,8 @@ body {
 }
 
 .sidenav {
-    margin-top: 20px;
-    margin-bottom: 20px
+    margin-top: 0px;
+    margin-bottom: 0px
 }
 
 .sidebar .nav>li>a {
@@ -207,6 +207,45 @@ body {
 .sidebar .nav .nav>.active>a,.sidebar .nav .nav>.active:hover>a,.sidebar .nav .nav>.active:focus>a {
     font-weight: 500;
     padding-left: 28px
+}
+
+@media (min-width:992px) {
+    .sidebar .nav>.active>ul {
+        display: block
+    }
+
+    .sidebar.affix,.sidebar.affix-bottom {
+        width: 213px
+    }
+
+    .sidebar.affix {
+        position: fixed;
+        top: 70px
+    }
+
+    .sidebar.affix-bottom {
+        position: absolute
+    }
+
+    .sidebar.affix-bottom .sidenav,.sidebar.affix .sidenav {
+        margin-top: 0;
+        margin-bottom: 0
+    }
+}
+
+@media (min-width:1200px) {
+    .sidebar.affix-bottom,.sidebar.affix {
+        width: 263px
+    }
+}
+
+#llthwdoc h1,
+#llthwdoc h2,
+#llthwdoc h3,
+#llthwdoc h4,
+#llthwdoc h5,
+#llthwdoc h6 {
+  line-height: 1.5;
 }
 
 #footer {
