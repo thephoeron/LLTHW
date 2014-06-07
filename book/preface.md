@@ -1,5 +1,3 @@
-<a name="top"></a>
-
 <ol class="breadcrumb">
   <li><a href="/">Home</a></li>
   <li><a href="/book/">Book</a></li>

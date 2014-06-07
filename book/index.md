@@ -19,14 +19,7 @@
       <li><a href="introduction/">Lisp: A Future History</a></li>
       <li><a href="bootcamp/">Common Lisp Bootcamp</a></li>
       <li><a href="style-guide/">Common Lisp Style Guide</a></li>
-      <li><a href="configuration/">Configuring Your Development Environment</a>
-        <ul>
-          <li><a href="configuration/#installing">Installing SBCL</a></li>
-          <li><a href="configuration/#editor">Choosing an Editor</a></li>
-          <li><a href="configuration/#command-line">Working from the Command-Line</a></li>
-          <li><a href="configuration/#repl">Tour of the REPL</a></li>
-        </ul>
-      </li>
+      <li><a href="configuration/">Configuring Your Development Environment</a></li>
     </ul>
   </dd>
   <dt>PART ONE</dt>
@@ -34,34 +27,24 @@
     <a href="1-0-0-overview/">Grokking Lisp</a>
     <ul>
       <li><a href="1-1-0-syntax-overview/">Lisp in 5 minutes</a></li>
-      <li><a href="1-2-0-input-output/">I/O</a>
-        <ul>
-          <li>Strings</li>
-          <li>Characters</li>
-          <li>Writing</li>
-          <li>Printing</li>
-          <li>Pretty-Printing</li>
-          <li>Reading</li>
-          <li>EVAL</li>
-          <li>Streams</li>
-          <li>Paths and Files</li>
-          <li>Prompting Users</li>
-        </ul>
-      </li>
+      <li><a href="1-2-0-input-output/">I/O</a></li>
       <li><a href="1-3-0-lists/">Lists and List-Operations</a></li>
-      <li><a href="1-4-0-math/">Numbers and Math</a></li>
-      <li><a href="1-5-0-variables/">Variables, Parameters, and Constants</a></li>
-      <li><a href="1-6-0-functions/">Functions and Macros</a></li>
-      <li><a href="1-7-0-text-adventure/">Extra Credit: A Simple Text Adventure</a></li>
-      <li><a href="1-8-0-namespaces/">Namespaces, Symbols, Packages, and Systems</a></li>
-      <li><a href="1-9-0-simple-web-app/">Extra Credit: A Simple Web Application</a></li>
-      <li><a href="1-10-0-conditionals/">Conditionals</a></li>
-      <li><a href="1-11-0-command-line-utility/">Extra Credit: A Command-Line Utility</a></li>
-      <li><a href="1-12-0-map-loop/">Mapping and Looping</a></li>
-      <li><a href="1-13-0-iterate/">Extra Credit: Revisiting Loops with Iterate</a></li>
-      <li><a href="1-14-0-format/">Format Strings</a></li>
-      <li><a href="1-15-0-dsl/">Extra Credit: Domain Specific Languages</a></li>
-      <li><a href="1-16-0-review/">Part One in Review</a></li>
+      <li><a href="1-4-0-/">Extra Credit: </a></li>
+      <li><a href="1-5-0-math/">Numbers and Math</a></li>
+      <li><a href="1-6-0-number-theory/">Extra Credit: Number Theory</a></li>
+      <li><a href="1-7-0-variables/">Variables, Parameters, and Constants</a></li>
+      <li><a href="1-8-0-/">Extra Credit: </a></li>
+      <li><a href="1-9-0-functions/">Functions and Macros</a></li>
+      <li><a href="1-10-0-text-adventure/">Extra Credit: A Simple Text Adventure</a></li>
+      <li><a href="1-11-0-namespaces/">Namespaces, Symbols, Packages, and Systems</a></li>
+      <li><a href="1-12-0-simple-web-app/">Extra Credit: A Simple Web Application</a></li>
+      <li><a href="1-13-0-conditionals/">Conditionals</a></li>
+      <li><a href="1-14-0-command-line-utility/">Extra Credit: A Command-Line Utility</a></li>
+      <li><a href="1-15-0-map-loop/">Mapping and Looping</a></li>
+      <li><a href="1-16-0-iterate/">Extra Credit: Revisiting Loops with Iterate</a></li>
+      <li><a href="1-17-0-format/">Format Strings</a></li>
+      <li><a href="1-18-0-dsl/">Extra Credit: Domain Specific Languages</a></li>
+      <li><a href="1-19-0-review/">Part One in Review</a></li>
     </ul>
   </dd>
   <dt>PART TWO</dt>
