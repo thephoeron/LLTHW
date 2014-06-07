@@ -1,4 +1,14 @@
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li><a href="/book/">Book</a></li>
+  <li><a href="/book/1-0-0-overview/">PART ONE: Grokking Lisp</a></li>
+  <li class="active">Syntax Overview in 5 Minutes</li>
+</ol>
+
 # Syntax Overview in 5 Minutes
+
+> "'Grok' means to understand so thoroughly that the observer becomes a part of the process being observed—to merge, to blend, to intermarry, to lose personal identity in group experience. It means almost everything that we mean by religion, philosophy, and science—and it means as little to us as color means to a blind man."
+> <footer>Robert A. Heinlein, Stranger in a Strange Land</footer>
 
 What makes the Lisp family of languages so simple, expressive, and concise, is the syntax.  Using a single form, the *S-Expression*, you can represent all code and data.  This property is called 'homoiconicity'.
 
@@ -72,3 +82,9 @@ Take a look at what you've typed and ponder it for a moment.  You should notice 
 This syntax is often referred to as "Polish prefix-notation".  In the first example, `(+ 10 20 (* 30 2))`, it's pretty clear what's happening: you pass an arbitrary set of numbers to the addition function, and you get back the sum.  In this case, you also passed the *return result* of `(* 30 2)`, which is 30 multiplied by 2.  So instead of having to write something like `10 + 20 + 30 * 2` in other languages, you just have to type the addition symbol once, and order of operation is clear.  For a simple example like this, it may not seem like a big deal yet, but for real-world applications, it greatly simplifies your code.
 
 From this amazingly simple syntax, you can express any program you can imagine, using any programming paradigm you choose.
+
+<ul class="pager">
+  <li class="previous"><a href="/book/">&laquo; Previous</a></li>
+  <li><a href="/book/">Table of Contents</a></li>
+  <li class="next"><a href="/book/">Next &raquo;</a><li>
+</ul>

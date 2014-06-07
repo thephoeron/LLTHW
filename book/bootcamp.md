@@ -6,12 +6,16 @@
 
 # Common Lisp Bootcamp
 
-> "Relevant quote..."
-> <footer>Source</footer>
+> "I made a very important discovery at Camp Currie.  Happiness consists in getting enough sleep.  Just that, nothing more.  All the wealthy, unhappy people you've ever met take sleeping pills; Mobile Infantrymen don't need them."
+> <footer>Robert A. Heinlein, Starship Troopers</footer>
+
+It's time to dive head-first into Lisp, no mercy.  You'll need discipline to apply the five steps of learning the hard way, and this is where you'll get a feel for it.  But one thing you need to remember, which many programmers often forget before working themselves to burn-out, the most important thing you need to learn is to get a good night's sleep, every night, on time, so you can wake up fully refreshed to tackle Lisp again the next day.  Make yourself a schedule, a strict one, and follow it like you have a Sergeant throwing you out of your cot every morning, screaming at you all day to push yourself harder.  Eat right, take regular breaks from the computer, work hard, and sleep, and you'll find the learning process far more successful and rewarding.
+
+There is a reason, after all, the military uses this methodology for training---it's an application of the metaphor of alchemy, realized in nuclear physics: given enough heat and pressure, you can in fact turn lead into gold. But now, on to Lisp.  Here is everything you need to know to get hacking in Lisp right this second.
 
 ## The REPL
 
-The Lisp REPL is a READ-EVAL-PRINT Loop.  In other words, it reads user input, evaluates it, prints the return results, and then waits for more user input.  It is typically marked by a prompt, much like the command line for your operating system.  You can consider it as the main interface to the Lisp language.
+The Lisp REPL is a READ-EVAL-PRINT Loop, and the core of the interactive approach to Lisp development.  You type in an expression, its evaluated, the return result is printed to standard out, and then it waits for more user input.  It is typically marked by a prompt, much like the command line for your operating system.  You can consider it as the main interface to the Lisp language.
 
 Depending on the implementation of Lisp you are using, you may see different prompts.  You can also customize your prompt, if you like.
 

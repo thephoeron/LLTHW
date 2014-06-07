@@ -13,23 +13,64 @@ Now that you've gotten yourself a feel for Common Lisp, you'll want to spend a l
 
 ## The In-Browser REPL
 
-You can start hacking in Lisp right away with the in-browser, javascript-powered REPL right next to the text of this book.  It stays where it is while you browse through the chapters and learn the language.
-
-That being said, JSCL is far from complete and not all the code examples will run; to get the most out of your Lisp experience, you will want to install Common Lisp on your computer, and run all the examples in this book through it.
+You can start hacking in Lisp right away with the in-browser, javascript-powered REPL under the "Try Lisp" section of this site, listed in the navigation bar at the top of each page.  It takes you through a quick tour of Common Lisp so you can get your feet wet without installing anything.
 
 ## Installing SBCL
 
 Steel Bank Common Lisp is one of the easiest Lisp implementations to get up and running&mdash;it has out of the box support for a wide selection of platforms, and is considered to be the most robust implementation available.  Since it automatically compiles everything you enter at the REPL, your running Lisp processes also benefit from a major speed-boost over other Lisps.
 
+### Windows
+
+The latest SBCL installer packages for Windows, in separate versions for 32 and 64-bit systems, are available on the official downloads page.
+
+Once installed, you can run SBCL from the Start menu, or call it from a command-line window.  If you have PowerShell installed, it offers better features than the default command line.
+
+### OS X
+
+On Mac OS X, you will want to install SBCL through the Homebrew package manager.
+
+You will also want to install the `rlwrap` package, and run SBCL from the terminal as follows:
+
+```sh
+$ rlwrap sbcl
+```
+
+### Linux
+
+Most Linux distros have the latest, or a very recent, version of SBCL in their official repositories.  You can simply install it from there.
+
+You will also want to install the `rlwrap` package, and run SBCL from the shell as follows:
+
+```sh
+$ rlwrap sbcl
+```
+
+### Debian/Ubuntu
+
+The packages for SBCL in Apt tend to be severely out-of-date, so if you're using Debian or Ubuntu, you will have a little extra work to do.
+
+First, install the version of SBCL available for your distro in Apt.
+
+Using the old version of SBCL, you may now compile the latest version of SBCL from source.
+
+## Installing Quicklisp
+
+Once you have SBCL up and running, the first thing you should do is install Quicklisp.  It's a package manager for Lisp, and will allow you to dynamically load systems and their packages into your running Lisp image.  It also automatically resolves dependencies for your own Lisp projects.
+
 ## Choosing a Text Editor
 
-Emacs
+If you ask any Lisp developer what editor you should be using, or what IDE is available for Common Lisp, the first thing they'll tell you is, Emacs.  Emacs and SLIME (the Superior Lisp Interaction Mode for Emacs), makes a powerful combination. You can control the entire environment with your keyboard, never having to waste time reaching for the mouse; run, test, and debug code in the REPL as you write it in another buffer; experiment and explore alternate approaches to solving the same problem, profiling your code to get the best performance; and have the full Common Lisp HyperSpec at your fingertips.  The only problem is, some users really dislike Emacs, or simply don't know it.  The steep learning curve can be a real damper to your progress when coming to both Lisp and Emacs as a newbie; so the policy of this book is, use what you know, and make it work until you know Lisp well enough to get comfortable learning Emacs.  If you wait until the right time, learning Emacs will be a boost to your productivity, not a hindrance.
 
-Vim
+If you know Emacs and have a great disdain for it, far preferring Vim, you can take advantage of most of the features of SLIME through the Vim package, Slimv.
 
-Sublime Text
+For users who have no experience with Emacs or Vim, all you really need at the moment is a simple text editor.  Anything more will probably just confuse you, and keep you from focusing on Lisp itself.  A few worth checking out are:
 
-Atom
+* Sublime Text: very well supported, extensible, and actively maintained; syntax highlighting for Lisp is built-in; a REPL plugin is available so you can get a similar experience to Emacs without as steep a learning curve.  Free to try, but requires a paid license for continued use.  It is available to download for Windows, OS X, and Linux.
+* Atom: currently in beta, built entirely on Web technologies, GitHub's Atom Editor is like a stripped-down Sublime Text with a few unique features. A plugin for Lisp syntax highlighting is available for download within the editor settings.  The binary is available to download for OS X, and the source code is available to compile for other systems.
+* Cloud9: the Cloud9 service is like Sublime Text or Atom in the browser.  You can access your code from anywhere, sync it up with your repo, collaborate on code, and more.  Syntax highlighting for Lisp is built-in.  Cloud9 has both free and premium plans.  Best viewed in Chrome, Safari, and Firefox.
+* Notepad++: A clean and simple text editor with syntax highlighting for Lisp.  Available for Windows.
+
+Other popular text and code editors, such as BBedit, TextWrangler, and Gedit, do not have syntax highlighting for Lisp.
 
 ## Working From the Command-Line
 
