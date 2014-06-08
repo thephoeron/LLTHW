@@ -10,7 +10,7 @@
 > "Relevant quote..."
 > <footer>Source</footer>
 
-Chapter text.
+Focus on writing robust prompts that handle a variety of validated user input, not using READ or EVAL.
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-02-0-input-output/">&laquo; Previous</a></li>

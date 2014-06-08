@@ -78,7 +78,8 @@
                 (:a :href "/book/" "Book"))
               (:li (:a :href "/resources/" "Resources"))
               (:li (:a :href "/try-lisp/" "Try Lisp"))
-              (:li (:a :href "/get-lisp/" "Get Lisp")))))
+              (:li (:a :href "/get-lisp/" "Get Lisp"))
+              (:li (:a :href "/donate/" "Donations")))))
         (:div :class "jumbotron subhead" :id "overview"
           (:div :class "container"
             (:h1 :class "title" "L(λ)THW " (:small "Learn Lisp The Hard Way"))

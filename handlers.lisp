@@ -46,6 +46,7 @@
             (:li (:a :href "http://cjelupton.wordpress.com" :target "_blank" :title "Wordpress" (:i :class "fa fa-wordpress fa-2x")))
             (:li (:a :href "http://thephoeron.com/" :target "_blank" :title "Web" (:i :class "fa fa-globe fa-2x")))
             (:li "Donate to this project:")
+            (:li (:a :href "/donate/#by-paypal" :title "Donate by PayPal" (:i :class "fa fa-dollar fa-2x")))
             (:li (:a :href "bitcoin:17nWsM2aKqKewm7zDzv3mGUyqzKZKjsJGQ" :title "Donate Bitcoin" (:i :class "fa fa-bitcoin fa-2x")))
             (:li (:a :href "litecoin:LZfkNpcQetVcNNbpERQoCvRJkVERYry9Me" :title "Donate Litecoin" (:span :style "font-size: 30px; font-weight: bold; text-decoration: none;" "&#321;"))))))
       (:div :class "container"
@@ -85,6 +86,11 @@
 (define-easy-handler (llthw-resources :uri "/resources/") ()
   (basic-llthw-page ()
     (cl-who:with-html-output (hunchentoot::*standard-output*)
+      (str (3bmd:parse-and-print-to-stream "resources/index.md" hunchentoot::*standard-output* :format :html)))))
+
+(define-easy-handler (llthw-donations :uri "/donate/") ()
+  (basic-llthw-page ()
+    (cl-who:with-html-output (hunchentoot::*standard-output*)
       )))
 
 ;; Book, Contents at a Glance
@@ -96,10 +102,10 @@
 
 ;; Loop over contents of book/ subdirectory, build pages automatically
 (defmacro create-book-pages ()
-  "Loop over contents of book/ subdirectory, build pages automatically at compile time."
+  "Loop over contents of 'book/' subdirectory, build pages automatically at compile time."
   `(progn
      ,@(loop for file in *book-files*
-             collect `(define-easy-handler (,(intern (format nil "~(llthw-book~A~)" (pathname-name file))) :uri ,(format nil "/book/~(~A~)/" (pathname-name file))) ()
+             collect `(define-easy-handler (,(intern (format nil "llthw-book~(~A~)" (pathname-name file))) :uri ,(format nil "/book/~(~A~)/" (pathname-name file))) ()
                         (llthw-page ()
                           (cl-who:with-html-output (hunchentoot::*standard-output*)
                             (str (3bmd:parse-and-print-to-stream ,(format nil "book/~(~A~)" (file-namestring file)) hunchentoot::*standard-output* :format :html))))))))
