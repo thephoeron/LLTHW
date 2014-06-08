@@ -19,7 +19,7 @@ Parsing assembly to create low-level Lisp code.
 Writing scripts to create high-level Lisp source code from disassembled binaries.
 
 <ul class="pager">
-  <li class="previous"><a href="/book/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-04-0-system-utils/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-06-0-graphics/">Next &raquo;</a><li>
 </ul>

@@ -17,7 +17,7 @@ Develop a physics engine.
 Test modeled physical systems against results from other platforms.
 
 <ul class="pager">
-  <li class="previous"><a href="/book/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-12-0-scientific-computing/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-14-0-quantum-computing/">Next &raquo;</a><li>
 </ul>

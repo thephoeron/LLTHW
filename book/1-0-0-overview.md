@@ -14,7 +14,7 @@ Lisp isn't a language you just *learn*.  It changes you, as a programmer and a p
 In Part One, we focus on the core of the Common Lisp language, features that you will use every day, and techniques that will change the way you see programming.
 
 <ul class="pager">
-  <li class="previous"><a href="/book/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/configuration/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-01-0-synxtax-overview/">Next &raquo;</a><li>
 </ul>

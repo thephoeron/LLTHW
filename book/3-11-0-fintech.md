@@ -23,7 +23,7 @@ Building on top of the Blockchain: MasterCoin, Ethereum, etc.
 Depending on progress of project, introduce Wolfcoin and its API (?)
 
 <ul class="pager">
-  <li class="previous"><a href="/book/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-10-0-cryptosec/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-12-0-scientific-computing/">Next &raquo;</a><li>
 </ul>

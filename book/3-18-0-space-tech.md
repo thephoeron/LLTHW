@@ -12,14 +12,14 @@
 
 Discuss the NASA story of live-hacking a space probe while in transit.
 
-Overview of rocket propulsion, motion in a vacuum, microgravity, astrophysics, etc. 
+Overview of rocket propulsion, motion in a vacuum, microgravity, astrophysics, etc.
 
 Design an idealized satellite or probe, with basic AI that can be overridden by a controller on Earth.
 
 Implement a simulator that tests this probe in space-like conditions.  Bonus points for 3D simulation?
 
 <ul class="pager">
-  <li class="previous"><a href="/book/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-17-0-robotics/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-19-0-neurotech/">Next &raquo;</a><li>
 </ul>

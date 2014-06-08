@@ -17,7 +17,7 @@ Scenes, animations, objects, etc.
 Create a simple 3D game; compare creating objects and environments programmatically vs. using assets from 3D imaging software.
 
 <ul class="pager">
-  <li class="previous"><a href="/book/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-06-0-graphics/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-08-0-audio/">Next &raquo;</a><li>
 </ul>

@@ -17,7 +17,7 @@ Discuss implementing low-level protocols, building on earlier material on socket
 Designing useful command-line interfaces.
 
 <ul class="pager">
-  <li class="previous"><a href="/book/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-03-0-gui/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-05-0-reverse-engineering/">Next &raquo;</a><li>
 </ul>

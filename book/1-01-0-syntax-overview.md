@@ -84,7 +84,7 @@ This syntax is often referred to as "Polish prefix-notation".  In the first exam
 From this amazingly simple syntax, you can express any program you can imagine, using any programming paradigm you choose.
 
 <ul class="pager">
-  <li class="previous"><a href="/book/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-0-0-overview/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-02-0-input-output/">Next &raquo;</a><li>
 </ul>

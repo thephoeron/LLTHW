@@ -15,7 +15,7 @@ Will need a spare PC/Linux box that can be scrapped if you screw up.
 Show how to strip out key Linux components, replacing them with Lisp, packages for replacing the shell, installing and using StumpWM, etc.
 
 <ul class="pager">
-  <li class="previous"><a href="/book/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-19-0-neurotech/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-21-0-lisp-machine/">Next &raquo;</a><li>
 </ul>

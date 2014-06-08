@@ -17,7 +17,7 @@ Also talk about MOCL for compiling native iOS and Android apps.  Worth mentionin
 TO-DO: Lisp to Swift compiler?  LLVM Lisp based on SICL?
 
 <ul class="pager">
-  <li class="previous"><a href="/book/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-01-0-web-apps/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-03-0-gui/">Next &raquo;</a><li>
 </ul>

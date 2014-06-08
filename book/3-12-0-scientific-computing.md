@@ -15,7 +15,7 @@ Focus on GSLL, CL-PLPlot, other math and plotting libraries.
 Translate common problems in scientific computing from psuedo-code into Lisp, work from the REPL, compare against Mathematica, MatLab, etc.
 
 <ul class="pager">
-  <li class="previous"><a href="/book/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-11-0-fintech/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-13-0-computational-physics/">Next &raquo;</a><li>
 </ul>
