@@ -10,6 +10,7 @@
 * Lisp Resources on the Web
     * Common Lisp HyperSpec
     * Quickdocs, documentation for projects in Quicklisp
+    * common-lisp.net
     * Common Lisp Cookbook
 * Other Books on Lisp
     * Practical Common Lisp

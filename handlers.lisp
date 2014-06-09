@@ -74,24 +74,24 @@
       )))
 
 (define-easy-handler (llthw-try-lisp :uri "/try-lisp/") ()
-  (basic-llthw-page ()
+  (llthw-page (:section "try-lisp")
     (cl-who:with-html-output (hunchentoot::*standard-output*)
-      )))
+      (str (3bmd:parse-and-print-to-stream "resources/try-lisp.md" hunchentoot::*standard-output* :format :html)))))
 
 (define-easy-handler (llthw-get-lisp :uri "/get-lisp/") ()
-  (basic-llthw-page ()
+  (llthw-page (:section "get-lisp")
     (cl-who:with-html-output (hunchentoot::*standard-output*)
-      )))
+      (str (3bmd:parse-and-print-to-stream "resources/get-lisp.md" hunchentoot::*standard-output* :format :html)))))
 
 (define-easy-handler (llthw-resources :uri "/resources/") ()
-  (basic-llthw-page ()
+  (llthw-page (:section "resources")
     (cl-who:with-html-output (hunchentoot::*standard-output*)
       (str (3bmd:parse-and-print-to-stream "resources/index.md" hunchentoot::*standard-output* :format :html)))))
 
 (define-easy-handler (llthw-donations :uri "/donate/") ()
-  (basic-llthw-page ()
+  (llthw-page (:section "donations")
     (cl-who:with-html-output (hunchentoot::*standard-output*)
-      )))
+      (str (3bmd:parse-and-print-to-stream "resources/donations.md" hunchentoot::*standard-output* :format :html)))))
 
 ;; Book, Contents at a Glance
 ;; also available at /book/index/

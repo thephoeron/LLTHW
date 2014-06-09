@@ -57,7 +57,7 @@
         (:script :src "//code.jquery.com/jquery-migrate-1.2.1.min.js")
         (:script :src "//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js")))))
 
-(defmacro llthw-page ((&key (title "L(λ)THW")) &body body)
+(defmacro llthw-page ((&key (title "L(λ)THW") (section "book")) &body body)
   `(cl-who:with-html-output-to-string (hunchentoot::*standard-output* nil :prologue t :indent t)
     (:html :lang "en"
       (:head
@@ -73,13 +73,17 @@
             (:div :class "navbar-header"
               (:a :class "navbar-brand" :href "/" (str (format nil "L(~C)THW" #\greek_small_letter_lamda))))
             (:ul :class "nav navbar-nav"
-              (:li (:a :href "/" "Home"))
-              (:li :class "active"
+              (:li :title "Home" (:a :href "/" "Home"))
+              (:li :title "Book" :class (str (if (string= ,section "book") "active" " "))
                 (:a :href "/book/" "Book"))
-              (:li (:a :href "/resources/" "Resources"))
-              (:li (:a :href "/try-lisp/" "Try Lisp"))
-              (:li (:a :href "/get-lisp/" "Get Lisp"))
-              (:li (:a :href "/donate/" "Donations")))))
+              (:li :title "Resources" :class (str (if (string= ,section "resources") "active" " "))
+                (:a :href "/resources/" "Resources"))
+              (:li :title "Try Lisp" :class (str (if (string= ,section "try-lisp") "active" " "))
+                (:a :href "/try-lisp/" "Try Lisp"))
+              (:li :title "Get Lisp" :class (str (if (string= ,section "get-lisp") "active" " "))
+                (:a :href "/get-lisp/" "Get Lisp"))
+              (:li :title "Donations" :class (str (if (string= ,section "donations") "active" " "))
+                (:a :href "/donate/" "Donations")))))
         (:div :class "jumbotron subhead" :id "overview"
           (:div :class "container"
             (:h1 :class "title" "L(λ)THW " (:small "Learn Lisp The Hard Way"))
