@@ -37,7 +37,7 @@
         (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css")
         (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css")
         (:link :rel "stylesheet" :href "/static/css/llthw.css")
-        ;(:style :type "text/css" (str colorize:*coloring-css*))
+        (google-analytics)
         (:title ,title))
       (:body
         (:nav :class "navbar navbar-inverse navbar-fixed-top" :role "navigation"
@@ -66,6 +66,7 @@
         (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css")
         (:link :rel "stylesheet" :href "/static/css/llthw.css")
         ;(:style :type "text/css" (str colorize:*coloring-css*))
+        (google-analytics)
         (:title ,title))
       (:body :data-spy "scroll" :data-target ".sidebar" :data-offset "90"
         (:nav :class "navbar navbar-inverse navbar-fixed-top" :role "navigation"
