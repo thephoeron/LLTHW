@@ -12,7 +12,7 @@
     ((@ ((@ ((@ ($ "#llthwdoc") children)) filter) ":header") each)
       (lambda ()
         (let* ((the-title ((@ ($ this) text)))
-               (the-id ((@ ((@ the-title to-lower-case)) replace) (regex "/[\,\.\!\@\#\$\%\^\&\*\(\)\? ]/g") "-")))
+               (the-id ((@ ((@ the-title to-lower-case)) replace) (regex "/[\,\.\!\@\#\$\%\^\&\*\(\)\?\/\\ ]/g") "-")))
           ((@ ($ this) attr) "id" the-id)
           ((@ ($ "ul.sidenav") append) (+ "<li><a href='#" the-id "'>" the-title "</a></li>"))
           (return true))))
