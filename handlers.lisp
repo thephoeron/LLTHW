@@ -74,22 +74,22 @@
       )))
 
 (define-easy-handler (llthw-try-lisp :uri "/try-lisp/") ()
-  (llthw-page (:section "try-lisp")
+  (llthw-page (:subtitle "Try Common Lisp Now" :section "try-lisp")
     (cl-who:with-html-output (hunchentoot::*standard-output*)
       (str (3bmd:parse-and-print-to-stream "resources/try-lisp.md" hunchentoot::*standard-output* :format :html)))))
 
 (define-easy-handler (llthw-get-lisp :uri "/get-lisp/") ()
-  (llthw-page (:section "get-lisp")
+  (llthw-page (:subtitle "Download and Install Steel Bank Common Lisp" :section "get-lisp")
     (cl-who:with-html-output (hunchentoot::*standard-output*)
       (str (3bmd:parse-and-print-to-stream "resources/get-lisp.md" hunchentoot::*standard-output* :format :html)))))
 
 (define-easy-handler (llthw-resources :uri "/resources/") ()
-  (llthw-page (:section "resources")
+  (llthw-page (:subtitle "Common Lisp Resources" :section "resources")
     (cl-who:with-html-output (hunchentoot::*standard-output*)
       (str (3bmd:parse-and-print-to-stream "resources/index.md" hunchentoot::*standard-output* :format :html)))))
 
 (define-easy-handler (llthw-donations :uri "/donate/") ()
-  (llthw-page (:section "donations")
+  (llthw-page (:subtitle "Support L(λ)THW with your Donations" :section "donations")
     (cl-who:with-html-output (hunchentoot::*standard-output*)
       (str (3bmd:parse-and-print-to-stream "resources/donations.md" hunchentoot::*standard-output* :format :html)))))
 

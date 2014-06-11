@@ -57,7 +57,7 @@
         (:script :src "//code.jquery.com/jquery-migrate-1.2.1.min.js")
         (:script :src "//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js")))))
 
-(defmacro llthw-page ((&key (title "L(λ)THW") (section "book")) &body body)
+(defmacro llthw-page ((&key (title "L(λ)THW") (subtitle "Draft v0.2.0 (alpha) &mdash; \"the Phoeron\" Colin J.E. Lupton") (section "book")) &body body)
   `(cl-who:with-html-output-to-string (hunchentoot::*standard-output* nil :prologue t :indent t)
     (:html :lang "en"
       (:head
@@ -88,7 +88,7 @@
         (:div :class "jumbotron subhead" :id "overview"
           (:div :class "container"
             (:h1 :class "title" "L(λ)THW " (:small "Learn Lisp The Hard Way"))
-            (:p :class "lead" "Draft v0.2.0 (alpha) &mdash; \"the Phoeron\" Colin J.E. Lupton")))
+            (:p :class "lead" ,subtitle)))
         (:div :class "container" :id "body"
           (:div :class "row"
             (:div :class "col-md-9" :id "llthwdoc"
