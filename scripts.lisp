@@ -9,6 +9,7 @@
 (define-easy-handler (llthw-js :uri "/llthw.js") ()
   (setf (content-type*) "text/javascript")
   (ps
+    ((@ ($ "#llthwdoc img") add-class) "img-thumbnail")
     ((@ ((@ ((@ ($ "#llthwdoc") children)) filter) ":header") each)
       (lambda ()
         (let* ((the-title ((@ ($ this) text)))
