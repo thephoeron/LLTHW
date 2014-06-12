@@ -84,12 +84,12 @@
       (str (3bmd:parse-and-print-to-stream "resources/get-lisp.md" hunchentoot::*standard-output* :format :html)))))
 
 (define-easy-handler (llthw-resources :uri "/resources/") ()
-  (llthw-page (:subtitle "Common Lisp Resources" :section "resources")
+  (llthw-page (:subtitle "Additional Common Lisp Resources" :section "resources")
     (cl-who:with-html-output (hunchentoot::*standard-output*)
       (str (3bmd:parse-and-print-to-stream "resources/index.md" hunchentoot::*standard-output* :format :html)))))
 
 (define-easy-handler (llthw-donations :uri "/donate/") ()
-  (llthw-page (:subtitle "Support L(λ)THW with your Donations" :section "donations")
+  (llthw-page (:subtitle "Support this Project with Your Donations" :section "donations")
     (cl-who:with-html-output (hunchentoot::*standard-output*)
       (str (3bmd:parse-and-print-to-stream "resources/donations.md" hunchentoot::*standard-output* :format :html)))))
 
