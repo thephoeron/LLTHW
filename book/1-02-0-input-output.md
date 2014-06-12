@@ -2,7 +2,7 @@
   <li><a href="/">Home</a></li>
   <li><a href="/book/">Book</a></li>
   <li><a href="/book/1-0-0-overview/">Part One: Grokking Lisp</a></li>
-  <li class="active">Syntax Overview in 5 Minutes</li>
+  <li class="active">Printing, Strings, and Streams</li>
 </ol>
 
 # Printing, Strings, and Streams
@@ -12,16 +12,16 @@
 
 This chapter will contain exercises on:
 
-* [Strings](1-2-01-strings/)
-* [Characters](1-2-02-chars/)
-* [Writing](1-2-03-writing/)
-* [Printing](1-2-04-printing/)
-* [Pretty-Printing](1-2-05-pprint/)
-* [Reading](1-2-06-read/)
-* [EVAL](1-2-07-eval/)
-* [Working with Streams](1-2-08-streams/)
-* [Paths and Files](1-2-09-paths-files/)
-* [Prompting Users](1-2-10-prompts/)
+* [Strings](/book/1-02-01-strings/)
+* [Characters](/book/1-02-02-chars/)
+* [Writing](/book/1-02-03-writing/)
+* [Printing](/book/1-02-04-printing/)
+* [Pretty-Printing](/book/1-02-05-pprint/)
+* [Reading](/book/1-02-06-read/)
+* [EVAL](/book/1-02-07-eval/)
+* [Working with Streams](/book/1-02-08-streams/)
+* [Paths and Files](/book/1-02-09-paths-files/)
+* [Prompting Users](/book/1-02-10-prompts/)
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-01-0-syntax-overview/">&laquo; Previous</a></li>
