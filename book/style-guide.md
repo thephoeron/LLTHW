@@ -9,7 +9,7 @@
 > "Relevant quote..."
 > <footer>Source</footer>
 
-Style is fundamental to programming&mdash;particularly in Lisp, where the unlimited power and flexibility of paradigm can easily go to your head.  A little carelessness can make for sloppy, illegible code; but if you make a point to consider your code as an artform as well as a tool to get a job done, you, and anyone else who has to read your code later, will thank you for it.
+Style is fundamental to programming&mdash;particularly in Lisp, where the unlimited power and flexibility of paradigm can easily go to your head.  A little carelessness can make for sloppy, illegible code; but if you make a point to consider your code as an art-form as well as a tool to get a job done, you, and anyone else who has to read your code later, will thank you for it.
 
 But don't make the mistake of thinking these rules are prescriptive; and not everyone in the Lisp community agrees with them.  Consider them more like practical suggestions which will get you thinking about style, and then you and your team can decide together which style rules you want to follow for your coding aesthetic.
 
@@ -19,9 +19,9 @@ At this stage of learning Lisp, you may not fully appreciate all the style rules
 
 Clear and meaningful symbol-names in your Lisp programs are one of the most important aspects of code readability.
 
-While there are no hard-fast rules for naming stmbols in the Common Lisp standard, beyond a list of which characters are allowed, certain conventions have arisen in the Lisp community which you should know, and usually follow religiously.  There are times when you can, and may have to, break convention, but those are special cases which require experience and finesse.
+While there are no hard-fast rules for naming symbols in the Common Lisp standard, beyond a list of which characters are allowed, certain conventions have arisen in the Lisp community which you should know, and usually follow religiously.  There are times when you can, and may have to, break convention, but those are special cases which require experience and finesse.
 
-Symbol names should be descriptive, short, typed in all lowercase, with words separated by a single hypen:
+Symbol names should be descriptive, short, typed in all lowercase, with words separated by a single hyphen:
 
 ```lisp
 ;; Example symbol names
@@ -90,13 +90,13 @@ Lisp is, by nature, a cross-platform development language; but each implementati
 
 As an example, you can and should write software that takes advantage of 64-bit architectures; but even today, you cannot always count on it being there for your users.  Your software should scale gracefully to 32-bit architectures.  And when certain features require it, document them as such and provide an alternative.
 
-The same is true for web applications.  You can't predict which browser your users will prefer; and users resent getting a page that tells them to upgrade or change their browser.  You have no choice but to support every browser and platform&mdash;so, think about Lisp software the same way, and you will be doing yourself and your users a favour from the beginning.
+The same is true for web applications.  You can't predict which browser your users will prefer; and users resent getting a page that tells them to upgrade or change their browser.  You have no choice but to support every browser and platform&mdash;so, think about Lisp software the same way, and you will be doing yourself and your users a favor from the beginning.
 
 Be certain to test your code on every platform you have access to, and in multiple implementations of Lisp for each platform. It may seem like a lot of extra work for nothing at first, but it will save you a lot of time down the road.
 
 ## Libraries
 
-As well as learning the Common Lisp language, it is important to familiarize yourself and keep up to date with the wide variety of Lisp libraries available online, particularly those in the Quicklisp package repository.  There are two important reasons for this:
+As well as learning the Common Lisp language, it is important to familiarize yourself and keep up to date with the wide variety of Lisp libraries available on-line, particularly those in the Quicklisp package repository.  There are two important reasons for this:
 
 * Instead of reinventing the wheel, you can use a feature-complete, dedicated library to implement your functionality.
 * When you know what libraries are freely available, you can dedicate more of your time to writing and testing new code.
