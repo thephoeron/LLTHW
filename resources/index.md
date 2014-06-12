@@ -1,3 +1,8 @@
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li class="active">Resources</li>
+</ol>
+
 ## Lisp Community Online
 
 * IRC

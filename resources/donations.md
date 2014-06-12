@@ -1,4 +1,7 @@
-# Donations
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li class="active">Donations</li>
+</ol>
 
 If you benefit from this project and would like to help keep it going, please consider a small donation to cover the expenses of hosting, development, and on-going maintenance.
 
