@@ -23,6 +23,7 @@
   (llthw-stop)
   (ql:quickload "llthw")
   (setf *book-files* (directory (merge-pathnames "*.md" *book-dir*)))
+  (create-book-pages *book-files*)
   (llthw-start :port port))
 
 ;; EOF

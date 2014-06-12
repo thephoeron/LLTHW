@@ -95,21 +95,12 @@
 
 ;; Book, Contents at a Glance
 ;; also available at /book/index/
-(define-easy-handler (llthw-book-index :uri "/book/") ()
+(define-easy-handler (llthw-book :uri "/book/") ()
   (llthw-page ()
     (cl-who:with-html-output (hunchentoot::*standard-output*)
       (str (3bmd:parse-and-print-to-stream "book/index.md" hunchentoot::*standard-output* :format :html)))))
 
-;; Loop over contents of book/ subdirectory, build pages automatically
-(defmacro create-book-pages ()
-  "Loop over contents of 'book/' subdirectory, build pages automatically at compile time."
-  `(progn
-     ,@(loop for file in *book-files*
-             collect `(define-easy-handler (,(intern (format nil "llthw-book~(~A~)" (pathname-name file))) :uri ,(format nil "/book/~(~A~)/" (pathname-name file))) ()
-                        (llthw-page ()
-                          (cl-who:with-html-output (hunchentoot::*standard-output*)
-                            (str (3bmd:parse-and-print-to-stream ,(format nil "book/~(~A~)" (file-namestring file)) hunchentoot::*standard-output* :format :html))))))))
-
-(create-book-pages)
+(eval-when (:execute :compile-toplevel :load-toplevel)
+  (create-book-pages *book-files*))
 
 ;; EOF
