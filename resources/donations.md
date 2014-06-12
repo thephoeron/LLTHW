@@ -12,11 +12,63 @@ PayPal donations coming soon.
 
 ## Bitcoin
 
-Bitcoin-QT Client Link: [17nWsM2aKqKewm7zDzv3mGUyqzKZKjsJGQ](bitcoin:17nWsM2aKqKewm7zDzv3mGUyqzKZKjsJGQ)
+<a class="btn btn-info btn-lg" href="bitcoin:17nWsM2aKqKewm7zDzv3mGUyqzKZKjsJGQ"><i class="fa fa-external-link-square fa-lg"></i> Send BTC with Bitcoin-QT Client</a>
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#btcModal">
+  <i class="fa fa-qrcode fa-lg"></i> Scan QR Code
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="btcModal" tabindex="-1" role="dialog" aria-labelledby="btcModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="btcModalLabel">Donate Bitcoin</h4>
+      </div>
+      <div class="modal-body">
+        <p align="center">
+          <img src="/static/img/btcqr.png" class="img-responsive img-thumbnail" />
+        </p>
+        <p align="center">
+          <a href="bitcoin:17nWsM2aKqKewm7zDzv3mGUyqzKZKjsJGQ">17nWsM2aKqKewm7zDzv3mGUyqzKZKjsJGQ</a>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 ## Litecoin
 
-Litecoin-QT Client Link: [LZfkNpcQetVcNNbpERQoCvRJkVERYry9Me](litecoin:LZfkNpcQetVcNNbpERQoCvRJkVERYry9Me)
+<a class="btn btn-info btn-lg" href="litecoin:LZfkNpcQetVcNNbpERQoCvRJkVERYry9Me"><i class="fa fa-external-link-square fa-lg"></i> Send LTC with Litecoin-QT Client</a>
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#ltcModal">
+  <i class="fa fa-qrcode fa-lg"></i> Scan QR Code
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="ltcModal" tabindex="-1" role="dialog" aria-labelledby="ltcModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="btcModalLabel">Donate Litecoin</h4>
+      </div>
+      <div class="modal-body">
+        <p align="center">
+          <img src="/static/img/ltcqr.png" class="img-responsive img-thumbnail" />
+        </p>
+        <p align="center">
+          <a href="litecoin:LZfkNpcQetVcNNbpERQoCvRJkVERYry9Me">LZfkNpcQetVcNNbpERQoCvRJkVERYry9Me</a>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 ## Corporate Sponsors
 
