@@ -3,6 +3,12 @@
   <li class="active">Book</li>
 </ol>
 
+<div class="alert alert-danger">
+  <p>
+    <i class="fa fa-exclamation-triangle"></i> This is a draft-in-progress edition of Learn Lisp the Hard Way.  Content is being constantly added and revised.  Please check back often for updates, and be sure to leave your feedback in the comments.
+  </p>
+</div>
+
 ```Common Lisp
 ;; Welcome to LLTHW!
 (let* ((a (list 'a 'b 'c 'd)))
