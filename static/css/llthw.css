@@ -5,7 +5,7 @@ html {
 body {
   margin-top: 50px;
   /* Margin bottom by footer height */
-  margin-bottom: 80px;
+  margin-bottom: 140px;
 }
 
 .navbar {
@@ -253,9 +253,9 @@ body {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 80px;
+  height: 120px;
   background-color: #f5f5f5;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 #console {

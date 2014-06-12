@@ -11,10 +11,12 @@
     (:div :id "footer"
       (:div :class "container"
         (:p :align "center"
-          (:a :href "http://common-lisp.net/" :alt "Crafted in Common Lisp" :title "Crafted in Common Lisp" "(λ)") (:br)
+          (:a :href "http://common-lisp.net/" :alt "Crafted in Common Lisp" :title "Crafted in Common Lisp" "(λ)"))
+        (:p :align "center"
           "Copyright &copy; 2012 &ndash; 2014, \"the Phoeron\" Colin J.E. Lupton ("
           (:a :href "http://thephoeron.com/" :target "_blank" :alt "//thephoeron.com/" :title "//thephoeron.com/" "//thephoeron.com/")
-          "). All Rights Reserved." (:br)
+          "). All Rights Reserved.")
+        (:p :align "center"
           "Powered by "
           (:a :href "http://www.webfaction.com/?affiliate=thephoeron" :target "_blank" "Webfaction") ", "
           (:a :href "http://www.sbcl.org/" :target "_blank" "SBCL") ", "
