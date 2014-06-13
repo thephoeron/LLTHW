@@ -103,11 +103,26 @@
           (:div :class "row"
             (:div :class "col-md-9" :id "llthwdoc"
               (:a :name "top")
-              ,@body)
+              ,@body
+              (:h2 "Comments"))
             (:div :class "col-md-3"
               (:div :class "sidebar hidden-print affix" :data-spy "affix" :data-offset-top "250" :role "complementary"
-                (:ul :class "nav sidenav")))))
-        ;(:div :id "console" :data-spy "affix" :data-offset-top "60" :class "affix")
+                (:ul :class "nav sidenav"))))
+          (:div :class "row"
+            (:div :class "col-md-9"
+              (:div :id "disqus_thread")
+              (:script :type "text/javascript"
+                "/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                var disqus_shortname = 'learnlispthehardway'; // required: replace example with your forum shortname
+
+                /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function() {
+                  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();")
+              (:noscript "Please enable JavaScript to view the " (:a :href "http://disqus.com/?ref_noscript" "comments powered by Disqus."))
+              (:a :href "http://disqus.com" :class "dsq-brlink" "comments powered by " (:span :class "logo-disqus" "Disqus")))))
         (llthw-footer)
         (:script :src "//code.jquery.com/jquery-1.11.0.min.js")
         (:script :src "//code.jquery.com/jquery-migrate-1.2.1.min.js")
