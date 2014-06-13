@@ -9,7 +9,18 @@
 > "Relevant quote..."
 > <footer>Source</footer>
 
-Chapter text.
+This chapter will contain review exercises on:
+
+* S-Expressions
+* Atoms
+* Lists
+* Quotes
+* Macros and Backtick Syntax
+* CLOS and the Meta-Object Protocol
+
+It should be sufficiently advanced to challenge students at this level.
+
+Need a good 'term project'/final exam, before throwing students into the industry-themed practical third section.
 
 <ul class="pager">
   <li class="previous"><a href="/book/">&laquo; Previous</a></li>

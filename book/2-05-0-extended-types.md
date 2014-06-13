@@ -9,7 +9,13 @@
 > "Relevant quote..."
 > <footer>Source</footer>
 
-Chapter text.
+This chapter will contain exercises on:
+
+* Hash-Tables
+* Sequences
+* Sets
+* Type Definition
+* CLOS for Type Definition
 
 <ul class="pager">
   <li class="previous"><a href="/book/">&laquo; Previous</a></li>

@@ -9,7 +9,11 @@
 > "Relevant quote..."
 > <footer>Source</footer>
 
-Chapter text.
+This chapter will contain exercises on:
+
+* Declarations, Proclamations, Declamations
+* Controlling Compile-Time, EVAL-WHEN
+* Compiler Optimizations
 
 <ul class="pager">
   <li class="previous"><a href="/book/">&laquo; Previous</a></li>

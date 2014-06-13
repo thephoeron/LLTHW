@@ -9,7 +9,19 @@
 > "Relevant quote..."
 > <footer>Source</footer>
 
-Chapter text.
+This chapter will contain exercises on:
+
+* Blocks
+* Tagbodys
+* GO
+* PROG, PROGN
+* Structs
+* CLOS
+    * Classes
+    * Generic Functions
+    * Methods
+    * :before and :after methods
+    * MOP
 
 <ul class="pager">
   <li class="previous"><a href="/book/">&laquo; Previous</a></li>

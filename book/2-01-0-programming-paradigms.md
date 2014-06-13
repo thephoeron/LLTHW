@@ -9,7 +9,14 @@
 > "Relevant quote..."
 > <footer>Source</footer>
 
-Chapter text.
+This chapter will contain exercises on:
+
+* The Multi-Paradigm Approach
+* Procedural Programming
+* Imperative Programming
+* Object-Oriented Programming
+* Functional Programming
+* Novel Paradigms
 
 <ul class="pager">
   <li class="previous"><a href="/book/">&laquo; Previous</a></li>

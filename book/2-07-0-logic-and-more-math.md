@@ -9,7 +9,13 @@
 > "Relevant quote..."
 > <footer>Source</footer>
 
-Chapter text.
+This chapter will contain exercises on:
+
+* Logic Functions
+* Boolean Logic
+* Bit and Octet Vectors
+* Hexadecimal, radix control
+* Complex Numbers
 
 <ul class="pager">
   <li class="previous"><a href="/book/">&laquo; Previous</a></li>

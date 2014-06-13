@@ -114,55 +114,6 @@
   </dd>
 </dl>
 
-* PART TWO: The Suffusion of Blue
-    * [Programming Paradigms]()
-        * The Multi-Paradigm Approach
-        * Procedural Programming
-        * Imperative Programming
-        * Object-Oriented Programming
-        * Functional Programming
-        * Novel Paradigms
-    * [Extra Credit: Threading, Memoization, and Parallel Processing]()
-    * [Logic and Advanced Math]()
-        * Logic Functions
-        * Arrays
-        * Vectors
-        * Integer Functions
-        * Floats
-    * [Extra Credit: Using Regular Expressions in Lisp]()
-    * [Objects and Control Structures]()
-        * Blocks
-        * Tagbodys
-        * GO
-        * PROG, PROGN
-        * Structs
-        * CLOS
-    * [Extended Data-Types]()
-        * Hash-Tables
-        * Sequences
-        * Sets
-        * Type Definition
-        * CLOS for Type Definition
-    * [Extra Credit: An Improved Text Adventure Engine]()
-    * [Conditions and Error Handling]()
-    * [Extra Credit: Write a 2D Game]()
-    * [The Compiler]()
-        * Declaring Types
-        * Controlling Compile-Time
-        * Compiler Optimizations
-    * [Documentation and Object Inspection]()
-    * [Extra Credit: Using Foreign Libraries in Lisp]()
-    * [Debugging Your Code]()
-    * [Extra Credit: Write a Foreign Function Interface]()
-    * [Essential Lisp Libraries]()
-    * [Detailed Syntax Review]()
-        * S-Expressions
-        * Atoms
-        * Lists
-        * Quotes
-        * Backtick Syntax
-        * CLOS and the Meta-Object Protocol
-
 # FAQ
 
 How long does this book take to complete?
