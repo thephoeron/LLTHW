@@ -1,10 +1,11 @@
 <ol class="breadcrumb">
   <li><a href="/">Home</a></li>
   <li><a href="/book/">Book</a></li>
-  <li class="active">Chapter Name</li>
+  <li><a href="/book/1-0-0-overview/">Part One: Grokking Lisp</a></li>
+  <li class="active">Extra Credit: A Command-Line Utility</li>
 </ol>
 
-# Chapter Name
+# Extra Credit: A Command-Line Utility
 
 > "Relevant quote..."
 > <footer>Source</footer>
@@ -18,7 +19,7 @@ Focus on writing a command-line utility.
 * Dumping Binaries
 
 <ul class="pager">
-  <li class="previous"><a href="/book/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-14-0-conditionals/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-16-0-map-loop/">Next &raquo;</a><li>
 </ul>
