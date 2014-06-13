@@ -3,7 +3,9 @@
   <li class="active">Donations</li>
 </ol>
 
+<p class="lead">
 If you benefit from this project and would like to help keep it going, please consider a small donation to cover the expenses of hosting, development, and on-going maintenance.
+</p>
 
 Donations are accepted from individuals via PayPal, Bitcoin, or Litecoin.  Corporate entities wishing to sponsor this project have additional options, terms, and conditions.
 
@@ -15,9 +17,9 @@ PayPal donations coming soon.
 
 ## Bitcoin
 
-<a class="btn btn-info btn-lg" href="bitcoin:17nWsM2aKqKewm7zDzv3mGUyqzKZKjsJGQ"><i class="fa fa-external-link-square fa-lg"></i> Send BTC with Bitcoin-QT Client</a>
-<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#btcModal">
-  <i class="fa fa-qrcode fa-lg"></i> Scan QR Code
+<a class="btn btn-info" href="bitcoin:17nWsM2aKqKewm7zDzv3mGUyqzKZKjsJGQ"><i class="fa fa-external-link-square"></i> Send BTC with Bitcoin-QT Client</a>
+<button class="btn btn-primary" data-toggle="modal" data-target="#btcModal">
+  <i class="fa fa-qrcode"></i> Scan QR Code
 </button>
 
 <!-- Modal -->
@@ -37,7 +39,7 @@ PayPal donations coming soon.
         </p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -45,9 +47,9 @@ PayPal donations coming soon.
 
 ## Litecoin
 
-<a class="btn btn-info btn-lg" href="litecoin:LZfkNpcQetVcNNbpERQoCvRJkVERYry9Me"><i class="fa fa-external-link-square fa-lg"></i> Send LTC with Litecoin-QT Client</a>
-<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#ltcModal">
-  <i class="fa fa-qrcode fa-lg"></i> Scan QR Code
+<a class="btn btn-info" href="litecoin:LZfkNpcQetVcNNbpERQoCvRJkVERYry9Me"><i class="fa fa-external-link-square"></i> Send LTC with Litecoin-QT Client</a>
+<button class="btn btn-primary" data-toggle="modal" data-target="#ltcModal">
+  <i class="fa fa-qrcode"></i> Scan QR Code
 </button>
 
 <!-- Modal -->
