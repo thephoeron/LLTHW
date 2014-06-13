@@ -53,7 +53,11 @@ body {
 .trylisphead .container {
   position: relative;
   z-index: 2;
-  margin-top: 20px;
+  text-align: left;
+}
+
+.trylisphead h1 small {
+  color: #c0c0c0;
 }
 
 #trylispbody {
