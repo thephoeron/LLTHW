@@ -13,7 +13,7 @@
 Chapter text.
 
 <ul class="pager">
-  <li class="previous"><a href="/book/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/2-09-0-binary-octets-bits/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/2-11-0-conditions/">Next &raquo;</a><li>
 </ul>

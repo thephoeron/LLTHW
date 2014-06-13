@@ -13,7 +13,7 @@
 Exercises to illustrate best practices for writing, organizing, and distributing Lisp libraries, packaged for ASDF/QuickLisp.
 
 <ul class="pager">
-  <li class="previous"><a href="/book/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/2-19-0-essential-libs/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/2-21-0-review/">Next &raquo;</a><li>
 </ul>

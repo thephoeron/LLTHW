@@ -25,7 +25,7 @@ This chapter will contain exercises on:
     * MOP
 
 <ul class="pager">
-  <li class="previous"><a href="/book/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/2-02-0-regex/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/2-04-0-data-persistence/">Next &raquo;</a><li>
 </ul>

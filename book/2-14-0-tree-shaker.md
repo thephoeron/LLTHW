@@ -17,7 +17,7 @@ Write a tree-shaker for SBCL based on example by [Juho Snellman](http://jsnell.i
 Port one of the binary-applications created earlier to use the tree-shaker, highlighting reduced binary size.
 
 <ul class="pager">
-  <li class="previous"><a href="/book/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/2-13-0-compiler/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/2-15-0-docs-and-inspection/">Next &raquo;</a><li>
 </ul>

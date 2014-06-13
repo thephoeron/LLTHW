@@ -17,7 +17,7 @@ This chapter will contain exercises on:
 * Compiler Optimizations
 
 <ul class="pager">
-  <li class="previous"><a href="/book/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/2-12-0-2d-game/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/2-14-0-tree-shaker/">Next &raquo;</a><li>
 </ul>
