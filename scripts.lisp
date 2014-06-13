@@ -9,6 +9,10 @@
 (define-easy-handler (llthw-js :uri "/llthw.js") ()
   (setf (content-type*) "text/javascript")
   (ps
+    ((@ ($ ".trylisphead#overview a") click)
+      (lambda ()
+        ((@ ($ "#trylispbody") load) ((@ ($ this) attr) href))
+        (return false)))
     ((@ ($ "#llthwdoc img") add-class) "img-thumbnail")
     ((@ ((@ ((@ ($ "#llthwdoc") children)) filter) ":header") each)
       (lambda ()

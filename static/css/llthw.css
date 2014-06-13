@@ -22,6 +22,57 @@ body {
   background-size: cover;
 }
 
+.trylisphead {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 60px 0 70px;
+  background: url(/static/img/fractal-splash.png) no-repeat top center;
+  background-size: cover;
+  margin-bottom: 0;
+  background-color: #9933FF;
+  color: #fff;
+  height: 100%;
+}
+
+.trylisphead:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(/static/img/pattern.png) repeat center center;
+  opacity: .4;
+  height: 100%;
+}
+.trylisphead .container {
+  position: relative;
+  z-index: 2;
+  margin-top: 20px;
+}
+
+#trylispbody {
+  text-align: left;
+  display: block;
+  position: relative;
+  text-shadow: none;
+  background: white;
+  color: black;
+  opacity: .82;
+  border: 1px solid white;
+  border-radius: 4px;
+  min-height: 480px;
+}
+
+#trylispbody p {
+  opacity: 1;
+}
+
 .masthead {
   padding: 60px 0 70px;
   background: url(/static/img/fractal-splash.png) no-repeat top center;
@@ -259,14 +310,12 @@ body {
 }
 
 #console {
-  position: absolute;
-  position: fixed;
-  top: 50px;
-  right: 0px;
-  float: right;
+  position: relative;
+  display: block;
   background-color: transparent;
   font-size: 16px;
   font-family: Courier;
+  text-align: left;
   overflow: hidden;
   padding: 0 0 0 0;
   width: 620px;

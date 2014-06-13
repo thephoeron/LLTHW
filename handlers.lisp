@@ -74,7 +74,7 @@
       )))
 
 (define-easy-handler (llthw-try-lisp :uri "/try-lisp/") ()
-  (llthw-page (:subtitle "Try Common Lisp Now" :section "try-lisp")
+  (try-lisp-page ()
     (cl-who:with-html-output (hunchentoot::*standard-output*)
       (str (3bmd:parse-and-print-to-stream "resources/try-lisp.md" hunchentoot::*standard-output* :format :html)))))
 

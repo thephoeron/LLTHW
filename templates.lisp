@@ -127,6 +127,48 @@
         (:script :src "//code.jquery.com/jquery-1.11.0.min.js")
         (:script :src "//code.jquery.com/jquery-migrate-1.2.1.min.js")
         (:script :src "//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js")
+        ;(:script :src "/static/js/jscl.js" :type "text/javascript")
+        ;(:script :src "/static/js/jqconsole.min.js" :type "text/javascript")
+        (:script :src "/static/js/llthw.js" :type "text/javascript")
+        (:script :src "/llthw.js" :type "text/javascript")))))
+
+(defmacro try-lisp-page ((&key (title "L(λ)THW")) &body body)
+  `(cl-who:with-html-output-to-string (hunchentoot::*standard-output* nil :prologue t :indent t)
+    (:html :lang "en"
+      (:head
+        (:meta :charset "utf-8")
+        (:meta :name "viewport" :content "width=device-width, initial-scale=1.0")
+        (:meta :name "description" :content "Learn Lisp The Hard Way")
+        (:meta :name "author" :content "\"the Phoeron\" Colin J.E. Lupton")
+        (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css")
+        (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css")
+        (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css")
+        (:link :rel "stylesheet" :href "/static/css/llthw.css")
+        (google-analytics)
+        (:title ,title))
+      (:body :data-spy "scroll" :data-target ".sidebar" :data-offset "90"
+        (:nav :class "navbar navbar-inverse navbar-fixed-top" :role "navigation"
+          (:div :class "container"
+            (:div :class "navbar-header"
+              (:a :class "navbar-brand" :href "/" (str (format nil "L(~C)THW" #\greek_small_letter_lamda))))
+            (:ul :class "nav navbar-nav"
+              (:li (:a :href "/" "Home"))
+              (:li (:a :href "/book/" "Book"))
+              (:li (:a :href "/resources/" "Resources"))
+              (:li :class "active" (:a :href "/try-lisp/" "Try Lisp"))
+              (:li (:a :href "/get-lisp/" "Get Lisp"))
+              (:li (:a :href "/donate/" "Donations")))))
+        (:div :class "jumbotron trylisphead" :id "overview"
+          (:div :class "container"
+            (:div :class "row"
+              (:div :class "col-md-6" :id "trylispbody"
+                ,@body)
+              (:div :class "col-md-6"
+                (:div :id "console")))))
+        (llthw-footer)
+        (:script :src "//code.jquery.com/jquery-1.11.0.min.js")
+        (:script :src "//code.jquery.com/jquery-migrate-1.2.1.min.js")
+        (:script :src "//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js")
         (:script :src "/static/js/jscl.js" :type "text/javascript")
         (:script :src "/static/js/jqconsole.min.js" :type "text/javascript")
         (:script :src "/static/js/llthw.js" :type "text/javascript")
