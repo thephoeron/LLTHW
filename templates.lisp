@@ -35,6 +35,10 @@
   `(cl-who:with-html-output-to-string (hunchentoot::*standard-output* nil :prologue t :indent t)
     (:html :lang "en"
       (:head
+        (:meta :charset "utf-8")
+        (:meta :name "viewport" :content "width=device-width, initial-scale=1.0")
+        (:meta :name "description" :content "Learn Lisp The Hard Way")
+        (:meta :name "author" :content "\"the Phoeron\" Colin J.E. Lupton")
         (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css")
         (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css")
         (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css")
@@ -63,6 +67,10 @@
   `(cl-who:with-html-output-to-string (hunchentoot::*standard-output* nil :prologue t :indent t)
     (:html :lang "en"
       (:head
+        (:meta :charset "utf-8")
+        (:meta :name "viewport" :content "width=device-width, initial-scale=1.0")
+        (:meta :name "description" :content "Learn Lisp The Hard Way")
+        (:meta :name "author" :content "\"the Phoeron\" Colin J.E. Lupton")
         (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css")
         (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css")
         (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css")
