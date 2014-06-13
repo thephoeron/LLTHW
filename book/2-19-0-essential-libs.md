@@ -1,15 +1,25 @@
 <ol class="breadcrumb">
   <li><a href="/">Home</a></li>
   <li><a href="/book/">Book</a></li>
-  <li class="active">Chapter Name</li>
+  <li><a href="/book/2-0-0-overview/">Part Two: The Suffusion of Blue</a></li>
+  <li class="active">Essential Lisp Libraries</li>
 </ol>
 
-# Chapter Name
+# Essential Lisp Libraries
 
 > "Relevant quote..."
 > <footer>Source</footer>
 
-Chapter text.
+Introduce or review through exercises a number of essential lisp libraries that are included in nearly all serious projects, in some cases being considered extensions to the standard.
+
+For starters:
+
+* ASDF
+* Alexandria
+* CL-FAD
+* Flexi-Streams
+* Babel
+* Iterate
 
 <ul class="pager">
   <li class="previous"><a href="/book/">&laquo; Previous</a></li>

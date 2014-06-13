@@ -1,15 +1,20 @@
 <ol class="breadcrumb">
   <li><a href="/">Home</a></li>
   <li><a href="/book/">Book</a></li>
-  <li class="active">Chapter Name</li>
+  <li><a href="/book/2-0-0-overview/">Part Two: The Suffusion of Blue</a></li>
+  <li class="active">Extra Credit: Write a Tree-Shaker</li>
 </ol>
 
-# Chapter Name
+# Extra Credit: Write a Tree-Shaker
 
 > "Relevant quote..."
 > <footer>Source</footer>
 
-Chapter text.
+Background on Lisp binaries, the stored Lisp environment, tree-shakers in commercial Lisps.
+
+Write a tree-shaker for SBCL based on example by [Juho Snellman](http://jsnell.iki.fi/blog/archive/2005-07-06.html), will probably need heavy rewrites.
+
+Port one of the binary-applications created earlier to use the tree-shaker, highlighting reduced binary size.
 
 <ul class="pager">
   <li class="previous"><a href="/book/">&laquo; Previous</a></li>

@@ -1,15 +1,16 @@
 <ol class="breadcrumb">
   <li><a href="/">Home</a></li>
   <li><a href="/book/">Book</a></li>
-  <li class="active">Chapter Name</li>
+  <li><a href="/book/2-0-0-overview/">Part Two: The Suffusion of Blue</a></li>
+  <li class="active">Extra Credit: Packaging Lisp Libraries</li>
 </ol>
 
-# Chapter Name
+# Extra Credit: Packaging Lisp Libraries
 
 > "Relevant quote..."
 > <footer>Source</footer>
 
-Chapter text.
+Exercises to illustrate best practices for writing, organizing, and distributing Lisp libraries, packaged for ASDF/QuickLisp.
 
 <ul class="pager">
   <li class="previous"><a href="/book/">&laquo; Previous</a></li>

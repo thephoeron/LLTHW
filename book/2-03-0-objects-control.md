@@ -1,10 +1,11 @@
 <ol class="breadcrumb">
   <li><a href="/">Home</a></li>
   <li><a href="/book/">Book</a></li>
-  <li class="active">Chapter Name</li>
+  <li><a href="/book/2-0-0-overview/">Part Two: The Suffusion of Blue</a></li>
+  <li class="active">Objects and Control Structures</li>
 </ol>
 
-# Chapter Name
+# Objects and Control Structures
 
 > "Relevant quote..."
 > <footer>Source</footer>

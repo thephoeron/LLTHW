@@ -1,10 +1,11 @@
 <ol class="breadcrumb">
   <li><a href="/">Home</a></li>
   <li><a href="/book/">Book</a></li>
-  <li class="active">Chapter Name</li>
+  <li><a href="/book/2-0-0-overview/">Part Two: The Suffusion of Blue</a></li>
+  <li class="active">Extra Credit: Threading, Memoization, Parallel Processing</li>
 </ol>
 
-# Chapter Name
+# Extra Credit: Threading, Memoization, Parallel Processing
 
 > "Relevant quote..."
 > <footer>Source</footer>
