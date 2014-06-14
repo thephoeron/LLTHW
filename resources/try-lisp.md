@@ -16,4 +16,6 @@ Every piece of code you write in Lisp is an *Expression*.  An expression can eit
 
 At the prompt, type: `(+ 1 1)` &mdash; that expression is a list. Each element of the list is also an expression.  It evaluates to, or "returns", `2`, the result of passing the arguments `1` and `1` to the addition function, `+`.
 
-Now type: `2` &mdash; this expression is an atom.  It self-evaluates: in other words, it returns itself.
+Now type: `2` &mdash; this expression is an atom.  It self-evaluates: *i.e.*, it returns itself.
+
+<a class="btn btn-primary float-right" id="try-lisp-next" href="/try-lisp/">Next &raquo;</a>
