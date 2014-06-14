@@ -6,8 +6,8 @@
 
 # Common Lisp Style Guide
 
-> "Relevant quote..."
-> <footer>Source</footer>
+> "Anyone who considers protocol unimportant has never dealt with a cat."
+> <footer>Robert A. Heinlein, The Cat Who Walks Through Walls</footer>
 
 Style is fundamental to programming&mdash;particularly in Lisp, where the unlimited power and flexibility of paradigm can easily go to your head.  A little carelessness can make for sloppy, illegible code; but if you make a point to consider your code as an art-form as well as a tool to get a job done, you, and anyone else who has to read your code later, will thank you for it.
 
