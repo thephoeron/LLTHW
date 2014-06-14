@@ -1,10 +1,26 @@
 ### Let's do a little math
 
-Every piece of code you write in Lisp is an *Expression*.  An expression can either be an atom or a list, and always returns a value when it is evaluated.
+The prefix notation of Lisp can throw some people off at first, but it actually makes math easier.  You've already seen the addition function, `+`. Now try this:
 
-At the prompt, type: `(+ 1 1)` &mdash; that expression is a list. Each element of the list is also an expression.  It evaluates to, or "returns", `2`, the result of passing the arguments `1` and `1` to the addition function, `+`.
+`(+ 1053 46 78 372 5000)`
 
-Now type: `2` &mdash; this expression is an atom.  It self-evaluates: *i.e.*, it returns itself.
+Isn't that easier than having to type "1053 + 46 + 78 + 372 + 5000", like you would have to in other languages? Now try these:
+
+`(- 9 3)`
+
+`(* 9 3)`
+
+`(/ 9 3)`
+
+`(expt 3 3)`
+
+`(mod 3142 60)`
+
+Prefix notation and expressions also make order of operation clearer:
+
+`(* (+ 10 2) (mod 3142 60))`
+
+The innermost expression is evaluated first.
 
 <p class="text-right">
   <a class="btn btn-primary" id="try-lisp-next" href="/try-lisp/math/">Next &raquo;</a>
