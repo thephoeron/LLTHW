@@ -73,11 +73,18 @@
             )))
       )))
 
+;; Try Lisp pages
 (define-easy-handler (llthw-try-lisp :uri "/try-lisp/") ()
   (try-lisp-page ()
     (cl-who:with-html-output (hunchentoot::*standard-output*)
       (str (3bmd:parse-and-print-to-stream "resources/try-lisp.md" hunchentoot::*standard-output* :format :html)))))
 
+(define-easy-handler (llthw-try-lisp-math :uri "/try-lisp/math/") ()
+  (try-lisp-basic-page ()
+    (cl-who:with-html-output (hunchentoot::*standard-output*)
+      (str (3bmd:parse-and-print-to-stream "resources/try-lisp-math.md" hunchentoot::*standard-output* :format :html)))))
+
+;; Main site pages
 (define-easy-handler (llthw-get-lisp :uri "/get-lisp/") ()
   (llthw-page (:subtitle "Download and Install Steel Bank Common Lisp" :section "get-lisp")
     (cl-who:with-html-output (hunchentoot::*standard-output*)

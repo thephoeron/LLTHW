@@ -131,6 +131,19 @@
         (:script :src "/static/js/llthw.js" :type "text/javascript")
         (:script :src "/llthw.js" :type "text/javascript")))))
 
+(defmacro try-lisp-basic-page ((&key (title "L(λ)THW")) &body body)
+  `(cl-who:with-html-output-to-string (hunchentoot::*standard-output* nil :prologue t :indent t)
+    (:html :lang "en"
+      (:head
+        (:meta :charset "utf-8")
+        (:meta :name "description" :content "Learn Lisp The Hard Way")
+        (:meta :name "author" :content "\"the Phoeron\" Colin J.E. Lupton")
+        (:title ,title)
+        (google-analytics))
+      (:body
+        ,@body
+        (:script :src "/llthw.js" :type "text/javascript")))))
+
 (defmacro try-lisp-page ((&key (title "L(λ)THW")) &body body)
   `(cl-who:with-html-output-to-string (hunchentoot::*standard-output* nil :prologue t :indent t)
     (:html :lang "en"
