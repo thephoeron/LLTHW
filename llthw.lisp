@@ -9,7 +9,7 @@
 (defun llthw-start (&key (port 8080))
   "Start LLTHW server."
   (when (null *acc*)
-    (setf *acc* (make-instance 'hunchentoot:easy-acceptor :port port)))
+    (setf *acc* (make-instance 'hunchentoot:easy-acceptor :port port :access-log-destination *acc-log* :message-log-destination *msg-log*)))
   (hunchentoot:start *acc*))
 
 (defun llthw-stop ()
