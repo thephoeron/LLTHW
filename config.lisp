@@ -20,6 +20,8 @@
 (defparameter *acc-log* (merge-pathnames "log/access.log" *default-dir*))
 (defparameter *msg-log* (merge-pathnames "log/message.log" *default-dir*))
 
+(ensure-directories-exist *acc-log*)
+
 ;; LLTHW Acceptor
 (defparameter *acc* nil)
 
