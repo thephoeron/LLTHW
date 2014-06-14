@@ -162,7 +162,7 @@
           (:div :class "container"
             (:div :class "row"
               (:div :class "col-md-12"
-                (:h1 "L(λ)THW" (:small "In-browser Tour of Common Lisp at the REPL"))
+                (:h1 "L(λ)THW" (:small "Try Common Lisp"))
                 (:p "&nbsp;")))
             (:div :class "row"
               (:div :class "col-md-6" :id "trylispbody"
