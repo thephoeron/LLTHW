@@ -18,6 +18,7 @@
     (hunchentoot:stop *acc*))
   (setf *acc* nil))
 
+;; Assumes SBCL + Quicklisp
 (defun llthw-restart (&key (port 8080))
   "Stop, reload/recompile, and start the LLTHW server again.  Also rescans the book/ directory for new files."
   (llthw-stop)
