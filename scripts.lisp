@@ -36,6 +36,7 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-51817003-1', 'learnlispthehardway.org');
+  ga('require', 'displayfeatures');
   ga('send', 'pageview');
 
 ")))
