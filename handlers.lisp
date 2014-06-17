@@ -77,12 +77,12 @@
 (define-easy-handler (llthw-try-lisp :uri "/try-lisp/") ()
   (try-lisp-page ()
     (cl-who:with-html-output (hunchentoot::*standard-output*)
-      (str (3bmd:parse-and-print-to-stream "resources/try-lisp.md" hunchentoot::*standard-output* :format :html)))))
+      (str (3bmd:parse-and-print-to-stream "try-lisp/index.md" hunchentoot::*standard-output* :format :html)))))
 
 (define-easy-handler (llthw-try-lisp-math :uri "/try-lisp/math/") ()
-  (try-lisp-basic-page ()
+  (reference-basic-page ()
     (cl-who:with-html-output (hunchentoot::*standard-output*)
-      (str (3bmd:parse-and-print-to-stream "resources/try-lisp-math.md" hunchentoot::*standard-output* :format :html)))))
+      (str (3bmd:parse-and-print-to-stream "try-lisp/math.md" hunchentoot::*standard-output* :format :html)))))
 
 ;; Main site pages
 (define-easy-handler (llthw-get-lisp :uri "/get-lisp/") ()
@@ -108,6 +108,9 @@
       (str (3bmd:parse-and-print-to-stream "book/index.md" hunchentoot::*standard-output* :format :html)))))
 
 (eval-when (:execute :compile-toplevel :load-toplevel)
-  (create-book-pages *book-files*))
+  (create-book-pages *book-files*)
+  ;(create-reference-pages *ref-files*)
+  ;(create-reference-pages *tl-files* :section "try-lisp")
+  )
 
 ;; EOF

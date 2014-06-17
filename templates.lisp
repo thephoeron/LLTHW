@@ -131,7 +131,7 @@
         (:script :src "/static/js/llthw.js" :type "text/javascript")
         (:script :src "/llthw.js" :type "text/javascript")))))
 
-(defmacro try-lisp-basic-page ((&key (title "L(λ)THW")) &body body)
+(defmacro reference-basic-page ((&key (title "L(λ)THW")) &body body)
   `(cl-who:with-html-output-to-string (hunchentoot::*standard-output* nil :prologue t :indent t)
     (:html :lang "en"
       (:head

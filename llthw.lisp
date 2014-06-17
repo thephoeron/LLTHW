@@ -20,11 +20,16 @@
 
 ;; Assumes SBCL + Quicklisp
 (defun llthw-restart (&key (port 8080))
-  "Stop, reload/recompile, and start the LLTHW server again.  Also rescans the book/ directory for new files."
+  "Stop, reload/recompile, and start the LLTHW server again.  Also rescans the book, reference, and try-lisp directories for new files."
   (llthw-stop)
   (ql:quickload "llthw")
-  (setf *book-files* (directory (merge-pathnames "*.md" *book-dir*)))
+  (setf *book-files* (directory (merge-pathnames "*.md" *book-dir*))
+        ;*ref-files* (directory (merge-pathnames "*.md" *ref-dir*))
+        ;*tl-files* (directory (merge-pathnames "*.md" *tl-dir*))
+        )
   (create-book-pages *book-files*)
+  ;(create-reference-pages *ref-files*)
+  ;(create-reference-pages *tl-files* :section "try-lisp")
   (sb-ext:gc :full t)
   (llthw-start :port port))
 
