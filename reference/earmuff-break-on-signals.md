@@ -1,4 +1,4 @@
-# *Symbol class* **Symbol Name**
+### *variable* **\*break-on-signals\***
 
 Syntax:
 

@@ -109,7 +109,7 @@
 
 (eval-when (:execute :compile-toplevel :load-toplevel)
   (create-book-pages *book-files*)
-  ;(create-reference-pages *ref-files*)
+  (create-reference-pages *ref-files*)
   ;(create-reference-pages *tl-files* :section "try-lisp")
   )
 
