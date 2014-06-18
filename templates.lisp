@@ -6,6 +6,15 @@
 
 (in-package :llthw)
 
+(defun reference-search ()
+  (loop for k being the hash-keys in *cl-reference-symbols* using (hash-value v)
+          collect (cl-who:with-html-output (hunchentoot::*standard-output*)
+                    (:option :val (string k) :data-label (string (getf v :label)) (:strong (str (getf v :text))) " "
+                             ;(cond ((string= (getf v :label) "constant")
+                             ;       (htm (:span :class "label label-default" "[" (str (getf v :label)) "]")))
+                             ;      (t (htm (:em "{" (str (getf v :label)) "}"))))
+                                   ))))
+
 (defun llthw-footer ()
   (cl-who:with-html-output (hunchentoot::*standard-output*)
     (:div :id "footer"
@@ -74,6 +83,8 @@
         (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css")
         (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css")
         (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css")
+        (:link :rel "stylesheet" :href "/static/js/select2-3.5.0/select2.css")
+        (:link :rel "stylesheet" :href "/static/css/select2-bootstrap.css")
         (:link :rel "stylesheet" :href "/static/css/llthw.css")
         (:title ,title)
         (google-analytics))
@@ -93,7 +104,13 @@
               (:li :title "Get Lisp" :class (str (if (string= ,section "get-lisp") "active" " "))
                 (:a :href "/get-lisp/" "Get Lisp"))
               (:li :title "Donations" :class (str (if (string= ,section "donations") "active" " "))
-                (:a :href "/donate/" "Donations")))))
+                (:a :href "/donate/" "Donations")))
+            (:form :class "navbar-form navbar-right" :role "search"
+              (:div :class "form-group"
+                (:select :id "reference-search" :style "width: 325px; min-width: 325px;"
+                  (:option)
+                  (reference-search)
+                                    )))))
         (:div :class "jumbotron subhead" :id "overview"
           (:div :class "container"
             (:h1 :class "title" "L(λ)THW " (:small "Learn Lisp The Hard Way"))
@@ -126,6 +143,7 @@
         (:script :src "//code.jquery.com/jquery-1.11.0.min.js")
         (:script :src "//code.jquery.com/jquery-migrate-1.2.1.min.js")
         (:script :src "//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js")
+        (:script :src "/static/js/select2-3.5.0/select2.min.js")
         ;(:script :src "/static/js/jscl.js" :type "text/javascript")
         ;(:script :src "/static/js/jqconsole.min.js" :type "text/javascript")
         (:script :src "/static/js/llthw.js" :type "text/javascript")

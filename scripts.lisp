@@ -9,6 +9,22 @@
 (define-easy-handler (llthw-js :uri "/llthw.js") ()
   (setf (content-type*) "text/javascript")
   (ps
+    ((@ ($ "#reference-search") select2) (create placeholder "Search Common Lisp Symbol Reference..."
+                                                 allow-clear true
+                                                 format-result (lambda (obj)
+                                                                 (let* ((item (@ obj element))
+                                                                        (label ((@ ($ item) data) "label")))
+                                                                   (return (+ "<strong>" (@ obj text) "</strong> <span class='label label-default'>" label "</span>"))
+                                                                   ))
+                                                 escape-markup (lambda (m) (return m))
+                                                 ))
+    ;((@ ($ ".select2-result-label") each)
+    ;  (lambda ()
+    ;    (let ((the-label ((@ ($ this) data) "label")))
+    ;      ((@ ($ this) append) (+ "<span class='label label-default'>" the-label "</span>")))))
+    ((@ ($ document) ready)
+      (lambda ()
+        (return true)))
     ((@ ($ "#try-lisp-next") click)
       (lambda ()
         (let ((the-href ((@ ($ this) attr) "href")))
