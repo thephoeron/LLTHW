@@ -9,7 +9,7 @@
 (defun reference-search ()
   (loop for k being the hash-keys in *cl-reference-symbols* using (hash-value v)
           collect (cl-who:with-html-output (hunchentoot::*standard-output*)
-                    (:option :val (string k) :data-label (string (getf v :label)) (:strong (str (getf v :text))) " "
+                    (:option :value (string k) :data-label (string (getf v :label)) :data-clhs (string (getf v :clhs)) (:strong (str (getf v :text))) " "
                              ;(cond ((string= (getf v :label) "constant")
                              ;       (htm (:span :class "label label-default" "[" (str (getf v :label)) "]")))
                              ;      (t (htm (:em "{" (str (getf v :label)) "}"))))
@@ -140,6 +140,17 @@
               (:noscript "Please enable JavaScript to view the " (:a :href "http://disqus.com/?ref_noscript" "comments powered by Disqus."))
               (:a :href "http://disqus.com" :class "dsq-brlink" "comments powered by " (:span :class "logo-disqus" "Disqus")))))
         (llthw-footer)
+        (:div :class "modal fade" :id "refSearchModal" :tab-index "-1" :role "dialog" :aria-labelledby "refSearchModalLabel" :aria-hidden "true"
+          (:div :class "modal-dialog"
+            (:div :class "modal-content"
+              (:div :class "modal-header"
+                (:button :type "button" :class "close" :data-dismiss "modal" :aria-hidden "true" "&times;")
+                (:h4 :class "modal-title" :id "refSearchModalLabel" "Common Lisp Language Reference"))
+              (:div :class "modal-body" :id "refSearchModalBody")
+              (:div :class "modal-footer"
+                (:a :id "refSearchModalCLHSLink" :href "http://www.lispworks.com/reference/HyperSpec/" :role "button" :class "btn btn-default" :target "_blank"
+                  (:i :class "glyphicon glyphicon-new-window") " View in CLHS")
+                (:button :type "button" :class "btn btn-primary" :data-dismiss "modal" "Close")))))
         (:script :src "//code.jquery.com/jquery-1.11.0.min.js")
         (:script :src "//code.jquery.com/jquery-migrate-1.2.1.min.js")
         (:script :src "//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js")
