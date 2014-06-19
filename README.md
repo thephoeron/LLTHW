@@ -1,6 +1,6 @@
 # LLTHW
 
-The source-repository for LLTHW.
+Learn Lisp The Hard Way source-code and full book text.
 
 #### Supporting this project
 
