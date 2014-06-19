@@ -17,7 +17,7 @@
   ;(defparameter *tl-dir* (merge-pathnames "try-lisp/" *default-dir*))
   ;; lists of MD files
   (defparameter *book-files* (directory (merge-pathnames "*.md" *book-dir*)))
-  (defparameter *ref-files* (directory (merge-pathnames "*.md" *ref-dir*)))
+  ;(defparameter *ref-files* (directory (merge-pathnames "*.md" *ref-dir*)))
   ;(defparameter *tl-files* (directory (merge-pathnames "*.md" *tl-dir*)))
   )
 

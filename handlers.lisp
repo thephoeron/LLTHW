@@ -84,6 +84,13 @@
     (cl-who:with-html-output (hunchentoot::*standard-output*)
       (str (3bmd:parse-and-print-to-stream "try-lisp/math.md" hunchentoot::*standard-output* :format :html)))))
 
+;; Reference pages
+
+(define-easy-handler (llthw-reference :uri "/reference/") (ref-page)
+  (reference-basic-page ()
+    (cl-who:with-html-output (hunchentoot::*standard-output*)
+      (str (3bmd:parse-and-print-to-stream (format nil "reference/~(~A~).md" ref-page) hunchentoot::*standard-output* :format :html)))))
+
 ;; Main site pages
 (define-easy-handler (llthw-get-lisp :uri "/get-lisp/") ()
   (llthw-page (:subtitle "Download and Install Steel Bank Common Lisp" :section "get-lisp")
@@ -109,7 +116,7 @@
 
 (eval-when (:execute :compile-toplevel :load-toplevel)
   (create-book-pages *book-files*)
-  (create-reference-pages *ref-files*)
+  ;(create-reference-pages *ref-files*)
   ;(create-reference-pages *tl-files* :section "try-lisp")
   )
 

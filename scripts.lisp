@@ -22,7 +22,7 @@
       (lambda ()
         (let* ((the-id ((@ ($ "#reference-search") select2) "val"))
                (the-label (@ ((@ ($ "#reference-search") select2) "data") text))
-               (the-href (+ "/reference/" the-id "/"))
+               (the-href (+ "/reference/?ref-page=" the-id ""))
                (clhs-root "http://www.lispworks.com/reference/HyperSpec/")
                (clhs-entry ((@ ($ "#reference-search option:selected") data) "clhs")))
           ((@ ($ "#refSearchModalLabel") text) (+ "Common Lisp Symbol: " the-label " "))
