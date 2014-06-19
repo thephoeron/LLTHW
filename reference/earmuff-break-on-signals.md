@@ -1,8 +1,8 @@
-### *variable* **\*break-on-signals\***
+### <em>variable</em> <strong>`*break-on-signals*`</strong>
 
 Syntax:
 
-**symbol-name** *parameters* => *return-type*
+<strong>`*break-on-signals*`</strong> <em>parameters</em> => <em>return-type</em>
 
 Documentation of parameters and return-results.
 
