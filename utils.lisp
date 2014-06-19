@@ -188,7 +188,7 @@
       (gethash "tilde-newline" *cl-reference-symbols*) '(:text "~#\\Newline" :label "format control" :clhs "Body/22_cic.htm")
       (gethash "tilde-semicolon" *cl-reference-symbols*) '(:text "~;" :label "format control" :clhs "Body/22_cia.htm")
       (gethash "literal-backtick" *cl-reference-symbols*) '(:text "\`" :label "literal" :clhs "Body/02_df.htm")
-      (gethash "literal-hbars" *cl-reference-symbols*) '(:text "|...|" :label "literal" :clhs "Body/.htm")
+      (gethash "literal-hbars" *cl-reference-symbols*) '(:text "|...|" :label "literal" :clhs "Body/02_cd.htm")
       (gethash "literal-one-plus" *cl-reference-symbols*) '(:text "1+" :label "function" :clhs "Body/f_1pl_1_.htm")
       (gethash "literal-one-minus" *cl-reference-symbols*) '(:text "1-" :label "function" :clhs "Body/f_1pl_1_.htm")
       (gethash "abort" *cl-reference-symbols*) '(:text "abort" :label "function" :clhs "Body/a_abort.htm")
