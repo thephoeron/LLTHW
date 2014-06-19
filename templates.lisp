@@ -6,6 +6,30 @@
 
 (in-package :llthw)
 
+(defun create-reference-files ()
+  (loop for k being the hash-keys in *cl-reference-symbols* using (hash-value v)
+        do (with-open-file (s (merge-pathnames (format nil "~(~A~).md" k) *ref-dir*) :direction :output :if-exists :supersede :if-does-not-exist :create)
+             (format s "### <em>~(~A~)</em> <strong>`~(~A~)`</strong>~
+                        ~%~
+                        ~%Syntax:~
+                        ~%~
+                        ~%<strong>`~(~A~)`</strong> <em>parameters</em> => <em>return-type</em>~
+                        ~%~
+                        ~%Documentation of parameters and return-results.~
+                        ~%~
+                        ~%Examples (not from CLHS...):~
+                        ~%~
+                        ~%```lisp~
+                        ~%CL-USER> (example-code 'a 'b 'c)~
+                        ~%~
+                        ~%'return-result~
+                        ~%```~
+                        ~%"
+                        (getf v :label)
+                        (getf v :text)
+                        (getf v :text)
+                        ))))
+
 (defun reference-search ()
   (loop for k being the hash-keys in *cl-reference-symbols* using (hash-value v)
           collect (cl-who:with-html-output (hunchentoot::*standard-output*)
@@ -57,15 +81,7 @@
       (:body
         (:nav :class "navbar navbar-inverse navbar-fixed-top" :role "navigation"
           (:div :class "container"
-            (:div :class "navbar-header"
-              ;(:a :class "navbar-brand" :href "#" (str (format nil "L(~C)THW" #\greek_small_letter_lamda)))
-              )
-            ;(:ul :class "nav navbar-nav"
-            ;  (:li :class "active" (:a :href "/" "Home"))
-            ;  (:li (:a :href "/try-lisp/" "Try Lisp"))
-            ;  (:li (:a :href "/book/" "Book"))
-            ;  (:li (:a :href "/resources/" "Resources")))
-              ))
+            (:div :class "navbar-header")))
         ,@body
         (llthw-footer)
         (:script :src "//code.jquery.com/jquery-1.11.0.min.js")
@@ -109,8 +125,8 @@
               (:div :class "form-group"
                 (:select :id "reference-search" :style "width: 325px; min-width: 325px;"
                   (:option)
-                  (reference-search)
-                                    )))))
+                  (reference-search))))))
+        (:a :name "top" :id "top")
         (:div :class "jumbotron subhead" :id "overview"
           (:div :class "container"
             (:h1 :class "title" "L(λ)THW " (:small "Learn Lisp The Hard Way"))
@@ -118,7 +134,6 @@
         (:div :class "container" :id "body"
           (:div :class "row"
             (:div :class "col-md-9" :id "llthwdoc"
-              (:a :name "top")
               ,@body
               (:h2 "Comments"))
             (:div :class "col-md-3"
