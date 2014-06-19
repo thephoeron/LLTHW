@@ -37,7 +37,7 @@
           ((@ ($ "#refSearchModalBody") html) "<div style='width: 100%; height: 240px; min-height: 240px; display: block; position: static; vertical-align: middle;'><div style='margin-top: auto; text-align: center;'><h4 class='text-info'>Loading...</h4><i class='fa fa-spinner fa-spin fa-4x text-info' style='margin: auto;'></i></div></div>")
           ((@ ($ "#refSearchModal") modal) "show")
           ((@ ($ "#refSearchModalBody") load) the-href)
-          )))
+          (return false))))
     ((@ ($ "#llthwdoc img") add-class) "img-thumbnail")
     ((@ ($ "ul.sidenav") html) "")
     ((@ ((@ ((@ ($ "#llthwdoc") children)) filter) ":header") each)
