@@ -25,6 +25,29 @@
                           (cl-who:with-html-output (hunchentoot::*standard-output*)
                             (str (3bmd:parse-and-print-to-stream ,(format nil "~(~A/~A~)" section (file-namestring file)) hunchentoot::*standard-output* :format :html))))))))
 
+(defun create-reference-files ()
+  (loop for k being the hash-keys in *cl-reference-symbols* using (hash-value v)
+        do (with-open-file (s (merge-pathnames (format nil "~(~A~).md" k) *ref-dir*) :direction :output :if-exists :supersede :if-does-not-exist :create)
+             (format s "### <em>~(~A~)</em> <strong>`~(~A~)`</strong>~
+                        ~%~
+                        ~%Syntax:~
+                        ~%~
+                        ~%<strong>`~(~A~)`</strong> <em>parameters</em> => <em>return-type</em>~
+                        ~%~
+                        ~%Documentation of parameters and return-results.~
+                        ~%~
+                        ~%Examples (not from CLHS...):~
+                        ~%~
+                        ~%```lisp~
+                        ~%CL-USER> (example-code 'a 'b 'c)~
+                        ~%~
+                        ~%'return-result~
+                        ~%```~
+                        ~%"
+                        (getf v :label)
+                        (getf v :text)
+                        (getf v :text)))))
+
 ;; Common Lisp Reference Symbols
 ;  Symbols labelled with <span class='label'>type</span>
 ;  - literals (not labelled, emphasized)
