@@ -87,9 +87,15 @@
 ;; Reference pages
 
 (define-easy-handler (llthw-reference :uri "/reference/") (ref-page)
-  (reference-basic-page ()
-    (cl-who:with-html-output (hunchentoot::*standard-output*)
-      (str (3bmd:parse-and-print-to-stream (format nil "reference/~(~A~).md" ref-page) hunchentoot::*standard-output* :format :html)))))
+  (let ((the-ref-page (format nil "reference/~(~A~).md" (cl-who:escape-string-all ref-page))))
+    (if (probe-file the-ref-page)
+        (reference-basic-page ()
+          (cl-who:with-html-output (hunchentoot::*standard-output*)
+            (str (3bmd:parse-and-print-to-stream the-ref-page hunchentoot::*standard-output* :format :html))))
+        ;else
+        (reference-basic-page ()
+          (cl-who:with-html-output (hunchentoot::*standard-output*)
+            (:h4 "Error 404: Not Found"))))))
 
 ;; Main site pages
 (define-easy-handler (llthw-get-lisp :uri "/get-lisp/") ()
