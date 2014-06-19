@@ -140,7 +140,7 @@
               (:div :class "modal-body" :id "refSearchModalBody")
               (:div :class "modal-footer"
                 (:a :id "refSearchModalCLHSLink" :href "http://www.lispworks.com/reference/HyperSpec/" :role "button" :class "btn btn-default" :target "_blank"
-                  (:i :class "glyphicon glyphicon-new-window") " View in CLHS")
+                  (:i :class "glyphicon glyphicon-new-window") " View entry in CLHS")
                 (:button :type "button" :class "btn btn-primary" :data-dismiss "modal" "Close")))))
         (:script :src "//code.jquery.com/jquery-1.11.0.min.js")
         (:script :src "//code.jquery.com/jquery-migrate-1.2.1.min.js")
