@@ -175,6 +175,8 @@
         (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css")
         (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css")
         (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css")
+        (:link :rel "stylesheet" :href "/static/js/select2-3.5.0/select2.css")
+        (:link :rel "stylesheet" :href "/static/css/select2-bootstrap.css")
         (:link :rel "stylesheet" :href "/static/css/llthw.css")
         (:title ,title)
         (google-analytics))
@@ -189,7 +191,12 @@
               (:li (:a :href "/resources/" "Resources"))
               (:li :class "active" (:a :href "/try-lisp/" "Try Lisp"))
               (:li (:a :href "/get-lisp/" "Get Lisp"))
-              (:li (:a :href "/donate/" "Donations")))))
+              (:li (:a :href "/donate/" "Donations")))
+          (:form :class "navbar-form navbar-right" :role "search"
+            (:div :class "form-group"
+              (:select :id "reference-search" :style "width: 325px; min-width: 325px;"
+                (:option)
+                (reference-search))))))
         (:div :class "jumbotron trylisphead" :id "overview"
           (:div :class "container"
             (:div :class "row"
@@ -202,9 +209,21 @@
               (:div :class "col-md-6"
                 (:div :id "console")))))
         (llthw-footer)
+        (:div :class "modal fade" :id "refSearchModal" :tab-index "-1" :role "dialog" :aria-labelledby "refSearchModalLabel" :aria-hidden "true"
+          (:div :class "modal-dialog"
+            (:div :class "modal-content"
+              (:div :class "modal-header"
+                (:button :type "button" :class "close" :data-dismiss "modal" :aria-hidden "true" "&times;")
+                (:h4 :class "modal-title" :id "refSearchModalLabel" "Common Lisp Language Reference"))
+              (:div :class "modal-body" :id "refSearchModalBody")
+              (:div :class "modal-footer"
+                (:a :id "refSearchModalCLHSLink" :href "http://www.lispworks.com/reference/HyperSpec/" :role "button" :class "btn btn-default" :target "_blank"
+                  (:i :class "glyphicon glyphicon-new-window") " View entry in CLHS")
+                (:button :type "button" :class "btn btn-primary" :data-dismiss "modal" "Close")))))
         (:script :src "//code.jquery.com/jquery-1.11.0.min.js")
         (:script :src "//code.jquery.com/jquery-migrate-1.2.1.min.js")
         (:script :src "//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js")
+        (:script :src "/static/js/select2-3.5.0/select2.min.js")
         (:script :src "/static/js/jscl.js" :type "text/javascript")
         (:script :src "/static/js/jqconsole.min.js" :type "text/javascript")
         (:script :src "/static/js/llthw.js" :type "text/javascript")
