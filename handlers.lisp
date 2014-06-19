@@ -80,7 +80,7 @@
       (str (3bmd:parse-and-print-to-stream "try-lisp/index.md" hunchentoot::*standard-output* :format :html)))))
 
 (define-easy-handler (llthw-try-lisp-math :uri "/try-lisp/math/") ()
-  (reference-basic-page ()
+  (try-lisp-basic-page ()
     (cl-who:with-html-output (hunchentoot::*standard-output*)
       (str (3bmd:parse-and-print-to-stream "try-lisp/math.md" hunchentoot::*standard-output* :format :html)))))
 
