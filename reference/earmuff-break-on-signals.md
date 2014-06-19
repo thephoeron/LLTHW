@@ -13,5 +13,3 @@ CL-USER> (example-code 'a 'b 'c)
 
 'return-result
 ```
-
-Link to CLHS, new tab/window.
