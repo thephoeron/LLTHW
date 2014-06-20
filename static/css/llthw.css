@@ -149,6 +149,72 @@ body {
   color: #000;
 }
 
+@media (min-width: 480px) {
+  .masthead {
+    height: auto;
+    position: relative;
+  }
+  .masthead .container {
+    position: relative;
+    z-index: 2;
+  }
+  .masthead h1 {
+    font-size: 60px;
+  }
+  .masthead .btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .masthead-links {
+    margin: 0;
+  }
+  .masthead-links li {
+    padding: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .masthead {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    height: auto;
+  }
+  .masthead h1 {
+    font-size: 60px;
+  }
+  .masthead .lead {
+    font-size: 24px;
+  }
+  .masthead .btn {
+    height: auto;
+    min-width: 10%;
+    max-width: 20%;
+  }
+  .masthead .btn-lg {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    height: auto;
+  }
+  .masthead h1 {
+    font-size: 120px;
+  }
+  .masthead .lead {
+    width: 80%;
+    font-size: 30px;
+  }
+  .masthead .btn {
+    height: auto;
+    width: 20%;
+  }
+  .masthead .btn-lg {
+    font-size: 16px;
+  }
+}
+
 .subhead {
   text-align: left;
   border-bottom: 1px solid #ddd;
@@ -179,6 +245,25 @@ body {
 }
 .subhead p {
   margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .subhead {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 24px;
+    text-align: left;
+  }
+  .subhead h1 {
+    font-size: 60px;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 992px) {
+  .subhead h1, .subhead p {
+    margin-right: 380px;
+  }
 }
 
 .social-banner {

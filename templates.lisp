@@ -6,6 +6,13 @@
 
 (in-package :llthw)
 
+(defparameter *ie8-support* "
+<!--[if lt IE 9]>
+  <script src=\"https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js\"></script>
+  <script src=\"https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js\"></script>
+<![endif]-->
+")
+
 (defun reference-search ()
   (loop for k being the hash-keys in *cl-reference-symbols* using (hash-value v)
           collect (cl-who:with-html-output (hunchentoot::*standard-output*)
@@ -45,6 +52,7 @@
     (:html :lang "en"
       (:head
         (:meta :charset "utf-8")
+        (:meta :http-equiv "X-UA-Compatible" :content "IE=edge")
         (:meta :name "viewport" :content "width=device-width, initial-scale=1.0")
         (:meta :name "description" :content "Learn Lisp The Hard Way")
         (:meta :name "author" :content "\"the Phoeron\" Colin J.E. Lupton")
@@ -53,6 +61,7 @@
         (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css")
         (:link :rel "stylesheet" :href "/static/css/llthw.css")
         (:title ,title)
+        (string *ie8-support*)
         (google-analytics))
       (:body
         (:nav :class "navbar navbar-inverse navbar-fixed-top" :role "navigation"
@@ -69,6 +78,7 @@
     (:html :lang "en"
       (:head
         (:meta :charset "utf-8")
+        (:meta :http-equiv "X-UA-Compatible" :content "IE=edge")
         (:meta :name "viewport" :content "width=device-width, initial-scale=1.0")
         (:meta :name "description" :content "Learn Lisp The Hard Way")
         (:meta :name "author" :content "\"the Phoeron\" Colin J.E. Lupton")
@@ -79,6 +89,7 @@
         (:link :rel "stylesheet" :href "/static/css/select2-bootstrap.css")
         (:link :rel "stylesheet" :href "/static/css/llthw.css")
         (:title ,title)
+        (string *ie8-support*)
         (google-analytics))
       (:body :data-spy "scroll" :data-target ".sidebar" :data-offset "90"
         (:nav :class "navbar navbar-inverse navbar-fixed-top" :role "navigation"
@@ -162,9 +173,11 @@
     (:html :lang "en"
       (:head
         (:meta :charset "utf-8")
+        (:meta :http-equiv "X-UA-Compatible" :content "IE=edge")
         (:meta :name "description" :content "Learn Lisp The Hard Way")
         (:meta :name "author" :content "\"the Phoeron\" Colin J.E. Lupton")
         (:title ,title)
+        (string *ie8-support*)
         ;(google-analytics)
         )
       (:body
@@ -177,9 +190,11 @@
     (:html :lang "en"
       (:head
         (:meta :charset "utf-8")
+        (:meta :http-equiv "X-UA-Compatible" :content "IE=edge")
         (:meta :name "description" :content "Learn Lisp The Hard Way")
         (:meta :name "author" :content "\"the Phoeron\" Colin J.E. Lupton")
         (:title ,title)
+        (string *ie8-support*)
         ;(google-analytics)
         )
       (:body
@@ -191,6 +206,7 @@
     (:html :lang "en"
       (:head
         (:meta :charset "utf-8")
+        (:meta :http-equiv "X-UA-Compatible" :content "IE=edge")
         (:meta :name "viewport" :content "width=device-width, initial-scale=1.0")
         (:meta :name "description" :content "Learn Lisp The Hard Way")
         (:meta :name "author" :content "\"the Phoeron\" Colin J.E. Lupton")
@@ -201,6 +217,7 @@
         (:link :rel "stylesheet" :href "/static/css/select2-bootstrap.css")
         (:link :rel "stylesheet" :href "/static/css/llthw.css")
         (:title ,title)
+        (string *ie8-support*)
         (google-analytics))
       (:body :data-spy "scroll" :data-target ".sidebar" :data-offset "90"
         (:nav :class "navbar navbar-inverse navbar-fixed-top" :role "navigation"
