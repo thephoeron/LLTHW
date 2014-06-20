@@ -177,6 +177,10 @@ body {
   .masthead-links li {
     padding: 0;
   }
+  .trylisphead {
+    position: relative;
+    height: auto;
+  }
 }
 
 @media (min-width: 768px) {
