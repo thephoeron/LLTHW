@@ -84,24 +84,30 @@
         (:nav :class "navbar navbar-inverse navbar-fixed-top" :role "navigation"
           (:div :class "container"
             (:div :class "navbar-header"
+              (:button :type "button" :class "navbar-toggle" :data-toggle "collapse" :data-target "#llthw-navbar-collapse-1"
+                (:span :class "sr-only" "Toggle Navigation")
+                (:span :class "icon-bar")
+                (:span :class "icon-bar")
+                (:span :class "icon-bar"))
               (:a :class "navbar-brand" :href "/" (str (format nil "L(~C)THW" #\greek_small_letter_lamda))))
-            (:ul :class "nav navbar-nav"
-              (:li :title "Home" (:a :href "/" "Home"))
-              (:li :title "Book" :class (str (if (string= ,section "book") "active" " "))
-                (:a :href "/book/" "Book"))
-              (:li :title "Resources" :class (str (if (string= ,section "resources") "active" " "))
-                (:a :href "/resources/" "Resources"))
-              (:li :title "Try Lisp" :class (str (if (string= ,section "try-lisp") "active" " "))
-                (:a :href "/try-lisp/" "Try Lisp"))
-              (:li :title "Get Lisp" :class (str (if (string= ,section "get-lisp") "active" " "))
-                (:a :href "/get-lisp/" "Get Lisp"))
-              (:li :title "Donations" :class (str (if (string= ,section "donations") "active" " "))
-                (:a :href "/donate/" "Donations")))
-            (:form :class "navbar-form navbar-right" :role "search"
-              (:div :class "form-group"
-                (:select :id "reference-search" :style "width: 325px; min-width: 325px;"
-                  (:option)
-                  (reference-search))))))
+            (:div :class "collapse navbar-collapse" :id "llthw-navbar-collapse-1"
+              (:ul :class "nav navbar-nav"
+                (:li :title "Home" (:a :href "/" "Home"))
+                (:li :title "Book" :class (str (if (string= ,section "book") "active" " "))
+                  (:a :href "/book/" "Book"))
+                (:li :title "Resources" :class (str (if (string= ,section "resources") "active" " "))
+                  (:a :href "/resources/" "Resources"))
+                (:li :title "Try Lisp" :class (str (if (string= ,section "try-lisp") "active" " "))
+                  (:a :href "/try-lisp/" "Try Lisp"))
+                (:li :title "Get Lisp" :class (str (if (string= ,section "get-lisp") "active" " "))
+                  (:a :href "/get-lisp/" "Get Lisp"))
+                (:li :title "Donations" :class (str (if (string= ,section "donations") "active" " "))
+                  (:a :href "/donate/" "Donations")))
+                (:form :class "navbar-form navbar-right" :role "search"
+                  (:div :class "form-group"
+                    (:select :id "reference-search" :style "width: 325px; min-width: 325px;"
+                      (:option)
+                      (reference-search)))))))
         (:a :name "top" :id "top")
         (:div :class "jumbotron subhead" :id "overview"
           (:div :class "container"
