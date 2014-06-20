@@ -103,7 +103,7 @@ body {
   right: 0;
   background: url(/static/img/pattern.png) repeat center center;
   opacity: .4;
-  height: 550px;
+  height: 100%;
 }
 
 .masthead .container {
