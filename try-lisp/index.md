@@ -4,7 +4,7 @@
 
 <kbd>&uarr;</kbd>, <kbd>&darr;</kbd> to navigate evaluation history.
 
-<kbd>&#x21e7; Shift + &#x21b2; Return</kbd> to continue typing on the next line.
+<kbd>&#x21e7; Shift + &#x21b2; Return</kbd> to continue typing your expression on the next line.
 
 <kbd>&#x21b2; Return/Enter</kbd> to evaluate what you've entered.
 
