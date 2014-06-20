@@ -149,7 +149,7 @@ body {
   color: #000;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 320px) {
   .masthead {
     height: auto;
     position: relative;
