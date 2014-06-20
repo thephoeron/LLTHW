@@ -90,7 +90,7 @@ body {
   margin-bottom: 0;
   background-color: #9933FF;
   color: #FFFFFF;
-  height: 550px;
+  height: auto;
 }
 
 .masthead:after {
