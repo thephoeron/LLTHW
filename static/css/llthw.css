@@ -162,7 +162,7 @@ body {
     font-size: 60px;
   }
   .masthead p {
-    font-size: 28px;
+    font-size: 24px;
   }
   .masthead .btn {
     width: 100%;
@@ -170,6 +170,9 @@ body {
   }
   .masthead .btn-lg {
     font-size: 14px;
+  }
+  .masthead pre {
+    font-size: 11px;
   }
   .masthead-links {
     margin: 0;
