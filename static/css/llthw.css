@@ -205,6 +205,12 @@ body {
     width: 80%;
     font-size: 30px;
   }
+  .masthead .btn {
+    width: auto;
+  }
+  .masthead .btn-lg {
+    font-size: 18px;
+  }
 }
 
 .subhead {
