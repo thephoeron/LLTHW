@@ -161,9 +161,15 @@ body {
   .masthead h1 {
     font-size: 60px;
   }
+  .masthead p {
+    font-size: 28px;
+  }
   .masthead .btn {
     width: 100%;
     margin-top: 10px;
+  }
+  .masthead .btn-lg {
+    font-size: 14px;
   }
   .masthead-links {
     margin: 0;
@@ -182,6 +188,9 @@ body {
   .masthead h1 {
     font-size: 60px;
   }
+  .masthead p {
+    font-size: 28px;
+  }
   .masthead .lead {
     font-size: 24px;
   }
@@ -190,7 +199,7 @@ body {
     width: 100%;
   }
   .masthead .btn-lg {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -202,7 +211,9 @@ body {
     font-size: 120px;
   }
   .masthead .lead {
-    width: 80%;
+    font-size: 40px;
+  }
+  .masthead p {
     font-size: 30px;
   }
   .masthead .btn {
@@ -210,6 +221,9 @@ body {
   }
   .masthead .btn-lg {
     font-size: 18px;
+  }
+  .masthead-links li {
+    padding: 0 10px;
   }
 }
 

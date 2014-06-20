@@ -13,7 +13,7 @@
       (:div :class "jumbotron masthead"
         (:div :class "container"
           (:h1 :align "center" "L(λ)THW")
-          (:p :align "center"
+          (:p :class "lead" :align "center"
             "Learn Lisp The Hard Way")
           (:div :class "row"
             (:div :class "col-md-8 col-md-offset-2"
