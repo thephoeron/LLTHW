@@ -187,11 +187,10 @@ body {
   }
   .masthead .btn {
     height: auto;
-    min-width: 10%;
-    max-width: 20%;
+    width: 100%;
   }
   .masthead .btn-lg {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
@@ -205,13 +204,6 @@ body {
   .masthead .lead {
     width: 80%;
     font-size: 30px;
-  }
-  .masthead .btn {
-    height: auto;
-    width: 20%;
-  }
-  .masthead .btn-lg {
-    font-size: 16px;
   }
 }
 
