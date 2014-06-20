@@ -153,6 +153,7 @@ body {
   .masthead {
     height: auto;
     position: relative;
+    padding: 10px;
   }
   .masthead .container {
     position: relative;
