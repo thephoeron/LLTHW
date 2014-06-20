@@ -203,6 +203,9 @@ body {
   .masthead .lead {
     font-size: 24px;
   }
+  .masthead pre {
+    font-size: 11px;
+  }
   .masthead .btn {
     height: auto;
     width: 100%;
@@ -224,6 +227,9 @@ body {
   }
   .masthead p {
     font-size: 30px;
+  }
+  .masthead pre {
+    font-size: 13px;
   }
   .masthead .btn {
     width: auto;
