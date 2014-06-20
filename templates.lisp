@@ -114,7 +114,7 @@
                   (:a :href "/get-lisp/" "Get Lisp"))
                 (:li :title "Donations" :class (str (if (string= ,section "donations") "active" " "))
                   (:a :href "/donate/" "Donations")))
-                (:form :class "navbar-form navbar-right" :role "search"
+                (:form :class "navbar-form navbar-right hidden-xs" :role "search"
                   (:div :class "form-group"
                     (:select :id "reference-search" :style "width: 325px; min-width: 325px;"
                       (:option)
@@ -122,7 +122,8 @@
         (:a :name "top" :id "top")
         (:div :class "jumbotron subhead" :id "overview"
           (:div :class "container"
-            (:h1 :class "title" "L(λ)THW " (:small "Learn Lisp The Hard Way"))
+            (:h1 :class "title hidden-xs" "L(λ)THW " (:small "Learn Lisp The Hard Way"))
+            (:h1 :class "title visible-xs" (:small "Learn Lisp The Hard Way"))
             (:p :class "lead" ,subtitle)))
         (:div :class "container" :id "body"
           (:div :class "row"
@@ -223,26 +224,37 @@
         (:nav :class "navbar navbar-inverse navbar-fixed-top" :role "navigation"
           (:div :class "container"
             (:div :class "navbar-header"
+              (:button :type "button" :class "navbar-toggle" :data-toggle "collapse" :data-target "#llthw-navbar-collapse-1"
+                (:span :class "sr-only" "Toggle Navigation")
+                (:span :class "icon-bar")
+                (:span :class "icon-bar")
+                (:span :class "icon-bar"))
               (:a :class "navbar-brand" :href "/" (str (format nil "L(~C)THW" #\greek_small_letter_lamda))))
-            (:ul :class "nav navbar-nav"
-              (:li (:a :href "/" "Home"))
-              (:li (:a :href "/book/" "Book"))
-              (:li (:a :href "/resources/" "Resources"))
-              (:li :class "active" (:a :href "/try-lisp/" "Try Lisp"))
-              (:li (:a :href "/get-lisp/" "Get Lisp"))
-              (:li (:a :href "/donate/" "Donations")))
-          (:form :class "navbar-form navbar-right" :role "search"
-            (:div :class "form-group"
-              (:select :id "reference-search" :style "width: 325px; min-width: 325px;"
-                (:option)
-                (reference-search))))))
+            (:div :class "collapse navbar-collapse" :id "llthw-navbar-collapse-1"
+              (:ul :class "nav navbar-nav"
+                (:li (:a :href "/" "Home"))
+                (:li (:a :href "/book/" "Book"))
+                (:li (:a :href "/resources/" "Resources"))
+                (:li :class "active" (:a :href "/try-lisp/" "Try Lisp"))
+                (:li (:a :href "/get-lisp/" "Get Lisp"))
+                (:li (:a :href "/donate/" "Donations")))
+              (:form :class "navbar-form navbar-right hidden-xs" :role "search"
+                (:div :class "form-group"
+                  (:select :id "reference-search" :style "width: 325px; min-width: 325px;"
+                    (:option)
+                    (reference-search)))))))
         (:div :class "jumbotron trylisphead" :id "overview"
           (:div :class "container"
             (:div :class "row"
               (:div :class "col-md-12"
-                (:h1 "L(λ)THW" (:small "Try Common Lisp"))
+                (:h1 :class "hidden-xs" "L(λ)THW" (:small "Try Common Lisp"))
+                (:h1 :class "visible-xs" "Try Common Lisp")
                 (:p "&nbsp;")))
-            (:div :class "row"
+            (:div :class "row visible-xs"
+              (:div :class "col-xs-12"
+                (:p :class "lead"
+                  "The In-Browser REPL is not available on mobile phones.  Please visit this site on a tablet or desktop computer to use this feature.")))
+            (:div :class "row hidden-xs"
               (:div :class "col-md-6" :id "trylispbody"
                 ,@body)
               (:div :class "col-md-6"
