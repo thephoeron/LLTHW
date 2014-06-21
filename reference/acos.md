@@ -8,13 +8,13 @@
 
 The arc cosine function may be defined mathematically for an argument *z* as follows:
 
-\`-i log(z + root i (1-z^2))\`
+\`-i log(z + i sqrt (1-z^2))\`
 
 Note that the result of `acos` may be complex even if the argument is not complex; this occurs when the absolute value of the argument is greater than 1.
 
 Alternate suggestions for the defining formula are:
 
-\`(2 log(sqrt(1+z/2)+root i (1-z/2)))/i\`
+\`(2 log(sqrt((1+z)/2)+i sqrt((1-z)/2)))/i\`
 
 Or the much simpler, \`(pi/2)-arcsin z\`
 
