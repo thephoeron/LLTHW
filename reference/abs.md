@@ -1,20 +1,18 @@
 #### <em>function</em> <strong>`abs`</strong>
 
-Syntax:
+**Syntax:** <strong>`abs`</strong> *number* => *number*
 
-: <strong>`abs`</strong> *number* => *number*
+**Description:**
 
-Description:
-
-: Returns the absolute value of the argument. For a non-complex number *x*,
+Returns the absolute value of the argument. For a non-complex number *x*,
 
 ```lisp
 (abs x) == (if (minusp x) (- x) x)
 ```
 
-: and the result is always of the same type as the argument.
+and the result is always of the same type as the argument.
 
-: For a complex number *z*, the absolute value may be computed as
+For a complex number *z*, the absolute value may be computed as
 
 ```lisp
 (sqrt (+ (expt (realpart z) 2) (expt (imagpart z) 2)))
@@ -22,7 +20,7 @@ Description:
 
 *Text from [CLTL2](http://www.cs.cmu.edu/Groups/AI/html/cltl/clm/node128.html)*.
 
-Examples:
+**Examples:**
 
 ```lisp
 (abs -4.0) => 4.0

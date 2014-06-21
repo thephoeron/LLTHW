@@ -1,12 +1,10 @@
 #### <em>function</em> <strong>`acons`</strong>
 
-Syntax:
+**Syntax:** <strong>`acons`</strong> <em>key datum a-list</em> => <em>a-list</em>
 
-: <strong>`acons`</strong> <em>key datum a-list</em> => <em>a-list</em>
+**Description:**
 
-Description:
-
-: `acons` constructs a new association list by adding the pair *(key . datum)* to the old *a-list*.
+`acons` constructs a new association list by adding the pair *(key . datum)* to the head of the old *a-list*.
 
 ```lisp
 (acons x y a) == (cons (cons x y) a)
@@ -14,7 +12,7 @@ Description:
 
 *Text from [CLTL2](http://www.cs.cmu.edu/Groups/AI/html/cltl/clm/node153.html)*.
 
-Examples:
+**Examples:**
 
 ```lisp
 (let ((a-list (list (cons 'a 'b))))
