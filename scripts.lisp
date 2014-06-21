@@ -38,6 +38,10 @@
               ((@ ($ "#refSearchModal") modal) "show")
               ((@ ($ "#refSearchModalBody") load) the-href)
               (return false))))
+        ((@ |MathJax| |Hub| |Config|) (create menu-settings (create zoom "Hover")
+                                              |MathMenu| (create styles (create "#MathJax_About" (create "z-index" "1053 !important")
+                                                                                "#MathJax_MenuFrame" (create "z-index" "1052 !important")
+                                                                                ".MathJax_Menu" (create "z-index" "1053 !important")))))
         (return false)))
     ((@ ($ "#llthwdoc img") add-class) "img-thumbnail")
     ((@ ($ "ul.sidenav") html) "")
@@ -48,7 +52,7 @@
           ((@ ($ this) attr) "id" the-id)
           ((@ ($ "ul.sidenav") append) (+ "<li><a href='#" the-id "'>" the-title "</a></li>"))
           (return true))))
-      ((@ ($ "ul.sidenav") append) "<li><a href='#top'><i class='fa fa-angle-up'></i> Back to Top</a></li>")))
+    ((@ ($ "ul.sidenav") append) "<li><a href='#top'><i class='fa fa-angle-up'></i> Back to Top</a></li>")))
 
 ;; Google Analytics
 

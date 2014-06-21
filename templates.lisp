@@ -44,7 +44,8 @@
           (:a :href "https://github.com/vsedach/Parenscript" :target "_blank" "Parenscript") ", "
           (:a :href "https://github.com/3b/3bmd" :target "_blank" "3bmd") ", "
           (:a :href "https://github.com/redline6561/colorize" :target "_blank" "Colorize") ", "
-          (:a :href "http://jquery.com/" :target "_blank" "jQuery") ", and "
+          (:a :href "http://jquery.com/" :target "_blank" "jQuery") ", "
+          (:a :href "http://www.mathjax.org/" :target "_blank" "MathJax") ", and "
           (:a :href "http://getbootstrap.com/" :target "_blank" "Bootstrap") ".")))))
 
 (defmacro basic-llthw-page ((&key (title "L(λ)THW")) &body body)
