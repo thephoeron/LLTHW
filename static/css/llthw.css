@@ -12,6 +12,16 @@ body {
   margin-bottom: 0;
 }
 
+#MathJax_About {
+  z-index: 1053 !important;
+}
+#MathJax_MenuFrame {
+  z-index: 1052 !important;
+}
+.MathJax_Menu {
+  z-index: 1053 !important;
+}
+
 .jumbotron {
   position: relative;
   padding: 33px 0;
