@@ -16,10 +16,9 @@ Examples:
 ;;; Print every third number.
 
 (loop for i from 10 above 1 by 3
-      do (print i)) ;Prints 4 lines
-10  
-7  
-4  
-1  
+      do (print i)) ;Prints 3 lines
+10
+7
+4
 => NIL
 ```
