@@ -1,15 +1,25 @@
-### <em>function</em> <strong>`acons`</strong>
+#### <em>function</em> <strong>`acons`</strong>
 
 Syntax:
 
-<strong>`acons`</strong> <em>parameters</em> => <em>return-type</em>
+: <strong>`acons`</strong> <em>key datum a-list</em> => <em>a-list</em>
 
-Documentation of parameters and return-results.
+Description:
 
-Examples (not from CLHS...):
+: `acons` constructs a new association list by adding the pair *(key . datum)* to the old *a-list*.
 
 ```lisp
-CL-USER> (example-code 'a 'b 'c)
+(acons x y a) == (cons (cons x y) a)
+```
 
-'return-result
+*Text from [CLTL2](http://www.cs.cmu.edu/Groups/AI/html/cltl/clm/node153.html)*.
+
+Examples:
+
+```lisp
+(let ((a-list (list (cons 'a 'b))))
+  (acons 'c 'd a-list))
+
+=> ((C . D) (A . B))
+
 ```
