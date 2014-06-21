@@ -20,10 +20,14 @@ Or the much simpler, \`(pi/2)-arcsin z\`
 
 Both equations are mathematically equivalent to the formula shown above.
 
+*Text from [CLTL2](http://www.cs.cmu.edu/Groups/AI/html/cltl/clm/node128.html). Edited for clarity, not content.*
+
 **Examples:**
 
 ```lisp
-CL-USER> (example-code 'a 'b 'c)
+(acos 4) => #C(0.0 2.063437)
 
-'return-result
+(acos pi) => #C(0.0d0 1.8115262724608532d0)
+
+(acos #C(1.0 1.1)) => #C(0.9381622 -1.1168567)
 ```
