@@ -1,15 +1,17 @@
 ### <em>function</em> <strong>`+`</strong>
 
-Syntax:
+**Syntax:** <strong>`+`</strong> &rest <em>numbers</em> => <em>number</em>
 
-<strong>`+`</strong> <em>parameters</em> => <em>return-type</em>
+**Description:**
 
-Documentation of parameters and return-results.
+The function `+` returns the sum of the arguments. If there are no arguments, the result is `0`, which is an identity for this operation.
 
-Examples (not from CLHS...):
+*Text from [CLTL2](http://www.cs.cmu.edu/Groups/AI/html/cltl/clm/node125.html). Edited for clarity, not content.*
+
+**Examples:**
 
 ```lisp
-CL-USER> (example-code 'a 'b 'c)
+(+ 1 1) => 2
 
-'return-result
+(+ 1.0 1) => 2.0
 ```
