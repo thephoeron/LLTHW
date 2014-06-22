@@ -1,4 +1,4 @@
-### <em>function</em> <strong>`+`</strong>
+#### <em>function</em> <strong>`+`</strong>
 
 **Syntax:** <strong>`+`</strong> &rest <em>numbers</em> => <em>number</em>
 

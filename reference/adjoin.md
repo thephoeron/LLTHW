@@ -1,6 +1,6 @@
-### <em>function</em> <strong>`adjoin`</strong>
+#### <em>function</em> <strong>`adjoin`</strong>
 
-**Syntax:** <strong>`adjoin`</strong> <em>item list</em> &key test test-not key => <em>set</em>
+**Syntax:** <strong>`adjoin`</strong> *item* *list* &key *test* *test-not* *key* => *set*
 
 **Description:**
 

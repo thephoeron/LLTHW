@@ -1,4 +1,4 @@
-### <em>loop-keyword</em> <strong>`across`</strong>
+#### <em>loop-keyword</em> <strong>`across`</strong>
 
 **Syntax:** loop *for var* <strong>`across`</strong> *vector*
 

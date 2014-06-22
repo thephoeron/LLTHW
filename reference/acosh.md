@@ -1,4 +1,4 @@
-### <em>function</em> <strong>`acosh`</strong>
+#### <em>function</em> <strong>`acosh`</strong>
 
 **Syntax:** <strong>`acosh`</strong> <em>number</em> => <em>number</em>
 

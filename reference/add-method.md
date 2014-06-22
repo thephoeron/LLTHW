@@ -1,4 +1,4 @@
-### <em>generic function</em> <strong>`add-method`</strong>
+#### <em>generic function</em> <strong>`add-method`</strong>
 
 **Syntax:** <strong>`add-method`</strong> <em>(generic-function standard-generic-function) (method method)</em> => <em>modified generic function</em>
 
