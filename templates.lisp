@@ -199,6 +199,7 @@
         )
       (:body
         ,@body
+        (:script :type "text/javascript" "MathJax.Hub.Queue(['Typeset',MathJax.Hub,'refSearchModalBody']);")
         (:script :src "/llthw.js" :type "text/javascript")))))
 
 (defmacro try-lisp-page ((&key (title "L(λ)THW")) &body body)
