@@ -5,7 +5,7 @@ html {
 body {
   margin-top: 50px;
   /* Margin bottom by footer height */
-  margin-bottom: 140px;
+  margin-bottom: 120px;
 }
 
 .navbar {
@@ -39,7 +39,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 60px 0 70px;
+  padding: 40px 0 40px;
   background: url(/static/img/fractal-splash.png) no-repeat top center;
   background-size: cover;
   margin-bottom: 0;
