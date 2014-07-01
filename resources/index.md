@@ -5,19 +5,20 @@
 
 ## Lisp Community Online
 
-* IRC
-* Lisp on Reddit
-* Lisp on Google+
-* Lisp on LinkedIn
-* Planet Lisp, syndicated Lisp Hacker blogs
+* IRC, #lisp on freenode
+* [Lisp on Reddit](http://www.reddit.com/r/lisp/)
+* [Lisp on Google+](https://plus.google.com/communities/101016130241925650833)
+* [Lisp on LinkedIn](http://www.linkedin.com/groups?home=&gid=830547&trk=anet_ug_hm)
+* [Planet Lisp](http://planet.lisp.org/), syndicated Lisp Hacker blogs
 * Lisp Meetups and User Groups
 
 ## Lisp Resources on the Web
 
-* Common Lisp HyperSpec
-* Quickdocs, documentation for projects in Quicklisp
-* common-lisp.net
-* Common Lisp Cookbook
+* [Common Lisp HyperSpec](http://www.lispworks.com/documentation/HyperSpec/Front/index.htm)
+* [Quickdocs](http://quickdocs.org/), documentation for projects in Quicklisp
+* [common-lisp.net](http://common-lisp.net/)
+* [cliki.net](http://cliki.net)
+* [Common Lisp Cookbook](http://cl-cookbook.sourceforge.net/index.html)
 
 ## Other Books on Lisp
 
@@ -33,5 +34,5 @@
 
 ## Lisp Jobs
 
-* LispJobs blog
-* LinkedIn
+* [LispJobs](http://lispjobs.wordpress.com/) blog
+* [LinkedIn](http://www.linkedin.com/vsearch/j?keywords=common+lisp)
