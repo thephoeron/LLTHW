@@ -31,13 +31,33 @@ An important theme of this book is also on the skills necessary for programming 
 
 ### Reading and Writing
 
-### Mathematics
+Programming, much like human language, involves the intentional use of a specific set of language-dependent characters, some of which you might not be used to typing. If you have trouble reading, writing, or typing, you will struggle writing code.
+
+Take the time to read over the code examples carefully, and double-check your work once you have typed it.  This will save you a lot of migraines along the way.
 
 ### Attention to Detail
 
+More than any other skill, what separates a professional from an amateur in every field and trade is attention to detail.  In programming, this is especially obvious; it makes the difference between mayhem and a bug-free, user-friendly, indispensable tool.
+
+By manually typing each exercise *exactly* as you work through this book, you will be training your brain to focus on the subtle details of what you are doing, while you are doing it.
+
 ### Spotting Differences
 
+The natural extension to the first two skills is the ability to spot differences.  With careful reading, typing, and attention to detail, you will also be training your brain to highlight subtle differences, so that when you make a mistake, you notice.
+
+Naturally, this skill will also help you more quickly spot and correct bugs in other people's code that you have to upgrade and maintain.
+
+### Mathematics
+
+Remember in high school, there was always at least one classmate that would demand to know when, in life, any of you would ever need to know half the stuff they taught you?  You may have even been that student.  Well, you may be disappointed to know that programmers need to use nearly the entire high school and university level math curricula every day.  You don't have to be a math-whiz to be a programmer, but at the end of the day, programming is still mostly math.
+
+If you were never very good at math, however, don't panic.  This book and its exercises assumes little to no familiarity with mathematics, so you can learn both math and programming at the same time if you need to.
+
 ### No Copy-and-Paste
+
+If you copy-and-paste the code from the exercises into the Lisp REPL instead of typing them out yourself, you might as well not do them at all.  As both teacher and student for the duration of this book, you have to force yourself to type in every example.  No matter how easy or self-evident a code example appears to be, you have to stop yourself.
+
+The point of these exercises is to train your hands, your eyes, your brain, and your mind how to read, write, see, think, and dream code.  When you cheat here, you're cheating yourself.
 
 <ul class="pager">
   <li class="previous"><a href="/book/preface/">&laquo; Previous</a></li>
