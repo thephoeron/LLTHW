@@ -93,5 +93,5 @@ Error-handling, Conditions, and Debugging
 <ul class="pager">
   <li class="previous"><a href="/book/style-guide/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-0-0-overview/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/acknowledgements/">Next &raquo;</a><li>
 </ul>

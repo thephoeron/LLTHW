@@ -25,10 +25,13 @@
   <dd>
     <ul>
       <li><a href="preface/">TANSTAAFL</a></li>
+      <li><a href="preface-part-two/">The Hard Way Is Easier</a></li>
+      <li><a href="preface-part-three/">Who Is This Book For?</a></li>
       <li><a href="introduction/">Lisp: A Future History</a></li>
       <li><a href="bootcamp/">Common Lisp Bootcamp</a></li>
       <li><a href="style-guide/">Common Lisp Style Guide</a></li>
       <li><a href="configuration/">Configuring Your Development Environment</a></li>
+      <li><a href="acknowledgements/">Acknowledgements</a></li>
     </ul>
   </dd>
   <dt>PART ONE</dt>
