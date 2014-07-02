@@ -23,13 +23,7 @@
   "Stop, reload/recompile, and start the LLTHW server again.  Also rescans the book, reference, and try-lisp directories for new files."
   (llthw-stop)
   (ql:quickload "llthw")
-  (setf *book-files* (directory (merge-pathnames "*.md" *book-dir*))
-        ;*ref-files* (directory (merge-pathnames "*.md" *ref-dir*))
-        ;*tl-files* (directory (merge-pathnames "*.md" *tl-dir*))
-        )
-  (create-book-pages *book-files*)
-  ;(create-reference-pages *ref-files* :section "reference")
-  ;(create-reference-pages *tl-files* :section "try-lisp")
+  (create-book-pages (directory (merge-pathnames "*.md" *book-dir*)))
   (sb-ext:gc :full t)
   (llthw-start :port port))
 

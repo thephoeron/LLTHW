@@ -102,7 +102,7 @@
       (str (3bmd:parse-and-print-to-stream "book/index.md" hunchentoot::*standard-output* :format :html)))))
 
 (eval-when (:execute :compile-toplevel :load-toplevel)
-  (create-book-pages *book-files*)
+  (create-book-pages (directory (merge-pathnames "*.md" *book-dir*)))
   ;(create-reference-pages *ref-files*)
   ;(create-reference-pages *tl-files* :section "try-lisp")
   )
