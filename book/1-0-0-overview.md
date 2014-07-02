@@ -16,5 +16,5 @@ In Part One, we focus on the core of the Common Lisp language, features that you
 <ul class="pager">
   <li class="previous"><a href="/book/acknowledgements/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-01-0-syntax-overview/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-01-00-lisp-bootcamp/">Next &raquo;</a><li>
 </ul>

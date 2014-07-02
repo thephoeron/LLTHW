@@ -28,9 +28,6 @@
       <li><a href="preface-part-two/">The Hard Way Is Easier</a></li>
       <li><a href="preface-part-three/">Who Is This Book For?</a></li>
       <li><a href="introduction/">Lisp: A Future History</a></li>
-      <li><a href="bootcamp/">Common Lisp Bootcamp</a></li>
-      <li><a href="style-guide/">Common Lisp Style Guide</a></li>
-      <li><a href="configuration/">Configuring Your Development Environment</a></li>
       <li><a href="acknowledgements/">Acknowledgements</a></li>
     </ul>
   </dd>
@@ -38,7 +35,7 @@
   <dd>
     <a href="1-0-0-overview/">Grokking Lisp</a>
     <ul>
-      <li><a href="1-01-0-syntax-overview/">Lisp in 5 minutes</a></li>
+      <li><a href="1-01-0-syntax-overview/">Common Lisp Bootcamp</a></li>
       <li><a href="1-02-0-input-output/">Printing, Strings and Streams</a></li>
       <li>Extra Credit: <a href="1-03-0-getting-input-from-users/">Getting Input from Users</a></li>
       <li><a href="1-04-0-lists/">Lists and List-Operations</a></li>

@@ -4,14 +4,10 @@
   <li class="active">Preface :: Common Lisp Bootcamp</li>
 </ol>
 
-# Common Lisp Bootcamp
+# Lisp in More Detail
 
-> "I made a very important discovery at Camp Currie.  Happiness consists in getting enough sleep.  Just that, nothing more.  All the wealthy, unhappy people you've ever met take sleeping pills; Mobile Infantrymen don't need them."
-> <footer>Robert A. Heinlein, Starship Troopers</footer>
-
-It's time to dive head-first into Lisp, no mercy.  You'll need discipline to apply the five steps of learning the hard way, and this is where you'll get a feel for it.  But one thing you need to remember, which many programmers often forget before working themselves to burn-out, the most important thing you need to learn is to get a good night's sleep, every night, on time, so you can wake up fully refreshed to tackle Lisp again the next day.  Make yourself a schedule, a strict one, and follow it like you have a Sergeant throwing you out of your cot every morning, screaming at you all day to push yourself harder.  Eat right, take regular breaks from the computer, work hard, and sleep, and you'll find the learning process far more successful and rewarding.
-
-There is a reason, after all, the military uses this methodology for training---it's an application of the metaphor of alchemy, realized in nuclear physics: given enough heat and pressure, you can in fact turn lead into gold. But now, on to Lisp.  Here is everything you need to know to get hacking in Lisp right this second.
+> ""
+> <footer></footer>
 
 ## The REPL
 
@@ -64,7 +60,7 @@ In Lisp, lists are stored as chains of pointer-pairs, called "cons-cells".  Each
 This may at first seem like useless and uninteresting historical trivia, but it is important to understand the underlying structure of the language, since a common problem you will face when writing Lisp software is minimizing the number of conses a function performs while executing its body.  You can easily waste a lot of memory and processing power dealing with unnecessary consing, and it is of fundamental importance to programming that you handle resources well. After all, a web-app you write in Lisp may work perfectly when you're testing it yourself, but scale poorly under heavy traffic and crash your server.  You can avoid embarrassing and stressful situations like this by keeping a careful accounting of system resources, ensuring that your software only ever uses the minimum amounts of memory and processor time necessary to keep your application live and running smoothly for everyone.
 
 <ul class="pager">
-  <li class="previous"><a href="/book/introduction/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-01-01-syntax-overview/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/style-guide/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-01-03-style-guide/">Next &raquo;</a><li>
 </ul>

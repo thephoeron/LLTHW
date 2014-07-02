@@ -48,5 +48,5 @@ Quantum Computing, the next big leap in computing and a fundamental aspect of th
 <ul class="pager">
   <li class="previous"><a href="/book/preface/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/bootcamp/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/acknowledgements/">Next &raquo;</a><li>
 </ul>
