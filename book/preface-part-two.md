@@ -6,8 +6,8 @@
 
 # The Hard Way Is Easier
 
-> ""
-> <footer></footer>
+> "Do not handicap your children by making their lives easy."
+> <footer>Robert A. Heinlein, Time Enough for Love</footer>
 
 Whatever you think you know about programming, forget it.  Lisp is different from other programming languages.
 
