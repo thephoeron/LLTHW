@@ -1,7 +1,9 @@
 <ol class="breadcrumb">
   <li><a href="/">Home</a></li>
   <li><a href="/book/">Book</a></li>
-  <li class="active">Preface :: Common Lisp Style Guide</li>
+  <li><a href="/book/1-0-0-overview/">Part One: Grokking Lisp</a></li>
+  <li><a href="/book/1-01-00-lisp-bootcamp/">Common Lisp Bootcamp</a></li>
+  <li class="active">Common Lisp Style Guide</li>
 </ol>
 
 # Common Lisp Style Guide
