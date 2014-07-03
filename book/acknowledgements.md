@@ -7,7 +7,7 @@
 # Acknowledgements
 
 > "Age is not an accomplishment, and youth is not a sin."
-> <footer>Robert A. Heinlein, Methuselah's Children</footer>
+> <footer>Robert A. Heinlein, <em>Methuselah's Children</em></footer>
 
 First, I would like to thank John McCarthy (1927--2011), the creator of LISP and father of modern AI.  His insights into axiomatizing computation led to the ultimate expression of the symmetry between the human mind and the universe through the art of programming.
 

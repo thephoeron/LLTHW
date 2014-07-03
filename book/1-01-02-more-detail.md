@@ -8,8 +8,8 @@
 
 # Lisp in More Detail
 
-> ""
-> <footer></footer>
+> "A skillful Artist in shapes and appearances does no more than necessary to create His effect."
+> <footer>Robert A. Heinlein, <em>Job: A Comedy of Justice</em></footer>
 
 ## The REPL
 

@@ -7,7 +7,7 @@
 # Who Is This Book For?
 
 > "When I don’t understand, I have an unbearable itch to know why."
-> <footer>Robert A. Heinlein, Have Spacesuit---Will Travel</footer>
+> <footer>Robert A. Heinlein, <em>Have Space Suit---Will Travel</em></footer>
 
 Many books on programming can be quite tedious.  There is a tendency among programming language education literature to be one of two types: such a basic introduction that you know less about the subject after reading the book, or it makes so many assumptions about the reader's educational background that it is not a useful introduction to learn the language outside of an ivy-league university's computer science program.  *The Hard Way* is different.
 

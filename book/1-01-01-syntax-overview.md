@@ -8,8 +8,8 @@
 
 # Syntax Overview in 5 Minutes
 
-> "'Grok' means to understand so thoroughly that the observer becomes a part of the process being observed—to merge, to blend, to intermarry, to lose personal identity in group experience. It means almost everything that we mean by religion, philosophy, and science—and it means as little to us as color means to a blind man."
-> <footer>Robert A. Heinlein, Stranger in a Strange Land</footer>
+> "Progress doesn't come from early risers---progress is made by lazy men looking for easier ways to do things."
+> <footer>Robert A. Heinlein, <em>Time Enough For Love</em></footer>
 
 What makes the Lisp family of languages so simple, expressive, and concise, is the syntax.  Using a single form, the *S-Expression*, you can represent all code and data.  This property is called 'homoiconicity'.
 

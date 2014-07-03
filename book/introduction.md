@@ -7,7 +7,7 @@
 # Lisp, a Future History
 
 > "The future is better than the past. Despite the crepehangers, romanticists, and anti-intellectuals, the world steadily grows better because the human mind, applying itself to environment, makes it better. With hands...with tools...with horse sense and science and engineering."
-> <footer>Robert A. Heinlein, The Door Into Summer</footer>
+> <footer>Robert A. Heinlein, <em>The Door Into Summer</em></footer>
 
 Many of the books about Common Lisp currently available on the market start off with a review of Lisp's history.  This is sensible, being that the Lisp family of languages has such a long and rich lineage, there is much to tell.  Rather than present another take on the past, however, I wish to share my vision for the future of Lisp.  If the history of the Lisp language and its community interests you, which it should, please check out the many fine books listed under the Resources section of this site.
 
