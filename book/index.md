@@ -114,6 +114,14 @@
   </dd>
 </dl>
 
+# Table of Contents
+
+Coming Soon
+
+# Recent Updates
+
+Coming Soon
+
 # FAQ
 
 How long does this book take to complete?
