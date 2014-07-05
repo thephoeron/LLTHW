@@ -120,7 +120,53 @@ Coming Soon
 
 # Recent Updates
 
-Coming Soon
+### --- 2014
+
+<dl class="dl-horizontal">
+  <dt>July</dt>
+  <dd>
+      <strong>5th:</strong> Add recent update items to book/index.md<br>
+      <strong>4th:</strong> Add Full ToC and Recent Updates section to book/index.md<br>
+      <strong>3rd:</strong> Update chapter quotes and formatting, section 1.1.2 and 1.2<br>
+      <strong>2nd:</strong> Rearrange preface content, add acknowledgements to preface<br>
+      <strong>1st:</strong> Update preface material, introduction
+  </dd>
+  <dt>January</dt>
+  <dd>
+      <strong>4th:</strong> Open-source project, begin rewrite of 2nd draft from scratch.
+  </dd>
+</dl>
+
+### --- 2013
+
+<dl class="dl-horizontal">
+  <dt>October</dt>
+  <dd>
+      <strong>15th:</strong>
+  </dd>
+  <dt>June</dt>
+  <dd>
+      <strong>14th:</strong> Update Styles for web version.
+  </dd>
+  <dt>April</dt>
+  <dd>
+      <strong>28th:</strong> Migrate project from Zed Shaw's LxTHW to Common Lisp Book Kit.<br>
+      <strong>13th:</strong> Update draft and text version.
+  </dd>
+  <dt>January</dt>
+  <dd>
+      <strong>4th:</strong> Create private LLTHW repo.
+  </dd>
+</dl>
+
+### --- 2012
+
+<dl class="dl-horizontal">
+  <dt>December</dt>
+  <dd>
+      <strong>3rd:</strong> Begin draft 0.1.0 alpha, Register learnlispthehardway.org
+  </dd>
+</dl>
 
 # FAQ
 
