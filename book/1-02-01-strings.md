@@ -6,7 +6,7 @@
   <li class="active">Exercise 1: Strings</li>
 </ol>
 
-# Exercise 1
+# Exercise 1.2.1
 
 ## Strings
 
