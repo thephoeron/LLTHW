@@ -10,10 +10,18 @@
 > "There is no such thing as luck; there is only adequate or inadequate preparation to cope with a statistical universe."
 > <footer>Robert A. Heinlein, <em>Have Space Suit---Will Travel</em></footer>
 
-This chapter will contain exercises on:
+This chapter contains exercises on:
 
 * [Strings](/book/1-02-01-strings/)
-* [Characters](/book/1-02-02-chars/)
+* [More Strings](/book/1-02-02-more-strings/)
+* [Unicode and Strings](/book/1-02-03-unicode/)
+* [Characters](/book/1-02-04-chars/)
+* [More Characters](/book/1-02-05-more-chars/)
+* [Character Codes](/book/1-02-06-char-codes/)
+* [Strings from Chars](/book/1-02-07-strings-from-chars/)
+
+This chapter will also contain exercises on:
+
 * [Writing](/book/1-02-03-writing/)
 * [Printing](/book/1-02-04-printing/)
 * [Pretty-Printing](/book/1-02-05-pprint/)
