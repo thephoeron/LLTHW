@@ -142,7 +142,7 @@ Coming Soon
 <dl class="dl-horizontal">
   <dt>October</dt>
   <dd>
-      <strong>15th:</strong>
+      <strong>15th:</strong> Begin planning of 2nd Draft
   </dd>
   <dt>June</dt>
   <dd>
