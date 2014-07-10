@@ -36,7 +36,7 @@
     <a href="1-0-0-overview/">Grokking Lisp</a>
     <ul>
       <li><a href="1-01-00-lisp-bootcamp/">Common Lisp Bootcamp</a></li>
-      <li><a href="1-02-0-input-output/">Printing, Strings and Streams</a></li>
+      <li><a href="1-02-00-input-output/">Printing, Strings and Streams</a></li>
       <li>Extra Credit: <a href="1-03-0-getting-input-from-users/">Getting Input from Users</a></li>
       <li><a href="1-04-0-lists/">Lists and List-Operations</a></li>
       <li>Extra Credit: <a href="1-05-0-lookups-trees/">Look-up Lists and Trees</a></li>
