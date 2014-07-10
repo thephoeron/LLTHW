@@ -10,8 +10,6 @@
 > "Relevant quote..."
 > <footer>Source</footer>
 
-Note: worth mentioning that Government and Military contracts are the Holy Grail for contract software developers...
-
 Review of Field-Programmable Embedded Systems, live debugging and hacking in the field, security requirements, etc.
 
 Hardware-assisted cryptography, and Perfect Secrecy.
