@@ -21,6 +21,12 @@ You can start hacking in Lisp right away with the in-browser, javascript-powered
 
 Steel Bank Common Lisp is one of the easiest Lisp implementations to get up and running&mdash;it has out of the box support for a wide selection of platforms, and is considered to be the most robust implementation available.  Since it automatically compiles everything you enter at the REPL, your running Lisp processes also benefit from a major speed-boost over other Lisps.
 
+<div class="alert alert-info">
+  <p>
+    <strong>Note:</strong> the SBCL REPL is minimal by design, since it is primarily used from within Emacs+SLIME which provides its own custom prompt, history, completion, multi-line editing capabilities, and more.  In order to use it effectively straight from the command-line, you will need to install a separate tool on OS X and Linux called `rlwrap`, a readline wrapper. It provides evaluation history, multi-line editing, and can be configured for completions and filters.  You can read more about `rlwrap` here: [utopia.knoware.nl/~hlub/uck/rlwrap/](http://utopia.knoware.nl/~hlub/uck/rlwrap/).
+  </p>
+</div>
+
 ### Windows
 
 The latest SBCL installer packages for Windows, in separate versions for 32 and 64-bit systems, are available on the official downloads page.
