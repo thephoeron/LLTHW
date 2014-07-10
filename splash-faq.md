@@ -34,7 +34,7 @@ Some of the most exciting projects in the history of computing are being develop
 
 This is a common misconception, but no, it is not.  Functional programming is a style of writing code, a *paradigm*, based on the lambda calculus, where the programmer aims to eliminate side-effects and reduce software to mathematical purity.  This means that a function is not permitted to change state outside of its lexical scope, and that if it is run multiple times with the exact same parameters, it will always return the same result.
 
-Common Lisp is not a strict functional language, however, such as Scheme, Racket, or Haskell; it is multi-paradigm like OCaml.  You can choose to use the functional paradigm in Common Lisp if you like, but you can also use Procedural, Object-Oriented, Event-Oriented, novel new paradigms like Aspect-Oriented, or mix and match to your hearts content.  Strict Functional programming languages do not offer this flexibility.
+Common Lisp is not a 'pure' functional language, however, such as Haskell; it is multi-paradigm like OCaml.  You can choose to use the functional paradigm in Common Lisp if you like, but you can also use Procedural, Object-Oriented, Event-Oriented, novel new paradigms like Aspect-Oriented, or mix and match to your hearts content.  Strict Functional programming languages do not offer this flexibility.
 
 <h4 class="text-info">What kind of programs will I learn to write with this book?</h4>
 
