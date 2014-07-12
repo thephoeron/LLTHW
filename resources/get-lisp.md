@@ -5,6 +5,12 @@
 
 Download and Installation instructions for Steel Bank Common Lisp on Windows, OS X, Linux, and Debian/Ubuntu
 
+<div class="alert alert-info">
+  <p>
+    <strong>Note:</strong> the SBCL REPL is minimal by design, since it is primarily used from within Emacs+SLIME which provides its own custom prompt, history, completion, multi-line editing capabilities, and more.  In order to use it effectively straight from the command-line, you will need to install a separate tool on OS X and Linux called `rlwrap`, a readline wrapper. It provides evaluation history, multi-line editing, and can be configured for completions and filters.  You can read more about `rlwrap` here: <a href="http://utopia.knoware.nl/~hlub/uck/rlwrap/" target="_blank">utopia.knoware.nl/~hlub/uck/rlwrap/</a>.
+  </p>
+</div>
+
 ## Windows
 
 Visit <http://www.sbcl.org/platform-table.html> and click the link for Windows under your platform column.  If you have a 64-bit version of Windows, be sure to download the version under the "AMD64" Column.
