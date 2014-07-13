@@ -24,6 +24,12 @@ You can get started learning Lisp right away, without downloading anything; just
 
 To write and distribute your own Lisp software, however, you will need a computer where you have the administrative rights to install software without anyone else's help.  Pretty much any personal computer will do, Lisp runs everywhere, on Windows, Mac OS X, Linux, and UNIX.  Complete instructions for setting up your development environment are included in the preface of the book.
 
+<h4 class="text-info">Why don't all the exercises in the book work on the Try Lisp page?</h4>
+
+The in-browser REPL on the Try Lisp page is <a href="https://github.com/davazp/jscl" target="_blank">powered by JSCL</a>; it's not a complete implementation of Common Lisp yet, and is only intended to get new students of Lisp familiarized with working at a REPL.
+
+When using the in-browser REPL, be sure to follow the examples listed in that section.  When you're ready to start the book, you will need to follow the instructions to install SBCL first.
+
 <h4 class="text-info">What is Lisp used for?</h4>
 
 Common Lisp is an ANSI standardized high-level, general purpose, dynamic, multi-paradigm, programmable programming language.  So any application, script, or web site can be written in Lisp, generally in less time and with substantially fewer lines of code than could be achieved with other programming languages.
