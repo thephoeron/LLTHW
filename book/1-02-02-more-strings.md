@@ -3,7 +3,7 @@
   <li><a href="/book/">Book</a></li>
   <li><a href="/book/1-0-0-overview/">Part One: Grokking Lisp</a></li>
   <li><a href="/book/1-02-0-input-output/">Printing, Strings, and Streams</a></li>
-  <li class="active">Exercise 2: Chars</li>
+  <li class="active">Exercise 2: More Strings</li>
 </ol>
 
 # Exercise 1.2.2
