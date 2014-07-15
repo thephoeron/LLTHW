@@ -11,12 +11,12 @@
     (pathname (directory-namestring #.(or *compile-file-truename*
                                           *load-truename*))))
   (defparameter *static-dir* (merge-pathnames "static/" *default-dir*))
-  (defparameter *the-book-dir* (merge-pathnames "book/" *default-dir*))
+  (defparameter *book-dir* (merge-pathnames "book/" *default-dir*))
   (defparameter *res-dir* (merge-pathnames "resources/" *default-dir*))
   (defparameter *ref-dir* (merge-pathnames "reference/" *default-dir*))
   ;(defparameter *tl-dir* (merge-pathnames "try-lisp/" *default-dir*))
   ;; lists of MD files
-  (defparameter *book-files* (directory (merge-pathnames "*.md" *the-book-dir*)))
+  (defparameter *book-files* (directory (merge-pathnames "*.md" *book-dir*)))
   ;(defparameter *ref-files* (directory (merge-pathnames "*.md" *ref-dir*)))
   ;(defparameter *tl-files* (directory (merge-pathnames "*.md" *tl-dir*)))
   )
