@@ -34,7 +34,7 @@ It's also easy to get a string from a list of characters.  Remember the `coerce`
 ```
 
 <ul class="pager">
-  <li class="previous"><a href="/book/1-02-03-unicode/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-02-06-char-codes/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/1-03-0-getting-input-from-users/">Next &raquo;</a><li>
 </ul>

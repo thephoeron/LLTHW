@@ -33,7 +33,7 @@ You can get the code for a character object with the function `char-code`, and t
 ```
 
 <ul class="pager">
-  <li class="previous"><a href="/book/1-02-03-unicode/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-02-05-more-chars/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-03-0-getting-input-from-users/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-02-07-strings-from-chars/">Next &raquo;</a><li>
 </ul>

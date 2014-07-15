@@ -30,7 +30,7 @@ These names are not case-sensitive: you could type `#\Greek_Small_Letter_Lamda`,
 </div>
 
 <ul class="pager">
-  <li class="previous"><a href="/book/1-02-03-unicode/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-02-04-chars/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-03-0-getting-input-from-users/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-02-06-char-codes/">Next &raquo;</a><li>
 </ul>
