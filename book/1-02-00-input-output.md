@@ -19,10 +19,10 @@ This chapter contains exercises on:
 * [More Characters](/book/1-02-05-more-chars/)
 * [Character Codes](/book/1-02-06-char-codes/)
 * [Strings from Chars](/book/1-02-07-strings-from-chars/)
+* [Writing](/book/1-02-08-writing/)
 
 This chapter will also contain exercises on:
 
-* [Writing](/book/1-02-03-writing/)
 * [Printing](/book/1-02-04-printing/)
 * [Pretty-Printing](/book/1-02-05-pprint/)
 * [Reading](/book/1-02-06-read/)
