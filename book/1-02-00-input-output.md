@@ -19,17 +19,16 @@ This chapter contains exercises on:
 * [More Characters](/book/1-02-05-more-chars/)
 * [Character Codes](/book/1-02-06-char-codes/)
 * [Strings from Chars](/book/1-02-07-strings-from-chars/)
-* [Writing](/book/1-02-08-writing/)
+* [Printing](/book/1-02-08-printing/)
 
 This chapter will also contain exercises on:
 
-* [Printing](/book/1-02-04-printing/)
-* [Pretty-Printing](/book/1-02-05-pprint/)
-* [Reading](/book/1-02-06-read/)
-* [EVAL](/book/1-02-07-eval/)
-* [Working with Streams](/book/1-02-08-streams/)
-* [Paths and Files](/book/1-02-09-paths-files/)
-* [Prompting Users](/book/1-02-10-prompts/)
+* [Pretty-Printing]()
+* [Reading]()
+* [EVAL]()
+* [Working with Streams]()
+* [Paths and Files]()
+* [Prompting Users]()
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-01-04-configuration/">&laquo; Previous</a></li>
