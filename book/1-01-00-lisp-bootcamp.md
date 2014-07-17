@@ -18,6 +18,7 @@ There is a reason, after all, the military uses this methodology for training---
 * [Lisp in More Detail](/book/1-01-02-more-detail/)
 * [Common Lisp Style Guide](/book/1-01-03-style-guide/)
 * [Configuring Your Development Environment](/book/1-01-04-configuration/)
+* Extra Credit: Set up and Learn Emacs Live
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-0-0-overview/">&laquo; Previous</a></li>
