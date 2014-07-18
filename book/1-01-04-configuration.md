@@ -63,7 +63,40 @@ Using the old version of SBCL, you may now compile the latest version of SBCL fr
 
 ## Installing Quicklisp
 
-Once you have SBCL up and running, the first thing you should do is install Quicklisp.  It's a package manager for Lisp, and will allow you to dynamically load systems and their packages into your running Lisp image.  It also automatically resolves dependencies for your own Lisp projects.
+Once you have SBCL up and running, the first thing you should do is install Quicklisp.  It's a package manager for Lisp, and will allow you to dynamically load community-supported libraries (which typically include ASDF systems and their associated Lisp packages) into your running Lisp image.  It also automatically resolves dependencies for your own Lisp projects.
+
+From the command-line:
+
+```sh
+$ curl -O http://beta.quicklisp.org/quicklisp.lisp
+$ rlwrap sbcl --load quicklisp.lisp
+```
+
+You will then find yourself at the Lisp REPL, with some instructions:
+
+```lisp
+  ==== quicklisp quickstart loaded ====
+  
+    To continue, evaluate: (quicklisp-quickstart:install)
+```
+
+Like the instructions tell you, type that at the REPL prompt:
+
+```lisp
+* (quicklisp-quickstart:install)
+```
+
+Once it finishes downloading its dependencies and setting up the working folders, it will prompt you with another message confirming it was installed.  Now you will want to set it up to load automatically every time you start SBCL:
+
+```lisp
+* (ql:add-to-init-file)
+```
+
+This function will tell you exactly what it's doing before it changes your lisp `.*rc` file.  If you're ready, press Enter to continue when it prompts you to do so.
+
+That's it!  You can now use `ql:system-apropos` to search for libraries, and `ql:quickload` to download and install them.
+
+You can put your Lisp projects under `~/quicklisp/local-projects/` so that Quicklisp can find them automatically; then you will be able to quickload your own projects just like the libraries distributed with Quicklisp.
 
 ## Choosing a Text Editor
 
