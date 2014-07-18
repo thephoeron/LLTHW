@@ -17,6 +17,20 @@
 ;; Common Lisp: Powerful, Expressive, Programmable, General Purpose, Multi-Paradigm.
 
 ```
+# Draft Chapter Completion Status Legend
+
+<dl class="dl-horizontal">
+  <dt><i class="glyphicon glyphicon-remove text-danger"></i></dt>
+  <dd>Unstarted</dd>
+  <dt><i class="glyphicon glyphicon-refresh text-warning"></i></dt>
+  <dd>In-Progress/Incomplete</dd>
+  <dt><i class="glyphicon glyphicon-ok text-success"></i></dt>
+  <dd>Complete, Awaiting Approval from Editor</dd>
+  <dt><i class="glyphicon glyphicon-thumbs-down text-danger"></i></dt>
+  <dd>Not Approved/Rejected, needs re-writing</dd>
+  <dt><i class="glyphicon glyphicon-thumbs-up text-info"></i></dt>
+  <dd>Approved and Complete</dd>
+</dl>
 
 # Contents at a Glance
 
@@ -24,19 +38,19 @@
   <dt>Preface</dt>
   <dd>
     <ul>
-      <li><a href="preface/">TANSTAAFL</a></li>
-      <li><a href="preface-part-two/">The Hard Way Is Easier</a></li>
-      <li><a href="preface-part-three/">Who Is This Book For?</a></li>
-      <li><a href="introduction/">Lisp: A Future History</a></li>
-      <li><a href="acknowledgements/">Acknowledgements</a></li>
+      <li><a href="preface/">TANSTAAFL</a> <i class="glyphicon glyphicon-ok text-success"></i></li>
+      <li><a href="preface-part-two/">The Hard Way Is Easier</a> <i class="glyphicon glyphicon-thumbs-down text-danger"></i></li>
+      <li><a href="preface-part-three/">Who Is This Book For?</a> <i class="glyphicon glyphicon-thumbs-down text-danger"></i></li>
+      <li><a href="introduction/">Lisp: A Future History</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
+      <li><a href="acknowledgements/">Acknowledgements</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
     </ul>
   </dd>
   <dt>PART ONE</dt>
   <dd>
     <a href="1-0-0-overview/">Grokking Lisp</a>
     <ul>
-      <li><a href="1-01-00-lisp-bootcamp/">Common Lisp Bootcamp</a></li>
-      <li><a href="1-02-00-input-output/">Printing, Strings and Streams</a></li>
+      <li><a href="1-01-00-lisp-bootcamp/">Common Lisp Bootcamp</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
+      <li><a href="1-02-00-input-output/">Printing, Strings and Streams</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
       <li>Extra Credit: <a href="1-03-0-getting-input-from-users/">Getting Input from Users</a></li>
       <li><a href="1-04-0-lists/">Lists and List-Operations</a></li>
       <li>Extra Credit: <a href="1-05-0-lookups-trees/">Look-up Lists and Trees</a></li>
