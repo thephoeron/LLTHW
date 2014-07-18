@@ -51,79 +51,79 @@
     <ul>
       <li><a href="1-01-00-lisp-bootcamp/">Common Lisp Bootcamp</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
       <li><a href="1-02-00-input-output/">Printing, Strings and Streams</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
-      <li>Extra Credit: <a href="1-03-0-getting-input-from-users/">Getting Input from Users</a></li>
-      <li><a href="1-04-0-lists/">Lists and List-Operations</a></li>
-      <li>Extra Credit: <a href="1-05-0-lookups-trees/">Look-up Lists and Trees</a></li>
-      <li><a href="1-06-0-math/">Numbers and Math</a></li>
-      <li>Extra Credit: <a href="1-07-0-arrays/">Arrays and Vectors</a></li>
-      <li><a href="1-08-0-variables/">Variables, Parameters, and Constants</a></li>
-      <li>Extra Credit: <a href="1-09-0-closures/">Closures</a></li>
-      <li><a href="1-10-0-functions/">Functions and Macros</a></li>
-      <li>Extra Credit: <a href="1-11-0-text-adventure/">A Simple Text Adventure</a></li>
-      <li><a href="1-12-0-namespaces/">Namespaces, Symbols, Packages, and Systems</a></li>
-      <li>Extra Credit: <a href="1-13-0-simple-web-app/">A Simple Web Application</a></li>
-      <li><a href="1-14-0-conditionals/">Conditionals</a></li>
-      <li>Extra Credit: <a href="1-15-0-command-line-utility/">A Command-Line Utility</a></li>
-      <li><a href="1-16-0-map-loop/">Mapping and Looping</a></li>
-      <li>Extra Credit: <a href="1-17-0-iterate/">Revisiting Loops with Iterate</a></li>
-      <li><a href="1-18-0-format/">Format Strings</a></li>
-      <li>Extra Credit: <a href="1-19-0-dsl/">Domain Specific Languages</a></li>
-      <li><a href="1-20-0-review/">Part One in Review</a></li>
+      <li>Extra Credit: <a href="1-03-0-getting-input-from-users/">Getting Input from Users</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="1-04-0-lists/">Lists and List-Operations</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li>Extra Credit: <a href="1-05-0-lookups-trees/">Look-up Lists and Trees</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="1-06-0-math/">Numbers and Math</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li>Extra Credit: <a href="1-07-0-arrays/">Arrays and Vectors</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="1-08-0-variables/">Variables, Parameters, and Constants</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li>Extra Credit: <a href="1-09-0-closures/">Closures</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="1-10-0-functions/">Functions and Macros</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li>Extra Credit: <a href="1-11-0-text-adventure/">A Simple Text Adventure</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="1-12-0-namespaces/">Namespaces, Symbols, Packages, and Systems</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li>Extra Credit: <a href="1-13-0-simple-web-app/">A Simple Web Application</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="1-14-0-conditionals/">Conditionals</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li>Extra Credit: <a href="1-15-0-command-line-utility/">A Command-Line Utility</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="1-16-0-map-loop/">Mapping and Looping</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li>Extra Credit: <a href="1-17-0-iterate/">Revisiting Loops with Iterate</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="1-18-0-format/">Format Strings</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li>Extra Credit: <a href="1-19-0-dsl/">Domain Specific Languages</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="1-20-0-review/">Part One in Review</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
     </ul>
   </dd>
   <dt>PART TWO</dt>
   <dd>
     <a href="2-0-0-overview/">The Suffusion of Blue</a>
     <ul>
-      <li><a href="2-01-0-programming-paradigms/">Programming Paradigms</a></li>
-      <li>Extra Credit: <a href="2-02-0-regex/">Regular Expressions</a></li>
-      <li><a href="2-03-0-objects-control/">Objects and Control Structures</a></li>
-      <li>Extra Credit: <a href="2-04-0-data-persistence/">Persistence and Databases</a></li>
-      <li><a href="2-05-0-extended-types/">Extended Types</a></li>
-      <li>Extra Credit: <a href="2-06-0-threads-memos-parallel/">Threading, Memoization, and Parallel Processing</a></li>
-      <li><a href="2-07-0-logic-and-more-math/">Logic and Advanced Math</a></li>
-      <li>Extra Credit: <a href="2-08-0-number-theory/">Number Theory</a></li>
-      <li><a href="2-09-0-binary-octets-bits/">Binary Streams, Octet-Vectors, and Bit-Vectors</a></li>
-      <li>Extra Credit: <a href="2-10-0-improved-text-adventure-engine/">An Improved Text Adventure Engine</a></li>
-      <li><a href="2-11-0-conditions/">Conditions and Error Handling</a></li>
-      <li>Extra Credit: <a href="2-12-0-2d-game/">Write a 2D Game</a></li>
-      <li><a href="2-13-0-compiler/">The Compiler</a></li>
-      <li>Extra Credit: <a href="2-14-0-tree-shaker/">Write a Tree-Shaker</a></li>
-      <li><a href="2-15-0-docs-and-inspection/">Documentation and Inspection</a></li>
-      <li>Extra Credit: <a href="2-16-0-foreign-libs/">Foreign Libraries in Lisp</a></li>
-      <li><a href="2-17-0-debugging-testing/">Debugging and Unit Testing</a></li>
-      <li>Extra Credit: <a href="2-18-0-ffi/">Write a Foreign Function Interface</a></li>
-      <li><a href="2-19-0-essential-libs/">Essential Lisp Libraries</a></li>
-      <li>Extra Credit: <a href="2-20-0-packaging-libs/">Packaging Lisp Libraries</a></li>
-      <li><a href="2-21-0-review/">Detailed Syntax Review</a></li>
+      <li><a href="2-01-0-programming-paradigms/">Programming Paradigms</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li>Extra Credit: <a href="2-02-0-regex/">Regular Expressions</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="2-03-0-objects-control/">Objects and Control Structures</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li>Extra Credit: <a href="2-04-0-data-persistence/">Persistence and Databases</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="2-05-0-extended-types/">Extended Types</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li>Extra Credit: <a href="2-06-0-threads-memos-parallel/">Threading, Memoization, and Parallel Processing</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="2-07-0-logic-and-more-math/">Logic and Advanced Math</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li>Extra Credit: <a href="2-08-0-number-theory/">Number Theory</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="2-09-0-binary-octets-bits/">Binary Streams, Octet-Vectors, and Bit-Vectors</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li>Extra Credit: <a href="2-10-0-improved-text-adventure-engine/">An Improved Text Adventure Engine</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="2-11-0-conditions/">Conditions and Error Handling</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li>Extra Credit: <a href="2-12-0-2d-game/">Write a 2D Game</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="2-13-0-compiler/">The Compiler</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li>Extra Credit: <a href="2-14-0-tree-shaker/">Write a Tree-Shaker</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="2-15-0-docs-and-inspection/">Documentation and Inspection</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li>Extra Credit: <a href="2-16-0-foreign-libs/">Foreign Libraries in Lisp</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="2-17-0-debugging-testing/">Debugging and Unit Testing</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li>Extra Credit: <a href="2-18-0-ffi/">Write a Foreign Function Interface</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="2-19-0-essential-libs/">Essential Lisp Libraries</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li>Extra Credit: <a href="2-20-0-packaging-libs/">Packaging Lisp Libraries</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="2-21-0-review/">Detailed Syntax Review</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
     </ul>
   </dd>
   <dt>PART THREE</dt>
   <dd>
     <a href="3-0-0-overview/">Lisp So(u)rcery</a>
     <ul>
-      <li><a href="3-01-0-web-apps/">Real-world Web Apps</a></li>
-      <li><a href="3-02-0-mobile/">Native Mobile Applications</a></li>
-      <li><a href="3-03-0-gui/">Cross-platform Desktop Applications</a></li>
-      <li><a href="3-04-0-system-utils/">Drivers, Daemons, and System-Utilities</a></li>
-      <li><a href="3-05-0-reverse-engineering/">Reverse Engineering</a></li>
-      <li><a href="3-06-0-graphics/">Graphics Rendering</a></li>
-      <li><a href="3-07-0-gaming/">OpenGL, SDL, and 3D Game Development</a></li>
-      <li><a href="3-08-0-audio/">Audio Generation and Manipulation</a></li>
-      <li><a href="3-09-0-data/">Data Aggregation and Analysis</a></li>
-      <li><a href="3-10-0-cryptosec/">Cryptography and Security</a></li>
-      <li><a href="3-11-0-fintech/">Financial Software and Crypto-Currencies</a></li>
-      <li><a href="3-12-0-scientific-computing/">Scientific Computing</a></li>
-      <li><a href="3-13-0-computational-physics/">Computational Physics</a></li>
-      <li><a href="3-14-0-quantum-computing/">Quantum Computing</a></li>
-      <li><a href="3-15-0-nlp/">Natural Language Processing</a></li>
-      <li><a href="3-16-0-ai/">Artificial Intelligence</a></li>
-      <li><a href="3-17-0-robotics/">Robotics</a></li>
-      <li><a href="3-18-0-space-tech/">Space Tech</a></li>
-      <li><a href="3-19-0-neurotech/">Neuroscience and Thought-Controlled Computing</a></li>
-      <li><a href="3-20-0-lispos/">A Simple LispOS</a></li>
-      <li><a href="3-21-0-lisp-machine/">Build Your Own Lisp Machine</a></li>
-      <li><a href="3-22-0-gov-mil/">Government and Military Grade Systems</a></li>
+      <li><a href="3-01-0-web-apps/">Real-world Web Apps</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="3-02-0-mobile/">Native Mobile Applications</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="3-03-0-gui/">Cross-platform Desktop Applications</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="3-04-0-system-utils/">Drivers, Daemons, and System-Utilities</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="3-05-0-reverse-engineering/">Reverse Engineering</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="3-06-0-graphics/">Graphics Rendering</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="3-07-0-gaming/">OpenGL, SDL, and 3D Game Development</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="3-08-0-audio/">Audio Generation and Manipulation</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="3-09-0-data/">Data Aggregation and Analysis</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="3-10-0-cryptosec/">Cryptography and Security</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="3-11-0-fintech/">Financial Software and Crypto-Currencies</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="3-12-0-scientific-computing/">Scientific Computing</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="3-13-0-computational-physics/">Computational Physics</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="3-14-0-quantum-computing/">Quantum Computing</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="3-15-0-nlp/">Natural Language Processing</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="3-16-0-ai/">Artificial Intelligence</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="3-17-0-robotics/">Robotics</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="3-18-0-space-tech/">Space Tech</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="3-19-0-neurotech/">Neuroscience and Thought-Controlled Computing</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="3-20-0-lispos/">A Simple LispOS</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="3-21-0-lisp-machine/">Build Your Own Lisp Machine</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="3-22-0-gov-mil/">Government and Military Grade Systems</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
     </ul>
   </dd>
 </dl>
@@ -134,53 +134,7 @@ Coming Soon
 
 # Recent Updates
 
-### --- 2014
-
-<dl class="dl-horizontal">
-  <dt>July</dt>
-  <dd>
-      <strong>5th:</strong> Add recent update items to book/index.md<br>
-      <strong>4th:</strong> Add Full ToC and Recent Updates section to book/index.md<br>
-      <strong>3rd:</strong> Update chapter quotes and formatting, section 1.1.2 and 1.2<br>
-      <strong>2nd:</strong> Rearrange preface content, add acknowledgements to preface<br>
-      <strong>1st:</strong> Update preface material, introduction
-  </dd>
-  <dt>January</dt>
-  <dd>
-      <strong>4th:</strong> Open-source project, begin rewrite of 2nd draft from scratch.
-  </dd>
-</dl>
-
-### --- 2013
-
-<dl class="dl-horizontal">
-  <dt>October</dt>
-  <dd>
-      <strong>15th:</strong> Begin planning of 2nd Draft
-  </dd>
-  <dt>June</dt>
-  <dd>
-      <strong>14th:</strong> Update Styles for web version.
-  </dd>
-  <dt>April</dt>
-  <dd>
-      <strong>28th:</strong> Migrate project from Zed Shaw's LxTHW to Common Lisp Book Kit.<br>
-      <strong>13th:</strong> Update draft and text version.
-  </dd>
-  <dt>January</dt>
-  <dd>
-      <strong>4th:</strong> Create private LLTHW repo.
-  </dd>
-</dl>
-
-### --- 2012
-
-<dl class="dl-horizontal">
-  <dt>December</dt>
-  <dd>
-      <strong>3rd:</strong> Begin draft 0.1.0 alpha, Register learnlispthehardway.org
-  </dd>
-</dl>
+For a list of recent updates, please see the <a href="https://github.com/thephoeron/llthw/commits" target="_blank">Commit History on GitHub</a>.  Updates to the LLTHW repository are generally pushed to the live server within 24 hours.
 
 # FAQ
 
