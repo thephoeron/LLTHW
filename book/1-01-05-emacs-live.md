@@ -128,7 +128,35 @@ All done! Now you can move on to the next section and run Emacs!
 
 ## Using Emacs Live + SLIME
 
+Now that everything is set-up and configured, you are ready to fire up Emacs for the first time.  Run the application as you normally would for your platform, sit back and watch the show.
 
+If you did everything correctly above, after a moment watching Emacs Live load up all its packages and config files, you should be presented with a shimmering ASCII Art banner that looks a little like this:
+
+```elisp
+;;
+;;     MM""""""""`M
+;;     MM  mmmmmmmM
+;;     M`      MMMM 88d8b.d8b. .d8888b. .d8888b. .d8888b.
+;;     MM  MMMMMMMM 88''88'`88 88'  `88 88'  `"" Y8ooooo.
+;;     MM  MMMMMMMM 88  88  88 88.  .88 88.  ...       88
+;;     MM        .M dP  dP  dP `88888P8 '88888P' '88888P'
+;;     MMMMMMMMMMMM
+;;
+;;         M""MMMMMMMM M""M M""MMMMM""M MM""""""""`M
+;;         M  MMMMMMMM M  M M  MMMMM  M MM  mmmmmmmM
+;;         M  MMMMMMMM M  M M  MMMMP  M M`      MMMM
+;;         M  MMMMMMMM M  M M  MMMM' .M MM  MMMMMMMM
+;;         M  MMMMMMMM M  M M  MMP' .MM MM  MMMMMMMM
+;;         M         M M  M M     .dMMM MM        .M
+;;         MMMMMMMMMMM MMMM MMMMMMMMMMM MMMMMMMMMMMM  Version 1.0beta24
+;;
+;;           http://github.com/overtone/emacs-live
+;;
+;; Colin, turn your head towards the sun and the shadows will fall behind you.
+
+```
+
+If you end up with some ASCII-art that looks like a mushroom cloud, well, you messed up somewhere.  Double-check every step, and make sure you followed the instructions *exactly*.  If all else fails, you can ask for help in the comments, or create an issue on the Emacs Live github repo.
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-01-04-configuration/">&laquo; Previous</a></li>
