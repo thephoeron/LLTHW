@@ -17,6 +17,7 @@
 ;; Common Lisp: Powerful, Expressive, Programmable, General Purpose, Multi-Paradigm.
 
 ```
+
 # Draft Chapter Completion Status Legend
 
 <dl class="dl-horizontal">
