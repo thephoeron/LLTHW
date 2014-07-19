@@ -130,6 +130,17 @@ All done! Now you can move on to the next section and run Emacs!
 
 Now that everything is set-up and configured, you are ready to fire up Emacs for the first time.  Run the application as you normally would for your platform, sit back and watch the show.
 
+<div class="alert alert-success">
+    <strong>Tip:</strong>
+    <p>You can start Emacs from a different folder instead of from your home folder, which is the default when you launch Emacs from your operating system's menu (or the Applications folder on OS X).</p>
+    <p>From the command line, switch to a project directory, and run Emacs from that folder.  For example, if you've cloned a copy of Learn Lisp The Hard Way into your Quicklisp Local-Projects folder:</p>
+    <pre>
+    $ cd ~/quicklisp/local-projects/llthw
+    $ emacs
+    </pre>
+    <p>If it's a <code>git</code> repository folder, like a clone of LLTHW would be, you will automatically get access to some useful Git plugins in Emacs Live.</p>
+</div>
+
 If you did everything correctly above, after a moment watching Emacs Live load up all its packages and config files, you should be presented with a shimmering ASCII Art banner that looks a little like this:
 
 ```elisp
@@ -157,6 +168,29 @@ If you did everything correctly above, after a moment watching Emacs Live load u
 ```
 
 If you end up with some ASCII-art that looks like a mushroom cloud, well, you messed up somewhere.  Double-check every step, and make sure you followed the instructions *exactly*.  If all else fails, you can ask for help in the comments, or create an issue on the Emacs Live github repo.
+
+### Keyboard Shortcuts
+
+Emacs uses a special Keyboard Shortcuts notation to refer to its keybindings.  There are defaults, but since you can change the actual key on the keyboard used for the Emacs "Control" and "Meta" bindings, this notation refers to the actual binding.
+
+The notation and their default bindings is as follows:
+
+<dl class="dl-horizontal">
+    <dt>C (Control)</dt>
+    <dd>Ctrl, control key</dd>
+    <dt>M (Meta)</dt>
+    <dd>Alt or Cmd key, depending on your platform.  In some cases this is mapped to Esc or Caps Lock.</dd>
+    <dt>S (Shift)</dt>
+    <dd>shift key</dd>
+    <dt>ESC (Escape)</dt>
+    <dd>escape key</dd>
+    <dt>SPC (Space)</dt>
+    <dd>space bar</dd>
+</dl>
+
+When you see an Emacs keyboard-shortcut sequence, it will look something like this: <kbd>C-x C-c</kbd> or <kbd>M-x</kbd> <code>slime</code>.  <kbd>C-x C-c</kbd> means hold down Control, x, then c; this quits Emacs.  <kbd>M-x</kbd> <code>slime</code> means hold down Meta and x, then at the minibuffer prompt that comes up, type <code>slime</code> and hit Return/Enter.  This will open and put you in the Common Lisp REPL.
+
+Take some time to practice all the keyboard shortcuts that follow, repeating as many times as necessary for you to remember them.  Once you get a feel for Emacs, you'll be hard-pressed to go back to the clunky point-and-click interfaces of other IDEs and text editors.
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-01-04-configuration/">&laquo; Previous</a></li>
