@@ -134,10 +134,8 @@ Now that everything is set-up and configured, you are ready to fire up Emacs for
     <strong>Tip:</strong>
     <p>You can start Emacs from a different folder instead of from your home folder, which is the default when you launch Emacs from your operating system's menu (or the Applications folder on OS X).</p>
     <p>From the command line, switch to a project directory, and run Emacs from that folder.  For example, if you've cloned a copy of Learn Lisp The Hard Way into your Quicklisp Local-Projects folder:</p>
-    <pre>
-    $ cd ~/quicklisp/local-projects/llthw
-    $ emacs
-    </pre>
+    <pre>$ cd ~/quicklisp/local-projects/llthw
+$ emacs</pre>
     <p>If it's a <code>git</code> repository folder, like a clone of LLTHW would be, you will automatically get access to some useful Git plugins in Emacs Live.</p>
 </div>
 
