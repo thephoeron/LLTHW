@@ -62,7 +62,9 @@ Lastly, there is `write-char`, which is like `write`, but only prints a single c
 
 Everything make sense?
 
-A little word on the last example---notice how the return value of the whole `progn` form is different from `print`?  In Lisp, if you don't specify a return value, the return value of the last evaluated form in the expression is returned from the top-most expression.
+A little word on the last example---notice how the return value of the whole `progn` form is different from `print`?  In Lisp, if you don't specify a return value (and in so doing, leave the expression early, before evaluation reaches the end), the return value of the last evaluated form in the expression is returned from the top-most expression.  In this case, `write-char` is the last expression in the `progn`, so *its* return value, `#\Space`, is returned by the `progn`.
+
+Obviously, you'll notice, the `print` function is doing something different---but we'll get to that soon.
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-02-08-printing/">&laquo; Previous</a></li>
