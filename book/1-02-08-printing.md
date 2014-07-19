@@ -59,12 +59,12 @@ HELLO
 
 Do you understand everything that's happening here?  Take a moment to review what you've typed, and what you've gotten back at the REPL.
 
-With the first three examples, you probably noticed that you're getting back the same value twice.  This is because the default `:stream` is `*standard-output*`, which is the same place function return values are being sent while you're working in the REPL, and you're printing the objects with all their default settings, as Lisp would normally print them for you.  You won't normally see this behavior outside the REPL though---in upcoming exercises, you'll learn more about streams and what you can do with them, and what happens to values when they're not sent to a stream.
+With the first three examples, you probably noticed that you're getting back the same value twice.  This is because the default `:stream` is `*standard-output*`, which is the same place function return values are being sent while you're working in the REPL.  You're also printing the objects with all their default settings, as Lisp would normally print them for you.  You won't normally see this exact behavior outside the REPL though---in upcoming exercises, you'll learn more about streams and what you can do with them, and what happens to values when they're not sent to a stream or bound to a variable.
 
-But notice how changing the defaults in the last three examples changed the way `write` *printed* the arguments, but didn't change the actual return value in any way (*i.e.,* the integer 10,000)?  This is how `write` works.  First it prints the *object* parameter you pass it, according to any changes you've made to the defaults using `write`'s keyword parameters, and then when it's done it *returns* the original object.
+But notice how changing the defaults in the last three examples changed the way `write` *printed* the arguments, but didn't change the actual return value in any way (*i.e.,* the integer 10,000)?  This is how `write` works.  First it prints the *object* parameter you pass it, according to any changes you've made to the instructions for the Lisp Printer using `write`'s keyword parameters, and then when it's done it *returns* the original object as well.
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-02-07-strings-from-chars/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-03-0-getting-input-from-users/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-02-09-more-printing/">Next &raquo;</a><li>
 </ul>
