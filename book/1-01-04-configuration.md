@@ -102,6 +102,11 @@ You can put your Lisp projects under `~/quicklisp/local-projects/` so that Quick
 
 If you ask any Lisp developer what editor you should be using, or what IDE is available for Common Lisp, the first thing they'll tell you is, Emacs.  Emacs and SLIME (the Superior Lisp Interaction Mode for Emacs), makes a powerful combination. You can control the entire environment with your keyboard, never having to waste time reaching for the mouse; run, test, and debug code in the REPL as you write it in another buffer; experiment and explore alternate approaches to solving the same problem, profiling your code to get the best performance; and have the full Common Lisp HyperSpec at your fingertips.  The only problem is, some users really dislike Emacs, or simply don't know it.  The steep learning curve can be a real damper to your progress when coming to both Lisp and Emacs as a newbie; so the policy of this book is, use what you know, and make it work until you know Lisp well enough to get comfortable learning Emacs.  If you wait until the right time, learning Emacs will be a boost to your productivity, not a hindrance.
 
+<div class="alert alert-info">
+    <strong>Note:</strong>
+    <p>If you want to move ahead with Emacs, detailed instructions for setting up the Emacs Live environment with support for Common Lisp are available in the next chapter, your first Extra Credit exercise.</p>
+</div>
+
 If you know Emacs and have a great disdain for it, far preferring Vim, you can take advantage of most of the features of SLIME through the Vim package, Slimv.
 
 For users who have no experience with Emacs or Vim, all you really need at the moment is a simple text editor.  Anything more will probably just confuse you, and keep you from focusing on Lisp itself.  A few worth checking out are:
