@@ -20,6 +20,7 @@ This chapter contains exercises on:
 * [Character Codes](/book/1-02-06-char-codes/)
 * [Strings from Chars](/book/1-02-07-strings-from-chars/)
 * [Printing](/book/1-02-08-printing/)
+* [More Printing](/book/1-02-09-more-printing/)
 
 This chapter will also contain exercises on:
 
