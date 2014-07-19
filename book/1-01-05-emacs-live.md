@@ -6,7 +6,7 @@
   <li class="active">Extra Credit: Set Up and Learn Emacs Live</li>
 </ol>
 
-# Extra Credit
+# Extra Credit Exercise 1.1.5
 
 ## Set Up and Learn Emacs Live
 
