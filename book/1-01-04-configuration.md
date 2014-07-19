@@ -17,6 +17,8 @@ Now that you've gotten yourself a feel for Common Lisp, you'll want to spend a l
 
 You can start hacking in Lisp right away with the in-browser, javascript-powered REPL under the "Try Lisp" section of this site, listed in the navigation bar at the top of each page.  It takes you through a quick tour of Common Lisp so you can get your feet wet without installing anything.
 
+To continue with this book, however, you will need to install Common Lisp on your computer.  Not all the exercises in this book will run in the in-browser REPL, so make sure you get SBCL installed and working correctly before moving on to the next exercise.
+
 ## Installing SBCL
 
 Steel Bank Common Lisp is one of the easiest Lisp implementations to get up and running&mdash;it has out of the box support for a wide selection of platforms, and is considered to be the most robust implementation available.  Since it automatically compiles everything you enter at the REPL, your running Lisp processes also benefit from a major speed-boost over other Lisps.
