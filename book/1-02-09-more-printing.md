@@ -18,11 +18,10 @@ Let's see it in action, along with an equivalent version using `write`:
 
 ```lisp
 (print "hello, multiverse!")
-(print "hello, again, multiverse!" t)
+(print "hello again, multiverse!" t)
 (print "hello, multiverse, are you there?" nil)
 (progn (terpri t)
-       (write "hello, multiverse!" :stream t
-                                   :escape t)
+       (write "hello, multiverse!" :stream t :escape t)
        (write-char #\Space t))
 ```
 
@@ -41,10 +40,29 @@ Lastly, there is `write-char`, which is like `write`, but only prints a single c
 #### What You Should See
 
 ```lisp
+* (print "hello, multiverse!")
 
+"hello, multiverse!"
+"hello, multiverse!"
+* (print "hello again, multiverse!" t)
+
+"hello again, multiverse!"
+"hello again, multiverse!"
+* (print "hello, multiverse, are you there?" nil)
+
+"hello, multiverse, are you there?"
+"hello, multiverse, are you there?"
+* (progn (terpri t)
+         (write "hello, multiverse!" :stream t :escape t)
+         (write-char #\Space t))
+
+"hello, multiverse!" 
+#\
 ```
 
 Everything make sense?
+
+A little word on the last example---notice how the return value of the whole `progn` form is different from `print`?  In Lisp, if you don't specify a return value, the return value of the last evaluated form in the expression is returned from the top-most expression.
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-02-08-printing/">&laquo; Previous</a></li>
