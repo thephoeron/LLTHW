@@ -192,6 +192,8 @@ When you see an Emacs keyboard-shortcut sequence, it will look something like th
 
 Take some time to practice all the keyboard shortcuts that follow, repeating as many times as necessary for you to remember them.  Once you get a feel for Emacs, you'll be hard-pressed to go back to the clunky point-and-click interfaces of other IDEs and text editors.
 
+
+
 <ul class="pager">
   <li class="previous"><a href="/book/1-01-04-configuration/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
