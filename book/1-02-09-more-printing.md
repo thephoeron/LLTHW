@@ -12,6 +12,40 @@
 
 As I said in the previous exercise, Common Lisp has a lot of functions for printing, including one named `print`, which you'll see here in this exercise.  I'll also show you how the same functionality can be implemented with `write`, so you can get a feel for specializing a very general interface---a common development pattern in Common Lisp.
 
+`print` works exactly as you would expect a print function to work.  You pass it an object to print and a stream to print it to. It prints the object between a new-line character and a space---note: `print` prints the object *readably*, in other words, in a format suitable to be read by the Lisp reader, escaping special characters.
+
+Let's see it in action, along with an equivalent version using `write`:
+
+```lisp
+(print "hello, multiverse!")
+(print "hello, again, multiverse!" t)
+(print "hello, multiverse, are you there?" nil)
+(progn (terpri t)
+       (write "hello, multiverse!" :stream t
+                                   :escape t)
+       (write-char #\Space t))
+```
+
+There are a few new things here, which we can go over quickly for now.  They will be explained in more detail later.
+
+First, notice that the `print` function takes two arguments: the *object* you want to print, and then the *stream* you want to print the object to.  You can use the boolean truth symbol `t` as shorthand for `*standard-output*`.  You don't have to pass the second argument---the default is `nil`, so the first line of code is the same in principle as the third.
+
+`progn` is a useful wrapper macro.  It tells Lisp to evaluate each expression in its body sequentially, in the order they appear.
+
+`terpri` stands for "terminate printing".  It's used to send a new-line character to a stream.  It seems slightly illogical to use it at the *beginning* of a printing sequence, but that is how the `print` function is implemented.
+
+For the `write` function, I've introduced two new keyword parameters, `:stream` and `:escape`, which tell `write` where to print the *object* parameter, and whether or not what's printed should be escaped, respectively.
+
+Lastly, there is `write-char`, which is like `write`, but only prints a single character object to a stream.
+
+#### What You Should See
+
+```lisp
+
+```
+
+Everything make sense?
+
 <ul class="pager">
   <li class="previous"><a href="/book/1-02-08-printing/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
