@@ -257,6 +257,19 @@ When in Lisp-mode, *i.e.,* in a buffer that contains a `*.lisp` file, Paredit is
 
 Note: Paredit is not enabled by default in the SLIME REPL.
 
+<dl class="dl-horizontal">
+    <dt><kbd>C-)</kbd></dt>
+    <dd>Slurp the next expression into this expression</dd>
+    <dt><kbd>C-(</kbd></dt>
+    <dd>Slurp the previous expression into this one</dd>
+    <dt><kbd>C-}</kbd></dt>
+    <dd>Barf the current expression out to the right of its parent expression</dd>
+    <dt><kbd>C-{</kbd></dt>
+    <dd>Barf the current expression out to the left of its parent expression</dd>
+    <dt><kbd>C-q )</kbd></dt>
+    <dd>Force insert a closing paren</dd>
+</dl>
+
 #### Neo-Tree
 
 To activate the Neo-Tree plugin, so you can browse your project directory like you normally would in a file manager or other IDE, just hit the <kbd>F8</kbd> key.  A tree will appear to the left of your editor.
@@ -273,19 +286,6 @@ To open a new terminal in your current buffer, use <kbd>M-x</kbd> `multi-term`. 
 * <kbd>M-x</kbd> `multi-term` to open your shell in that buffer
 
 You now have the command line right in Emacs, alongside your editor and REPL!
-
-<dl class="dl-horizontal">
-    <dt><kbd>C-)</kbd></dt>
-    <dd>Slurp the next expression into this expression</dd>
-    <dt><kbd>C-(</kbd></dt>
-    <dd>Slurp the previous expression into this one</dd>
-    <dt><kbd>C-}</kbd></dt>
-    <dd>Barf the current expression out to the right of its parent expression</dd>
-    <dt><kbd>C-{</kbd></dt>
-    <dd>Barf the current expression out to the left of its parent expression</dd>
-    <dt><kbd>C-q )</kbd></dt>
-    <dd>Force insert a closing paren</dd>
-</dl>
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-01-04-configuration/">&laquo; Previous</a></li>
