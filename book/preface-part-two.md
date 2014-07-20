@@ -6,8 +6,8 @@
 
 # The Hard Way Is Easier
 
-> "Do not handicap your children by making their lives easy."
-> <footer>Robert A. Heinlein, <em>Time Enough for Love</em></footer>
+> "The hardest part about gaining any new idea is sweeping out the false idea occupying that niche.  As long as that niche is occupied, evidence and proof and logical demonstration get nowhere.  But once the niche is emptied of the wrong idea that has been filling it---once you can honestly say, 'I don't know,' then it becomes possible to get at the truth."
+> <footer>Robert A. Heinlein, <em>The Cat Who Walks Through Walls</em></footer>
 
 Whatever you think you know about programming, forget it.  Lisp is different from other programming languages.
 
