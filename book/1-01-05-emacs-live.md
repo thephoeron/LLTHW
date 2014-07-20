@@ -245,7 +245,7 @@ If anything goes wrong in your live-hacking adventures, SLIME will drop you into
 
 #### Autocompletion and Live Documentation
 
-You don't have to know much to make use of this plugin in Emacs Live.  It pops up as you're typing with a list of suggestions based on the Common Lisp language and all your open buffers; you can navigate the list of suggested auto-completions with the <kbd></kbd> (Up) and <kbd>(Down)</kbd> arrow keys.  When you highlight an auto-completion entry, if it has a little letter `l` at the right of the menu item, a documentation entry will pop-up next to it.  This documentation comes from the source-code "docstrings"---so when working on a library of your own, make sure to write helpful documentation.  You'll thank yourself for it later.
+You don't have to know much to make use of this plugin in Emacs Live.  It pops up as you're typing with a list of suggestions based on the Common Lisp language and all your open buffers; you can navigate the list of suggested auto-completions with the <kbd>&uarr;</kbd> (Up) and <kbd>&darr;</kbd> (Down) arrow keys.  When you highlight an auto-completion entry, if it has a little letter `l` at the right of the menu item, a documentation entry will pop-up next to it.  This documentation comes from the source-code "docstrings"---so when working on a library of your own, make sure to write helpful documentation.  You'll thank yourself for it later.
 
 To select a suggested auto-completion entry and move the cursor to the end of that word, move down the list to select the entry you want and press the <kbd>TAB</kbd> key.
 
