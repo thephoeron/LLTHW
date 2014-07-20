@@ -10,7 +10,9 @@
 > "Relevant quote..."
 > <footer>Source</footer>
 
-Focus on writing robust prompts that handle a variety of validated user input, not using READ or EVAL.
+Focus on writing robust prompts that handle a variety of validated user input, that don't use READ or EVAL; but READ and EVAL should be explained.
+
+Also include exercises on string splitting, replacing characters in strings, parsing numbers, etc.
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-02-0-input-output/">&laquo; Previous</a></li>
