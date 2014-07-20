@@ -24,7 +24,7 @@ This chapter contains exercises on:
 * [Printing With prin1](/book/1-02-10-prin1/)
 * [Printing With princ](/book/1-02-11-princ/)
 * [A Brief Introduction to Format](/book/1-02-12-format/)
-* [A Little Bit More On Format](/book/1-02-13-format/)
+* [A Little Bit More on Format](/book/1-02-13-more-format/)
 
 This chapter will also contain exercises on:
 
