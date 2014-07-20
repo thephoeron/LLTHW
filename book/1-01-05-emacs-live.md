@@ -281,7 +281,7 @@ Emacs has built in support to open terminal buffers, but the Multi-Term plugin h
 To open a new terminal in your current buffer, use <kbd>M-x</kbd> `multi-term`.  I usually create a new buffer just for the terminal below the SLIME REPL, which you can do like this:
 
 * Use <kbd>C-x o</kbd> to switch to the next window, until you get to your open SLIME REPL.
-* Split the SLIME REPL window horizontally with <kbd>C-x 2</kbd>
+* Split the SLIME REPL window vertically with <kbd>C-x 2</kbd> (new window below)
 * <kbd>C-x o</kbd> again to go to the new window, which will be a copy of the SLIME REPL buffer at first.
 * <kbd>M-x</kbd> `multi-term` to open your shell in that buffer
 
