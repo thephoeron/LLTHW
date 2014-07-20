@@ -257,6 +257,23 @@ When in Lisp-mode, *i.e.,* in a buffer that contains a `*.lisp` file, Paredit is
 
 Note: Paredit is not enabled by default in the SLIME REPL.
 
+#### Neo-Tree
+
+To activate the Neo-Tree plugin, so you can browse your project directory like you normally would in a file manager or other IDE, just hit the <kbd>F8</kbd> key.  A tree will appear to the left of your editor.
+
+#### Multi-Term
+
+Emacs has built in support to open terminal buffers, but the Multi-Term plugin has several notable improvements over the limitations of <kbd>M-x</kbd> `shell` and <kbd>M-x</kbd> `term`.
+
+To open a new terminal in your current buffer, use <kbd>M-x</kbd> `multi-term`.  I usually create a new buffer just for the terminal below the SLIME REPL, which you can do like this:
+
+* Use <kbd>C-x o</kbd> to switch to the next window, until you get to your open SLIME REPL.
+* Split the SLIME REPL window horizontally with <kbd>C-x 2</kbd>
+* <kbd>C-x o</kbd> again to go to the new window, which will be a copy of the SLIME REPL buffer at first.
+* <kbd>M-x</kbd> `multi-term` to open your shell in that buffer
+
+You now have the command line right in Emacs, alongside your editor and REPL!
+
 <dl class="dl-horizontal">
     <dt><kbd>C-)</kbd></dt>
     <dd>Slurp the next expression into this expression</dd>
