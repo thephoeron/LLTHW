@@ -6,8 +6,8 @@
 
 # Who Is This Book For?
 
-> "When I don’t understand, I have an unbearable itch to know why."
-> <footer>Robert A. Heinlein, <em>Have Space Suit---Will Travel</em></footer>
+> "The hardest part about gaining any new idea is sweeping out the false idea occupying that niche.  As long as that niche is occupied, evidence and proof and logical demonstration get nowhere.  But once the niche is emptied of the wrong idea that has been filling it---once you can honestly say, 'I don't know,' then it becomes possible to get at the truth."
+> <footer>Robert A. Heinlein, <em>The Cat Who Walks Through Walls</em></footer>
 
 Many books on programming can be quite tedious.  There is a tendency among programming language education literature to be one of two types: such a basic introduction that you know less about the subject after reading the book, or it makes so many assumptions about the reader's educational background that it is not a useful introduction to learn the language outside of an ivy-league university's computer science program.  *The Hard Way* is different.
 
