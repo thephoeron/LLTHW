@@ -21,6 +21,10 @@ This chapter contains exercises on:
 * [Strings from Chars](/book/1-02-07-strings-from-chars/)
 * [Printing](/book/1-02-08-printing/)
 * [More Printing](/book/1-02-09-more-printing/)
+* [Printing With prin1](/book/1-02-10-prin1/)
+* [Printing With princ](/book/1-02-11-princ/)
+* [A Brief Introduction to Format](/book/1-02-12-format/)
+* [A Little Bit More On Format](/book/1-02-13-format/)
 
 This chapter will also contain exercises on:
 
