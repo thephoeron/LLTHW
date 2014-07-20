@@ -188,9 +188,87 @@ The notation and their default bindings is as follows:
 
 When you see an Emacs keyboard-shortcut sequence, it will look something like this: <kbd>C-x C-c</kbd> or <kbd>M-x</kbd> <code>slime</code>.  <kbd>C-x C-c</kbd> means hold down Control, x, then c; this quits Emacs.  <kbd>M-x</kbd> <code>slime</code> means hold down Meta and x, then at the minibuffer prompt that comes up, type <code>slime</code> and hit Return/Enter.  This will open and put you in the Common Lisp REPL.
 
-Take some time to practice all the keyboard shortcuts that follow, repeating as many times as necessary for you to remember them.  Once you get a feel for Emacs, you'll be hard-pressed to go back to the clunky point-and-click interfaces of other IDEs and text editors.
+With Emacs Live + SLIME open, take some time to practice all the keyboard shortcuts that follow, repeating as many times as necessary for you to remember them.  Once you get a feel for Emacs, you'll be hard-pressed to go back to the clunky point-and-click interfaces of other IDEs and text editors.
 
+#### General
 
+<dl class="dl-horizontal">
+    <dt><kbd>C-x C-c</kbd></dt>
+    <dd>Quit Emacs, prompt to close any running processes.</dd>
+    <dt><kbd>C-g</kbd></dt>
+    <dd>Keyboard quit, cancel a dialog or command.</dd>
+    <dt><kbd>M-x</kbd></dt>
+    <dd>Prompt to run a command by name</dd>
+    <dt><kbd>M-h ?</kbd></dt>
+    <dd>Emacs Help menu</dd>
+    <dt><kbd>M-h t</kbd></dt>
+    <dd>Default Emacs tutorial</dd>
+    <dt><kbd>M-h k</kbd></dt>
+    <dd>Show the function for a keyboard shortcut</dd>
+    <dt><kbd>M-h f</kbd></dt>
+    <dd>Show the documentation string for a function</dd>
+</dl>
+
+Pay special attention to <kbd>M-h t</kbd>, the Default Emacs tutorial.  You may want to take this opportunity to follow it now to get a feel for the usual editing and navigation flow in Emacs.  It doesn't take long!
+
+#### SLIME, the Superior Lisp Interaction Mode
+
+Now that you've got a feel for using Emacs itself, it's time to dive into SLIME so you can get to live-hacking in Lisp.
+
+First of all, use the Emacs keyboard shortcuts to create a new `*.lisp` file, and make sure you have the REPL open next to your new `*.lisp` file's buffer, so you can see them both at the same time.  Don't worry too much about the example code in this section, it is pretty simple stuff to show you SLIME in action, and will all be explained in later exercises.
+
+In your new Lisp file, type the following:
+
+```lisp
+(defun my-addition-function (&rest rest)
+  "A quick and dirty addition function."
+  (apply #'+ rest))
+
+(my-addition-function 10 9 8 7 6 5 4 3 2 1)
+```
+
+Once you've finished that, save it using the Emacs keyboard shortcuts you learned in the Emacs Tutorial.
+
+Move the cursor back up to the last closing parens at the end of the `(defun my-addition-function ...)` form, and execute it with the keyboard shortcut <kbd>C-x C-e</kbd>.  In the minibuffer, it will show you the return value of this, the name of the function.  This means you successfully compiled your first function with SLIME!
+
+You can now use this function in code.  Go to the end of the line where you called `my-addition-function`, and once again hit the keyboard shortcut <kbd>C-x C-e</kbd>.  Now in the minibuffer you should see the result of the function: `55`.
+
+Don't believe me that running and compiling your code in Lisp is that easy and fast?  Well, try this out too:
+
+```lisp
+(disassemble #'my-addition-function)
+```
+
+You'll see a lovely assembly dump of your new function printed in the REPL.
+
+If anything goes wrong in your live-hacking adventures, SLIME will drop you into an interactive debugger, which you can navigate with either the keyboard or the mouse, digging through the code until you figure out what's wrong and how to fix it.  Usually the debugger is quite helpful, and will have you fixing your bugs in a fraction of the time as normal.
+
+#### Autocompletion and Live Documentation
+
+You don't have to know much to make use of this plugin in Emacs Live.  It pops up as you're typing with a list of suggestions based on the Common Lisp language and all your open buffers; you can navigate the list of suggested auto-completions with the <kbd></kbd> (Up) and <kbd>(Down)</kbd> arrow keys.  When you highlight an auto-completion entry, if it has a little letter `l` at the right of the menu item, a documentation entry will pop-up next to it.  This documentation comes from the source-code "docstrings"---so when working on a library of your own, make sure to write helpful documentation.  You'll thank yourself for it later.
+
+To select a suggested auto-completion entry and move the cursor to the end of that word, move down the list to select the entry you want and press the <kbd>TAB</kbd> key.
+
+Auto-completion works in both Lisp-mode buffers and the SLIME REPL.
+
+#### Paredit
+
+When in Lisp-mode, *i.e.,* in a buffer that contains a `*.lisp` file, Paredit is your next best friend after SLIME itself; and the two work together very well.
+
+Note: Paredit is not enabled by default in the SLIME REPL.
+
+<dl class="dl-horizontal">
+    <dt><kbd>C-)</kbd></dt>
+    <dd>Slurp the next expression into this expression</dd>
+    <dt><kbd>C-(</kbd></dt>
+    <dd>Slurp the previous expression into this one</dd>
+    <dt><kbd>C-}</kbd></dt>
+    <dd>Barf the current expression out to the right of its parent expression</dd>
+    <dt><kbd>C-{</kbd></dt>
+    <dd>Barf the current expression out to the left of its parent expression</dd>
+    <dt><kbd>C-q )</kbd></dt>
+    <dd>Force insert a closing paren</dd>
+</dl>
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-01-04-configuration/">&laquo; Previous</a></li>
