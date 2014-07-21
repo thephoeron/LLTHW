@@ -82,7 +82,7 @@ If you are using Linux or OS X, you can install Emacs Live with a convenient "br
 Either from your favorite GIT client or from the command line, clone the Emacs Live repo as `.emacs.d` into `C:\emacs`:
 
 ```sh
-> git clone git://github.com/overtone/emacs-live.gt C:\emacs\.emacs.d
+$ git clone git://github.com/overtone/emacs-live.gt C:\emacs\.emacs.d
 ```
 
 Create the directory `.live-packs` under `C:\emacs`, and copy the directory `C:\emacs\.emacs.d\packs\template` to `C:\emacs\.live-packs`.  Rename `C:\emacs\.live-packs\template` to `C:\emacs\.live-packs\{your-username}-pack`, replacing "{your-username}" with your actual username on the computer, no spaces or special characters.  This gives you a special Live Pack to add your own customizations to Emacs Live later.
@@ -102,7 +102,7 @@ Make sure you replace the "{your-username}" token with the actual name of the fo
 From the command line, all you have to do is run:
 
 ```sh
-bash <(curl -fksSL https://raw.github.com/overtone/emacs-live/master/installer/install-emacs-live.sh)
+$ bash <(curl -fksSL https://raw.github.com/overtone/emacs-live/master/installer/install-emacs-live.sh)
 ```
 
 It will install Emacs Live to `~/.emacs.d/`, create your Live Packs directory, and get you set up with an `~/.emacs-live.el` start-up hook file.  Also, if you already have an existing `~/.emacs.d` directory and `~/.emacs` config file, it will move them out of the way to a safe place.
@@ -141,7 +141,7 @@ $ emacs</pre>
 
 If you did everything correctly above, after a moment watching Emacs Live load up all its packages and config files, you should be presented with a shimmering ASCII Art banner that looks a little like this:
 
-```elisp
+```lisp
 ;;
 ;;     MM""""""""`M
 ;;     MM  mmmmmmmM
