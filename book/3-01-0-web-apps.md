@@ -26,6 +26,8 @@ Web app should be a live-updating feed, pulling from some standard data source i
 
 Focus on 100% Lisp to generate/parse web languages.
 
+Also, include an exercise that shows how to set up a secure load-balanced cloud lisp web application.
+
 <ul class="pager">
   <li class="previous"><a href="/book/3-0-0-overview/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
