@@ -92,10 +92,10 @@ Create the file `.emacs-live.el` under `C:\emacs`.  This is just a plain text fi
 In `.emacs-live.el`, add the following line and save the file:
 
 ```elisp
-(live-append-packs '(~/.live-packs/{your-username}-pack))
+(live-append-packs '(~/.live-packs/your-username-pack))
 ```
 
-Make sure you replace the "{your-username}" token with the actual name of the folder you created under `C:\emacs\.live-packs`.
+Make sure you replace "your-username" token with the actual name of the folder you created under `C:\emacs\.live-packs`.
 
 #### Mac OS X and Linux
 
@@ -131,17 +131,17 @@ All done! Now you can move on to the next section and run Emacs!
 Now that everything is set-up and configured, you are ready to fire up Emacs for the first time.  Run the application as you normally would for your platform, sit back and watch the show.
 
 <div class="alert alert-success">
-    <strong>Tip:</strong>
-    <p>You can start Emacs from a different folder instead of from your home folder, which is the default when you launch Emacs from your operating system's menu (or the Applications folder on OS X).</p>
-    <p>From the command line, switch to a project directory, and run Emacs from that folder.  For example, if you've cloned a copy of Learn Lisp The Hard Way into your Quicklisp Local-Projects folder:</p>
-    <pre>$ cd ~/quicklisp/local-projects/llthw
+  <strong>Tip:</strong>
+  <p>You can start Emacs from a different folder instead of from your home folder, which is the default when you launch Emacs from your operating system's menu (or the Applications folder on OS X).</p>
+  <p>From the command line, switch to a project directory, and run Emacs from that folder.  For example, if you've cloned a copy of Learn Lisp The Hard Way into your Quicklisp Local-Projects folder:</p>
+  <pre>$ cd ~/quicklisp/local-projects/llthw
 $ emacs</pre>
-    <p>If it's a <code>git</code> repository folder, like a clone of LLTHW would be, you will automatically get access to some useful Git plugins in Emacs Live.</p>
+  <p>If it's a <code>git</code> repository folder, like a clone of LLTHW would be, you will automatically get access to some useful Git plugins in Emacs Live.</p>
 </div>
 
 If you did everything correctly above, after a moment watching Emacs Live load up all its packages and config files, you should be presented with a shimmering ASCII Art banner that looks a little like this:
 
-```lisp
+```elisp
 ;;
 ;;     MM""""""""`M
 ;;     MM  mmmmmmmM
