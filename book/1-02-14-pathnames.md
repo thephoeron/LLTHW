@@ -36,6 +36,38 @@ Back at the REPL, try this now:
 (pathname-type (truename "llthw-ex-1-2-14.lisp"))
 ```
 
+#### What You Should See
+
+Obviously, the exact pathnames you see will be personalized for your system.  Mine below are just for sake of example, so don't panic if you don't see *exactly* the same pathname objects that I have.
+
+```lisp
+* (truename ".")
+#P"/home/colin/"
+* (pathname-directory (truename "."))
+(:ABSOLUTE "home" "colin")
+* (pathname-host (truename "."))
+#<SB-IMPL::UNIX-HOST {1000020BE3}>
+* (pathname-name (truename "."))
+NIL
+* (pathname-type (truename "."))
+NIL
+```
+
+After creating the file "llthw-ex-1-2-14.lisp" in the directory you got from `(truename ".")`:
+
+```lisp
+* (truename "./llthw-ex-1-2-14.lisp")
+#P"/home/colin/llthw-ex-1-2-14.lisp"
+* (pathname-name (truename "./llthw-ex-1-2-14.lisp"))
+"llthw-ex-1-2-14"
+* (pathname-type (truename "./llthw-ex-1-2-14.lisp"))
+"lisp"
+```
+
+Do you understand what's going on here?  Take a moment to review to see if you can guess what everything is doing, and that all the code is returning what you think should be returned.
+
+Let's start with the function `truename`.
+
 <ul class="pager">
   <li class="previous"><a href="/book/1-02-13-more-format/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
