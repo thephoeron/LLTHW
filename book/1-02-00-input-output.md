@@ -31,6 +31,7 @@ Since development in Lisp is so inherently interactive, it makes sense to think 
 * [Printing With princ](/book/1-02-11-princ/)
 * [A Brief Introduction to Format](/book/1-02-12-format/)
 * [A Little Bit More on Format](/book/1-02-13-more-format/)
+* [Pathnames](/book/1-02-14-pathnames/)
 
 **Draft Note:** This chapter will also contain exercises on:
 
