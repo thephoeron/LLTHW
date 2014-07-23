@@ -1,13 +1,12 @@
 <ol class="breadcrumb">
   <li><a href="/">Home</a></li>
   <li><a href="/book/">Book</a></li>
-  <li class="active">Chapter Name</li>
+  <li><a href="/book/1-0-0-overview/">Part One: Grokking Lisp</a></li>
+  <li><a href="/book/1-02-00-input-output/">Printing, Strings, and Streams</a></li>
+  <li class="active">Exercise 17: Printing to Streams</li>
 </ol>
 
-# Chapter Name
-
-> "Relevant quote..."
-> <footer>Source</footer>
+# Exercise 17: Printing to Streams
 
 Chapter text.
 
