@@ -24,6 +24,7 @@
                  :cl-who
                  :cl-css
                  :parenscript
+                 :split-sequence
                  :3bmd
                  :3bmd-ext-code-blocks
                  :3bmd-ext-definition-lists

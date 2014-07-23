@@ -11,12 +11,16 @@
           :cl-who
           :cl-css
           :parenscript
+          :split-sequence
           :3bmd
           :3bmd-code-blocks
           :3bmd-definition-lists
           :3bmd-tables
           :hunchentoot)
-    (:export #:*llthw-version*))
+    (:export #:*llthw-version*
+             #:llthw-start
+             #:llthw-stop
+             #:llthw-restart))
 
 ;; see asdf system definition
 (defvar llthw:*llthw-version*

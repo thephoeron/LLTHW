@@ -101,7 +101,28 @@
     (cl-who:with-html-output (hunchentoot::*standard-output*)
       (str (3bmd:parse-and-print-to-stream "book/index.md" hunchentoot::*standard-output* :format :html)))))
 
-(eval-when (:execute :compile-toplevel :load-toplevel)
-  (create-book-pages (directory (merge-pathnames "*.md" *the-book-dir*))))
+; (eval-when (:execute :compile-toplevel :load-toplevel)
+;   (create-book-pages (directory (merge-pathnames "*.md" *the-book-dir*))))
+
+; (push (hunchentoot:create-regex-dispatcher "^/\d{4}/\d{2}/\d{2}/[\w-]+/$" 'generate-blog-page-for-post)
+;       (dispatch-table vhost-web))
+
+(defun llthw-book-page ()
+  "Probe for the book-page file from the current request script name;"
+  (let* ((script-name (hunchentoot:script-name*))
+         (script-list (split-sequence #\/ script-name :remove-empty-subseqs t)))
+    (if (= (length script-list) 2)
+        (let* ((file-name (format nil "~{~(~A~)~^/~}.md" script-list)))
+          (if (probe-file file-name)
+              (llthw-page ()
+                          (cl-who:with-html-output (hunchentoot::*standard-output*)
+                            (str (3bmd:parse-and-print-to-stream file-name
+                                                                 hunchentoot::*standard-output*
+                                                                 :format :html))))
+              (setf (return-code*) +http-not-found+)))
+        (setf (return-code*) +http-forbidden+))))
+
+(push (hunchentoot:create-regex-dispatcher "^/book/[\\w-]+/$" 'llthw-book-page)
+      hunchentoot:*dispatch-table*)
 
 ;; EOF
