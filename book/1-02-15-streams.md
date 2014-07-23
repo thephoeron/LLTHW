@@ -19,7 +19,7 @@ The idea of a stream is pretty simple to understand---if you've ever used YouTub
 Between bytes and characters, you can send any data you want over a stream.  Lisp makes it a cinch to read and write data for I/O.
 
 <ul class="pager">
-  <li class="previous"><a href="/book/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-02-14-pathnames/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-02-16-file-streams/">Next &raquo;</a><li>
 </ul>
