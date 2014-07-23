@@ -10,7 +10,7 @@
 
 ## Streams
 
-You've seen a little bit about streams already---but just enough to print to `*standard-output*`.  But streams can do a lot more than that.  Streams are, simply put, the crux of I/O in Lisp.
+You've seen a little bit about streams already---just enough to print to `*standard-output*`.  But streams can do a lot more than that.  Streams are, simply put, the crux of I/O in Lisp.
 
 Streams are objects, too, just like the character, string, integer, and pathname objects you've seen so far.  A stream can be designated just for input, just for output, or both.  Typically, streams accept only characters or bytes---so when you're printing a string to a stream, you are in fact *streaming* the sequence of characters that make up a string.
 
