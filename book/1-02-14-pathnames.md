@@ -34,6 +34,7 @@ Back at the REPL, try this now:
 (truename "llthw-ex-1-2-14.lisp")
 (pathname-name (truename "llthw-ex-1-2-14.lisp"))
 (pathname-type (truename "llthw-ex-1-2-14.lisp"))
+(file-namestring (truename "llthw-ex-1-2-14.lisp"))
 ```
 
 #### What You Should See
@@ -62,11 +63,13 @@ After creating the file "llthw-ex-1-2-14.lisp" in the directory you got from `(t
 "llthw-ex-1-2-14"
 * (pathname-type (truename "./llthw-ex-1-2-14.lisp"))
 "lisp"
+* (file-namestring (truename "./llthw-ex-1-2-14.lisp"))
+"llthw-ex-1-2-14.lisp"
 ```
 
 Do you understand what's going on here?  Take a moment to review to see if you can guess what everything is doing, and that all the code is returning what you think should be returned.
 
-Let's start with the function `truename`.
+Let's start with the function `truename`.  You can see that it takes a regular string that represents, but isn't, a pathname object.  In fact, `truename` accepts any *pathname designator*, which can be a relative or full pathname namestring, a file stream, or an actual pathname object.
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-02-13-more-format/">&laquo; Previous</a></li>
