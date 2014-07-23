@@ -6,7 +6,9 @@
   <li class="active">Exercise 15: Streams</li>
 </ol>
 
-# Exercise 15: Streams
+# Exercise 1.2.15
+
+## Streams
 
 Chapter text.
 

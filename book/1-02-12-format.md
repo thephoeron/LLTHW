@@ -6,7 +6,9 @@
   <li class="active">Exercise 12: A Brief Introduction to Format</li>
 </ol>
 
-# Exercise 12: A Brief Introduction to Format
+# Exercise 1.2.12
+
+## A Brief Introduction to Format
 
 Pretty much every programming language has some way to insert arbitrary data into a string.  Lisp is no exception.  One difference, perhaps, is that in Lisp, the `format` macro is a part of the language standard, and must be fully supported for the implementation to call itself Common Lisp.  In other languages, formatting strings is usually outside the scope of the language, and only available through a library.
 

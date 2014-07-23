@@ -6,7 +6,9 @@
   <li class="active">Exercise 17: Printing to Streams</li>
 </ol>
 
-# Exercise 17: Printing to Streams
+# Exercise 1.2.17
+
+## Printing to Streams
 
 Chapter text.
 

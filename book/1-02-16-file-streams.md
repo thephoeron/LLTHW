@@ -6,7 +6,9 @@
   <li class="active">Exercise 16: File Streams</li>
 </ol>
 
-# Exercise 16: File Streams
+# Exercise 1.2.16
+
+## File Streams
 
 Chapter text.
 

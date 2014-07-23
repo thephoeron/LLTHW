@@ -6,7 +6,9 @@
   <li class="active">Exercise 14: Pathnames</li>
 </ol>
 
-# Exercise 14: Pathnames
+# Exercise 1.2.14
+
+## Pathnames
 
 Lisp has a special way of handling files from your computer: *pathname* objects. They allow Lisp to handle file-names, for the most part, in a platform-agnostic manner.  If they seem like overkill, just keep in mind how many different platforms and file-systems Lisp supports.
 

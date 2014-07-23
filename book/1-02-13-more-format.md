@@ -6,7 +6,9 @@
   <li class="active">Exercise 13: A Little Bit More on Format</li>
 </ol>
 
-# Exercise 13: A Little Bit More on Format
+# Exercise 1.2.13
+
+## A Little Bit More on Format
 
 Now that you've seen how the `format` macro works, we'll go through a few more control sequences that you might find useful.  Again, the full tour of format string syntax won't be coming until chapter 1.18, but this should give you enough to work with for now.
 
