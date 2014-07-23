@@ -119,8 +119,12 @@
                             (str (3bmd:parse-and-print-to-stream file-name
                                                                  hunchentoot::*standard-output*
                                                                  :format :html))))
-              (setf (return-code*) +http-not-found+)))
-        (setf (return-code*) +http-forbidden+))))
+              (progn
+                (setf (return-code*) +http-not-found+)
+                (abort-request-handler))))
+        (progn
+          (setf (return-code*) +http-forbidden+)
+          (abort-request-handler)))))
 
 (push (hunchentoot:create-regex-dispatcher "^/book/[\\w-]+/$" 'llthw-book-page)
       hunchentoot:*dispatch-table*)

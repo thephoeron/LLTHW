@@ -32,6 +32,9 @@ Since development in Lisp is so inherently interactive, it makes sense to think 
 * [A Brief Introduction to Format](/book/1-02-12-format/)
 * [A Little Bit More on Format](/book/1-02-13-more-format/)
 * [Pathnames](/book/1-02-14-pathnames/)
+* [Streams](/book/1-02-15-streams/)
+* [File Streams](/book/1-02-16-file-streams/)
+* [Printing to Streams](/book/1-02-17-printing-to-streams/)
 
 **Draft Note:** This chapter will also contain exercises on:
 
@@ -45,5 +48,5 @@ Exercises on READ and EVAL moved to Extra Credit chapter 1.3.
 <ul class="pager">
   <li class="previous"><a href="/book/1-01-04-configuration/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-03-0-getting-input-from-users/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-02-01-strings/">Next &raquo;</a><li>
 </ul>
