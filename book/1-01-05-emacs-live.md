@@ -10,7 +10,10 @@
 
 ## Set Up and Learn Emacs Live
 
-This is your first Extra Credit exercise.  Extra Credits are not mandatory---they provide additional material and challenges to deepen your understanding of the preceeding exercises, and often focus on libraries that extend the Common Lisp standard or tools that might help you improve your workflow. If you find them too hard or distracting, you can skip over them for now and come back to tackle them later.
+<div class="alert alert-success">
+  <strong>Tip:</strong>
+  <p>This is your first Extra Credit exercise.  Extra Credits are not mandatory&mdash;they provide additional material and challenges to deepen your understanding of the preceeding exercises, and often focus on libraries that extend the Common Lisp standard or tools that might help you improve your workflow. If you find them too hard or distracting, you can skip over them for now and come back to tackle them later.</p>
+</div>
 
 If you already have some familiarity with Emacs, Vim, or advanced IDEs for other programming languages, or you're not afraid of a little extra challenge, you can take advantage of the full interactive approach to development that Lisp Hackers enjoy.
 
