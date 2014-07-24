@@ -118,7 +118,7 @@ Under the `.live-packs` directory created above (either manually or through the 
 
 ```sh
 $ cd ~/.live-packs
-$ git clone https://github.com/thephoeron/slime-pack.git
+$ git clone --recursive https://github.com/thephoeron/slime-pack.git
 ```
 
 Add the following line to your `.emacs-live.el` file, *before* the line that points to your personal user pack:
