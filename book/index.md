@@ -23,6 +23,8 @@
 <dl class="dl-horizontal">
   <dt><i class="glyphicon glyphicon-remove text-danger"></i></dt>
   <dd>Unstarted</dd>
+  <dt><i class="fa fa-code"></i></dt>
+  <dd>Source Code Examples Added, chapter text not written</dd>
   <dt><i class="glyphicon glyphicon-refresh text-warning"></i></dt>
   <dd>In-Progress/Incomplete</dd>
   <dt><i class="glyphicon glyphicon-ok text-success"></i></dt>
