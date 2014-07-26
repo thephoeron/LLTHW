@@ -35,13 +35,8 @@ Since development in Lisp is so inherently interactive, it makes sense to think 
 * [Streams](/book/1-02-15-streams/)
 * [File Streams](/book/1-02-16-file-streams/)
 * [Binary Streams](/book/1-02-17-binary-streams/)
-
-**Draft Note:** This chapter will also contain exercises on:
-
-* [Prompting Users]()
-* [Pretty-Printing]()
-
-Exercises on READ and EVAL moved to Extra Credit chapter 1.3.
+* [Prompting Users](/book/1-02-18-prompting-users/)
+* [Pretty-Printing](/book/1-02-19-pretty-printing/)
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-01-04-configuration/">&laquo; Previous</a></li>
