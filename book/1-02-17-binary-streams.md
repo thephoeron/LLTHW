@@ -3,12 +3,12 @@
   <li><a href="/book/">Book</a></li>
   <li><a href="/book/1-0-0-overview/">Part One: Grokking Lisp</a></li>
   <li><a href="/book/1-02-00-input-output/">Printing, Strings, and Streams</a></li>
-  <li class="active">Exercise 17: Printing to Streams</li>
+  <li class="active">Exercise 17: Binary Streams</li>
 </ol>
 
-# Exercise 1.2.17
+## Exercise 1.2.17
 
-## Printing to Streams
+# Binary Streams
 
 Chapter text.
 

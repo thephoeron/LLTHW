@@ -34,7 +34,7 @@ Since development in Lisp is so inherently interactive, it makes sense to think 
 * [Pathnames](/book/1-02-14-pathnames/)
 * [Streams](/book/1-02-15-streams/)
 * [File Streams](/book/1-02-16-file-streams/)
-* [Printing to Streams](/book/1-02-17-printing-to-streams/)
+* [Binary Streams](/book/1-02-17-binary-streams/)
 
 **Draft Note:** This chapter will also contain exercises on:
 
