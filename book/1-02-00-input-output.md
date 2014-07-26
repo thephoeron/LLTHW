@@ -38,8 +38,6 @@ Since development in Lisp is so inherently interactive, it makes sense to think 
 
 **Draft Note:** This chapter will also contain exercises on:
 
-* [Paths and Files]()
-* [Working with Streams]()
 * [Prompting Users]()
 * [Pretty-Printing]()
 
