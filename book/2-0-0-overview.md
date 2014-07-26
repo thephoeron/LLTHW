@@ -6,8 +6,8 @@
 
 # PART TWO: The Suffusion of Blue
 
-> "One man’s 'magic' is another man’s engineering. 'Supernatural' is a null word."
-> <footer>Robert A. Heinlein, Time Enough For Love</footer>
+> "The door dilated."
+> <footer>Robert A. Heinlein, <em>Beyond This Horizon</em></footer>
 
 
 

@@ -7,12 +7,19 @@
 
 # Getting Input From Users
 
-> "Relevant quote..."
-> <footer>Source</footer>
+> "Never worry about theory as long as the machinery does what it's supposed to do."
+> <footer>Robert A. Heinlein, <em>Waldo &amp; Magic, Inc.</em></footer>
 
-Focus on writing robust prompts that handle a variety of validated user input, that don't use READ or EVAL; but READ and EVAL should be explained.
+This Chapter will contain exercises on:
 
-Also include exercises on string splitting, replacing characters in strings, parsing numbers, etc.
+* READ
+* EVAL
+* Sequences
+* Concatenation
+* Splitting
+* Replacing
+* Parsing Numbers
+* Custom Prompts
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-02-00-input-output/">&laquo; Previous</a></li>
