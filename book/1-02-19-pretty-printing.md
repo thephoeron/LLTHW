@@ -14,7 +14,7 @@ You may or may not have noticed already that Lisp has a way to print Lisp code, 
 
 To see the pretty-printer in action, I'll be showing you some pretty ugly code.  Normally you would never write Lisp this way---but it shows you how Lisp can take badly formatted code and give you something better.
 
-In this case, type out this example all on one line before you hit Return/Enter.
+In this case, type out this example all on one line in the REPL before you hit Return/Enter.
 
 ```lisp
 (pprint '(defun monkey (a b c) "a monkey function" (let ((d 4) (e 5) (f 6)) (values (list a b c) (list d e f)))))
