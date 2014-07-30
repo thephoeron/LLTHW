@@ -56,7 +56,7 @@
       <li><a href="1-02-00-input-output/">Printing, Strings and Streams</a> <i class="glyphicon glyphicon-ok text-success"></i></li>
       <li>Extra Credit: <a href="1-03-0-getting-input-from-users/">Getting Input from Users</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
       <li><a href="1-04-0-lists/">Lists and List-Operations</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
-      <li>Extra Credit: <a href="1-05-0-lookups-trees/">Look-up Lists and Trees</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li>Extra Credit: <a href="1-05-0-lookups-trees/">Look-up Lists and Trees</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
       <li><a href="1-06-0-math/">Numbers and Math</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
       <li>Extra Credit: <a href="1-07-0-arrays/">Arrays and Vectors</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
       <li><a href="1-08-0-variables/">Variables, Parameters, and Constants</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
