@@ -22,6 +22,8 @@ This chapter will contain exercises on:
 * The LIST Function
 * CAR and CDR
 * FIRST, REST, and LAST
+* PUSH and POP
+* List Position
 * APPEND
 * Quoting
 * Trees
