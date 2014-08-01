@@ -17,9 +17,9 @@ This is a work in progress, but you can read the draft online at http://learnlis
 
 You can support this project with your donations:
 
-Donate Bitcoin: [17nWsM2aKqKewm7zDzv3mGUyqzKZKjsJGQ](bitcoin:17nWsM2aKqKewm7zDzv3mGUyqzKZKjsJGQ)
+Bitcoin: [17nWsM2aKqKewm7zDzv3mGUyqzKZKjsJGQ](bitcoin:17nWsM2aKqKewm7zDzv3mGUyqzKZKjsJGQ)
 
-Donate Litecoin: [LZfkNpcQetVcNNbpERQoCvRJkVERYry9Me](litecoin:LZfkNpcQetVcNNbpERQoCvRJkVERYry9Me)
+Litecoin: [LZfkNpcQetVcNNbpERQoCvRJkVERYry9Me](litecoin:LZfkNpcQetVcNNbpERQoCvRJkVERYry9Me)
 
 ### License
 
