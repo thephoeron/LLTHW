@@ -6,6 +6,8 @@
   <li class="active">Configuring Your Development Environment</li>
 </ol>
 
+## Exercise 1.1.4
+
 # Configuring Your Development Environment
 
 > "Free will is a golden thread running through the frozen matrix of fixed events."

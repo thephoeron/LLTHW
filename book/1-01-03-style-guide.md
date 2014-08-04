@@ -6,6 +6,8 @@
   <li class="active">Common Lisp Style Guide</li>
 </ol>
 
+## Exercise 1.1.3
+
 # Common Lisp Style Guide
 
 > "Anyone who considers protocol unimportant has never dealt with a cat."

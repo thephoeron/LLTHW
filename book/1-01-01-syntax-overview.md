@@ -6,6 +6,8 @@
   <li class="active">Syntax Overview in 5 Minutes</li>
 </ol>
 
+## Exercise 1.1.1
+
 # Syntax Overview in 5 Minutes
 
 > "Progress doesn't come from early risers---progress is made by lazy men looking for easier ways to do things."

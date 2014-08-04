@@ -6,6 +6,8 @@
   <li class="active">Lisp in More Detail</li>
 </ol>
 
+## Exercise 1.1.2
+
 # Lisp in More Detail
 
 > "A skillful Artist in shapes and appearances does no more than necessary to create His effect."

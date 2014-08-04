@@ -5,6 +5,8 @@
   <li class="active">Common Lisp Bootcamp</li>
 </ol>
 
+## Chapter 1
+
 # Common Lisp Bootcamp
 
 > "I made a very important discovery at Camp Currie.  Happiness consists in getting enough sleep.  Just that, nothing more.  All the wealthy, unhappy people you've ever met take sleeping pills; Mobile Infantrymen don't need them."

@@ -4,7 +4,9 @@
   <li class="active">PART ONE: Grokking Lisp</li>
 </ol>
 
-# PART ONE: Grokking Lisp
+## PART ONE
+
+# Grokking Lisp
 
 > "'Grok' means to understand so thoroughly that the observer becomes a part of the process being observed—to merge, to blend, to intermarry, to lose personal identity in group experience. It means almost everything that we mean by religion, philosophy, and science—and it means as little to us as color means to a blind man."
 > <footer>Robert A. Heinlein, <em>Stranger in a Strange Land</em></footer>
