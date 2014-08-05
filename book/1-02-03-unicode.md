@@ -6,9 +6,9 @@
   <li class="active">Exercise 3: Unicode and Strings</li>
 </ol>
 
-# Exercise 1.2.3
+## Exercise 1.2.3
 
-## Unicode and Strings
+# Unicode and Strings
 
 Generally speaking, strings in Common Lisp are UTF-8/Unicode by default.  This is not a guarantee, however; it's typically just a default on most implementations of Lisp on platforms that support it.
 

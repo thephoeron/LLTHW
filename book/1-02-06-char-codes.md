@@ -6,9 +6,9 @@
   <li class="active">Exercise 6: Character Codes</li>
 </ol>
 
-# Exercise 1.2.6
+## Exercise 1.2.6
 
-## Character Codes
+# Character Codes
 
 Character objects all have numeric values, called `codes`, corresponding to either the code-points in the Unicode table, or the current encoding of your running Lisp image.  Lisp comes with a lot of useful tools for working with characters and strings as numbers and vectors/arrays, and where the standard falls short, there are several popular libraries you can always rely on.
 

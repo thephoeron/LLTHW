@@ -5,7 +5,9 @@
   <li class="active">Extra Credit: Closures</li>
 </ol>
 
-# Extra Credit: Closures
+## Chapter 1.9 --- Extra Credit
+
+# Closures
 
 > "Relevant quote..."
 > <footer>Source</footer>

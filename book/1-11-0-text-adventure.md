@@ -5,7 +5,9 @@
   <li class="active">Extra Credit: A Simple Text Adventure</li>
 </ol>
 
-# Extra Credit: A Simple Text Adventure
+## Chapter 1.11 --- Extra Credit
+
+# A Simple Text Adventure
 
 > "Relevant quote..."
 > <footer>Source</footer>

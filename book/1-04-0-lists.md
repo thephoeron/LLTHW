@@ -5,6 +5,8 @@
   <li class="active">Lists and List Operations</li>
 </ol>
 
+## Chapter 1.4
+
 # Lists and List Operations
 
 > "While the laws of statistics tell you how unlikely a particular coincidence is, they state just as firmly that coincidences <em>do happen</em>."

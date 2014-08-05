@@ -5,6 +5,8 @@
   <li class="active">Functions and Macros</li>
 </ol>
 
+## Chapter 1.10
+
 # Functions and Macros
 
 > "Relevant quote..."

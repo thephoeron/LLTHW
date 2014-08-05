@@ -6,9 +6,9 @@
   <li class="active">Exercise 15: Streams</li>
 </ol>
 
-# Exercise 1.2.15
+## Exercise 1.2.15
 
-## Streams
+# Streams
 
 You've seen a little bit about streams already---just enough to print to `*standard-output*`.  But streams can do a lot more than that.  Streams are, simply put, the crux of I/O in Lisp.
 
@@ -18,7 +18,7 @@ The idea of a stream is pretty simple to understand---if you've ever used YouTub
 
 Between bytes and characters, you can send any data you want over a stream.  Lisp makes it a cinch to read and write data for I/O.
 
-#### Making Streams
+### Making Streams
 
 There are a few ways to make string streams manually for input and output; but bi-directional streams can only be made from existing input and output streams.  Try out the following code to get a feel for what streams do:
 
@@ -33,7 +33,7 @@ There are a few ways to make string streams manually for input and output; but b
       (format io "~A It's the Jovian moon, Io!" (read io)))))
 ```
 
-#### What You Should See
+### What You Should See
 
 ```lisp
 * (make-string-input-stream "hello?")

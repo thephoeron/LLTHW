@@ -6,9 +6,9 @@
   <li class="active">Exercise 16: File Streams</li>
 </ol>
 
-## Exercise 1.2.16
+# Exercise 1.2.16
 
-# File Streams
+## File Streams
 
 To read from and write to files on your computer with Lisp, you create a *file-stream* object.  While similar in principle to string streams, there's stuff you can do with file streams that you can't do with string streams.
 

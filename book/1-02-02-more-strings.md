@@ -6,9 +6,9 @@
   <li class="active">Exercise 2: More Strings</li>
 </ol>
 
-# Exercise 1.2.2
+## Exercise 1.2.2
 
-## More Strings
+# More Strings
 
 In Lisp, strings can contain just about any character, and what you type inside the double-quotes is exactly what you get.  Line-breaks and all.
 

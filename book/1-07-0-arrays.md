@@ -5,7 +5,9 @@
   <li class="active">Extra Credit: Arrays and Vectors</li>
 </ol>
 
-# Extra Credit: Arrays and Vectors
+## Chapter 1.7 --- Extra Credit
+
+# Arrays and Vectors
 
 > "As with any tool, merit <em>or</em> demerit lies in how it is used."
 > <footer>Robert A. Heinlein, <em>Friday</em></footer>

@@ -6,9 +6,9 @@
   <li class="active">Exercise 5: More Characters</li>
 </ol>
 
-# Exercise 1.2.5
+## Exercise 1.2.5
 
-## More Characters
+# More Characters
 
 When available, characters outside the ASCII encoding range are typed using their Unicode name, with underscores for word-separators instead of spaces.  This is a little unusual in the Lisp world, since symbol names normally use the `-` (hyphen/dash) character as the word separator; but as I said in Section 1.1.3, the Common Lisp Style Guide, that is a convention which in this case isn't followed.
 

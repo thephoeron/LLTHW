@@ -5,6 +5,8 @@
   <li class="active">Printing, Strings, and Streams</li>
 </ol>
 
+## Chapter 1.2
+
 # Printing, Strings, and Streams
 
 > "There is no such thing as luck; there is only adequate or inadequate preparation to cope with a statistical universe."

@@ -6,9 +6,9 @@
   <li class="active">Exercise 9: More Printing</li>
 </ol>
 
-# Exercise 1.2.9
+## Exercise 1.2.9
 
-## More Printing
+# More Printing
 
 As I said in the previous exercise, Common Lisp has a lot of functions for printing, including one named `print`, which you'll see here in this exercise.  I'll also show you how the same functionality can be implemented with `write`, so you can get a feel for specializing a very general interface---a common development pattern in Common Lisp.
 

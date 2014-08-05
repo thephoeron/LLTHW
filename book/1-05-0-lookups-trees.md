@@ -5,7 +5,7 @@
   <li class="active">Extra Credit: Look-up Lists and Trees</li>
 </ol>
 
-## Extra Credit
+## Chapter 1.5 --- Extra Credit
 
 # Look-up Lists and Trees
 

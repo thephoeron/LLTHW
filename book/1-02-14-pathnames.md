@@ -6,9 +6,9 @@
   <li class="active">Exercise 14: Pathnames</li>
 </ol>
 
-# Exercise 1.2.14
+## Exercise 1.2.14
 
-## Pathnames
+# Pathnames
 
 Lisp has a special way of handling files from your computer: *pathname* objects. They allow Lisp to handle file-names, for the most part, in a platform-agnostic manner.  If they seem like overkill, just keep in mind how many different platforms and file-systems Lisp supports.
 
@@ -39,7 +39,7 @@ Back at the REPL, try this now:
 (file-namestring (truename "llthw-ex-1-2-14.lisp"))
 ```
 
-#### What You Should See
+### What You Should See
 
 Obviously, the exact pathnames you see will be personalized for your system.  Mine below are just for sake of example, so don't panic if you don't see *exactly* the same pathname objects that I have.
 
@@ -77,7 +77,7 @@ The rest of the new functions you've seen this exercise will only accept a pathn
 
 Notice the last function in the examples above, `file-namestring`? It gives you back just the file's namestring for a pathname object to a file.  If you give it a pathname object to a directory, it just returns an empty string, `""`. There are some other, similar functions related to it: `namestring`, `directory-namestring`, `host-namestring`, and `enough-namestring`.  Can you guess what they do?
 
-#### Extra Credit
+### Extra Credit
 
 Try out the extra namestring functions, `namestring`, `directory-namestring`, `host-namestring`, and `enough-namestring`.  Can you get them to run?  Can you predict the results you get from them?
 

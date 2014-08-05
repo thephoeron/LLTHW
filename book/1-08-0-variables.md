@@ -5,6 +5,8 @@
   <li class="active">Variables, Parameters, and Constants</li>
 </ol>
 
+## Chapter 1.8
+
 # Variables, Parameters, and Constants
 
 > "Relevant quote..."

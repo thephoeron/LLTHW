@@ -5,6 +5,8 @@
   <li class="active">Format Strings</li>
 </ol>
 
+## Chapter 1.18
+
 # Format Strings
 
 > "Relevant quote..."

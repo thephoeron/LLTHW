@@ -6,9 +6,9 @@
   <li class="active">Exercise 7: Strings From Characters</li>
 </ol>
 
-# Exercise 1.2.7
+## Exercise 1.2.7
 
-## Strings From Characters
+# Strings From Characters
 
 Most of the time, you'll want to work with strings instead of characters.  You can get a one-character string object directly from a character object by calling the `string` function on it:
 

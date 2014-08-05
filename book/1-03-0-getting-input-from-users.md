@@ -5,7 +5,7 @@
   <li class="active">Extra Credit: Getting Input From Users</li>
 </ol>
 
-## Extra Credit
+## Chapter 1.3 --- Extra Credit
 
 # Getting Input From Users
 

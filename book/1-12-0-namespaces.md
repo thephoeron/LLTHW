@@ -5,6 +5,8 @@
   <li class="active">Namespaces, Symbols, Packages, and Systems</li>
 </ol>
 
+## Chapter 1.12
+
 # Namespaces, Symbols, Packages, and Systems
 
 > "Relevant quote..."

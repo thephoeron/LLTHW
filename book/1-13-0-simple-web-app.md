@@ -5,7 +5,9 @@
   <li class="active">Extra Credit: A Simple Web Application</li>
 </ol>
 
-# Extra Credit: A Simple Web Application
+## Chapter 1.13 --- Extra Credit
+
+# A Simple Web Application
 
 > "Relevant quote..."
 > <footer>Source</footer>

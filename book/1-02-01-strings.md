@@ -6,9 +6,9 @@
   <li class="active">Exercise 1: Strings</li>
 </ol>
 
-# Exercise 1.2.1
+## Exercise 1.2.1
 
-## Strings
+# Strings
 
 Strings are pretty important in programming; no matter what your program does, eventually you're going to need a string to send some information to the user of your program.
 

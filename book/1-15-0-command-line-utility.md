@@ -5,7 +5,9 @@
   <li class="active">Extra Credit: A Command-Line Utility</li>
 </ol>
 
-# Extra Credit: A Command-Line Utility
+## Chapter 1.15 --- Extra Credit
+
+# A Command-Line Utility
 
 > "Relevant quote..."
 > <footer>Source</footer>

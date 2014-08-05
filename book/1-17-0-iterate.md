@@ -5,7 +5,9 @@
   <li class="active">Extra Credit: Revisiting Loops with Iterate</li>
 </ol>
 
-# Extra Credit: Revisiting Loops with Iterate
+## Chapter 1.17 --- Extra Credit
+
+# Revisiting Loops with Iterate
 
 > "Relevant quote..."
 > <footer>Source</footer>
