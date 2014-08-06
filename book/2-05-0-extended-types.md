@@ -5,6 +5,8 @@
   <li class="active">Extended Types</li>
 </ol>
 
+## Chapter 2.5
+
 # Extended Types
 
 > "Relevant quote..."

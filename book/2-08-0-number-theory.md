@@ -5,12 +5,23 @@
   <li class="active">Extra Credit: Number Theory</li>
 </ol>
 
-# Extra Credit: Number Theory
+## Chapter 2.8 --- Extra Credit
+
+# Number Theory
 
 > "Relevant quote..."
 > <footer>Source</footer>
 
-Chapter text.
+Cover functionality for a Number Theory library:
+
+* Testing for Primality
+* Factorization
+* Polynomials
+* Modular Exponentiation
+* Inverse Modulus
+* The Jacobi Function
+* The Euler Totient Function
+* The Carmichael Functions
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-07-0-logic-and-more-math/">&laquo; Previous</a></li>

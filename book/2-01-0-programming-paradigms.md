@@ -5,6 +5,8 @@
   <li class="active">Programming Paradigms</li>
 </ol>
 
+## Chapter 2.1
+
 # Programming Paradigms
 
 > "Relevant quote..."

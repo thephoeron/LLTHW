@@ -5,7 +5,9 @@
   <li class="active">Extra Credit: Foreign Libraries in Lisp</li>
 </ol>
 
-# Extra Credit: Foreign Libraries in Lisp
+## Chapter 2.16 --- Extra Credit
+
+# Foreign Libraries in Lisp
 
 > "Relevant quote..."
 > <footer>Source</footer>

@@ -5,7 +5,9 @@
   <li class="active">Extra Credit: Regular Expressions</li>
 </ol>
 
-# Extra Credit: Regular Expressions
+## Chapter 2.2 --- Extra Credit
+
+# Regular Expressions
 
 > "Relevant quote..."
 > <footer>Source</footer>

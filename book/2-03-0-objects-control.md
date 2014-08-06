@@ -5,6 +5,8 @@
   <li class="active">Objects and Control Structures</li>
 </ol>
 
+## Chapter 2.3
+
 # Objects and Control Structures
 
 > "Relevant quote..."

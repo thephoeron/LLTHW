@@ -4,7 +4,9 @@
   <li class="active">Part Two: The Suffusion of Blue</li>
 </ol>
 
-# PART TWO: The Suffusion of Blue
+## PART TWO
+
+# The Suffusion of Blue
 
 > "The door dilated."
 > <footer>Robert A. Heinlein, <em>Beyond This Horizon</em></footer>

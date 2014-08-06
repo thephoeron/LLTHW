@@ -5,12 +5,14 @@
   <li class="active">Extra Credit: An Improved Text Adventure Engine</li>
 </ol>
 
-# Extra Credit: An Improved Text Adventure Engine
+## Chapter 2.10 --- Extra Credit
+
+# An Improved Text Adventure Engine
 
 > "Relevant quote..."
 > <footer>Source</footer>
 
-Chapter text.
+Extend on Text Adventure from Part One; generalize into an Engine, and write a parser/world-builder to use game scripts.  Include generative content, simple procedural environments, and basic NPC/enemy AI.
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-09-0-binary-octets-bits/">&laquo; Previous</a></li>

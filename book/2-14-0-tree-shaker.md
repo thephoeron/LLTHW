@@ -5,7 +5,9 @@
   <li class="active">Extra Credit: Write a Tree-Shaker</li>
 </ol>
 
-# Extra Credit: Write a Tree-Shaker
+## Chapter 2.14 --- Extra Credit
+
+# Write a Tree-Shaker
 
 > "Relevant quote..."
 > <footer>Source</footer>

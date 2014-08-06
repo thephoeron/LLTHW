@@ -5,7 +5,9 @@
   <li class="active">Extra Credit: Threading, Memoization, Parallel Processing</li>
 </ol>
 
-# Extra Credit: Threading, Memoization, Parallel Processing
+## Chapter 2.6 --- Extra Credit
+
+# Threading, Memoization, Parallel Processing
 
 > "Relevant quote..."
 > <footer>Source</footer>

@@ -5,6 +5,8 @@
   <li class="active">Essential Lisp Libraries</li>
 </ol>
 
+## Chapter 2.19
+
 # Essential Lisp Libraries
 
 > "Relevant quote..."
@@ -20,6 +22,7 @@ For starters:
 * Flexi-Streams
 * Babel
 * Iterate
+* Ironclad
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-18-0-ffi/">&laquo; Previous</a></li>

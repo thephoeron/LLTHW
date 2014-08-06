@@ -5,6 +5,8 @@
   <li class="active">Logic and Advanced Math</li>
 </ol>
 
+## Chapter 2.7
+
 # Logic and Advanced Math
 
 > "Relevant quote..."
@@ -14,9 +16,14 @@ This chapter will contain exercises on:
 
 * Logic Functions
 * Boolean Logic
-* Bit and Octet Vectors
-* Hexadecimal, radix control
+* Logical Operations on Bit and Octet Vectors
+* Prime Numbers
+* Modulus
 * Complex Numbers
+* Imaginary Numbers
+* Trigonometry
+* Linear Algebra
+* Calculus
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-06-0-threads-memos-parallel/">&laquo; Previous</a></li>

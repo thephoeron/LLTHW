@@ -5,7 +5,9 @@
   <li class="active">Extra Credit: Packaging Lisp Libraries</li>
 </ol>
 
-# Extra Credit: Packaging Lisp Libraries
+## Chapter 2.20 --- Extra Credit
+
+# Packaging Lisp Libraries
 
 > "Relevant quote..."
 > <footer>Source</footer>

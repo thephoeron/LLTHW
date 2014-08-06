@@ -5,6 +5,8 @@
   <li class="active">Conditions and Error Handling</li>
 </ol>
 
+## Chapter 2.11
+
 # Conditions and Error Handling
 
 > "Relevant quote..."
