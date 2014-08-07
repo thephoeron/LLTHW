@@ -5,6 +5,8 @@
   <li class="active">OpenGL, SDL, and 3D Game Development</li>
 </ol>
 
+## Chapter 3.7
+
 # OpenGL, SDL, and 3D Game Development
 
 > "Relevant quote..."

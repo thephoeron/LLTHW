@@ -5,6 +5,8 @@
   <li class="active">Neuroscience and Thought-Controlled Computing</li>
 </ol>
 
+## Chapter 3.19
+
 # Neuroscience and Thought-Controlled Computing
 
 > "Relevant quote..."

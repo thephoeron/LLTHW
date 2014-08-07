@@ -5,6 +5,8 @@
   <li class="active">Build Your Own Lisp Machine</li>
 </ol>
 
+## Chapter 3.21
+
 # Build Your Own Lisp Machine
 
 > "Relevant quote..."

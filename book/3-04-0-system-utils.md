@@ -5,6 +5,8 @@
   <li class="active">Drivers, Daemons, and System-Utilities</li>
 </ol>
 
+## Chapter 3.4
+
 # Drivers, Daemons, and System-Utilities
 
 > "Relevant quote..."

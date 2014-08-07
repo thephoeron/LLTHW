@@ -5,6 +5,8 @@
   <li class="active">Scientific Computing</li>
 </ol>
 
+## Chapter 3.12
+
 # Scientific Computing
 
 > "Relevant quote..."

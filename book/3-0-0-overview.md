@@ -4,7 +4,9 @@
   <li class="active">Part Three: Lisp So(u)rcery</li>
 </ol>
 
-# PART THREE: Lisp So(u)rcery
+## PART THREE
+
+# Lisp So(u)rcery
 
 > "One man’s 'magic' is another man’s engineering. 'Supernatural' is a null word."
 > <footer>Robert A. Heinlein, Time Enough For Love</footer>

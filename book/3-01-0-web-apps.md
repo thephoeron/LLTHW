@@ -5,6 +5,8 @@
   <li class="active">Real-World Web Applications</li>
 </ol>
 
+## Chapter 3.1
+
 # Real-World Web Applications
 
 > "Relevant quote..."
@@ -20,7 +22,7 @@ Lisp solves all these issues, and will give you an edge over the competition.  Y
 
 Extend upon the material covered earlier for building simple web apps; cover the feature and security requirements of web applications, REST endpoints, websockets, etc.
 
-Review web frameworks in Lisp: Weblocks, RESTAS, Clack/Caveman, Anti-Web, REDSHIFTNET; refresher on underlying servers, Hunchentoot, IOLib, teepeedee2, etc., database libraries, crane, postmodern, etc., and other web-related libraries, cl-who, cl-css, parenscript, etc.
+Review web frameworks in Lisp: Weblocks, RESTAS, Clack/Caveman, Anti-Web, REDSHIFTNET; refresher on underlying servers, Hunchentoot, Wookie, IOLib, teepeedee2, etc., database libraries, crane, postmodern, etc., and other web-related libraries, cl-who, cl-css, parenscript, etc.
 
 Web app should be a live-updating feed, pulling from some standard data source in JSON.
 

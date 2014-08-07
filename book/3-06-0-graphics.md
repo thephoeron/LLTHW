@@ -5,6 +5,8 @@
   <li class="active">Graphics Rendering</li>
 </ol>
 
+## Chapter 3.6
+
 # Graphics Rendering
 
 > "Relevant quote..."

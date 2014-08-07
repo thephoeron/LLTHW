@@ -5,6 +5,8 @@
   <li class="active">Audio Generation and Manipulation</li>
 </ol>
 
+## Chapter 3.8
+
 # Audio Generation and Manipulation
 
 > "Relevant quote..."

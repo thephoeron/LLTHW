@@ -4,6 +4,8 @@
   <li class="active">Preface :: The Hard Way Is Easier</li>
 </ol>
 
+## Preface pt. ii
+
 # The Hard Way Is Easier
 
 > "The hardest part about gaining any new idea is sweeping out the false idea occupying that niche.  As long as that niche is occupied, evidence and proof and logical demonstration get nowhere.  But once the niche is emptied of the wrong idea that has been filling it---once you can honestly say, 'I don't know,' then it becomes possible to get at the truth."

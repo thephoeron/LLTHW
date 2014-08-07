@@ -4,6 +4,8 @@
   <li class="active">Preface :: Lisp, a Future History</li>
 </ol>
 
+## Preface pt. iv
+
 # Lisp, a Future History
 
 > "The future is better than the past. Despite the crepehangers, romanticists, and anti-intellectuals, the world steadily grows better because the human mind, applying itself to environment, makes it better. With hands...with tools...with horse sense and science and engineering."

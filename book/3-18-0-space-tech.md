@@ -5,12 +5,14 @@
   <li class="active">Space-Tech</li>
 </ol>
 
+## Chapter 3.18
+
 # Space-Tech
 
 > "Relevant quote..."
 > <footer>Source</footer>
 
-Discuss the NASA story of live-hacking a space probe while in transit.
+Discuss the NASA story of live-hacking a space probe while in transit, as mentioned by Peter Seibel in PCL.  Find original sources.
 
 Overview of rocket propulsion, motion in a vacuum, microgravity, astrophysics, etc.
 

@@ -5,6 +5,8 @@
   <li class="active">Native Mobile Applications</li>
 </ol>
 
+## Chapter 3.2
+
 # Native Mobile Applications
 
 > "Relevant quote..."
