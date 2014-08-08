@@ -9,13 +9,22 @@
 
 # Variables, Parameters, and Constants
 
-> "Relevant quote..."
-> <footer>Source</footer>
+> "In a dilemma, it is helpful to change any variable, then reexamine the problem."
+> <footer>Robert A. Heinlein, <em>Have Space Suit---Will Travel</em></footer>
+
+By this point, you may be pretty tired of having to manually re-type all your data every time you want to use them---but don't worry, you won't have to do that anymore.  Whenever you want to use or re-use data---say, a string, number, list, or whatever else your program might need to pass around---you can *bind* a symbol and *assign* a value to it.
+
+In keeping with the idea that "Lisp is different," variables are very different in Lisp from other programming languages.  Some Lisp Hackers like to compare them to pointers in C and C++, but I have found that such a comparison overcomplicates a much simpler system.  Once you know that the variable's *symbol* is not the variable itself, it is easy to see that the variable's *assignment* is a literal pointer to a memory address, without worrying about the extra complications that come with pointers in C or C++.
+
+You may have also heard that Common Lisp is a "Lisp-2"; while all Lisp-family languages have lexical scope---a neat feature that we will cover in this chapter's exercises as well as extend upon in the following chapter---other Lisps such as Clojure, Scheme, Racket, and Emacs Lisp don't have separate namespaces for variables and functions within the same lexical scope.  So, for example, in Common Lisp you can have both a function and a variable with the same name in the same scope; context tells the Lisp reader which definition to use.
 
 This chapter will contain exercises on:
 
-* Global Variables, top-level forms
-* Local Variables, lexical forms
+* Symbols
+* Binding and Assignment
+* (Global) Dynamic Variables
+* (Local) Lexical Variables
+* Re-assigning Values to Variables
 * Parameters
 * Constants
 
