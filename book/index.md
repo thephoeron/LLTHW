@@ -60,7 +60,7 @@
       <li><a href="1-06-0-math/">Numbers and Math</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
       <li>Extra Credit: <a href="1-07-0-arrays/">Arrays and Vectors</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
       <li><a href="1-08-0-variables/">Variables, Parameters, and Constants</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
-      <li>Extra Credit: <a href="1-09-0-closures/">Closures</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li>Extra Credit: <a href="1-09-0-closures/">Closures</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
       <li><a href="1-10-0-functions/">Functions and Macros</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
       <li>Extra Credit: <a href="1-11-0-text-adventure/">A Simple Text Adventure</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
       <li><a href="1-12-0-namespaces/">Namespaces, Symbols, Packages, and Systems</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
