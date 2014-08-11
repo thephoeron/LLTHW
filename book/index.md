@@ -62,7 +62,7 @@
       <li><a href="1-08-0-variables/">Variables, Parameters, and Constants</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
       <li>Extra Credit: <a href="1-09-0-closures/">Closures</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
       <li><a href="1-10-0-functions/">Functions and Macros</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
-      <li>Extra Credit: <a href="1-11-0-text-adventure/">A Simple Text Adventure</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li>Extra Credit: <a href="1-11-0-text-adventure/">A Simple Text Adventure</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
       <li><a href="1-12-0-namespaces/">Namespaces, Symbols, Packages, and Systems</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
       <li>Extra Credit: <a href="1-13-0-simple-web-app/">A Simple Web Application</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
       <li><a href="1-14-0-conditionals/">Conditionals</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
@@ -105,7 +105,7 @@
   <dd>
     <a href="3-0-0-overview/">Lisp So(u)rcery</a>
     <ul>
-      <li><a href="3-01-0-web-apps/">Real-world Web Apps</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="3-01-0-web-apps/">Real-world Web Apps</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
       <li><a href="3-02-0-mobile/">Native Mobile Applications</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
       <li><a href="3-03-0-gui/">Cross-platform Desktop Applications</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
       <li><a href="3-04-0-system-utils/">Drivers, Daemons, and System-Utilities</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
