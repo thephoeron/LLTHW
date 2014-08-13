@@ -52,26 +52,95 @@
   <dd>
     <a href="1-0-0-overview/">Grokking Lisp</a>
     <ul>
-      <li><a href="1-01-00-lisp-bootcamp/">Common Lisp Bootcamp</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
-      <li><a href="1-02-00-input-output/">Printing, Strings and Streams</a> <i class="glyphicon glyphicon-ok text-success"></i></li>
-      <li>Extra Credit: <a href="1-03-0-getting-input-from-users/">Getting Input from Users</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
-      <li><a href="1-04-0-lists/">Lists and List-Operations</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
-      <li>Extra Credit: <a href="1-05-0-lookups-trees/">Look-up Lists and Trees</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
-      <li><a href="1-06-0-math/">Numbers and Math</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
-      <li>Extra Credit: <a href="1-07-0-arrays/">Arrays and Vectors</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
-      <li><a href="1-08-0-variables/">Variables, Parameters, and Constants</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
-      <li>Extra Credit: <a href="1-09-0-closures/">Closures</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
-      <li><a href="1-10-0-functions/">Functions and Macros</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
-      <li>Extra Credit: <a href="1-11-0-text-adventure/">A Simple Text Adventure</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
-      <li><a href="1-12-0-namespaces/">Namespaces, Symbols, Packages, and Systems</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
-      <li>Extra Credit: <a href="1-13-0-simple-web-app/">A Simple Web Application</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
-      <li><a href="1-14-0-conditionals/">Conditionals</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
-      <li>Extra Credit: <a href="1-15-0-command-line-utility/">Command-Line Utilities</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
-      <li><a href="1-16-0-map-loop/">Mapping and Looping</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
-      <li>Extra Credit: <a href="1-17-0-iterate/">Revisiting Loops with Iterate</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="1-18-0-format/">Format Strings</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li>Extra Credit: <a href="1-19-0-dsl/">Domain Specific Languages</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="1-20-0-review/">Part One in Review</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li>
+        <a href="1-01-00-lisp-bootcamp/">Common Lisp Bootcamp</a>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
+      </li>
+      <li>
+        <a href="1-02-00-input-output/">Printing, Strings and Streams</a>
+        <i class="glyphicon glyphicon-ok text-success"></i>
+      </li>
+      <li>
+        Extra Credit:
+        <a href="1-03-0-getting-input-from-users/">Getting Input from Users</a>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
+      </li>
+      <li>
+        <a href="1-04-0-lists/">Lists and List-Operations</a>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
+      </li>
+      <li>
+        Extra Credit:
+        <a href="1-05-0-lookups-trees/">Look-up Lists and Trees</a>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
+      </li>
+      <li>
+        <a href="1-06-0-math/">Numbers and Math</a>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
+      </li>
+      <li>
+        Extra Credit:
+        <a href="1-07-0-arrays/">Arrays and Vectors</a>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
+      </li>
+      <li>
+        <a href="1-08-0-variables/">Variables, Parameters, and Constants</a>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
+      </li>
+      <li>
+        Extra Credit:
+        <a href="1-09-0-closures/">Closures</a>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
+      </li>
+      <li>
+        <a href="1-10-0-functions/">Functions and Macros</a>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
+      </li>
+      <li>
+        Extra Credit:
+        <a href="1-11-0-text-adventure/">A Simple Text Adventure</a>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
+      </li>
+      <li>
+        <a href="1-12-0-namespaces/">Namespaces, Symbols, Packages, and Systems</a>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
+      </li>
+      <li>
+        Extra Credit:
+        <a href="1-13-0-simple-web-app/">A Simple Web Application</a>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
+      </li>
+      <li>
+        <a href="1-14-0-conditionals/">Conditionals</a>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
+      </li>
+      <li>
+        Extra Credit:
+        <a href="1-15-0-command-line-utility/">Command-Line Utilities</a>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
+      </li>
+      <li>
+        <a href="1-16-0-map-loop/">Mapping and Looping</a>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
+      </li>
+      <li>
+        Extra Credit:
+        <a href="1-17-0-iterate/">Revisiting Loops with Iterate</a>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
+      </li>
+      <li>
+        <a href="1-18-0-format/">Format Strings</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        Extra Credit:
+        <a href="1-19-0-dsl/">Domain Specific Languages</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="1-20-0-review/">Part One in Review</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
     </ul>
   </dd>
   <dt>PART TWO</dt>
