@@ -67,7 +67,7 @@
       <li>Extra Credit: <a href="1-13-0-simple-web-app/">A Simple Web Application</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
       <li><a href="1-14-0-conditionals/">Conditionals</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
       <li>Extra Credit: <a href="1-15-0-command-line-utility/">Command-Line Utilities</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
-      <li><a href="1-16-0-map-loop/">Mapping and Looping</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li><a href="1-16-0-map-loop/">Mapping and Looping</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
       <li>Extra Credit: <a href="1-17-0-iterate/">Revisiting Loops with Iterate</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
       <li><a href="1-18-0-format/">Format Strings</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
       <li>Extra Credit: <a href="1-19-0-dsl/">Domain Specific Languages</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
