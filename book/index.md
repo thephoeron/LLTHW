@@ -130,16 +130,16 @@
       </li>
       <li>
         <a href="1-18-0-format/">Format Strings</a>
-        <i class="glyphicon glyphicon-remove text-danger"></i>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
       </li>
       <li>
         Extra Credit:
         <a href="1-19-0-dsl/">Domain Specific Languages</a>
-        <i class="glyphicon glyphicon-remove text-danger"></i>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
       </li>
       <li>
         <a href="1-20-0-review/">Part One in Review</a>
-        <i class="glyphicon glyphicon-remove text-danger"></i>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
       </li>
     </ul>
   </dd>
