@@ -147,7 +147,10 @@
   <dd>
     <a href="2-0-0-overview/">The Suffusion of Blue</a>
     <ul>
-      <li><a href="2-01-0-programming-paradigms/">Programming Paradigms</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li>
+        <a href="2-01-0-programming-paradigms/">Programming Paradigms</a>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
+      </li>
       <li>Extra Credit: <a href="2-02-0-regex/">Regular Expressions</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
       <li><a href="2-03-0-objects-control/">Objects and Control Structures</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
       <li>Extra Credit: <a href="2-04-0-data-persistence/">Persistence and Databases</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
