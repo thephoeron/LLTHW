@@ -151,26 +151,96 @@
         <a href="2-01-0-programming-paradigms/">Programming Paradigms</a>
         <i class="glyphicon glyphicon-refresh text-warning"></i>
       </li>
-      <li>Extra Credit: <a href="2-02-0-regex/">Regular Expressions</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="2-03-0-objects-control/">Objects and Control Structures</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li>Extra Credit: <a href="2-04-0-data-persistence/">Persistence and Databases</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="2-05-0-extended-types/">Extended Types</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li>Extra Credit: <a href="2-06-0-threads-memos-parallel/">Threading, Memoization, and Parallel Processing</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="2-07-0-logic-and-more-math/">Logic and Advanced Math</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li>Extra Credit: <a href="2-08-0-number-theory/">Number Theory</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="2-09-0-binary-octets-bits/">Binary Streams, Octet-Vectors, and Bit-Vectors</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li>Extra Credit: <a href="2-10-0-improved-text-adventure-engine/">An Improved Text Adventure Engine</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="2-11-0-conditions/">Conditions and Error Handling</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li>Extra Credit: <a href="2-12-0-2d-game/">Write a 2D Game</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="2-13-0-compiler/">The Compiler</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li>Extra Credit: <a href="2-14-0-tree-shaker/">Write a Tree-Shaker</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="2-15-0-docs-and-inspection/">Documentation and Inspection</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li>Extra Credit: <a href="2-16-0-foreign-libs/">Foreign Libraries in Lisp</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="2-17-0-debugging-testing/">Debugging and Unit Testing</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li>Extra Credit: <a href="2-18-0-ffi/">Write a Foreign Function Interface</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="2-19-0-essential-libs/">Essential Lisp Libraries</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li>Extra Credit: <a href="2-20-0-packaging-libs/">Packaging Lisp Libraries</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="2-21-0-review/">Detailed Syntax Review</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li>
+        Extra Credit:
+        <a href="2-02-0-regex/">Regular Expressions</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="2-03-0-objects-control/">Objects and Control Structures</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        Extra Credit:
+        <a href="2-04-0-data-persistence/">Persistence and Databases</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="2-05-0-extended-types/">Extended Types</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        Extra Credit:
+        <a href="2-06-0-threads-memos-parallel/">Threading, Memoization, and Parallel Processing</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="2-07-0-logic-and-more-math/">Logic and Advanced Math</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        Extra Credit:
+        <a href="2-08-0-number-theory/">Number Theory</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="2-09-0-binary-octets-bits/">Binary Streams, Octet-Vectors, and Bit-Vectors</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        Extra Credit:
+        <a href="2-10-0-improved-text-adventure-engine/">An Improved Text Adventure Engine</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="2-11-0-conditions/">Conditions and Error Handling</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        Extra Credit:
+        <a href="2-12-0-2d-game/">Write a 2D Game</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="2-13-0-compiler/">The Compiler</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        Extra Credit:
+        <a href="2-14-0-tree-shaker/">Write a Tree-Shaker</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="2-15-0-docs-and-inspection/">Documentation and Inspection</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        Extra Credit:
+        <a href="2-16-0-foreign-libs/">Foreign Libraries in Lisp</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="2-17-0-debugging-testing/">Debugging and Unit Testing</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        Extra Credit:
+        <a href="2-18-0-ffi/">Write a Foreign Function Interface</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="2-19-0-essential-libs/">Essential Lisp Libraries</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        Extra Credit:
+        <a href="2-20-0-packaging-libs/">Packaging Lisp Libraries</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="2-21-0-review/">Detailed Syntax Review</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
     </ul>
   </dd>
   <dt>PART THREE</dt>
