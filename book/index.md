@@ -247,28 +247,94 @@
   <dd>
     <a href="3-0-0-overview/">Lisp So(u)rcery</a>
     <ul>
-      <li><a href="3-01-0-web-apps/">Real-world Web Apps</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
-      <li><a href="3-02-0-mobile/">Native Mobile Applications</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="3-03-0-gui/">Cross-platform Desktop Applications</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="3-04-0-system-utils/">Drivers, Daemons, and System-Utilities</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="3-05-0-reverse-engineering/">Reverse Engineering</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="3-06-0-graphics/">Graphics Rendering</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="3-07-0-gaming/">OpenGL, SDL, and 3D Game Development</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="3-08-0-audio/">Audio Generation and Manipulation</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="3-09-0-data/">Data Aggregation and Analysis</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="3-10-0-cryptosec/">Cryptography and Security</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="3-11-0-fintech/">Financial Software and Crypto-Currencies</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="3-12-0-scientific-computing/">Scientific Computing</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="3-13-0-computational-physics/">Computational Physics</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="3-14-0-quantum-computing/">Quantum Computing</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="3-15-0-nlp/">Natural Language Processing</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="3-16-0-ai/">Artificial Intelligence</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="3-17-0-robotics/">Robotics</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="3-18-0-space-tech/">Space Tech</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="3-19-0-neurotech/">Neuroscience and Thought-Controlled Computing</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="3-20-0-lispos/">A Simple LispOS</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="3-21-0-lisp-machine/">Build Your Own Lisp Machine</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
-      <li><a href="3-22-0-gov-mil/">Government and Military Grade Systems</a> <i class="glyphicon glyphicon-remove text-danger"></i></li>
+      <li>
+        <a href="3-01-0-web-apps/">Real-world Web Apps</a>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
+      </li>
+      <li>
+        <a href="3-02-0-mobile/">Native Mobile Applications</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="3-03-0-gui/">Cross-platform Desktop Applications</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="3-04-0-system-utils/">Drivers, Daemons, and System-Utilities</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="3-05-0-reverse-engineering/">Reverse Engineering</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="3-06-0-graphics/">Graphics Rendering</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="3-07-0-gaming/">OpenGL, SDL, and 3D Game Development</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="3-08-0-audio/">Audio Generation and Manipulation</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="3-09-0-data/">Data Aggregation and Analysis</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="3-10-0-cryptosec/">Cryptography and Security</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="3-11-0-fintech/">Financial Software and Crypto-Currencies</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="3-12-0-scientific-computing/">Scientific Computing</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="3-13-0-computational-physics/">Computational Physics</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="3-14-0-quantum-computing/">Quantum Computing</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="3-15-0-nlp/">Natural Language Processing</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="3-16-0-ai/">Artificial Intelligence</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="3-17-0-robotics/">Robotics</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="3-18-0-space-tech/">Space Tech</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="3-19-0-neurotech/">Neuroscience and Thought-Controlled Computing</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="3-20-0-lispos/">A Simple LispOS</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="3-21-0-lisp-machine/">Build Your Own Lisp Machine</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
+      <li>
+        <a href="3-22-0-gov-mil/">Government and Military Grade Systems</a>
+        <i class="glyphicon glyphicon-remove text-danger"></i>
+      </li>
     </ul>
   </dd>
 </dl>
