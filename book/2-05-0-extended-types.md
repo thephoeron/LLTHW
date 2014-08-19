@@ -9,14 +9,24 @@
 
 # Extended Types
 
-> "Relevant quote..."
-> <footer>Source</footer>
+> "Always listen to experts. They'll tell you what can't be done, and why. Then do it."
+> <footer>Robert A. Heinlein, <em>Time Enough for Love</em></footer>
+
+Besides the data types we've already seen---strings, integers, floats, complex numbers, vectors, arrays, lists, first-class functions, structs and CLOS classes---Common Lisp has a diverse set of specialized types to serve almost every need.
+
+Many of these specialized data types have their own set of functions for working with them.  While introducing each type, I will also be covering that type's specialized function interface, and various methods of type conversion.
+
+Where the ANSI standard falls short of your needs, it provides a mature and rich type definition system.  You can also, if needs must, mercilessly abuse CLOS to define your more complicated, structured types with classes---which also allows you to use generic functions and methods to provide operator overloading for them.
 
 This chapter will contain exercises on:
 
 * Hash-Tables
 * Sequences
 * Sets
+* Simple Strings
+* Simple Arrays
+* Signed and Unsigned Byte Vectors
+* Bit Vectors
 * Type Definition
 * CLOS for Type Definition
 

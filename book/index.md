@@ -167,7 +167,7 @@
       </li>
       <li>
         <a href="2-05-0-extended-types/">Extended Types</a>
-        <i class="glyphicon glyphicon-remove text-danger"></i>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
       </li>
       <li>
         Extra Credit:
