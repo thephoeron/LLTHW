@@ -9,8 +9,8 @@
 
 # Objects and Control Structures
 
-> "Relevant quote..."
-> <footer>Source</footer>
+> "Wisdom includes not getting angry unnecessarily. The Law ignores trifles and the wise man does, too."
+> <footer>Robert A. Heinlein, <em>Job: A Comedy of Justice</em></footer>
 
 Despite the common misconception that Lisp is a functional programming lanugage, Lisp has rich support for the Imperative and Object-Oriented paradigms---and these days, you'll find more fully Object-Oriented Lisp applications and libraries than purely-functional ones. While the tools for Imperative and Procedural programming are included alongside all the other standard features of Common Lisp, Object-oriented programming is encapsulated by CLOS: The Common Lisp Object System.
 
