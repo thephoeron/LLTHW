@@ -163,7 +163,7 @@
       <li>
         Extra Credit:
         <a href="2-04-0-data-persistence/">Persistence and Databases</a>
-        <i class="glyphicon glyphicon-remove text-danger"></i>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
       </li>
       <li>
         <a href="2-05-0-extended-types/">Extended Types</a>
