@@ -12,7 +12,7 @@
 > "Relevant quote..."
 > <footer>Source</footer>
 
-Chapter text.
+While John McCarthy had intended that the successor to the many different dialects of Lisp in the 70s and 80s would be a fully parallelized Lisp, his proposal for QLISP did not make it into the ANSI Common Lisp standard.
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-05-0-extended-types/">&laquo; Previous</a></li>
