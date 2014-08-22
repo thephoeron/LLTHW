@@ -171,7 +171,7 @@
       </li>
       <li>
         Extra Credit:
-        <a href="2-06-0-threads-memos-parallel/">Threading, Memoization, and Parallel Processing</a>
+        <a href="2-06-0-threads-memos-parallel/">Concurrency and Memoization</a>
         <i class="glyphicon glyphicon-refresh text-warning"></i>
       </li>
       <li>
