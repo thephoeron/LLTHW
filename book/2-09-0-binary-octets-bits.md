@@ -9,8 +9,8 @@
 
 # Binary Streams, Octet-Vectors, and Bit-Vectors
 
-> "Relevant quote..."
-> <footer>Source</footer>
+> "I counted to ten slowly, using binary notation."
+> <footer>Robert A. Heinlein, <em>The Door Into Summer</em></footer>
 
 Extend basic material from Part One and previous chapters in Part Two.
 
