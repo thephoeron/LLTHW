@@ -181,7 +181,7 @@
       <li>
         Extra Credit:
         <a href="2-08-0-number-theory/">Number Theory</a>
-        <i class="glyphicon glyphicon-remove text-danger"></i>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
       </li>
       <li>
         <a href="2-09-0-binary-octets-bits/">Binary Streams, Octet-Vectors, and Bit-Vectors</a>
