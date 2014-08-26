@@ -190,7 +190,7 @@
       <li>
         Extra Credit:
         <a href="2-10-0-improved-text-adventure-engine/">An Improved Text Adventure Engine</a>
-        <i class="glyphicon glyphicon-remove text-danger"></i>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
       </li>
       <li>
         <a href="2-11-0-conditions/">Conditions and Error Handling</a>
