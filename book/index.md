@@ -194,7 +194,7 @@
       </li>
       <li>
         <a href="2-11-0-conditions/">Conditions and Error Handling</a>
-        <i class="glyphicon glyphicon-remove text-danger"></i>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
       </li>
       <li>
         Extra Credit:

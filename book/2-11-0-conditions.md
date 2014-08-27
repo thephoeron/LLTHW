@@ -9,10 +9,21 @@
 
 # Conditions and Error Handling
 
-> "Relevant quote..."
-> <footer>Source</footer>
+> "The death rate is the same for us as for anybody... one person, one death, sooner or later."
+> <footer>Robert A. Heinlein, <em>Tunnel in the Sky</em></footer>
 
-Chapter text.
+No matter what you do, things will eventually go wrong in any program you write.  You may have overlooked a bug, pass a function an object of the wrong data type, overestimated the ability of your users to follow instructions, incorrectly guaged the needs of your users, or, most commonly, kept working when you're burned-out, and really messed up your code.  It happens to everyone.
+
+Thankfully, Lisp has a very mature and robust system for handling errors gracefully, so that your users can have a seamless experience.
+
+In this chapter, we'll take a tour through all of Lisp's built-in tools for handling, defining, and working with Conditions.
+
+* Errors vs. Conditions
+* Signaling
+* Assertions
+* Using `handler-case`
+* Using `handler-bind`
+* Defining your own Conditions
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-10-0-improved-text-adventure-engine/">&laquo; Previous</a></li>
