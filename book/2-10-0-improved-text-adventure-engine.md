@@ -20,6 +20,15 @@ I know that seems like a lot of work! But Lisp helps manage the difficulty.  To 
 
 As a final note, it bears mentioning that this isn't a book on AI---so we'll simply be using the best techniques for the current job without much justification or explanation.  For a broader introduction to specialized topics, you can turn to the References section of this website.
 
+Additional, optional extra credit exercises:
+
+Expand single-player text adventure into a MUD with:
+
+* Asynchronous server + DB
+* User accounts/authentication
+* Automatic save games
+* User-created Assets
+
 <ul class="pager">
   <li class="previous"><a href="/book/2-09-0-binary-octets-bits/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
