@@ -199,7 +199,7 @@
       <li>
         Extra Credit:
         <a href="2-12-0-2d-game/">Write a 2D Game</a>
-        <i class="glyphicon glyphicon-remove text-danger"></i>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
       </li>
       <li>
         <a href="2-13-0-compiler/">The Compiler</a>
