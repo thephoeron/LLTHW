@@ -12,7 +12,7 @@
 > "Relevant quote..."
 > <footer>Source</footer>
 
-Chapter text.
+Like many other languages these days, Lisp allows you to call-out to libraries written in other languages, as if they were native Lisp code. But Lisp was one of the first languages to include this feature, and the term "Foreign Function Interface" was actually introduced specifically for this functionality in Common Lisp.
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-15-0-docs-and-inspection/">&laquo; Previous</a></li>
