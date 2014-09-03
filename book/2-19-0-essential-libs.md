@@ -18,6 +18,7 @@ For starters:
 
 * ASDF
 * Alexandria
+* CL-PPCRE
 * CL-FAD
 * Flexi-Streams
 * Babel
