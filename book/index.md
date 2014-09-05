@@ -217,29 +217,29 @@
       <li>
         Extra Credit:
         <a href="2-16-0-foreign-libs/">Foreign Libraries in Lisp</a>
-        <i class="glyphicon glyphicon-remove text-danger"></i>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
       </li>
       <li>
         <a href="2-17-0-debugging-testing/">Debugging and Unit Testing</a>
-        <i class="glyphicon glyphicon-remove text-danger"></i>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
       </li>
       <li>
         Extra Credit:
         <a href="2-18-0-ffi/">Write a Foreign Function Interface</a>
-        <i class="glyphicon glyphicon-remove text-danger"></i>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
       </li>
       <li>
         <a href="2-19-0-essential-libs/">Essential Lisp Libraries</a>
-        <i class="glyphicon glyphicon-remove text-danger"></i>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
       </li>
       <li>
         Extra Credit:
         <a href="2-20-0-packaging-libs/">Packaging Lisp Libraries</a>
-        <i class="glyphicon glyphicon-remove text-danger"></i>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
       </li>
       <li>
         <a href="2-21-0-review/">Detailed Syntax Review</a>
-        <i class="glyphicon glyphicon-remove text-danger"></i>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
       </li>
     </ul>
   </dd>

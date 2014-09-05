@@ -9,8 +9,8 @@
 
 # Foreign Libraries in Lisp
 
-> "Relevant quote..."
-> <footer>Source</footer>
+> "I was indeed a total stranger in an utterly strange and confusing land... but I do not think, in retrospect, that I would have made my condition worse had I simply blurted out my predicament. I would not have been believed."
+> <footer>Robert A. Heinlein, <em>Job: A Comedy of Justice</em></footer>
 
 Like many other languages these days, Lisp allows you to call-out to libraries written in other languages, as if they were native Lisp code. But Lisp was one of the first languages to include this feature, and the term "Foreign Function Interface" was actually introduced specifically for this functionality in Common Lisp.
 

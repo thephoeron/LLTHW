@@ -9,8 +9,8 @@
 
 # Debugging and Unit Testing
 
-> "Relevant quote..."
-> <footer>Source</footer>
+> "I know, as the prime lesson of my profession, that good intentions are the source of more folly than all other causes put together."
+> <footer>Robert A. Heinlein, <em>Glory Road</em></footer>
 
 No matter what you do, how hard you try, your code will eventually break.  You, or someone else maintaining your code, will make a mistake, or overlook that one use-case that brings your whole program down.  It happens.  Software is fragile by nature, and programmers *are* only human.  So remember this: the debugger is your friend.  It's only there to help you.
 

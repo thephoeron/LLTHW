@@ -9,8 +9,8 @@
 
 # Detailed Review of Common Lisp
 
-> "Relevant quote..."
-> <footer>Source</footer>
+> "The best things in life are beyond money; their price is agony and sweat and devotion... and the price demanded for the most precious of all things in life is life itself---ultimate cost for perfect value."
+> <footer>Robert A. Heinlein, <em>Starship Troopers</em></footer>
 
 Brutal though it may have been, you have reached the end of Part Two.  There is just one final challenge before you move on to the industry-themed practical challenges of Part Three---and that's to make your peace with the Common Lisp HyperSpec, and even learn to love it. The HyperSpec is, of course, the de-facto official specification of the Common Lisp language freely available to the public, its text at least partly extracted from the original standards document, ANSI X3.226 (which is now available in a revised version as <a href="http://webstore.ansi.org/RecordDetail.aspx?sku=ANSI%20INCITS%20226-1994%20(R2004)" target="_blank">ANSI INCITS 226-1994 (R2004)</a>). If you'd prefer to use the official ANSI standard as your choice of reference over the HyperSpec, I don't think anyone in the Lisp community would fault you.
 

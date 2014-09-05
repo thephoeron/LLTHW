@@ -9,8 +9,8 @@
 
 # Packaging Lisp Libraries
 
-> "Relevant quote..."
-> <footer>Source</footer>
+> "A 'critic' is a man who creates nothing and thereby feels qualified to judge the work of creative men. There is logic in this; he is unbiased---he hates all creative people equally."
+> <footer>Robert A. Heinlein, <em>Time Enough for Love</em></footer>
 
 Now that you've got a solid grounding in writing, optimizing, debugging and testing your Lisp software, it's time to learn all about packaging your code for the wild---namely with ASDF, to be distributed in the Quicklisp package manager.  You've been using ASDF system files and Quicklisp to manage your projects since Part One, but now it's time to take a closer look at the structure of these ASDF files, and all the awesome power they can hold.
 

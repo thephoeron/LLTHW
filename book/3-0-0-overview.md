@@ -8,8 +8,8 @@
 
 # Lisp So(u)rcery
 
-> "One man’s 'magic' is another man’s engineering. 'Supernatural' is a null word."
-> <footer>Robert A. Heinlein, Time Enough For Love</footer>
+> "I would be disappointed if everything I saw turned out to be something Western Electric will build once Bell Labs works the bugs out. There ought to be some magic, somewhere, just for flavor."
+> <footer>Robert A. Heinlein, <em>Glory Road</em></footer>
 
 Now that you've gotten a solid grounding in the Common Lisp language and some popular Lisp libraries, it's time to really challenge yourself.  While up to this point, Extra Credit exercises have been mixed in-between fundamental language exercises, this part of the book is all practical exercises.  It will guide you through many of the popular use-cases you will come across as a professional Lisp developer, and by the end of it, you will be able to work some real programming magic.
 
