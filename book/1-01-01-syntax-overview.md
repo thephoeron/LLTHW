@@ -13,16 +13,18 @@
 > "Progress doesn't come from early risers---progress is made by lazy men looking for easier ways to do things."
 > <footer>Robert A. Heinlein, <em>Time Enough For Love</em></footer>
 
-What makes the Lisp family of languages so simple, expressive, and concise, is the syntax.  Using a single form, the *S-Expression*, you can represent all code and data.  This property is called 'homoiconicity'.
+What makes the Lisp family of languages so simple, expressive, and concise, is the syntax.  First of all, everything in Lisp is an *object*---and all objects are represented by *S-Expressions*.
 
-In Lisp, the S-Expression is defined to be either an *Atom* or a *List*.  An *Atom* is an S-Expression that evaluates to itself, while a *List* is a list of S-Expressions.
+While other programming languages generally have unique syntactic forms for *statements*, which change a value in memory and return nothing, and for *expressions* which return a value, Lisp uses the S-Expression to represent all objects---all code and data, a property known as 'homoiconicity'.  As a result, all objects in Lisp have a return value when evaluated.
 
-Below are some examples of atoms.  Try them out at the REPL yourself.  And remember, type *exactly* what I've typed (even if you think it's wrong), pressing 'Enter' at the end of each line.  This tells the Lisp REPL to evaluate the expression you've entered.
+S-Expressions come from the Lambda Calculus, where they are formally defined to be either an *Atom* or a *List*.  In Lisp, lists are implemented as Cons-Cells, and atoms are thus any object which is not a cons.  Cons-Cells will be discussed more in [Exercise 1.1.2](/book/1-01-02-more-detail/).
+
+Below are some examples of atoms---try them out at the REPL yourself!  And remember, type *exactly* what I've typed (even if you think it's wrong), pressing <kbd>Enter</kbd> at the end of each line.  This tells the Lisp REPL to evaluate the expression you've entered.
 
 ```lisp
 94
 
-'a-symbol
+'a-quoted-symbol
 
 #\greek_small_letter_lamda
 
@@ -32,12 +34,14 @@ nil
 
 '()
 
+()
+
 t
 ```
 
-As you can see, an *Atom* can be a lot of things in Lisp---numbers, symbols, character literals, strings, and even the empty list.  As you may have noticed, both `nil` and `'()` return the same thing: `NIL`.  That is because `nil` is defined as the empty list.  But there's other trickery going on behind the scenes here too---strings, for example, while treated as Atoms, are actually *sequences* of character literals, which makes them a sub-type of lists.  But by quoting a list, you can have Lisp treat it as an atom, so it evaluates to itself instead of being evaluated normally.  This is often referred to as switching to data mode.
+As you can see, an *Atom* can be a lot of things in Lisp---numbers, symbols, character literals, strings, and even the empty list.  As you may have noticed, `nil`, `'()`, and `()` all return the same thing: `NIL`.  That is because `nil` is defined as the empty list, which itself is treated atomically as it doesn't require any consing.  But there's other trickery going on behind the scenes here too---strings, for example, while treated as Atoms, are actually *sequences* of character literals; lists are also a sub-type of sequences. To really understand what's going on here, you have to remember that there's an object hierarchy---every object in Lisp descends from `t`, except for the empty list, and its symbolic representation, `nil`; thus, `t`---and every object that descends from it---represents logical truthiness, while `nil` and the empty list represents logical falsity.
 
-Let's look at some more specific examples of quoting lists:
+A few of the examples above have a single quote prepended to them; this is just called *quoting*, and tells Lisp not to evaluate the quoted form.  You can think of this as switching an expression from code to data.  The prepended single quote is just a short form for a full `quote` expression. Let's look at some more specific examples of quoting expressions:
 
 ```lisp
 '()
@@ -45,13 +49,13 @@ Let's look at some more specific examples of quoting lists:
 '(this is a list of symbols)
 
 (quote (this is another list of symbols))
+
+'another-quoted-symbol
 ```
 
-You can quote a list using the full expression, `(quote ...)`, or the short-form, `'...`.  Lisp sees it the same way.
+Lists in Lisp are enclosed in a pair of parentheses.  If you've ever looked at Lisp source code before, and wondered, "What's up with all these parentheses?", you now have your answer.  Each nested object inside a list is a full S-Expression too, so in a given block of code, you can easily get a lot of parentheses at the end closing off all the nested objects represented as lists.
 
-Lists in Lisp are enclosed in a pair of parentheses.  If you've ever looked at Lisp source code before, and wondered, "What's up with all these parentheses?", you now have your answer.  Each nested S-Expression inside a list is a full S-Expression too, either an Atom or a List itself.
-
-By default, as in "not-quoted", lists are automatically treated as code by Lisp and evaluated.  Let's try it out:
+By default, as in "not-quoted", lists are automatically treated as code by Lisp when evaluated. We call these lists *forms*. Let's try it out:
 
 ```lisp
 (+ 10 20 (* 30 2))
@@ -78,11 +82,15 @@ NIL
 
 Take a look at what you've typed and ponder it for a moment.  You should notice a few things right away:
 
-* A list in code starts off with a symbol that says what you want returned, often a function or macro name
-* The rest of the list is made up of parameters passed to that function or macro
-* You can have other lists as parameters, and the innermost seem to get evaluated first
+* A form starts off with a function, macro, or special operator, typically represented by a symbol.
+* The rest of the form is made up of parameters passed to that function, macro, or special operator.
+* You can have other forms as parameters, and the innermost seem to get evaluated first; their *results* are then used as parameters to the form the next level up the hierarchy.
 
-This syntax is often referred to as "Polish prefix-notation".  In the first example, `(+ 10 20 (* 30 2))`, it's pretty clear what's happening: you pass an arbitrary set of numbers to the addition function, and you get back the sum.  In this case, you also passed the *return result* of `(* 30 2)`, which is 30 multiplied by 2.  So instead of having to write something like `10 + 20 + 30 * 2` in other languages, you just have to type the addition symbol once, and order of operation is clear.  For a simple example like this, it may not seem like a big deal yet, but for real-world applications, it greatly simplifies your code.
+This syntax is called "Polish prefix-notation"---the operator comes first.  In the first example, `(+ 10 20 (* 30 2))`, it's pretty clear what's happening: you pass an arbitrary set of numbers to the addition function, and you get back the sum.  In this case, you also passed the *return result* of `(* 30 2)`, which is 30 multiplied by 2.  So instead of having to write something like `10 + 20 + 30 * 2` as you would in the algebraic notation of other programming languages, you just have to type the addition symbol once, and order of operation is clear.  For a simple example like this, it may not seem like a big deal yet, but for real-world applications, it greatly simplifies your code.
+
+Typically the expression in the operator position of a form is a symbol that represents a named function; but it can also be an anonymous function, a macro, or special form.  Special forms have their own rules, and there's no means provided to define new special forms.  Macros, among other things, allow you to create custom syntax, allowing you to arbitrarily extend and change the Lisp language.  Typically, however, you will write functions, classes, and methods in your day-to-day code, which simply extend the semantics of the language.
+
+There are also *reader macros*, which let you define convenient forms for expressing, among other things, new data types.  You've seen some reader macros already---like the short form of `quote`, represented by the single quotation mark prepending an expression to prevent it from being evaluated.
 
 From this amazingly simple syntax, you can express any program you can imagine, using any programming paradigm you choose.
 
