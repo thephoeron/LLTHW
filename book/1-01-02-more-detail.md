@@ -44,7 +44,14 @@ Remember, you don't type in the prompt character `*` at the REPL; even if your p
 
 The example above means, you first enter the expression `(+ 1 1)` in the REPL; evaluating it returns the result `2`, exactly what you would expect to get back for 1 + 1.  Then, you get back to the prompt, and can enter the expression, `(apply #'+ 1 2 3 4 '(5 6))`, which returns `21`.  If you're using SBCL from the command-line, this shows a direct transcript of the session---extra line-break between the evaluated expression and return result and all.  If you are using Emacs+SLIME, you won't see that extra line-break.
 
-A lot of Lisp literature and reference works explicitly mark the return value with an ASCII-formatted fat arrow: `=>`.  This can make spotting the return value of a form much easier in examples.  We will adopt this convention herein as well, when it is necessary for visual clarity.
+A lot of Lisp literature and reference works explicitly mark the return value with an ASCII-formatted fat arrow: `=>`.  This can make spotting the return value of a form much easier in examples.  We will adopt this convention herein as well, when it is necessary for visual clarity.  In such a case, the examples above would then look like this:
+
+```lisp
+* (+ 1 1)
+=> 2
+* (apply #'+ 1 2 3 4 '(5 6))
+=> 21
+```
 
 In most exercises, we will separate the code examples into two copies: first, just the code you are meant to type, and then again with the correct return results for you to compare your work.
 
