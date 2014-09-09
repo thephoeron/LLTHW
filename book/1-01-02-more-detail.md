@@ -57,7 +57,14 @@ In most exercises, we will separate the code examples into two copies: first, ju
 
 ## Expressions, Parentheses, and Return Values
 
-In the pedantic spirit of programming, it is worth reminding you that *everything* you type at the REPL or in your Lisp source code files will be *read as* or *expanded into* an S-Expression and evaluated if possible.  Quoting is one way you can disable evaluation for a nested S-Expression, but some S-Expressions are never evaluated.  If your Lisp implementation can't read what you've entered as a valid S-Expression, you will normally be dropped into the debugger.
+In the pedantic spirit of programming, it is worth reminding you that *everything* you type at the REPL or in your Lisp source code files will be *read as* or *expanded into* an S-Expression and evaluated if possible.  Quoting is one way you can disable evaluation for a nested S-Expression, but some S-Expressions are never evaluated.  If your Lisp implementation can't read what you've entered as a valid S-Expression, you will normally be dropped into the debugger, the same way that it would if it tried and failed to evaluate.
+
+```lisp
+* (+ 1 1)
+=> 2 ;; as expected, because it's a valid S-Expression
+* {+ 1 1}
+;; this won't evaluate, because the Lisp reader doesn't recognize braces
+```
 
 Common Lisp only has S-Expressions; imperative programming languages, for example, differentiate between 'statements' and 'expressions', by ruling that statements cause changes to the environment and return nothing, while expressions are used for their return values.  In the tradition of the Lisp-family of programming languages, the syntax is minimalist by design---so in Lisp, even a destructive, in-place operation is represented as an S-Expression.
 
