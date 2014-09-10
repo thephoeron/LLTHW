@@ -276,9 +276,11 @@
         (:script :src "//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js")
         (:script :src "//cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_HTMLorMML-full" :type "text/javascript")
         (:script :src "/static/js/select2-3.5.0/select2.min.js")
-        (:script :src "/static/js/jscl.js" :type "text/javascript")
         (:script :src "/static/js/jqconsole.min.js" :type "text/javascript")
-        (:script :src "/static/js/llthw.js" :type "text/javascript")
+        ; (:script :src "/static/js/llthw.js" :type "text/javascript")
+        ; <script></script>
+        (:script "var jqconsole = $('#console').jqconsole(';; Welcome to L(λ)THW, Powered by JSCL!\\n\\n', '');")
+        (:script :src "/static/js/jscl.js" :type "text/javascript")
         (:script :src "/llthw.js" :type "text/javascript")))))
 
 ;; EOF
