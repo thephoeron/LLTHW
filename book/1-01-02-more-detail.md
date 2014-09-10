@@ -76,6 +76,17 @@ A subset of Atoms are called *self-evaluating objects*.  Since expressions are e
 
 Lists are ordered collections of S-Expressions surrounded in a pair of parentheses, with the items separated by whitespace---the *amount* of whitespace does not matter to the Lisp reader, but there are fairly strict style conventions on how to format your code which will be detailed in the next exercise.  Again, non-empty lists are read as cons-cells, and cons-cells are printed as lists.  But lists are also a proper data type in Lisp, so it's important to remember the distinction between *representation* and the actual *implementation*.
 
+```lisp
+;; this:
+'(a b c)
+;; is the same as this:
+'(a
+  b
+  c)
+;; and this:
+(list 'a 'b 'c)
+```
+
 When a list is *evaluated*, it is treated as code unless it is quoted. The positions of items in the list are both syntactically and semantically meaningful when the list is evaluated as code.  These positions will be discussed below, in the section "Prefix Notation."
 
 Lisp code is meant to be simple and elegant; if you find yourself staring into an impenetrable confusion of parenthesis-chaos, your code is too complex for you to manage.  Using techniques for decomposition and refactoring also presented in this book, you will learn how to write beautiful and elegant programs as well as the Common Lisp language itself.
@@ -85,6 +96,15 @@ Lisp code is meant to be simple and elegant; if you find yourself staring into a
 It is significant to separate the representation and implementation of S-Expressions in your mind as you learn Lisp---since McCarthy's first paper on LISP, S-Expressions have been defined by their *representation*, but in Common Lisp, S-Expressions are defined by their *implementation* and their representation is only treated as an interface to the underlying objects.
 
 Lists are a proper type, descending from Sequences in Lisp's type hierarchy.
+
+Dot-notation.
+
+```lisp
+'(a . b)
+(cons 'a 'b)
+```
+
+*Revision note:* scrap these next two paragraphs.
 
 In Lisp, lists are stored as chains of pointer-pairs, called "cons-cells".  Each cell either points to a memory address where a value is stored, or points to another cons-cell.  The first cell in the cons-cell is referred to as `car`, and the second cell is called `cdr`.  Since the names of the cells might seem strange to you, being artifacts of a long-lost hardware architecture, you can think of them as "first" and "rest" of a list, or the "head" and "tail" of a chain; but for reference, `car` stands for "Contents of Address Register", and `cdr` stands for "Contents of Decrement Register".
 
