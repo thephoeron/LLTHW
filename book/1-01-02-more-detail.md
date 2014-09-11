@@ -95,13 +95,49 @@ Lisp code is meant to be simple and elegant; if you find yourself staring into a
 
 It is significant to separate the representation and implementation of S-Expressions in your mind as you learn Lisp---since McCarthy's first paper on LISP, S-Expressions have been defined by their *representation*, but in Common Lisp, S-Expressions are defined by their *implementation* and their representation is only treated as an interface to the underlying objects.
 
-Lists are a proper type, descending from Sequences in Lisp's type hierarchy.
+Lists are a proper type, descending from Sequences in Lisp's type hierarchy.  A list only *conses* as long as there are values to be consed. For example, take a look at this:
+
+```lisp
+* (list)
+=> NIL
+* (list 'a)
+=> (A)
+* (list 'a nil)
+=> (A NIL)
+* (cons 'a nil)
+=> (A)
+```
+
+To understand what's happening in the example above, you have to understand consing, and how lists are built on top of Cons-Cells.
+
+```lisp
+;; this:
+(list 'a 'b 'c)
+;; is the same as this:
+(cons 'a (cons 'b (cons 'c nil)))
+;; while this:
+(list 'a 'nil)
+;; is the same as this:
+(cons 'a (cons nil nil))
+```
+
+The end of a chain of cons-cells normally terminates in `nil`.
 
 Dot-notation.
 
 ```lisp
+;; this:
 '(a . b)
+;; is the same as this:
 (cons 'a 'b)
+```
+
+A list of dot-notation pairs like this is called an association list, or `alist` for short.  They are one of many structures available in Lisp for storing key/value pairs, and have a good API.
+
+```lisp
+'((a . b)
+  (c . d)
+  (e . f))
 ```
 
 *Revision note:* scrap these next two paragraphs.
