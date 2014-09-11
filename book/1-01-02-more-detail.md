@@ -121,9 +121,7 @@ To understand what's happening in the example above, you have to understand cons
 (cons 'a (cons nil nil))
 ```
 
-The end of a chain of cons-cells normally terminates in `nil`.
-
-Dot-notation.
+The end of a chain of cons-cells normally terminates in `nil`, but you can have the `cdr` of a cons-cell point to a value too, and eliminate the need for an extra consing, by using dot-notation:
 
 ```lisp
 ;; this:
