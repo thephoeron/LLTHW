@@ -138,6 +138,8 @@ A list of dot-notation pairs like this is called an association list, or `alist`
   (e . f))
 ```
 
+So then, just what is this "Cons-Cell" I keep talking about, you ask?
+
 *Revision note:* scrap these next two paragraphs.
 
 In Lisp, lists are stored as chains of pointer-pairs, called "cons-cells".  Each cell either points to a memory address where a value is stored, or points to another cons-cell.  The first cell in the cons-cell is referred to as `car`, and the second cell is called `cdr`.  Since the names of the cells might seem strange to you, being artifacts of a long-lost hardware architecture, you can think of them as "first" and "rest" of a list, or the "head" and "tail" of a chain; but for reference, `car` stands for "Contents of Address Register", and `cdr` stands for "Contents of Decrement Register".
