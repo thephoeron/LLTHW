@@ -66,7 +66,7 @@ In the pedantic spirit of programming, it is worth reminding you that *everythin
 ;; this won't evaluate, because the Lisp reader doesn't recognize braces
 ```
 
-Common Lisp only has S-Expressions; imperative programming languages, for example, differentiate between 'statements' and 'expressions', by ruling that statements cause changes to the environment and return nothing, while expressions are used for their return values.  In the tradition of the Lisp-family of programming languages, the syntax is minimalist by design---so in Lisp, even a destructive, in-place operation is represented as an S-Expression. Destructive, in-place operations have a naming convention, to make it obvious that they have side-effects:
+Common Lisp only has S-Expressions; imperative programming languages, for example, differentiate between 'statements' and 'expressions', by ruling that statements cause changes to the environment and return nothing, while expressions are used for their return values.  In the tradition of the Lisp-family of programming languages, the syntax is minimalist by design---so in Lisp, even a destructive, in-place operation is represented as an S-Expression. Destructive, in-place operations are by convention named with a prepended "N", to make it obvious that they have side-effects:
 
 ```lisp
 ;; first lets define a couple variables
@@ -80,7 +80,7 @@ Common Lisp only has S-Expressions; imperative programming languages, for exampl
 => (A B C)
 * *test-list-b*
 => (D E F)
-;; but now lets do a destructive operation, NCONC
+;; but now lets do a destructive operation, NCONC (ie, in-place list concatenation)
 * (nconc *test-list-a* *test-list-b*)
 => (A B C D E F)
 ;; the variable's binding and assignment haven't changed, but the last cons-cell
