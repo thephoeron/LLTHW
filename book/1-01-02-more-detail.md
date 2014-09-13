@@ -66,13 +66,69 @@ In the pedantic spirit of programming, it is worth reminding you that *everythin
 ;; this won't evaluate, because the Lisp reader doesn't recognize braces
 ```
 
-Common Lisp only has S-Expressions; imperative programming languages, for example, differentiate between 'statements' and 'expressions', by ruling that statements cause changes to the environment and return nothing, while expressions are used for their return values.  In the tradition of the Lisp-family of programming languages, the syntax is minimalist by design---so in Lisp, even a destructive, in-place operation is represented as an S-Expression.
+Common Lisp only has S-Expressions; imperative programming languages, for example, differentiate between 'statements' and 'expressions', by ruling that statements cause changes to the environment and return nothing, while expressions are used for their return values.  In the tradition of the Lisp-family of programming languages, the syntax is minimalist by design---so in Lisp, even a destructive, in-place operation is represented as an S-Expression. Destructive, in-place operations have a naming convention, to make it obvious that they have side-effects:
 
-Expressions, in an abstract sense, are *expected to* return a value; S-Expressions in Common Lisp almost always do, as well, but there are some exceptions. These will be pointed out explicitly as they are brought up in the text of this book.
+```lisp
+;; first lets define a couple variables
+* (defvar *test-list-a* '(a b c))
+* (defvar *test-list-b* '(d e f))
+;; append returns a new list from its arguments
+* (append *test-list-a* *test-list-b*)
+=> (A B C D E F)
+;; you can see that the original lists haven't changed
+* *test-list-a*
+=> (A B C)
+* *test-list-b*
+=> (D E F)
+;; but now lets do a destructive operation, NCONC
+* (nconc *test-list-a* *test-list-b*)
+=> (A B C D E F)
+;; the variable's binding and assignment haven't changed, but the last cons-cell
+;; now points to *test-list-b* instead of terminating at NIL
+* *test-list-a*
+=> (A B C D E F)
+```
+
+Expressions, in an abstract sense, are *expected to* return a value; S-Expressions in Common Lisp almost always do, as well, but there are some exceptions. A function call, for example, is expected to return the value of the last form in its body as the value of the entire function:
+
+```lisp
+;; this is a typical anonymous function call; the last form in its body is (+ x x)
+;; so the function call returns (+ 2 2) => 4
+* ((lambda (x) (+ x x)) 2)
+=> 4
+;; in this function, the return result of (+ x x) is not assigned so it is essentially
+;; lost; the function body moves on to the next form, (* x x), which is the last form
+;; of this function body. So the function call only returns (* 10 10) => 100
+* ((lambda (x) (+ x x) (* x x)) 10)
+=> 100
+;; in this function, we capture the return values of both (+ x x) and (* x x), as the
+;; lexical variables SUM and PRODUCT; using VALUES, we can return multiple values from
+;; a form instead of just one
+* ((lambda (x) (let ((sum (+ x x)) ((product (* x x)))) (values sum product))) 10)
+=> 20 100
+;; but calling VALUES without anything gives us... an expression with no return result!
+* (values)
+=> ; No value
+```
 
 As was introduced in the previous exercise, an S-Expression can either be an *Atom* or a *Cons-Cell*.  Cons-Cells are represented by Lists to the Reader and by the Printer---but the empty list is treated as an Atom because it requires no consing.
 
 A subset of Atoms are called *self-evaluating objects*.  Since expressions are expected to return a value, these particular objects simply return themselves.  By quoting an expression, you are effectively turning the quoted expression into a self-evaluating object.
+
+```lisp
+;; these are some self-evaluating objects:
+;; strings---
+* "a string"
+;; characters---
+* #\greek_small_letter_lamda
+;; numbers
+* 42
+* #x2A
+;; bit-vectors---
+* #*1001
+```
+
+Note: `#x2A` looks like it returns something different---but it doesn't the underlying integer of both the decimal representation `42` and the hexadecimal representation `#x2A` are the same number.  This can be proved with `(eq 42 #x2A)`.
 
 Lists are ordered collections of S-Expressions surrounded in a pair of parentheses, with the items separated by whitespace---the *amount* of whitespace does not matter to the Lisp reader, but there are fairly strict style conventions on how to format your code which will be detailed in the next exercise.  Again, non-empty lists are read as cons-cells, and cons-cells are printed as lists.  But lists are also a proper data type in Lisp, so it's important to remember the distinction between *representation* and the actual *implementation*.
 
