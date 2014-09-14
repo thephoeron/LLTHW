@@ -196,11 +196,24 @@ A list of dot-notation pairs like this is called an association list, or `alist`
 
 So then, just what is this "Cons-Cell" I keep talking about, you ask?
 
-*Revision note:* scrap these next two paragraphs.
+A Cons-Cell is a pair of pointers, the `car` and the `cdr`---acronyms for "Contents of Address Register" and "Contents of Decrement Register", respectively.  The `car` is usually a pointer to a value, while the `cdr` can be a pointer to the `car` of another cons-cell, a pointer to `NIL`, or in the case of a dotted-pair, another pointer to a value.
 
-In Lisp, lists are stored as chains of pointer-pairs, called "cons-cells".  Each cell either points to a memory address where a value is stored, or points to another cons-cell.  The first cell in the cons-cell is referred to as `car`, and the second cell is called `cdr`.  Since the names of the cells might seem strange to you, being artifacts of a long-lost hardware architecture, you can think of them as "first" and "rest" of a list, or the "head" and "tail" of a chain; but for reference, `car` stands for "Contents of Address Register", and `cdr` stands for "Contents of Decrement Register".
+Consider again the examples above. Now you can more clearly see how lists are built on top of Cons-Cell chains, and what is happening when you work with Cons-Cells directly:
 
-This may at first seem like useless and uninteresting historical trivia, but it is important to understand the underlying structure of the language, since a common problem you will face when writing Lisp software is minimizing the number of conses a function performs while executing its body.  You can easily waste a lot of memory and processing power dealing with unnecessary consing, and it is of fundamental importance to programming that you handle resources well. After all, a web-app you write in Lisp may work perfectly when you're testing it yourself, but scale poorly under heavy traffic and crash your server.  You can avoid embarrassing and stressful situations like this by keeping a careful accounting of system resources, ensuring that your software only ever uses the minimum amounts of memory and processor time necessary to keep your application live and running smoothly for everyone.
+```lisp
+;; this creates three cons-cells, the quoted symbols 'A, 'B, and 'C each in the CAR of their own Cons-Cell
+(list 'a 'b 'c)
+;; it would be the same as typing this:
+(cons 'a (cons 'b (cons 'c nil)))
+;; or this:
+'(a . (b . (c . nil)))
+;; or this:
+'(a b c . nil)
+;; or simply this:
+'(a b c)
+```
+
+A good deal of optimization of Lisp software is all about minimizing the number of conses performed by your code.  Note how a dotted-pair only conses once, while a two item list that contains the same information conses twice.
 
 ## Symbols and Namespaces
 
