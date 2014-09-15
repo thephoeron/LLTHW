@@ -219,9 +219,9 @@ A good deal of optimization of Lisp software is all about minimizing the number 
 
 Common Lisp is often referred to as a LISP<sub>2</sub>---that is, it has separate namespaces for Functions and Variables in any given environment.  In practice, this means that you can bind and assign both a function and a variable to the symbol `foo`, evaluate `(foo foo)`, and Lisp can distinguish between them automatically, using the function definition when it's supposed to, and using the variable value when it's supposed to.  You can also explicitly refer to the function definition with the reader macro `#'`, such as in `(apply #'foo foo)`.
 
-Common Lisp is also both *dynamically* and *lexically* scoped.
+Common Lisp is also both *dynamically* and *lexically* scoped. Dynamic scoping is special and explicit in Common Lisp; lexical scoping is more intuitive and implicit.
 
-Common Lisp has *packages*, which allow you to specify custom read-tables for your environment.
+Common Lisp has *packages*, which allow you to specify custom read-tables for your environment.  When you define a package, you have to explicitly import symbols you want available in the package namespace---even the Common Lisp language itself; you can import all of a package's exported symbols into your new package at once with the `:use` keyword expression in the body of your package definition.
 
 Reserved symbols.
 
