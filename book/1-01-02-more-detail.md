@@ -223,7 +223,7 @@ Common Lisp is also both *dynamically* and *lexically* scoped. Dynamic scoping i
 
 Common Lisp has *packages*, which allow you to specify custom read-tables for your environment.  When you define a package, you have to explicitly import symbols you want available in the package namespace---even the Common Lisp language itself; you can import all of a package's exported symbols into your new package at once with the `:use` keyword expression in the body of your package definition.
 
-Reserved symbols.
+There are some symbol names you can't use, however---at least not without trickery.  As a general rule, you cannot use any of the 978 external symbols in the COMMON-LISP package for either a function or a variable, even if that binding does not exist in the Common Lisp standard.  All the names of symbols exported by the COMMON-LISP package are *reserved*.
 
 ## Prefix Notation
 
