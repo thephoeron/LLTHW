@@ -13,6 +13,8 @@
 > "A skillful Artist in shapes and appearances does no more than necessary to create His effect."
 > <footer>Robert A. Heinlein, <em>Job: A Comedy of Justice</em></footer>
 
+*Revision Note:* This exercise needs to be split up into an exercise per section.
+
 ## The REPL
 
 The Lisp REPL---a READ-EVAL-PRINT Loop---is the core of the interactive approach to Lisp development.  You type in an expression, the expression is *read*, *evaluated*, the return result is *printed*, and then it waits for more input.  The REPL is marked by a prompt, like the command line for your operating system, and it is the main interface to your current running Lisp image. Depending on the implementation of Lisp you are using, you may see different prompts.  You can also customize your prompt, but the means of doing so are implementation-dependent.
