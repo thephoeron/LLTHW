@@ -130,7 +130,7 @@ A subset of Atoms are called *self-evaluating objects*.  Since expressions are e
 * #*1001
 ```
 
-Note: `#x2A` looks like it returns something different---but it doesn't the underlying integer of both the decimal representation `42` and the hexadecimal representation `#x2A` are the same number.  This can be proved with `(eq 42 #x2A)`.
+Note: `#x2A` looks like it returns something different, but it doesn't---the underlying integer of both the decimal representation `42` and the hexadecimal representation `#x2A` are the same number.  This can be proved with `(eq 42 #x2A)`.
 
 Lists are ordered collections of S-Expressions surrounded in a pair of parentheses, with the items separated by whitespace---the *amount* of whitespace does not matter to the Lisp reader, but there are fairly strict style conventions on how to format your code which will be detailed in the next exercise.  Again, non-empty lists are read as cons-cells, and cons-cells are printed as lists.  But lists are also a proper data type in Lisp, so it's important to remember the distinction between *representation* and the actual *implementation*.
 
