@@ -229,23 +229,20 @@ There are some symbol names you can't use, however---at least not without tricke
 
 ## Prefix Notation
 
-An evaluated list expression has syntactically and semantically meaningful positions.  Remember, lists are implemented as Cons-Cells.  So the *car* of an evaluated list has to be a valid operator; the *cdr* of the evaluated list are *arguments* or *parameters*.
-
-Valid operators can be a symbol representing a function, macro, or special operator; or a lambda expression representing an anonymous function. If it is a symbol, the Lisp evaluator will first check if the symbol is a special operator, and if it's not, it will look for a matching definition in the read-table for a function.  Macros are tricky---they can be expanded into normal Lisp code at various times; reader macros are expanded at read-time, while `defmacro` forms are expanded at compile time.  There are also various techniques for controlling when and where macros are to be expanded.
-
-The handling of arguments is particular to the type of operator.  While functions, for example, can only receive a single return value from any nested expressions in their argument positions, special operators have their own rules.  Macros allow you to arbitrarily change the syntax and semantics of Lisp---so, obviously, the rules are defined by the macro definition form.
-
-In Lisp, a symbol representing a function, macro, or special operator, or a lambda expression representing an anonymous function, come first in an expression, followed by their parameters.  This notation, called "Polish Prefix Notation", can take some getting used to, but once you get the hang of it, it actually makes a lot more sense.
+An evaluated list expression has syntactically and semantically meaningful positions.  Remember, lists are implemented as Cons-Cells.  So the *car* of an evaluated list has to be a valid *operator*; the *cdr* of the evaluated list is itself a list of arguments to the operator called *parameters*.  In other words, the operator always comes first, and is not infixed between arguments, as would be the case in algebraic notation.  This is called "Polish Prefix Notation".
 
 For example, say you want to add together a list of numbers.  Normally, you would think to write this: `1 + 2 + 3 + 4 + 5 = 15`, but in Lisp you would write:
 
 ```lisp
 * (+ 1 2 3 4 5)
+=> 15
 ```
 
-And this expression would 'return' the integer `15`, which is typically written as `=> 15`.
-
 In Lisp, you don't have to write the addition operator, `+`, over and over between each number you wish to add together.  You are passing parameters to a function, and the function knows to collect the parameters as a set and Sum them.
+
+Valid operators can be a symbol representing a function, macro, or special operator; or a lambda expression representing an anonymous function. If it is a symbol, the Lisp evaluator will first check if the symbol is a special operator, and if it's not, it will look for a matching definition in the read-table for a function.  Macros are tricky---they can be expanded into normal Lisp code at various times; reader macros are expanded at read-time, while `defmacro` forms are expanded at compile time.  There are also various techniques for controlling when and where macros are to be expanded.
+
+The handling of arguments is particular to the type of operator.  While functions, for example, can only receive a single return value from any parameter expressions, special operators have their own rules.  Macros allow you to arbitrarily change the syntax and semantics of Lisp---so, obviously, the rules are defined by the macro definition form itself.  Exactly how one should apply the raw power of macros is a subject of much debate in the Lisp community.
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-01-01-syntax-overview/">&laquo; Previous</a></li>
