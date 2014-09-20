@@ -221,7 +221,34 @@ A good deal of optimization of Lisp software is all about minimizing the number 
 
 Common Lisp is often referred to as a LISP<sub>2</sub>---that is, it has separate namespaces for Functions and Variables in any given environment.  In practice, this means that you can bind and assign both a function and a variable to the symbol `foo`, evaluate `(foo foo)`, and Lisp can distinguish between them automatically, using the function definition when it's supposed to, and using the variable value when it's supposed to.  You can also explicitly refer to the function definition with the reader macro `#'`, such as in `(apply #'foo foo)`.
 
-Common Lisp is also both *dynamically* and *lexically* scoped. Dynamic scoping is special and explicit in Common Lisp; lexical scoping is more intuitive and implicit.
+Common Lisp is also both *dynamically* and *lexically* scoped. Dynamic scoping is special and explicit in Common Lisp; lexical scoping is more intuitive and implicit---in other words, you have to specifically declare a symbol to be special to use its dynamic binding from within a lexical scope where the symbol could be lexically bound and assigned as a different variable, while many forms introduce an implicit lexical scope.  For this reason there is a naming convention for top-level, dynamic variables: "earmuffs":
+
+```lisp
+;; top-level, dynamic variables can be declared with DEFVAR or DEFPARAMETER
+(defvar *my-dynamic-var* "I'm special!")
+=> *MY-DYNAMIC-VAR*
+;; notice that the variable names are qualified with a pair of asterisks? These are called earmuffs.
+(defparameter *my-extra-special-dynamic-var* "I'm special, too!")
+=> *MY-EXTRA-SPECIAL-DYNAMIC-VAR*
+;; one obvious way to introduce a lexical scope is with a LET form for binding and assigning lexical variables:
+(let ((one 1)
+      (two 2)
+      (three 3))
+  (+ one two three))
+=> 6
+;; now lets change things up a bit:
+(defvar one 1.0)
+=> ONE
+(defun mad-adder (one)
+  (declare (special one))
+  (let ((one 1))
+    (+ one (locally (declare (special one)) one))))
+=> MAD-ADDER
+(mad-adder one)
+=> 2.0
+```
+
+With the in-line `(locally (declare (special ...)))` expression, you're overriding the lexical definition of the symbol `one` to use the dynamic definition.  So, thanks to the law of propagation of floats, you get a return value of `2.0` instead of just the integer `2`.  Also note, there are actually *two* dynamic variables named `one` in the function application of `mad-adder`.  Can you explain their scoping?
 
 Common Lisp has *packages*, which allow you to specify custom read-tables for your environment.  When you define a package, you have to explicitly import symbols you want available in the package namespace---even the Common Lisp language itself; you can import all of a package's exported symbols into your new package at once with the `:use` keyword expression in the body of your package definition.
 
