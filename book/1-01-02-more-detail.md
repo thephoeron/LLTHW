@@ -276,7 +276,7 @@ Given that you have now defined the `mad-adder` function in `my-new-package`, bu
 (newpack:mad-adder one)
 ;; is the same as:
 (my-new-package:mad-adder one)
-;; if a symbol isn't exported, however, you have to use two colons between the package and symbol names:
+;; if a symbol isn't exported, however, you have to use two colons between the package and symbol
 (new-pack::*my-private-var*)
 ```
 
