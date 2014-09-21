@@ -252,6 +252,34 @@ With the in-line `(locally (declare (special ...)))` expression, you're overridi
 
 Common Lisp has *packages*, which allow you to specify custom read-tables for your environment.  When you define a package, you have to explicitly import symbols you want available in the package namespace---even the Common Lisp language itself; you can import all of a package's exported symbols into your new package at once with the `:use` keyword expression in the body of your package definition.
 
+At the top of a Lisp file, for example, you might have a package definition something like this:
+
+```lisp
+(in-package :cl-user)
+
+(defpackage #:my-new-package
+  (:nicknames #:newpack)
+  (:use :cl :cl-user)
+  (:export #:mad-adder))
+
+(in-package :my-new-package)
+```
+
+You could then continue defining your functions, variables, classes, methods, and other code in your new package, and specifically list the symbols you want to export as the package's public interface in the package definition's `:export` keyword expression. Notice that in this package definition, we've also given the package a nickname, `newpack`, and told it to `use` all the exported symbols from the COMMON-LISP and COMMON-LISP-USER packages in the MY-NEW-PACKAGE local read-table.
+
+You can refer to symbols by using their full name---normally, when you type in a symbol name, you don't have to type the package namespace it's in as well.  Lisp assumes that a symbol you enter exists in the current package, unless you specifically tell it otherwise.  You *can* access any symbol in a package, even if its not exported, but generally speaking you should obey the implicit agreement to use a package's exported interface instead of meddling with the internals.
+
+Given that you have now defined the `mad-adder` function in `my-new-package`, but you're working in the `cl-user` package, you might want to just call `mad-adder` directly---you'd get an error in this case, however, because the *full name* of `mad-adder` is actually `my-new-package:mad-adder` not `common-lisp-user:mad-adder`.  You can use the package nickname instead, which is a convenient way to save typing and still be explicit:
+
+```lisp
+;; this:
+(newpack:mad-adder one)
+;; is the same as:
+(my-new-package:mad-adder one)
+;; if a symbol isn't exported, however, you have to use two colons between the package and symbol names:
+(new-pack::*my-private-var*)
+```
+
 There are some symbol names you can't use, however---at least not without trickery.  As a general rule, you cannot use any of the 978 external symbols in the COMMON-LISP package for either a function or a variable, even if that binding does not exist in the Common Lisp standard.  All the names of symbols exported by the COMMON-LISP package are *reserved*.
 
 ## Prefix Notation
