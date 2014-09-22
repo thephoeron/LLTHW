@@ -106,7 +106,7 @@ Expressions, in an abstract sense, are *expected to* return a value; S-Expressio
 ;; in this function, we capture the return values of both (+ x x) and (* x x), as the
 ;; lexical variables SUM and PRODUCT; using VALUES, we can return multiple values from
 ;; a form instead of just one
-* ((lambda (x) (let ((sum (+ x x)) ((product (* x x)))) (values sum product))) 10)
+* ((lambda (x) (let ((sum (+ x x)) (product (* x x))) (values sum product))) 10)
 => 20 100
 ;; but calling VALUES without anything gives us... an expression with no return result!
 * (values)
