@@ -153,7 +153,7 @@ Lisp code is meant to be simple and elegant; if you find yourself staring into a
 
 It is significant to separate the representation and implementation of S-Expressions in your mind as you learn Lisp---since McCarthy's first paper on LISP, S-Expressions have been defined by their *representation*, but in Common Lisp, S-Expressions are defined by their *implementation* and their representation is only treated as an interface to the underlying objects.
 
-Lists are a proper type, descending from Sequences in Lisp's type hierarchy.  A list only *conses* as long as there are values to be consed. For example, take a look at this:
+Lists are a proper type, descending from Sequences in Lisp's type hierarchy.  A list only *conses* as long as there are values to be consed. For example, consider the following:
 
 ```lisp
 * (list)
