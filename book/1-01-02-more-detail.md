@@ -221,6 +221,16 @@ A good deal of optimization of Lisp software is all about minimizing the number 
 
 Common Lisp is often referred to as a LISP<sub>2</sub>---that is, it has separate namespaces for Functions and Variables in any given environment.  In practice, this means that you can bind and assign both a function and a variable to the symbol `foo`, evaluate `(foo foo)`, and Lisp can distinguish between them automatically, using the function definition when it's supposed to, and using the variable value when it's supposed to.  You can also explicitly refer to the function definition with the reader macro `#'`, such as in `(apply #'foo foo)`.
 
+```lisp
+(defvar foo 1)
+
+(defun foo (foo)
+  (+ foo foo))
+
+(foo foo)
+=> 2
+```
+
 Common Lisp is also both *dynamically* and *lexically* scoped. Dynamic scoping is special and explicit in Common Lisp; lexical scoping is more intuitive and implicit---in other words, you have to specifically declare a symbol to be special to use its dynamic binding from within a lexical scope where the symbol could be lexically bound and assigned as a different variable, while many forms introduce an implicit lexical scope.  For this reason there is a naming convention for top-level, dynamic variables: "earmuffs":
 
 ```lisp
