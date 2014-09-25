@@ -296,7 +296,7 @@ There are some symbol names you can't use, however---at least not without tricke
 
 An evaluated list expression has syntactically and semantically meaningful positions.  Remember, lists are implemented as Cons-Cells.  So the *car* of an evaluated list has to be a valid *operator*; the *cdr* of the evaluated list is itself a list of arguments to the operator called *parameters*.  In other words, the operator always comes first, and is not infixed between arguments, as would be the case in algebraic notation.  This is called "Polish Prefix Notation".
 
-For example, say you want to add together a list of numbers.  Normally, you would think to write this: `1 + 2 + 3 + 4 + 5 = 15`, but in Lisp you would write:
+For example, say you want to add together a list of numbers.  Normally, you would think to write this: `1 + 2 + 3 + 4 + 5 = 15`, infixing the operators between the arguments; but in Lisp you would write:
 
 ```lisp
 * (+ 1 2 3 4 5)
