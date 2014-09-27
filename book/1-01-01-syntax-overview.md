@@ -17,7 +17,7 @@ What makes the Lisp family of languages so simple, expressive, and concise, is t
 
 While other programming languages generally have unique syntactic forms for *statements*, which change a value in memory and return nothing, and for *expressions* which return a value, Lisp uses the S-Expression to represent all objects---all code and data, a property known as 'homoiconicity'.  As a result, all objects in Lisp have a return value when evaluated.
 
-S-Expressions come from the Lambda Calculus, where they are formally defined to be either an *Atom* or a *List*.  In Lisp, lists are implemented as Cons-Cells, and atoms are thus any object which is not a cons.  Cons-Cells will be discussed more in [Exercise 1.1.2](/book/1-01-02-more-detail/).
+S-Expressions come from the Lambda Calculus, where they are formally defined to be either an *Atom* or a *List*.  In Lisp, lists of one or more elements are implemented as Cons-Cells, and atoms are thus any object which is not a cons.  Cons-Cells will be discussed more in [Exercise 1.1.2](/book/1-01-02-more-detail/).
 
 Below are some examples of atoms---try them out at the REPL yourself!  And remember, type *exactly* what I've typed (even if you think it's wrong), pressing <kbd>Enter</kbd> at the end of each line.  This tells the Lisp REPL to evaluate the expression you've entered.
 
