@@ -5,7 +5,10 @@
 
 ## Lisp Community Online
 
-* IRC, #lisp on freenode
+* IRC (freenode):
+    * join #lisp for technical discussion of the Common Lisp language
+    * join #lispgames for discussing game development in Common Lisp
+    * or, join #lispcafe for casual conversations on Lisp and related interests
 * [Lisp on Reddit](http://www.reddit.com/r/lisp/)
 * [Lisp on Google+](https://plus.google.com/communities/101016130241925650833)
 * [Lisp on LinkedIn](http://www.linkedin.com/groups?home=&gid=830547&trk=anet_ug_hm)
