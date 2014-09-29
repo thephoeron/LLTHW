@@ -29,16 +29,66 @@ Symbol names should be descriptive, short, typed in all lowercase, with words se
 
 ```lisp
 ;; Example symbol names
-'my-addition-function
-'my-integer-type
-'my-hash-table
-'my-list-of-alists
+(defun my-addition-function (&rest rest)
+  (apply #'+ rest))
+
+(deftype my-integer-type ()
+  '(and integer
+        (satisfies plusp)))
+
+(defvar my-hash-table (make-hash-table :test 'equal))
+
+(defvar my-alist '(("one" . 1)
+                   ("two" . 2)
+                   ("three" . 3)))
+
+;; Note that symbol names created from strings should be in all-caps:
+(intern "MY-NEW-INTERNED-SYMBOL")
 ```
 
-Global variables, *i.e.*, variables declared as top-level forms with `defvar` or `defparameter`, are named using "earmuffs":
+Global variables, *i.e.*, variables declared as top-level forms with `defvar` or `defparameter`, are named using "earmuffs" because they are dynamic and special, such as the following built into Common Lisp:
 
 ```lisp
-'*my-global-variable*
+*package*
+=> #<PACKAGE "COMMON-LISP-USER">
+*print-base*
+=> 10
+```
+
+Package internal symbols are sometimes named with a prepended percent-sign, and not exported with the package API.  These are similar in purpose to private functions, methods, and variables in other programming languages---only they can always be accessed by using the full symbol name:
+
+```lisp
+(defpackage #:my-new-package
+  (:use :cl)
+  (:export #:mad-adder))
+
+(in-package :mad-adder)
+
+;; Do some wonky stuff with a package-internal function
+(defun %madder (x)
+  (declare (integer x))
+  (apply #'+ (loop for i from 1 upto x
+                   collect (* x i))))
+
+;; Write an exported interface to your package internal function
+(defun mad-adder (x)
+  "Call %MADDER with integer argument X."
+  (%madder x))
+
+(in-package :cl-user)
+
+(mad-adder:mad-adder 10)
+
+(mad-adder::%mad-adder 10)
+```
+
+Predicate functions, *i.e.*, boolean tests, typically end with a suffixed "p".  If it is a multi-word symbol already separated by dashes, you append the suffix as "-p" (dash-p); while if it is a single word or mnemonic symbol name, the "p" can be appended without a dash.
+
+```lisp
+(bit-vector-p #*01010001)
+=> T
+(integerp 10)
+=> T
 ```
 
 ## Parentheses, Indentation, and Whitespace
