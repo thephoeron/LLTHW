@@ -28,22 +28,31 @@ While there are no hard-fast rules for naming symbols in the Common Lisp standar
 Symbol names should be descriptive, short, typed in all lowercase, with words separated by a single hyphen:
 
 ```lisp
-;; Example symbol names
 (defun my-addition-function (&rest rest)
   (apply #'+ rest))
+=> MY-ADDITION-FUNCTION
 
 (deftype my-integer-type ()
   '(and integer
         (satisfies plusp)))
+=> MY-INTEGER-TYPE
 
 (defvar my-hash-table (make-hash-table :test 'equal))
+=> MY-HASH-TABLE
 
 (defvar my-alist '(("one" . 1)
                    ("two" . 2)
                    ("three" . 3)))
+=> MY-ALIST
 
 ;; Note that symbol names created from strings should be in all-caps:
 (intern "MY-NEW-INTERNED-SYMBOL")
+=> MY-NEW-INTERNED-SYMBOL
+   NIL
+;; or you'll have to reference it in surrounding hbars as a literal, case-sensitive symbol:
+(intern "my-funky-interned-symbol")
+=> |my-funky-interned-symbol|
+   NIL
 ```
 
 Global variables, *i.e.*, variables declared as top-level forms with `defvar` or `defparameter`, are named using "earmuffs" because they are dynamic and special, such as the following built into Common Lisp:
