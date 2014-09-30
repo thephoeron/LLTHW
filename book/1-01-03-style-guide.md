@@ -55,6 +55,8 @@ Symbol names should be descriptive, short, typed in all lowercase, with words se
    NIL
 ```
 
+Note that a pair of hbars is *syntactic*, not stylistic.  It allows you, among other things, to define case-sensitive symbols; but it is generally only used for foreign-function interfaces.
+
 Global variables, *i.e.*, variables declared as top-level forms with `defvar` or `defparameter`, are named using "earmuffs" because they are dynamic and special, such as the following built into Common Lisp:
 
 ```lisp
