@@ -66,6 +66,14 @@ Global variables, *i.e.*, variables declared as top-level forms with `defvar` or
 => 10
 ```
 
+In the case of earmuffs, these *are* stylistic.  They are not parsed as syntactic tokens by the Lisp reader, they are simply read as part of the symbol name.
+
+Another stylistic convention for symbol names uses a pair of plus-signs to wrap symbol-names of *constants*:
+
+```lisp
+(defconstant +my-new-constant+ 1.0)
+```
+
 Package internal symbols are sometimes named with a prepended percent-sign, and not exported with the package API.  These are similar in purpose to private functions, methods, and variables in other programming languages---only they can always be accessed by using the full symbol name:
 
 ```lisp
