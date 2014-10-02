@@ -131,8 +131,8 @@ Parentheses should all close on the same line, when ending multiple forms; while
 (defun a-pretty-function (x y z)
   "Function definitions need docstrings."
   (declare (integer x y z))
-  (let* ((x2 (+ x x))
-         (y2 (* y y)))
+  (let ((x2 (+ x x))
+        (y2 (* y y)))
     (mod (* z z) (+ x2 y2))))
 ```
 
