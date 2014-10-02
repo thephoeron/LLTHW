@@ -114,9 +114,41 @@ Predicate functions, *i.e.*, boolean tests, typically end with a suffixed "p".  
 
 Parentheses should all close on the same line, when ending multiple forms; while balancing parentheses on separate lines from your code, to demarcate a code block, is common practice in other languages, it is not the case in Common Lisp.  If you are having trouble matching the parentheses in your head, use a source-code editor which highlights matching opening or closing parens.  And since in Lisp, all non-atomic forms are lists, and wrapped in a pair of parentheses, it is also worthwhile to use tools to find unmatched parens.
 
-If you use Emacs (which many Lispers will tell you that you must use), proper indentation is handled quite well; other editors, such as Sublime Text, need a plugin installed to indent Lisp code correctly.  Generally, it is better to use the space character for your indentation, over the Tab; each nested form that lives on its own line should be indented 2 spaces; forms broken into lines for clarity should be lined up in a column.
+```lisp
+;; bad style
+(defun a-badly-formatted-function (x y z)
+  (progn
+    (setq x (+ x x))
+    (setq y (* y y))
+    (mod
+      (+ z z)
+      (+ x y)
+      )
+    )
+  )
 
-You only need a single space between forms in a list.  Likewise, you only need one extra line between top-level forms.
+;; the right way
+(defun a-pretty-function (x y z)
+  "Function definitions need docstrings."
+  (declare (integer x y z))
+  (let* ((x2 (+ x x))
+         (y2 (* y y)))
+    (mod (* z z) (+ x2 y2))))
+```
+
+If you have trouble getting Lisp style right, you can always run your code through the Pretty Printer to see how Lisp thinks it should be formatted.
+
+If you use Emacs+SLIME (and many Lisp Hackers will tell you that you must), proper indentation is handled quite well; other editors, such as Sublime Text, need a plugin installed to indent Lisp code correctly.  Generally, it is better to use the space character for your indentation, over the Tab; each nested form that lives on its own line should be indented by 2 spaces from its parent form; forms broken into lines for clarity can be lined up in a column, such as property lists and parameters.
+
+You only need a single space between forms in a list.  Likewise, you only need one extra line between top-level forms.  Extraneous whitespace makes your code more difficult for others to read.  Also avoid the temptation to use the Tab character inside a form to line up code blocks into a table-like structure.  This isn't FORTRAN, it's Lisp---and Lisp should *flow*.
+
+```lisp
+;; a badly formatted class definition
+(defclass march-hare ()
+  ((name        :type string  :initarg :name        :initform "Haigha"  :accessor name)
+   (tea-time-p  :type boolean :initarg :tea-time-p  :initform t         :accessor tea-time-p)
+   (tie         :type string  :initarg :tie         :initform "bow-tie" :accessor tie)))
+```
 
 ## Comments and Documentation
 
