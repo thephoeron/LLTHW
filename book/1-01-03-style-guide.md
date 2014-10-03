@@ -151,9 +151,12 @@ You only need a single space between forms in a list.  Likewise, you only need o
 
 ;; the right way
 (defclass march-hare ()
-  ((name :type string :initarg :name :initform "Haigha" :accessor name)
-   (tea-time-p :type boolean :initarg :tea-time-p :initform t :accessor tea-time-p)
-   (tie :type string :initarg :tie :initform "bow-tie" :accessor tie))
+  ((name :type string :initarg :name :initform "Haigha" :accessor name
+         :documentation "The name of the March Hare.")
+   (tea-time-p :type boolean :initarg :tea-time-p :initform t :accessor tea-time-p
+               :documentation "Whether or not it's tea-time.")
+   (tie :type string :initarg :tie :initform "bow-tie" :accessor tie
+        :documentation "The style of tie the March Hare is wearing."))
   (:documentation "'The March Hare will be much the most interesting, and perhaps as this is May it won't be raving mad---at least not so mad as it was in March.' -- Lewis Carroll"))
 ```
 
@@ -172,6 +175,8 @@ Conventions for comments in Lisp are pretty loose, but if you read enough Lisp s
 
 ; one preceding semi-colon for in-line comments, inside code blocks
 ```
+
+You should always include meaningful docstrings in your object definition forms---even in your global variables.  In class definition forms, you can add docstrings to each slot of the class, the class itself, and each of the generic functions and methods.  Lack of documentation, or documentation that has fallen out of sync with the codebase, is considered a bug just as much as code that does not work as expected.
 
 ## Decomposition, Refactoring, and Abstraction
 
