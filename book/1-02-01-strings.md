@@ -12,11 +12,11 @@
 
 Strings are pretty important in programming; no matter what your program does, eventually you're going to need a string to send some information to the user of your program.
 
-Some programming languages have a lot of different types of strings, but Lisp only has two: the standard `string` type, and the rarely used `simple-string` type.
+Some programming languages have a lot of different types of strings, but Lisp only has four: the standard `string` type, as well as `simple-string`, `base-string`, and `simple-base-string` types.  The usage of these other string types is fairly specialized, so normally you will be using the `string` type itself.
 
 #### Creating Strings
 
-The simplest way to create a string in Lisp is to simply type it at the REPL or in a `*.lisp` file, using the double-quote syntax.
+The simplest way to create an object of type `string` in Lisp is to simply type it at the REPL or in a `*.lisp` file, using the double-quote syntax.
 
 Try this at the REPL:
 
@@ -28,13 +28,13 @@ Try this at the REPL:
 
 #### What You Should See
 
-When you type a string at the REPL and evaluate it, Lisp treats the string as an atom, even though underneath it isn't.  If you remember, an atom is anything that is self-evaluated: it returns itself.  Thus:
+When you type a string at the REPL and hit <kbd>Return</kbd> to evaluate it, Lisp treats the entire string as a single atom, even though underneath it is really a `sequence` of `character`s.  If you remember, an atom is anything that is not a Cons.  String objects are also self-evaluating objects.  Thus:
 
 ```lisp
 * "this is a string"
-"this is a string"
+=> "this is a string"
 * "this is another string"
-"this is another string"
+=> "this is another string"
 ```
 
 <ul class="pager">
