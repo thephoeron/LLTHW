@@ -32,7 +32,7 @@ As it turns out, the backslash will escape *any* character.  So if you want to p
 "and this string has an escaped backslash: \\."
 ```
 
-Once again, you get back exactly what you typed.  This is because in Lisp, when it returns any object, it returns it "Readably"---that is, readable to the *Lisp* reader.  More on that in future chapters.
+Once again, you get back exactly what you typed.
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-02-01-strings/">&laquo; Previous</a></li>
