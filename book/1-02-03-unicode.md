@@ -10,7 +10,7 @@
 
 # Unicode and Strings
 
-Generally speaking, strings in Common Lisp are UTF-8/Unicode by default.  This is not a guarantee, however; it's typically just a default on most implementations of Lisp on platforms that support it.
+Generally speaking, `string` objects in Common Lisp are Unicode by default, encoded as UTF-8.  This is not a guarantee, however; it's typically just a default on most implementations of Lisp on platforms that support it.
 
 You can do a quick check to see if your implementation of Lisp supports Unicode or not.
 
@@ -19,6 +19,14 @@ You can do a quick check to see if your implementation of Lisp supports Unicode 
 ```
 
 If that *constant variable* returns `1114112`, then you're in luck! You have full Unicode support.  If it's less than that, you may be more limited in what you can do with strings.
+
+In SBCL, you can test specifically for Unicode support using Lisp's read-time conditionals (but this feature test is not portable):
+
+```lisp
+* #+sb-unicode (format nil "~C" #\cuneiform_sign_an_plus_naga_opposing_an_plus_naga)
+```
+
+This code will only return a string of the cuneiform sign if you are using SBCL and you have Unicode support enabled; if you also want to see the cuneiform sign, and not a numbered Unicode box character, you have to install cuneiform fonts as well.  These can be downloaded from <a href="http://oracc.museum.upenn.edu/doc/user/fonts/" target="_blank">ORACC</a>.
 
 <div class="alert alert-info" role="alert">
   <strong>Note:</strong> Unless you plan on working with a lot of different character sets, you'll probably never notice the full Unicode support, when present.
