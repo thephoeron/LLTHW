@@ -28,7 +28,7 @@ Try this at the REPL:
 
 #### What You Should See
 
-When you type a string at the REPL and hit <kbd>Return</kbd> to evaluate it, Lisp treats the entire string as a single atom, even though underneath it is really a `sequence` of `character`s.  If you remember, an atom is anything that is not a Cons.  String objects are also self-evaluating objects.  Thus:
+When you type a string at the REPL and hit <kbd>Return</kbd> to evaluate it, Lisp treats the entire string as a single atom, even though underneath it is really a `specialized vector` of `character` objects.  If you remember, an atom is anything that is not a Cons.  String objects are also self-evaluating objects.  Thus:
 
 ```lisp
 * "this is a string"

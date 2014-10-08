@@ -10,7 +10,7 @@
 
 # More Strings
 
-In Lisp, strings can contain just about any character, and what you type inside the double-quotes is exactly what you get.  Line-breaks and all.
+In Lisp, strings can contain any character without special markup, except for two particular characters which must be escaped; normally, what you type inside the double-quotes is exactly what you get.  Line-breaks and all.
 
 Sometimes though, you want to include double-quote characters inside your string.  Lisp has a way of doing that, using the escape-character, `\`, the Backslash.
 
