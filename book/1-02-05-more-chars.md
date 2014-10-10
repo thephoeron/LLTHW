@@ -10,7 +10,7 @@
 
 # More Characters
 
-When available, characters outside the ASCII encoding range are typed using their Unicode name, with underscores for word-separators instead of spaces.  This is a little unusual in the Lisp world, since symbol names normally use the `-` (hyphen/dash) character as the word separator; but as I said in Section 1.1.3, the Common Lisp Style Guide, that is a convention which in this case isn't followed.
+When available, characters outside the ASCII encoding range are typed using their Unicode name, with underscores (`_`) for word-separators replacing spaces in the Unicode standard.  This is a little unusual for the Lisp world, since symbol names normally use the `-` (hyphen/dash) character as the word separator; but as I said in Section 1.1.3, the Common Lisp Style Guide, that is a convention which in this case isn't followed.
 
 Some of these characters you've seen before, but lets go through a few so you get used to typing them out:
 
