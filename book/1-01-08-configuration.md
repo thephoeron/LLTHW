@@ -6,7 +6,7 @@
   <li class="active">Configuring Your Development Environment</li>
 </ol>
 
-## Exercise 1.1.4
+## Exercise 1.1.8
 
 # Configuring Your Development Environment
 
@@ -141,7 +141,7 @@ Printed output vs. Return values
 Error-handling, Conditions, and Debugging
 
 <ul class="pager">
-  <li class="previous"><a href="/book/1-01-03-style-guide/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-01-07-style-guide/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-01-05-emacs-live/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-01-09-emacs-live/">Next &raquo;</a><li>
 </ul>

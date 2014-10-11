@@ -6,7 +6,7 @@
   <li class="active">Extra Credit: Set Up and Learn Emacs Live</li>
 </ol>
 
-# Extra Credit Exercise 1.1.5
+# Extra Credit Exercise 1.1.9
 
 ## Set Up and Learn Emacs Live
 
@@ -291,7 +291,7 @@ To open a new terminal in your current buffer, use <kbd>M-x</kbd> `multi-term`. 
 You now have the command line right in Emacs, alongside your editor and REPL!
 
 <ul class="pager">
-  <li class="previous"><a href="/book/1-01-04-configuration/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-01-08-configuration/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/1-02-00-input-output/">Next &raquo;</a><li>
 </ul>

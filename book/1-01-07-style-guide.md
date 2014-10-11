@@ -6,7 +6,7 @@
   <li class="active">Common Lisp Style Guide</li>
 </ol>
 
-## Exercise 1.1.3
+## Exercise 1.1.7
 
 # Common Lisp Style Guide
 
@@ -227,7 +227,7 @@ Knowing what code to push up from a software project into a general purpose libr
 * If your code solves a known problem or lack in the Lisp community, that is too general for a specific commercial software project.
 
 <ul class="pager">
-  <li class="previous"><a href="/book/1-01-02-more-detail/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-01-06-prefix-notation/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-01-04-configuration/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-01-08-configuration/">Next &raquo;</a><li>
 </ul>
