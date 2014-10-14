@@ -132,14 +132,6 @@ Lisp shell scripts
 
 Launching the REPL
 
-## Tour of the REPL
-
-The READ-EVAL-PRINT Loop
-
-Printed output vs. Return values
-
-Error-handling, Conditions, and Debugging
-
 <ul class="pager">
   <li class="previous"><a href="/book/1-01-07-style-guide/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
