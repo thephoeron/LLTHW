@@ -9,8 +9,8 @@
 
 # Native Mobile Applications
 
-> "Relevant quote..."
-> <footer>Source</footer>
+> "Progress doesn't come from early risers---progress is made by lazy men looking for easier ways to do things."
+> <footer>Robert A. Heinlein, <em>Time Enough For Love</em></footer>
 
 Introduce SBCL working natively on Android and ARM processors.
 

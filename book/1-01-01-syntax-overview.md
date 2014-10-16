@@ -10,9 +10,6 @@
 
 # Syntax Overview in 5 Minutes
 
-> "Progress doesn't come from early risers---progress is made by lazy men looking for easier ways to do things."
-> <footer>Robert A. Heinlein, <em>Time Enough For Love</em></footer>
-
 What makes the Lisp family of languages so simple, expressive, and concise, is the syntax.  First of all, everything in Lisp is an *object*---and all objects are represented by *S-Expressions*.
 
 While other programming languages generally have unique syntactic forms for *statements*, which change a value in memory and return nothing, and for *expressions* which return a value, Lisp uses the S-Expression to represent all objects---all code and data, a property known as 'homoiconicity'.  As a result, all objects in Lisp have a return value when evaluated.
