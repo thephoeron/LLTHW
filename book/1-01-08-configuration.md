@@ -10,9 +10,6 @@
 
 # Configuring Your Development Environment
 
-> "Free will is a golden thread running through the frozen matrix of fixed events."
-> <footer>Robert A. Heinlein, <em>The Rolling Stones</em></footer>
-
 Now that you've gotten yourself a feel for Common Lisp, you'll want to spend a little time configuring your development environment so that you can dive right into the code.  A lot of configuration choices are a matter of personal taste, but as long as you feel comfortable, and nothing interferes with your ability to learn and hack in Lisp, you can't really go wrong.
 
 ## The In-Browser REPL

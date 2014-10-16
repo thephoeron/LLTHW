@@ -9,8 +9,8 @@
 
 # Real-World Web Applications
 
-> "Relevant quote..."
-> <footer>Source</footer>
+> "Free will is a golden thread running through the frozen matrix of fixed events."
+> <footer>Robert A. Heinlein, <em>The Rolling Stones</em></footer>
 
 There is no other problem-domain more complicated than the Web.  To be a successful web developer these days, you have to wear a lot of hats---you need to be a programmer, a graphic designer, a system administrator, a DBA, a security expert, you have to know the quirks of every platform and browser, mobile or desktop, you have to keep abreast of the cutting edge.  It's an endless journey, and you'll always find the need to be better than you are.
 
