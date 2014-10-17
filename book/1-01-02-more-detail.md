@@ -10,9 +10,6 @@
 
 # Lisp in More Detail
 
-> "A skillful Artist in shapes and appearances does no more than necessary to create His effect."
-> <footer>Robert A. Heinlein, <em>Job: A Comedy of Justice</em></footer>
-
 *Revision Note:* This exercise needs to be split up into an exercise per section.
 
 ## The REPL
