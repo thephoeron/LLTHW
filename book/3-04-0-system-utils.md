@@ -9,8 +9,8 @@
 
 # Drivers, Daemons, and System-Utilities
 
-> "Relevant quote..."
-> <footer>Source</footer>
+> "Anyone who considers protocol unimportant has never dealt with a cat."
+> <footer>Robert A. Heinlein, <em>The Cat Who Walks Through Walls</em></footer>
 
 CLON (the Command-Line Options Nuker), SB-DAEMON, low-level and system libraries.
 
