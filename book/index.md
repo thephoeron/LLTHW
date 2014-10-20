@@ -257,7 +257,7 @@
       </li>
       <li>
         <a href="3-03-0-gui/">Cross-platform Desktop Applications</a>
-        <i class="glyphicon glyphicon-remove text-danger"></i>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
       </li>
       <li>
         <a href="3-04-0-system-utils/">Drivers, Daemons, and System-Utilities</a>
