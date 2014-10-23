@@ -14,7 +14,7 @@
 
 Not every application you write actually needs a GUI.  There's a wide class of drivers, daemons, and system-utilities which make more sense to distribute as command-line utilities.  Generally, when designing an application, you ask yourself who or what the user is; if the intended user is a sysadmin, or another application, a daemon is a really useful type of system-utility that runs in the background and provides low-level interfaces to system-critical functionality.  Conversely, if your application only needs to do one thing at a time and exit, then a simple command-line utility will do.  Drivers are a bit different, as the intention behind them is to provide an API to hardware that the computer otherwise does not know how to use; they often don't need to run as their own process, and can be embedded in the applications that need them, or linked to through Lisp's FFI.
 
-Drivers, much like any other library, are aptly suited for distribution through Quicklisp, whereas your full applications (daemons, command-line utilities, gui, mobile, and web apps) are best distributed through traditional means.
+Drivers, much like any other library, are aptly suited for distribution through Quicklisp, whereas your full applications (daemons, command-line utilities, gui, mobile, and web apps) are best distributed through traditional means.  Naturally, to write a driver you need to be intimately familiar with the low-level protocol for the hardware device---this means working directly with binary streams, byte-vectors, and sockets.
 
 ---
 
