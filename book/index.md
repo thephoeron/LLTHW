@@ -261,7 +261,7 @@
       </li>
       <li>
         <a href="3-04-0-system-utils/">Drivers, Daemons, and System-Utilities</a>
-        <i class="glyphicon glyphicon-remove text-danger"></i>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
       </li>
       <li>
         <a href="3-05-0-reverse-engineering/">Reverse Engineering</a>
