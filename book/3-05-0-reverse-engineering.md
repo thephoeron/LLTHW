@@ -12,7 +12,7 @@
 > "Aside from a cold appreciation of my own genius I felt that I was a modest man."
 > <footer>Robert A. Heinlein, <em>Double Star</em></footer>
 
-Reverse Engineering is an art, more than a science---that being said, it is also a highly skilled area that requires a deep understanding of all aspects of computer science.  While this chapter will cover the essential techniques to reverse engineer software using the Common Lisp language, it does not attempt to teach the methodology or theory behind reverse engineering.
+Reverse Engineering is an art, more than a science---that being said, it is also a highly skilled area that requires a deep understanding of all aspects of computer science.  While this chapter will cover the essential techniques to reverse engineer software using the Common Lisp language, it does not attempt to teach the methodology or theory behind reverse engineering.  For a complete, general introduction to the subject, please see the Resources section for texts related to this area.
 
 ---
 
