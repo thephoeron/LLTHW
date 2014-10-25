@@ -265,7 +265,7 @@
       </li>
       <li>
         <a href="3-05-0-reverse-engineering/">Reverse Engineering</a>
-        <i class="glyphicon glyphicon-remove text-danger"></i>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
       </li>
       <li>
         <a href="3-06-0-graphics/">Graphics Rendering</a>
