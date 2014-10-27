@@ -269,7 +269,7 @@
       </li>
       <li>
         <a href="3-06-0-graphics/">Graphics Rendering</a>
-        <i class="glyphicon glyphicon-remove text-danger"></i>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
       </li>
       <li>
         <a href="3-07-0-gaming/">OpenGL, SDL, and 3D Game Development</a>
