@@ -9,8 +9,8 @@
 
 # Graphics Rendering
 
-> "Relevant quote..."
-> <footer>Source</footer>
+> "If you happen to be one of the fretful minority who can do creative work, never force an idea... Be patient and you'll give birth to it when the time is ripe. Learn to wait."
+> <footer>Robert A. Heinlein, <em>Time Enough for Love</em></footer>
 
 Graphics rendering and generation is a fairly popular topic in Lisp, and as such there are a number of libraries already available to assist the developer, from vector art to procedurally generated 3D worlds.  Naturally, there are also libraries available for manipulating bitmap image formats, and converting between vector and bitmap images, so that you can process your images in a number of ways, such as with photo filters.
 
