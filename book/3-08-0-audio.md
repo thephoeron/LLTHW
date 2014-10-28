@@ -14,7 +14,7 @@
 
 Overview of various audio generation and manipulation libraries, midi, wav, etc.
 
-Use CL-Collider for procedural/algorithmic audio generation.
+Use CL-Collider for procedural/algorithmic audio generation, and live-hacking audio.
 
 Create ambient audio suitable as sound-track to 3D game made earlier, embed it into the game.
 
