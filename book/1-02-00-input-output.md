@@ -41,7 +41,7 @@ Since development in Lisp is so inherently interactive, it makes sense to think 
 * [Pretty-Printing](/book/1-02-19-pretty-printing/)
 
 <ul class="pager">
-  <li class="previous"><a href="/book/1-01-04-configuration/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-01-09-emacs-live/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/1-02-01-strings/">Next &raquo;</a><li>
 </ul>
