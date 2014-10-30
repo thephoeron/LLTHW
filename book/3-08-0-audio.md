@@ -9,14 +9,15 @@
 
 # Audio Generation and Manipulation
 
-> "Relevant quote..."
-> <footer>Source</footer>
+> "You're not listening."
+> "What were you doing talking," she answered reasonably, "when I wasn't listening?"
+> <footer>Robert A. Heinlein, <em>Have Space Suit---Will Travel</em></footer>
 
-Overview of various audio generation and manipulation libraries, midi, wav, etc.
+There is something strangely satisfying about creating music---and it doesn't much matter whether anyone else wants to hear it, because the real point of it is to express yourself, without filters, without judgement, without fear.  Now, there are a lot of ways to make music---you can pick up an instrument, bang your fingers on your desk the the rhythm of your heart, or hum a private tune to yourself; it doesn't much matter, because at the end of the day it's all about how you best express yourself.  Obviously, if you've made it this far in the book, you're now a programmer; so what better way to express yourself than through the language that you have poured your blood, sweat, and tears into learning?
 
-Use CL-Collider for procedural/algorithmic audio generation, and live-hacking audio.
+There are a lot of solutions available in the Lisp world for working with audio; you can handle MIDI to control your hardware or software synthesizers, modify WAV files, even live-hack in Common Lisp to create music on the fly with custom instruments and audio samples.  There are no limits---it's just you and your computer, making noise with code; and as it turns out, it is one *powerful* medium.
 
-Create ambient audio suitable as sound-track to 3D game made earlier, embed it into the game.
+In this chapter, we will explore the variety of audio generation and manipulation libraries available for Lisp, with a particular emphasis on CL-Collider for algorithmic audio generation and live hacking.  If you have not set up Emacs Live yet, now will be a good time to do so, as it was specifically designed with live hacking in mind.  We will also revisit our 3D platformer game from the previous chapter, to embed a soundtrack and custom sound-effects, all generated with Lisp source code.
 
 <ul class="pager">
   <li class="previous"><a href="/book/3-07-0-gaming/">&laquo; Previous</a></li>
