@@ -18,18 +18,6 @@ In this chapter we will review again the mathematics of cryptography, alongside 
 
 For a list of further readings on cryptography, please consult the Resources section of this site.
 
----
-
-Overview of CL+SSL, Ironclad, CL-ISAAC, and similar libraries.
-
-Parse OpenSSL keys and certificates. (?)
-
-Write a one-time pad cipher using CL-ISAAC (?)
-
-Extend Ironclad's AES encryption with OCB mode (patented in the united states, licensed free for open source projects). (?)
-
-Extend IOLib to include support for SSL and Secure Websockets (?)
-
 <ul class="pager">
   <li class="previous"><a href="/book/3-09-0-data/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
