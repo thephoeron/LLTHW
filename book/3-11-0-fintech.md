@@ -22,8 +22,6 @@ Other crypto-currencies.
 
 Building on top of the Blockchain: MasterCoin, Ethereum, etc.
 
-Depending on progress of project, introduce Wolfcoin and its API (?)
-
 <ul class="pager">
   <li class="previous"><a href="/book/3-10-0-cryptosec/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
