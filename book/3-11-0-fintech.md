@@ -9,8 +9,8 @@
 
 # Financial Software and Crypto-Currencies
 
-> "Relevant quote..."
-> <footer>Source</footer>
+> "'Value' has no meaning other than in relationship to living beings... This very personal relationship, 'value', has two factors... first, what he can do with a thing, its use to him... and second, what he must do to get it, its <em>cost</em> to him."
+> <footer>Robert A. Heinlein, <em>Starship Troopers</em></footer>
 
 Overview of security requirements, basic accounting, transaction histories, storing encrypted data, KYC/AML policies.
 
