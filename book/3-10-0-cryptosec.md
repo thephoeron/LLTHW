@@ -9,8 +9,8 @@
 
 # Cryptography and Security
 
-> "Relevant quote..."
-> <footer>Source</footer>
+> "An armed society is a polite society."
+> <footer>Robert A. Heinlein, <em>Beyond This Horizon</em></footer>
 
 The tools available in the ANSI Common Lisp standard for handling binary data and advanced mathematics, among other more-or-less hidden features of Common Lisp compilers, make it an ideal environment for implementing robust cryptographic utilities and secure software.
 
