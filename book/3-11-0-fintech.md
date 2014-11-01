@@ -18,18 +18,6 @@ Naturally, security is of utmost concern; so if you have not already read it, wo
 
 So in this chapter, we'll take an overview of the strongest encryption protocols available in Common Lisp, design a personal wallet that utilizes Bitcoin to store and transfer value, interface with the Bitcoin blockchain from Common Lisp, and review some of the more interesting Bitcoin Improvement Proposals (BIPs) to add valuable features to your personal wallet.  We will also point you to some important resources for learning how to do a basic security profile of your application, to harden your wallet against potential loss through theft or other malicious activity.
 
----
-
-Overview of security requirements, basic accounting, transaction histories, storing encrypted data, KYC/AML policies.
-
-Working with the Bitcoin blockchain in Lisp.
-
-Bitcoin Protocol requirements.
-
-Other crypto-currencies.
-
-Building on top of the Blockchain: MasterCoin, Ethereum, etc.
-
 <ul class="pager">
   <li class="previous"><a href="/book/3-10-0-cryptosec/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
