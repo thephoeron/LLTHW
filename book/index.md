@@ -285,7 +285,7 @@
       </li>
       <li>
         <a href="3-10-0-cryptosec/">Cryptography and Security</a>
-        <i class="glyphicon glyphicon-remove text-danger"></i>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
       </li>
       <li>
         <a href="3-11-0-fintech/">Financial Software and Crypto-Currencies</a>
