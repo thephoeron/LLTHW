@@ -12,6 +12,14 @@
 > "Relevant quote..."
 > <footer>Source</footer>
 
+The tools available in the ANSI Common Lisp standard for handling binary data and advanced mathematics, among other more-or-less hidden features of Common Lisp compilers, make it an ideal environment for implementing robust cryptographic utilities and secure software.
+
+The most popular open-source library for cryptography in Common Lisp is Ironclad, which we've seen before in a few trivial examples; but cryptography is a highly specialized subject, and requires deeper exploration to grok fully.
+
+In this chapter we will review again the mathematics of cryptography, alongside the theory that makes it work and the code we have already written; we will take a deeper exploration of random and pseudo-random number generation; explore the use-cases of all the tools available to a security developer in Ironclad; and try our hand at extending Ironclad to support more advanced cryptographic protocols.
+
+---
+
 Overview of CL+SSL, Ironclad, CL-ISAAC, and similar libraries.
 
 Parse OpenSSL keys and certificates. (?)
