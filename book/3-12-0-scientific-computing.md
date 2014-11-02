@@ -18,12 +18,6 @@ At the most basic level, computational science requires featureful and fast alge
 
 In this chapter we will review the Lisp syntax of the math necessary to model problems in computational science, translate a selection of problems in computational science from pseudo-code to Common Lisp, work heavily from the REPL to model systems interactively in real-time, graph and plot our results, and run exhaustive tests and benchmarks against other platforms as part of the optimization process, to prove to yourself and others that Common Lisp is the ideal platform for Scientific Computing.
 
----
-
-Focus on GSLL, CL-PLPlot, other math and plotting libraries; distributed and parallel computation; GPU programming for floating-point calculations; optimization problems.  Advantages over R, C, Fortran for computational science.
-
-Translate common problems in scientific computing from psuedo-code into Lisp, work from the REPL, compare against Mathematica, MatLab, etc.
-
 <ul class="pager">
   <li class="previous"><a href="/book/3-11-0-fintech/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
