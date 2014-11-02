@@ -10,7 +10,7 @@
 # OpenGL, SDL, and 3D Game Development
 
 > "For modern man one of the most troubling aspects of eternity lies in getting used to the slippery quality of time."
-> <footer>Robert A. Heinlein, <em>Job: A Comedy of Justic</em></footer>
+> <footer>Robert A. Heinlein, <em>Job: A Comedy of Justice</em></footer>
 
 Game development is a highly competitive industry; there are a lot of development platforms and technology-stacks available for the would-be game developer, and all of them have their own particular strengths and advantages.  If you want an out of the box solution, and are working with 3D artists to create your assets, you will get everything you need with popular frameworks such as the Unreal Engine, or Unity3D; but creating a commercial platformer is not the only reason developers get into game development.  Sometimes, you just want to create something for yourself and your friends---and you want the satisfaction of knowing you did it your own way.
 
