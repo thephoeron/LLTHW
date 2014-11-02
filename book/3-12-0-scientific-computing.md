@@ -12,7 +12,7 @@
 > "Relevant quote..."
 > <footer>Source</footer>
 
-Focus on GSLL, CL-PLPlot, other math and plotting libraries.
+Focus on GSLL, CL-PLPlot, other math and plotting libraries; distributed and parallel computation; GPU programming for floating-point calculations; optimization problems.  Advantages over R, C, Fortran for computational science.
 
 Translate common problems in scientific computing from psuedo-code into Lisp, work from the REPL, compare against Mathematica, MatLab, etc.
 
