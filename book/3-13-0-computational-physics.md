@@ -12,7 +12,13 @@
 > "Relevant quote..."
 > <footer>Source</footer>
 
-While Computational Science is generally useful for all scientific disciplines, as it allows scientists to refine and improve established theories and models to better match the observed data, computational science is of *fundamental importance* to Physicists, as it allows them to model underlying systems *which cannot yet be observed*; thus, the highly specialized branch of computational science dealing primarily with theoretical physics has its own name, Computational Physics, and is often treated as its own field.  As a third modality of science, the results of computational simulations of these underlying physical systems can be used in lieu of observation and experiment to aid in the validation of various theories; and naturally, to aid in the modelling of experiments so that the more exotic phenomenon in theoretical physics can be observed, if the theories correctly predict the behaviour and nature of these systems.
+While Computational Science is generally useful for all scientific disciplines, as it allows scientists to refine and improve established theories and models to better match the observed data, computational science is of *fundamental importance* to Physicists, as it allows them to model underlying systems *which cannot yet be observed*; thus, the highly specialized branch of computational science dealing primarily with theoretical physics has its own name, Computational Physics, and is often treated as its own field---though obviously it inherits most of its techniques and tools from its parent.
+
+As a third modality of science, the results of computational simulations of these underlying physical systems can be used in lieu of observation and experiment to aid in the validation of various theories; and naturally, to aid in the modelling of experiments so that the more exotic phenomenon in theoretical physics can be observed, if the theories correctly predict the behaviour and nature of these systems.
+
+While modelling problems in M-Theory, Quantum Field Theory, or other novel approaches at harmonizing General Relativity with Quantum Mechanics are far beyond the scope of this book, it will be interesting to model some of the more approachable problems in physics and astrophysics to create 3D simulations using OpenGL; and write a general physics engine that is lightweight enough to be used anywhere, but accurate enough to simulate all the common physics problems that a student might face in an undergraduate Physics program.
+
+In this chapter, we will revisit the methodology from Chapters 3.12 on Scientific Computing, and 3.7 on 3D Game Development, to progressively build 3D OpenGL simulations of n-body problems, gravitational fields, relativistic systems that warp spacetime, and models of sub-atomic particle physics; and as a final exercise, we will explore Newtonian Mechanics as an emergent system of Quantum Mechanics.
 
 ---
 
