@@ -20,14 +20,6 @@ While modelling problems in M-Theory, Quantum Field Theory, or other novel appro
 
 In this chapter, we will revisit the methodology from Chapters 3.12 on Scientific Computing, and 3.7 on 3D Game Development, to progressively build 3D OpenGL simulations of n-body problems, gravitational fields, relativistic systems that warp spacetime, and models of sub-atomic particle physics; and as a final exercise, we will explore Newtonian Mechanics as an emergent system of Quantum Mechanics.
 
----
-
-Combine methodology from Scientific Computing and Game Development into modeling physical systems.
-
-Develop a physics engine.
-
-Test modeled physical systems against results from other platforms.
-
 <ul class="pager">
   <li class="previous"><a href="/book/3-12-0-scientific-computing/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
