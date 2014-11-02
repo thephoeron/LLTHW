@@ -9,8 +9,8 @@
 
 # Computational Physics
 
-> "Relevant quote..."
-> <footer>Source</footer>
+> "Behind every mystery lies another mystery. Infinite recession. But you don't need to know final answers---if there be such---and neither do I."
+> <footer>Robert A. Heinlein, <em>Job: A Comedy of Justice</em></footer>
 
 While Computational Science is generally useful for all scientific disciplines, as it allows scientists to refine and improve established theories and models to better match the observed data, computational science is of *fundamental importance* to Physicists, as it allows them to model underlying systems *which cannot yet be observed*; thus, the highly specialized branch of computational science dealing primarily with theoretical physics has its own name, Computational Physics, and is often treated as its own field---though obviously it inherits most of its techniques and tools from its parent.
 
