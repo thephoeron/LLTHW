@@ -16,6 +16,8 @@ Quantum Computing is built on functional programming.  Since the release of Seli
 
 Meanwhile, a team in Vancouver was working on another model of quantum computation, that utilized quantum annealing on a chimera graph of superconducting flux qubits; this work resulted in the first commercial adiabatic quantum computer, the D-Wave One, purpose-built for solving computationally expensive optimization problems efficiently. And its operating system was written entirely in Common Lisp, compiled with SBCL.  We are now on the eve of the release of the D-Wave Three, built on the Washington adiabatic processor---giving quantum hackers a full 2,048 physical qubits to play with.  It is an exciting time in quantum computing.
 
+Naturally, there are limitations to what can be simulated on a classical computer; on a quad-core processor with hyperthreading, the most you can simulate in realtime is a 4-qubit system---anything more than this has to be time-lagged to compensate for the inherent limitations of classical computing.  As the number of qubits grows, the number of simultaneous operations computable in a quantum system grows exponentially---and very quickly you get to a hard wall, where a quantum algorithm is no longer computable on classical hardware within the estimated lifespan of the universe.  This problem can be mitigated by simply adding more classical cores, such as is done when building supercomputer labs, but this is extremely inefficient and expensive. When running quantum algorithms, you need to be able to exploit the quantum phenomena directly, to get meaningful and timely results.
+
 ---
 
 Overview of D-Wave adiabatic quantum computers; mention that their internal OS is built entirely in Common Lisp, running on SBCL.
