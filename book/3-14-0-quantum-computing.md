@@ -9,8 +9,8 @@
 
 # Quantum Computing
 
-> "Relevant quote..."
-> <footer>Source</footer>
+> "Who taught me that the world is not only stranger than we imagine but stranger than we <em>can</em> imagine? Who has already taken me into two universes that are <em>not</em> this one... and brought me safely home?"
+> <footer>Robert A. Heinlein, <em>The Number of the Beast</em></footer>
 
 Quantum Computing is built on functional programming.  Since the release of Selinger's seminal paper on the Quantum Lambda Calculus in 2007, the progress within the field shifted suddenly from puttering along like the earliest steam-engines, to a rocket blasting off into space; and along with it, the *circuit* model of quantum computation, that reformulates the gate model in terms of the actual quantum circuits that would be needed to build these gates, has allowed for concise expression and simulation of quantum hardware in a classical computer program.
 
