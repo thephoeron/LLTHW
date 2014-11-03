@@ -301,7 +301,7 @@
       </li>
       <li>
         <a href="3-14-0-quantum-computing/">Quantum Computing</a>
-        <i class="glyphicon glyphicon-remove text-danger"></i>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
       </li>
       <li>
         <a href="3-15-0-nlp/">Natural Language Processing</a>
