@@ -12,9 +12,9 @@
 > "Relevant quote..."
 > <footer>Source</footer>
 
-Quantum Computing is built on functional programming.  Since the release of Selinger's seminal paper on the Quantum Lambda Calculus, the progress within the field shifted suddenly from puttering along to blasting off into space; and along with it, the *circuit* model of quantum computation, that reformulates the gate model in terms of the actual quantum circuits that would be needed to build these gates.
+Quantum Computing is built on functional programming.  Since the release of Selinger's seminal paper on the Quantum Lambda Calculus in 2007, the progress within the field shifted suddenly from puttering along like the earliest steam-engines, to a rocket blasting off into space; and along with it, the *circuit* model of quantum computation, that reformulates the gate model in terms of the actual quantum circuits that would be needed to build these gates, has allowed for concise expression and simulation of quantum hardware in a classical computer program.
 
-Meanwhile, a team in Vancouver was working on another model of quantum computation, that utilized quantum annealing on a chimera graph of superconducting flux qubits; this work resulted in the first commercial adiabatic quantum computer, the D-Wave One, purpose-built for solving optimization problems. And its operating system was written entirely in Common Lisp, compiled with SBCL.
+Meanwhile, a team in Vancouver was working on another model of quantum computation, that utilized quantum annealing on a chimera graph of superconducting flux qubits; this work resulted in the first commercial adiabatic quantum computer, the D-Wave One, purpose-built for solving computationally expensive optimization problems efficiently. And its operating system was written entirely in Common Lisp, compiled with SBCL.  We are now on the eve of the release of the D-Wave Three, built on the Washington adiabatic processor---giving quantum hackers a full 2,048 physical qubits to play with.  It is an exciting time in quantum computing.
 
 ---
 
