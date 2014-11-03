@@ -12,6 +12,12 @@
 > "Relevant quote..."
 > <footer>Source</footer>
 
+Quantum Computing is built on functional programming.  Since the release of Selinger's seminal paper on the Quantum Lambda Calculus, the progress within the field shifted suddenly from puttering along to blasting off into space; and along with it, the *circuit* model of quantum computation, that reformulates the gate model in terms of the actual quantum circuits that would be needed to build these gates.
+
+Meanwhile, a team in Vancouver was working on another model of quantum computation, that utilized quantum annealing on a chimera graph of superconducting flux qubits; this work resulted in the first commercial adiabatic quantum computer, the D-Wave One, purpose-built for solving optimization problems. And its operating system was written entirely in Common Lisp, compiled with SBCL.
+
+---
+
 Overview of D-Wave adiabatic quantum computers; mention that their internal OS is built entirely in Common Lisp, running on SBCL.
 
 Introduce Silver-Sword library for adiabatic quantum computing in Lisp (?) will need permission from D-Wave to release a library similar to their Python Pack.
