@@ -22,7 +22,7 @@ What is of more interest is the vast selection of components that are already av
 
 Programming in general is a highly satisfying career choice, as there is nothing quite like the feeling of building something that people need and want to use every day; but taking the next step, programming a robot, and watching it move around on its own, learning and adapting, is orders of magnitude greater.  A certain part of you can't help but feel like Dr. Frankenstein, laughing maniacally as you bring life to the inanimate---but that feeling is overwhelmed by an even greater wonder at the marvels of science and engineering, that awakens your inner child.
 
-In this chapter, we will review the field of robotics, AI-controlled automatons, and learning algorithms; write a library to allow us to program a kit robot in Common Lisp; extend this library with an architecture to support intent-based motion; and finally, integrate a basic AI that will allow your kit robot to walk around, explore, and make its own decisions based on the environment you put it in.
+In this chapter, we will review the field of robotics, AI-controlled automatons, and learning algorithms; suppliers for components and robot kits; write a library to allow us to program a kit robot in Common Lisp; extend this library with an architecture to support intent-based motion; and finally, integrate a basic AI that will allow your kit robot to walk around, explore, and make its own decisions based on the environment you put it in.
 
 ---
 
