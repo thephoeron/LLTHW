@@ -34,7 +34,7 @@
           "). All Rights Reserved.")
         (:p :align "center"
           "Powered by "
-          (:a :href "http://www.webfaction.com/?affiliate=thephoeron" :target "_blank" "Webfaction") ", "
+          (:a :href "https://www.digitalocean.com/?refcode=ef3cf1ffcbb7" :target "_blank" "DigitalOcean") ", "
           (:a :href "http://www.sbcl.org/" :target "_blank" "SBCL") ", "
           (:a :href "https://github.com/davazp/jscl" :target "_blank" "JSCL") ", "
           (:a :href "http://www.quicklisp.org/" :target "_blank" "Quicklisp") ", "
