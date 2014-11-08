@@ -9,8 +9,8 @@
 
 # Robotics
 
-> "Relevant quote..."
-> <footer>Source</footer>
+> "Engineering is the art of the practical and depends more on the total state of the art than it does on the individual engineer."
+> <footer>Robert A. Heinlein, <em>The Door Into Summer</em></footer>
 
 **Note:** *the exercises in this chapter will require specialized hardware components to complete, and due to the prohibitive cost and lack of availability for some readers, it should be considered optional*.
 
