@@ -12,7 +12,7 @@
 > "Relevant quote..."
 > <footer>Source</footer>
 
-**Note:** *the exercises in this chapter will require specialized hardware components to complete, and due to the prohibitive cost for some readers, it should be considered optional*.
+**Note:** *the exercises in this chapter will require specialized hardware components to complete, and due to the prohibitive cost and lack of availability for some readers, it should be considered optional*.
 
 To many people in the tech community, robotics is the ultimate expression of human innovation and ingenuity; and in many ways, the progress of the field is also a direct reflection of how well we understand ourselves as a species, as roboticists work towards an idealized simulacrum of the human form captured in engineering.  Humanoid robots are also, of course, a cornerstone of the Technological Singularity; and having this technology will redefine what it means to be human.  It combines so many disparate areas of research into a single, autonomous physical agent---at the very least, robotics is a technological marvel, but some day, once our computers rival the raw power of the human brain, and we are able to harness portable power supplies of sufficient output, they could also become new homes for our True Selves---our Minds.
 
