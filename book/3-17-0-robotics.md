@@ -24,18 +24,6 @@ Programming in general is a highly satisfying career choice, as there is nothing
 
 In this chapter, we will review the field of robotics, AI-controlled automatons, and learning algorithms; suppliers for components and robot kits; write a library to allow us to program a kit robot in Common Lisp; extend this library with an architecture to support intent-based motion; and finally, integrate a basic AI that will allow your kit robot to walk around, explore, and make its own decisions based on the environment you put it in.
 
----
-
-Requires specialized hardware---a robot kit, or the the key components to build and design your own robot from scratch, i.e., servos, logic-board, etc.
-
-Overview of robotics, and AI-controlled automatons, learning agents, etc.
-
-Program a kit robot in Lisp.
-
-Design a library that dispatches low-level functionality to robotic subsystems (?)
-
-Integrate AI into kit robot, so it can make its own decisions based on an idealized environment.
-
 <ul class="pager">
   <li class="previous"><a href="/book/3-16-0-ai/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
