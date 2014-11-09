@@ -22,16 +22,6 @@ Space Tech is a complex field of interrelated, specialized disciplines---and ine
 
 In this chapter, we will explore a very high-level overview of a selection of the topics in the field of Space Tech, namely astrophysics, microgravity, properties of vacuums and near-vacuums, propulsion, aerospace engineering, and communication; design idealized model satellites and probes, integrating a basic AI that can be overridden by a controller on Earth; and implement an environment to simulate space-like conditions for testing these models.  As an extra credit exercise, we will extend this text-based simulator to a 3D simulation, where you can see your model space-craft in action.
 
----
-
-Discuss the NASA story of live-hacking a space probe while in transit, as mentioned by Peter Seibel in PCL.  Find original sources.
-
-Overview of rocket propulsion, motion in a vacuum, microgravity, astrophysics, etc.
-
-Design an idealized satellite or probe, with basic AI that can be overridden by a controller on Earth.
-
-Implement a simulator that tests this probe in space-like conditions.  Bonus points for 3D simulation?
-
 <ul class="pager">
   <li class="previous"><a href="/book/3-17-0-robotics/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
