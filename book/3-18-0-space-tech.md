@@ -9,8 +9,8 @@
 
 # Space-Tech
 
-> "Relevant quote..."
-> <footer>Source</footer>
+> "People don't really want change, any change at all... But we progress, as we must---if we are to go out to the stars."
+> <footer>Robert A. Heinlein, <em>Double Star</em></footer>
 
 All software has bugs in it---it's just a part of life in a technologically-driven society---but not all bugs are actual mistakes, per se. Sometimes they can be no more than an application of the wrong algorithm to a given problem, which provides an apparently correct answer, say, 99% of the time, but then produces something completely wrong in that last 1% of the cases.  Here, on Earth, bugs in software can cause significant problems as it is, which is why so much time and effort is spent on QA and software updates; but imagine how much trouble a bug could be in a Probe, Satellite, or Space-Craft, where a technical support and development team can't directly access the hardware, and in dealing with the vast distances of space, have so much lag between any event and the notification of it.
 
