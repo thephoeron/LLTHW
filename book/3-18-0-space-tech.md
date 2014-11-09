@@ -18,6 +18,10 @@ Traditional software development lifecycles and technologies are inherently at a
 
 Now, imagine the relative convenience of a space-craft where all the systems are programmed in Lisp, and are thus live hackable; astronauts are already highly trained, highly intelligent and resourceful individuals who can cope with the stresses of life in space---and it would not be much of a stretch to add programming in Lisp to their list of necessary skills.  If they had the option to control all systems from a REPL, extend, test, and fix mission critical software interactively, on an as-needed basis, they would be significantly better equipped to handle any of the many issues that can arise in space, in a much more timely fashion than mission control on Earth can respond.  Those precious seconds of lag in communication between Earth and a space-craft can mean the difference between mission failure and success.
 
+Space Tech is a complex field of interrelated, specialized disciplines---and inevitably, after a cursory introduction to the field as a whole in an undergraduate program, students are expected to focus on one of the many specializations, such as astrophysics, propulsion, aerospace engineering, communications, etc.  But it is advantageous to have a big picture, wide-view of the field before choosing a specialization.
+
+In this chapter, we will explore a very high-level overview of a selection of the topics in the field of Space Tech, namely astrophysics, microgravity, properties of vacuums and near-vacuums, propulsion, aerospace engineering, and communication; design idealized model satellites and probes, integrating a basic AI that can be overridden by a controller on Earth; and implement an environment to simulate space-like conditions for testing these models.  As an extra credit exercise, we will extend this text-based simulator to a 3D simulation, where you can see your model space-craft in action.
+
 ---
 
 Discuss the NASA story of live-hacking a space probe while in transit, as mentioned by Peter Seibel in PCL.  Find original sources.
