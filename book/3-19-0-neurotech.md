@@ -14,7 +14,7 @@
 
 **Note:** *the exercises in this chapter will require specialized hardware components to complete, and due to the prohibitive cost and lack of availability for some readers, it should be considered optional*.
 
-
+Affordable Brain--Computer Interfaces are a relatively new thing.  They are not *new* in terms of actual technological innovation, being based on EEG systems that have existed for decades, but the application of specialized medical and scientific equipment to the average computer user as a potential replacement for the old-fashioned keyboard and mouse *is* quite novel.
 
 ---
 
