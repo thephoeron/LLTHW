@@ -22,14 +22,6 @@ The one issue with available Brain--Computer Interfaces is the lack of software 
 
 In this chapter, we will review the basic concepts of Neuroscience and the various BCIs available on the market, their specifications and SDKs; we will parse the resulting brainwave data in Lisp, and attempt to structure Neural-net models to get a better understanding of what our brains are doing; and write several brainwave controlled utility applications specifically designed for improving your Lisp workflow, including a brief introduction to Emacs Lisp that will enable us to map BCI input to Emacs keyboard commands.
 
----
-
-Specialized hardware required, such as Emotiv EPOC, Interaxon Muse, etc.
-
-Parsing brain-wave data in Lisp, structuring Neural-net models, etc.
-
-Write a brain-wave controlled utility.  Replacement for keyboard or mouse, for example.  Maybe mapping Emacs commands to brain-waves?
-
 <ul class="pager">
   <li class="previous"><a href="/book/3-18-0-space-tech/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
