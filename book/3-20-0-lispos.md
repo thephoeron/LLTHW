@@ -14,6 +14,10 @@
 
 **Note:** *the exercises in this chapter may require an additional computer to complete, and due to the prohibitive cost and lack of availability for some readers, it should be considered optional*.
 
+At some point in every Lisp Hacker's journey to mastery of the language, they learn about the old Lisp Machines, the powerful single-user workstations that existed in the golden-age of Lisp before the AI Winter.  These Lisp Machines were not just unique for the technological innovations they introduced, and for running the Lisp language pretty much on the bare metal; they also utilized a pure Lisp operating system, that extended the power, elegance, and programmability of the Lisp language to the entire computing experience.
+
+Many Lisp Hackers have, at one point or another, attempted to resurrect the LispOS dream---but so far, the most progress has been made by Robert Strandh, the creator and lead developer of SICL.  The main purpose of this chapter will be to get you up to speed on the LispOS project, and get the skills necessary to contribute.  Toward this end, we will review the structure and purpose of Operating Systems, and build a basic LispOS on top of the Linux kernel.
+
 ---
 
 Will need a spare PC/Linux box that can be scrapped if you screw up.
