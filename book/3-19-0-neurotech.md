@@ -12,6 +12,12 @@
 > "Relevant quote..."
 > <footer>Source</footer>
 
+**Note:** *the exercises in this chapter will require specialized hardware components to complete, and due to the prohibitive cost and lack of availability for some readers, it should be considered optional*.
+
+
+
+---
+
 Specialized hardware required, such as Emotiv EPOC, Interaxon Muse, etc.
 
 Parsing brain-wave data in Lisp, structuring Neural-net models, etc.
