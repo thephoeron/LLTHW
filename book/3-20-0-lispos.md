@@ -12,6 +12,10 @@
 > "Relevant quote..."
 > <footer>Source</footer>
 
+**Note:** *the exercises in this chapter may require an additional computer to complete, and due to the prohibitive cost and lack of availability for some readers, it should be considered optional*.
+
+---
+
 Will need a spare PC/Linux box that can be scrapped if you screw up.
 
 Show how to strip out key Linux components, replacing them with Lisp, packages for replacing the shell, installing and using StumpWM, etc.
