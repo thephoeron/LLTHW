@@ -321,7 +321,7 @@
       </li>
       <li>
         <a href="3-19-0-neurotech/">Neuroscience and Thought-Controlled Computing</a>
-        <i class="glyphicon glyphicon-remove text-danger"></i>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
       </li>
       <li>
         <a href="3-20-0-lispos/">A Simple LispOS</a>
