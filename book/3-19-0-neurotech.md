@@ -9,8 +9,8 @@
 
 # Neuroscience and Thought-Controlled Computing
 
-> "Relevant quote..."
-> <footer>Source</footer>
+> "Now that he knew himself to be self he was free to grok ever closer to his brothers, merge without let. Self's integrity was and is and ever had been."
+> <footer>Robert A. Heinlein, <em>Stranger in a Strange Land</em></footer>
 
 **Note:** *the exercises in this chapter will require specialized hardware components to complete, and due to the prohibitive cost and lack of availability for some readers, it should be considered optional*.
 
