@@ -14,7 +14,9 @@
 
 **Note:** *the exercises in this chapter may require an additional computer to complete, and due to the prohibitive cost and lack of availability for some readers, it should be considered optional*.
 
-The elegance, power, and expressiveness of Lisp often encourages students of the language to wish for a more complete Lisp-based environment; they usually start with either a Lisp-based window manager or replacing their command-line shell with the Lisp REPL, and then quickly come to the conclusion, "why can't the whole operating system be written in Lisp?"
+The elegance, power, and expressiveness of Lisp often encourages students of the language to wish for a more complete, live hackable, Lisp-based environment; they usually start with either a Lisp-based window manager or replacing their command-line shell with the Lisp REPL, and then quickly come to the conclusion, "why can't the whole operating system be written in Lisp?"  Well, it's not quite so easy as that... but it is still very much in the realm of possibility.
+
+
 
 ---
 
