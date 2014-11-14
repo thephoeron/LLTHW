@@ -20,12 +20,6 @@ If you already run a Linux-based Operating System, you can start by just replaci
 
 In this chapter, we will review the basic organization of operating systems, and what software they typically need to contain; take a brief tour of the available open-source Common Lisp software for building an Operating System; and build a custom version of Linux that uses a Common Lisp composite display manager, window manager, and the SBCL REPL as your login shell.
 
----
-
-Will need a spare PC/Linux box that can be scrapped if you screw up.
-
-Show how to strip out key Linux components, replacing them with Lisp, packages for replacing the shell, installing and using StumpWM, etc.
-
 <ul class="pager">
   <li class="previous"><a href="/book/3-19-0-neurotech/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
