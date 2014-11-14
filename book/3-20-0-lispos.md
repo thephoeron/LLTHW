@@ -18,6 +18,8 @@ The elegance, power, and expressiveness of Lisp often encourages students of the
 
 If you already run a Linux-based Operating System, you can start by just replacing pieces of your distro one-by-one with Lisp-based equivalents; but it is probably much safer if you use a spare computer, or a virtual machine, so that if anything goes wrong you won't lose any personal data.
 
+In this chapter, we will review the basic organization of operating systems, and what software they typically need to contain; take a brief tour of the available open-source Common Lisp software for building an Operating System; and build a custom version of Linux that uses a Common Lisp composite display manager, window manager, and the SBCL REPL as your login shell.
+
 ---
 
 Will need a spare PC/Linux box that can be scrapped if you screw up.
