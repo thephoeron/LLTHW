@@ -9,8 +9,8 @@
 
 # A Simple LispOS
 
-> "Relevant quote..."
-> <footer>Source</footer>
+> "The difference between science and the fuzzy subjects is that science requires reasoning, while those other subjects merely require scholarship."
+> <footer>Robert A. Heinlein, <em>Time Enough for Love</em></footer>
 
 **Note:** *the exercises in this chapter may require an additional computer to complete, and due to the prohibitive cost and lack of availability for some readers, it should be considered optional*.
 
