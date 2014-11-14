@@ -325,7 +325,7 @@
       </li>
       <li>
         <a href="3-20-0-lispos/">A Simple LispOS</a>
-        <i class="glyphicon glyphicon-remove text-danger"></i>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
       </li>
       <li>
         <a href="3-21-0-lisp-machine/">Build Your Own Lisp Machine</a>
