@@ -9,8 +9,8 @@
 
 # Build Your Own Lisp Machine
 
-> "Relevant quote..."
-> <footer>Source</footer>
+> "Revolution is an art that I pursue rather than a goal I expect to achieve. Nor is this a source of dismay; a lost cause can be as spiritually satisfying as a victory."
+> <footer>Robert A. Heinlein, <em>The Moon Is a Harsh Mistress</em></footer>
 
 **Note:** *the exercises in this chapter will require specialized hardware components to complete, and due to the prohibitive cost and lack of availability for some readers, it should be considered optional*.
 
