@@ -12,6 +12,8 @@
 > "Relevant quote..."
 > <footer>Source</footer>
 
+**Note:** *the exercises in this chapter will require specialized hardware components to complete, and due to the prohibitive cost and lack of availability for some readers, it should be considered optional*.
+
 Few topics capture the imagination of budding Lisp Hackers more than the legendary Lisp Machines---the first personal workstations in a world of time-shared, multi-user mainframes, with a fully integrated and interactive hardware and software environment, that seemed to offer unrivaled competitive-edge for the team that could afford them.  Unfortunately, with the rise of IBM-Compatible Personal Computers, available at a fraction of the cost, the highly specialized and costly Lisp Machines were the first casualties of the AI Winter. But the dream of the Lisp Machine has never died.
 
 Back in the 80s, there were a significant number of competing architectures, the various Lisp Machine chipsets being only a small number of them; but over the past 30 years, there has been a significant push by Intel to be the dominant architecture through a process of generalization---by developing a processor architecture that was more generally useful to multiple platforms and purposes, instead of being specialized, they were able to cater to more users and rapidly seize control of the largest market share---even going so far as to partner with Apple, to unify the underlying, previously competing architectures of Macintosh and IBM-Compatible PCs.
