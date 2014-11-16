@@ -333,7 +333,7 @@
       </li>
       <li>
         <a href="3-22-0-gov-mil/">Government and Military Grade Systems</a>
-        <i class="glyphicon glyphicon-remove text-danger"></i>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
       </li>
     </ul>
   </dd>
