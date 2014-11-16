@@ -23,10 +23,10 @@
 <dl class="dl-horizontal">
   <dt><i class="glyphicon glyphicon-remove text-danger"></i></dt>
   <dd>Unstarted</dd>
-  <dt><i class="fa fa-code"></i></dt>
-  <dd>Source Code Examples Added, chapter text not written</dd>
   <dt><i class="glyphicon glyphicon-refresh text-warning"></i></dt>
   <dd>In-Progress/Incomplete</dd>
+  <dt><i class="fa fa-code"></i></dt>
+  <dd>Chapter Exercises in-progress</dd>
   <dt><i class="glyphicon glyphicon-ok text-success"></i></dt>
   <dd>Complete, Awaiting Approval from Editor</dd>
   <dt><i class="glyphicon glyphicon-thumbs-down text-danger"></i></dt>
@@ -55,6 +55,7 @@
       <li>
         <a href="1-01-00-lisp-bootcamp/">Common Lisp Bootcamp</a>
         <i class="glyphicon glyphicon-refresh text-warning"></i>
+        <i class="fa fa-code"></i>
       </li>
       <li>
         <a href="1-02-00-input-output/">Printing, Strings and Streams</a>
@@ -309,7 +310,7 @@
       </li>
       <li>
         <a href="3-16-0-ai/">Artificial Intelligence</a>
-        <i class="glyphicon glyphicon-refresh text-warning"></i>
+remove        <i class="glyphicon glyphicon-refresh text-warning"></i>
       </li>
       <li>
         <a href="3-17-0-robotics/">Robotics</a>
