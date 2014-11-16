@@ -20,14 +20,6 @@ The next generation of Military and Government contractors have a lot more work 
 
 In this chapter, we will review the basic requirements of Government and Military Grade systems, in so far as these requirements are declassified; use our Lisp Verilog DSL and FPGA skills to create live-hackable battlefield hardware; and revisit the topic of cryptography, authentication, and authorization for handling extremely sensitive Need-To-Know classified information, in such a way that if it is leaked or intercepted, the person responsible can be held fully accountable with minimal delay.
 
----
-
-Review of Field-Programmable Embedded Systems, live debugging and hacking in the field, security requirements, etc.
-
-Hardware-assisted cryptography, and Perfect Secrecy.
-
-Other languages and technologies commonly used by military contractors, Lisp's advantages over them.
-
 <ul class="pager">
   <li class="previous"><a href="/book/3-21-0-lisp-machine/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
