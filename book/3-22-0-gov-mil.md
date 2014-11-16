@@ -9,8 +9,8 @@
 
 # Government and Military Grade Systems
 
-> "Relevant quote..."
-> <footer>Source</footer>
+> "The difference [between the soldier and the civilian] lies in the field of civic virtue. A soldier accepts personal responsibility for the safety of the body politic of which he is a member, defending it, if need be, with his life. The civilian does not."
+> <footer>Robert A. Heinlein, <em>Starship Troopers</em></footer>
 
 The technological needs of Government and Military organizations are, by necessity, far greater than the needs of civilians and businesses.  Governments are charged with the protection and care of their populace, and by extension, the security of information about them that could be harmful if leaked to the public or stolen by criminals.  Likewise, the Military is charged with the defense of the Nation, and everything it does is by necessity classified.  But a government is only as strong as the technology it uses and the people who are wielding this technology.  If an enemy nation, operative, or malicious hacker is able to compromise military communications, you can imagine how devastating this can be for national security---but such a breach of security is just as damaging to the individual, if their medical, income tax, or other personal information held by the government is leaked or stolen.
 
