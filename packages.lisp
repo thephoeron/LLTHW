@@ -23,7 +23,6 @@
              #:llthw-restart))
 
 ;; see asdf system definition
-(defvar llthw:*llthw-version*
-  #.llthw-asd::*llthw-version*)
+(defparameter llthw:*llthw-version* #.llthw-asd::*llthw-version*)
 
 ;; EOF

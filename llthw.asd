@@ -12,7 +12,7 @@
 
 (in-package :llthw-asd)
 
-(defparameter *llthw-version* "0.2.0")
+(defparameter *llthw-version* "0.2.1")
 
 (defsystem llthw
     :version #.*llthw-version*
