@@ -74,7 +74,7 @@
         (:script :src "//code.jquery.com/jquery-migrate-1.2.1.min.js")
         (:script :src "//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js")))))
 
-(defmacro llthw-page ((&key (title "L(λ)THW") (subtitle "Draft v0.2.0 (alpha) &mdash; \"the Phoeron\" Colin J.E. Lupton") (section "book")) &body body)
+(defmacro llthw-page ((&key (title "L(λ)THW") (subtitle (format nil "Draft v~A (alpha) &mdash; \"the Phoeron\" Colin J.E. Lupton" *llthw-version*)) (section "book")) &body body)
   `(cl-who:with-html-output-to-string (hunchentoot::*standard-output* nil :prologue t :indent t)
     (:html :lang "en"
       (:head
