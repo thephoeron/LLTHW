@@ -137,6 +137,7 @@
         Extra Credit:
         <a href="1-19-0-dsl/">Domain Specific Languages</a>
         <i class="glyphicon glyphicon-refresh text-warning"></i>
+        <i class="fa fa-code"></i>
       </li>
       <li>
         <a href="1-20-0-review/">Part One in Review</a>
