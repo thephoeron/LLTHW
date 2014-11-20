@@ -6,6 +6,9 @@
 
 (in-package :llthw)
 
+;;; Most of the code in this file is deprecated
+;;; Slot for removal
+
 ;; Loop over contents of passed FILES list, build pages automatically
 (defmacro create-book-pages (files)
   "Loop over contents of passed FILES list, build pages automatically at compile time."
