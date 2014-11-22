@@ -20,7 +20,7 @@ But don't let that scare you---you already know the basics of writing format str
 
 This chapter will contain exercises on:
 
-* The FORMAT Macro
+* The FORMAT Function
 * Conditionals
 * Iteration
 * Numbers
