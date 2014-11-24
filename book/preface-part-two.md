@@ -57,7 +57,7 @@ If the very idea of math makes your heart skip a beat, your hands shake, and you
 
 ### No Copy-and-Paste
 
-If you copy-and-paste the code from the exercises into the Lisp REPL instead of typing them out yourself, you might as well not do them at all.  As both teacher and student for the duration of this book, you have to force yourself to type in every example.  No matter how easy or self-evident a code example appears to be, you have to stop yourself.
+If you copy-and-paste the code from the exercises into the Lisp REPL instead of typing them out yourself, you might as well not do them at all.  As both teacher and student for the duration of this book, you have to force yourself to type in every example.  No matter how easy or self-evident a code example appears to be, you have to stop yourself from cheating.
 
 The point of these exercises is to train your hands, your eyes, your brain, and your mind how to read, write, see, think, and dream code.  When you cheat here, you're cheating yourself.
 
