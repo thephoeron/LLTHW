@@ -39,13 +39,13 @@ Take the time to read over the code examples carefully, and double-check your wo
 
 ### Attention to Detail
 
-More than any other skill, what separates a professional from an amateur in every field and trade is attention to detail.  In programming, this is especially obvious; it makes the difference between mayhem and a bug-free, user-friendly, indispensable tool.
+More than any other skill, what separates a professional from an amateur in every field and trade is attention to detail.  In programming, this is especially obvious; it makes the difference between sluggish, buggy software that regularly crashes and leads to hair-loss in its users, and a refined, user-friendly, indispensable tool.
 
 By manually typing each exercise *exactly* as you work through this book, you will be training your brain to focus on the subtle details of what you are doing, while you are doing it.
 
 ### Spotting Differences
 
-The natural extension to the first two skills is the ability to spot differences.  With careful reading, typing, and attention to detail, you will also be training your brain to highlight subtle differences, so that when you make a mistake, you notice.
+The natural extension to the first two skills is the ability to spot differences.  With careful reading, typing, and attention to detail, you will also be training your brain to highlight subtle differences, so that when you make a mistake, you notice, and can correct it immediately.
 
 Naturally, this skill will also help you more quickly spot and correct bugs in other people's code that you have to upgrade and maintain.
 
