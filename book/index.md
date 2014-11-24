@@ -42,7 +42,7 @@
   <dd>
     <ul>
       <li><a href="preface/">TANSTAAFL</a> <i class="glyphicon glyphicon-ok text-success"></i></li>
-      <li><a href="preface-part-two/">The Hard Way Is Easier</a> <i class="glyphicon glyphicon-thumbs-down text-danger"></i></li>
+      <li><a href="preface-part-two/">The Hard Way Is Easier</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
       <li><a href="preface-part-three/">Who Is This Book For?</a> <i class="glyphicon glyphicon-thumbs-down text-danger"></i></li>
       <li><a href="introduction/">Lisp: A Future History</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
       <li><a href="acknowledgements/">Acknowledgements</a> <i class="glyphicon glyphicon-refresh text-warning"></i></li>
