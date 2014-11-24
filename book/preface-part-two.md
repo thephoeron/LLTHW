@@ -33,7 +33,7 @@ An important theme of this book is also on the skills necessary for programming 
 
 ### Reading and Writing
 
-Programming, much like human language, involves the intentional use of a specific set of language-dependent characters, some of which you might not be used to typing. If you have trouble reading, writing, or typing, you will struggle writing code.
+Programming, much like human language, involves the intentional use of a specific set of language-dependent characters that have *meaning*, some of which you might not be used to typing. If you have trouble reading, writing, or typing, you will struggle writing code.
 
 Take the time to read over the code examples carefully, and double-check your work once you have typed it.  This will save you a lot of migraines along the way.
 
