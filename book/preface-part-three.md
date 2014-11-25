@@ -15,7 +15,7 @@ Many books on programming can be quite tedious.  There is a tendency among progr
 
 You don't have to know anything about programming or computer science to learn Lisp with this book, but I'm not going to talk down to you either.  I'm going to assume that you know that learning any new skill is hard for everyone, and that you need to work hard in order to succeed.
 
-Sometimes, you might not understand what I'm talking about, so I also expect you to take advantage of the numerous free research tools available online, such as search engines, dictionaries, thesauruses, and encyclopedias.  Any time you feel completely boggled, you should turn to these.  I will be as casual as possible in my presentation, but sometimes it makes more sense to be formal.
+Sometimes, you might not understand what I'm talking about, so I also expect you to take advantage of all the free research tools available on the internet---search engines, dictionaries, thesauri, encyclopedias, reference works, academic papers, and more.  Any time you feel completely boggled, you should turn to these.  I will be as casual as possible in my presentation, but sometimes it makes more sense to be formal.
 
 That being said, Lispers of all experience levels should benefit from this book.  We'll be exploring the language through real, immediately useful source code examples, and dissecting the language down to its core.  Later on in the book, we'll also be covering a wide variety of advanced, relevant practical applications using a selection of the most popular and powerful libraries from the Lisp community.
 
