@@ -23,9 +23,9 @@ So in summary, this book is for you if:
 
 * You know nothing about programming, but want to learn
 * You tried to learn Lisp before, but other books made it seem too hard or not useful
-* You are an experienced programmer considering a move to Lisp to escape the confines of Imperative Programming
+* You are an experienced programmer considering a move to Lisp
 * You are already a Lisper, but want to take your code to the next level, or
-* You simply haven't seen what all the fuss is about when it comes to Lisp, but you keep hearing how amazing Lisp is, so here you are reading another book about it
+* You simply haven't seen what all the fuss is about when it comes to Lisp---but you keep hearing how amazing Lisp is, so here you are reading another book about it
 
 ### Practice and Persistence
 
