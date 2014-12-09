@@ -311,7 +311,7 @@
       </li>
       <li>
         <a href="3-16-0-ai/">Artificial Intelligence</a>
-remove        <i class="glyphicon glyphicon-refresh text-warning"></i>
+        <i class="glyphicon glyphicon-refresh text-warning"></i>
       </li>
       <li>
         <a href="3-17-0-robotics/">Robotics</a>
