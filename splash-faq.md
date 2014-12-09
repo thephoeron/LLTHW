@@ -2,9 +2,9 @@
 
 <h4 class="text-info">What is Lisp?</h4>
 
-Lisp---the nickname for the ANSI Standardized general purpose, multi-paradigm, programmable programming language *Common Lisp*---is a member of the Lisp-family of programming languages that descends from the original LISP language proposed by John McCarthy in the 1950s.  All Lisp-family languages share common features, such as the S-Expression syntax based on a subset of Lambda Calculus and Polish prefix notation, but Common Lisp in particular is known for its concise syntax, extensibility, multi-paradigm approach to programming, and macro system for code expansion.
+Lisp---AKA, *Common Lisp*---is a member of the Lisp-family of programming languages that descends from the original LISP language proposed by John McCarthy in the 1950s.  All Lisp-family languages share common features, such as the S-Expression syntax based on a subset of Lambda Calculus and Polish prefix notation, but Common Lisp in particular is known for its concise syntax, extensibility, multi-paradigm approach to programming, and macro system for code expansion.
 
-Common Lisp is actively supported in both commercial and open-source implementations, available for nearly every platform (coming to new ones all the time), has a lively community and a large and actively maintained collection of user-contributed libraries.
+Common Lisp is ANSI Standardized, actively supported in both commercial and open-source implementations, available for nearly every platform (coming to new ones all the time), has a lively community and a large and actively maintained collection of user-contributed libraries.
 
 <h4 class="text-info">Who should learn Lisp?</h4>
 
