@@ -20,7 +20,7 @@ Prefix notation and expressions also make order of operation clearer:
 
 `(* (+ 10 2) (mod 3142 60))`
 
-The innermost expression is evaluated first.
+The innermost expressions are evaluated first, from left to right.
 
 <p class="text-right">
   <a class="btn btn-primary" id="try-lisp-next" href="/try-lisp/math/">Next &raquo;</a>
