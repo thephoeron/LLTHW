@@ -29,9 +29,9 @@
         (:p :align "center"
           (:a :href "http://common-lisp.net/" :alt "Crafted in Common Lisp" :title "Crafted in Common Lisp" "(λ)"))
         (:p :align "center"
-          "Copyright &copy; 2012 &ndash; 2014, \"the Phoeron\" Colin J.E. Lupton ("
+          "Copyright &copy; 2012 &ndash; 2015, \"the Phoeron\" Colin J.E. Lupton ("
           (:a :href "http://thephoeron.com/" :target "_blank" :alt "//thephoeron.com/" :title "//thephoeron.com/" "//thephoeron.com/")
-          "). All Rights Reserved.")
+          ") and the Authors. Released under the MIT License.")
         (:p :align "center"
           "Powered by "
           (:a :href "https://www.digitalocean.com/?refcode=ef3cf1ffcbb7" :target "_blank" "DigitalOcean") ", "
@@ -56,10 +56,10 @@
         (:meta :http-equiv "X-UA-Compatible" :content "IE=edge")
         (:meta :name "viewport" :content "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0")
         (:meta :name "description" :content "Learn Lisp The Hard Way")
-        (:meta :name "author" :content "\"the Phoeron\" Colin J.E. Lupton")
+        (:meta :name "author" :content "Toronto Lisp User Group")
         (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css")
         (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css")
-        (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css")
+        (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css")
         (:link :rel "stylesheet" :href "/static/css/llthw.css")
         (:title ,title)
         (str ,*ie8-support*)
@@ -74,7 +74,7 @@
         (:script :src "//code.jquery.com/jquery-migrate-1.2.1.min.js")
         (:script :src "//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js")))))
 
-(defmacro llthw-page ((&key (title "L(λ)THW") (subtitle (format nil "Draft v~A (alpha) &mdash; \"the Phoeron\" Colin J.E. Lupton" *llthw-version*)) (section "book")) &body body)
+(defmacro llthw-page ((&key (title "L(λ)THW") (subtitle (format nil "Draft v~A (alpha) &mdash; Toronto Lisp User Group" *llthw-version*)) (section "book")) &body body)
   `(cl-who:with-html-output-to-string (hunchentoot::*standard-output* nil :prologue t :indent t)
     (:html :lang "en"
       (:head
@@ -82,10 +82,10 @@
         (:meta :http-equiv "X-UA-Compatible" :content "IE=edge")
         (:meta :name "viewport" :content "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0")
         (:meta :name "description" :content "Learn Lisp The Hard Way")
-        (:meta :name "author" :content "\"the Phoeron\" Colin J.E. Lupton")
+        (:meta :name "author" :content "Toronto Lisp User Group")
         (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css")
         (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css")
-        (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css")
+        (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css")
         (:link :rel "stylesheet" :href "/static/js/select2-3.5.0/select2.css")
         (:link :rel "stylesheet" :href "/static/css/select2-bootstrap.css")
         (:link :rel "stylesheet" :href "/static/css/llthw.css")
@@ -175,7 +175,7 @@
         (:meta :charset "utf-8")
         (:meta :http-equiv "X-UA-Compatible" :content "IE=edge")
         (:meta :name "description" :content "Learn Lisp The Hard Way")
-        (:meta :name "author" :content "\"the Phoeron\" Colin J.E. Lupton")
+        (:meta :name "author" :content "Toronto Lisp User Group")
         (:title ,title)
         (str ,*ie8-support*)
         ;(google-analytics)
@@ -192,7 +192,7 @@
         (:meta :charset "utf-8")
         (:meta :http-equiv "X-UA-Compatible" :content "IE=edge")
         (:meta :name "description" :content "Learn Lisp The Hard Way")
-        (:meta :name "author" :content "\"the Phoeron\" Colin J.E. Lupton")
+        (:meta :name "author" :content "Toronto Lisp User Group")
         (:title ,title)
         (str ,*ie8-support*)
         ;(google-analytics)
@@ -210,10 +210,10 @@
         (:meta :http-equiv "X-UA-Compatible" :content "IE=edge")
         (:meta :name "viewport" :content "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0")
         (:meta :name "description" :content "Learn Lisp The Hard Way")
-        (:meta :name "author" :content "\"the Phoeron\" Colin J.E. Lupton")
+        (:meta :name "author" :content "Toronto Lisp User Group")
         (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css")
         (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css")
-        (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css")
+        (:link :rel "stylesheet" :href "//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css")
         (:link :rel "stylesheet" :href "/static/js/select2-3.5.0/select2.css")
         (:link :rel "stylesheet" :href "/static/css/select2-bootstrap.css")
         (:link :rel "stylesheet" :href "/static/css/llthw.css")

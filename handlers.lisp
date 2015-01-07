@@ -14,7 +14,9 @@
         (:div :class "container"
           (:h1 :align "center" "L(λ)THW")
           (:p :class "lead" :align "center"
-            "Learn Lisp The Hard Way")
+              "Learn Lisp The Hard Way")
+          (:p :align "center" :style "color: silver;"
+              "Brought to you by the Toronto Lisp User Group")
           (:div :class "row"
             (:div :class "col-md-8 col-md-offset-2"
               (str (3bmd:parse-and-print-to-stream "splash-example.md" hunchentoot::*standard-output* :format :html))))
@@ -36,17 +38,15 @@
       (:div :class "social-banner"
         (:div :class "container"
           (:ul :class "social-banner-buttons"
-            (:li "Source Code:")
-            (:li (:a :href "http://github.com/thephoeron/llthw" :target "_blank" :title "Learn Lisp The Hard Way on GitHub" (:i :class "fa fa-code-fork fa-2x")))
-            (:li "Connect with the Author:")
-            (:li (:a :href "http://github.com/thephoeron" :target "_blank" :title "The Phoeron on GitHub" (:i :class "fa fa-github-square fa-2x")))
-            (:li (:a :href "http://twitter.com/thephoeron" :target "_blank" :title "The Phoeron on Twitter" (:i :class "fa fa-twitter-square fa-2x")))
+            (:li "Contribute:")
+            (:li (:a :href "http://github.com/LispTO/llthw" :target "_blank" :title "Learn Lisp The Hard Way on GitHub" (:i :class "fa fa-code-fork fa-2x")))
+            (:li (:a :href "http://github.com/LispTO" :target "_blank" :title "Toronto Lisp User Group on GitHub" (:i :class "fa fa-github-square fa-2x")))
+            (:li "Connect with the Authors:")
             (:li (:a :href "http://facebook.com/llthw" :target "_blank" :title "Learn Lisp The Hard Way on Facebook" (:i :class "fa fa-facebook-square fa-2x")))
-            (:li (:a :href "https://plus.google.com/111762903517231501866" :target "_blank" :title "The Phoeron on Google+" (:i :class "fa fa-google-plus-square fa-2x")))
-            (:li (:a :href "http://cjelupton.wordpress.com" :target "_blank" :title "The Phoeron's developer blog on Wordpress" (:i :class "fa fa-wordpress fa-2x")))
-            (:li (:a :href "http://thephoeron.com/" :target "_blank" :title "The Phoeron's Website" (:i :class "fa fa-globe fa-2x")))
-            (:li "Donate to this project:")
-            (:li (:a :href "/donate/#paypal" :title "Donate by PayPal" (:i :class "fa fa-dollar fa-2x")))
+            (:li (:a :href "http://lisptoronto.org/" :target "_blank" :title "Toronto Lisp User Group website" (:i :class "fa fa-globe fa-2x")))
+            (:li "Support this project:")
+            (:li (:a :href "https://www.digitalocean.com/?refcode=ef3cf1ffcbb7" :title "Get Cloud Hosting on Digital Ocean" (:i :class "fa fa-cloud fa-2x")))
+            (:li (:a :href "/donate/#paypal" :title "Donate by PayPal" (:i :class "fa fa-paypal fa-2x")))
             (:li (:a :href "/donate/#bitcoin" :title "Donate Bitcoin" (:i :class "fa fa-bitcoin fa-2x")))
             (:li (:a :href "/donate/#litecoin" :title "Donate Litecoin" (:span :style "font-size: 30px; font-weight: bold; text-decoration: none;" "&#321;"))))))
       (:div :class "container"
