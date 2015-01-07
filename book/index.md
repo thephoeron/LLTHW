@@ -9,6 +9,24 @@
   </p>
 </div>
 
+<p align="center">
+  <span style="font-size:36px;font-weight:bold;">Learn Lisp The Hard Way</span><br>
+  <span style="font-size:18px;">by the</span><br>
+  <span style="font-size:32px;">Toronto Lisp User Group</span><br><br>
+  <span style="font-size:18px;">Authors:</span><br>
+  <span style="font-size:24px;">
+  "the Phoeron" Colin J.E. Lupton,<br>
+  Leo "Inaimathi" Zovic
+  </span><br><br>
+  <span style="font-size:18px;">Additional Contributors:</span><br>
+  <span style="font-size:24px;">
+  Dann Toliver,<br>
+  Gaelen D'Costa,<br>
+  Josh Teneycke
+  </span>
+</p>
+
+
 ```lisp
 ;; Welcome to L(λ)THW!
 (let ((llthw '(learn lisp the hard way)))
@@ -18,7 +36,7 @@
 
 ```
 
-# Draft Chapter Completion Status Legend
+### Draft Chapter Status Legend
 
 <dl class="dl-horizontal">
   <dt><i class="glyphicon glyphicon-remove text-danger"></i></dt>
