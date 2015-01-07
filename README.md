@@ -29,6 +29,6 @@ Litecoin: [LZfkNpcQetVcNNbpERQoCvRJkVERYry9Me](litecoin:LZfkNpcQetVcNNbpERQoCvRJ
 
 ### License
 
-Copyright &copy; 2012--2014, "the Phoeron" Colin J.E. Lupton
+Copyright &copy; 2012--2015, "the Phoeron" Colin J.E. Lupton and the Authors.
 
 The book and web site code are released under the MIT License.  See `llthw/LICENSE` for more information.
