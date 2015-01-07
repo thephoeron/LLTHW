@@ -9,7 +9,7 @@ If you benefit from this project and would like to help keep it going, please co
 
 Donations are accepted from individuals via PayPal, Bitcoin, or Litecoin.  Corporate entities wishing to sponsor this project have additional options, terms, and conditions.
 
-Please note: I welcome feedback, criticism, content suggestions and contributions to this project, however, I cannot and will not show any favoritism to feature or content requests from those who provide donations over those who do not.  This site, its content and source-code are made freely available under the terms of the MIT License.
+Please note: I welcome feedback, criticism, content suggestions and contributions to this project, however, I cannot and will not show any favoritism to feature or content requests from those who provide donations over those who do not.  This site, its content and source-code are made freely available under the terms of the MIT License, except for the book text which is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.
 
 ## PayPal
 
