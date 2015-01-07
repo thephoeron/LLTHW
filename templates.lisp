@@ -29,9 +29,9 @@
         (:p :align "center"
           (:a :href "http://common-lisp.net/" :alt "Crafted in Common Lisp" :title "Crafted in Common Lisp" "(λ)"))
         (:p :align "center"
-          "Copyright &copy; 2012 &ndash; 2015, \"the Phoeron\" Colin J.E. Lupton ("
-          (:a :href "http://thephoeron.com/" :target "_blank" :alt "//thephoeron.com/" :title "//thephoeron.com/" "//thephoeron.com/")
-          ") and the Authors. Released under the MIT License.")
+          "Copyright &copy; 2012 &ndash; 2015, \"the Phoeron\" Colin J.E. Lupton and the Authors. See "
+          (:a :href "http://github.com/LispTO/llthw" :target "_blank" "the Project README")
+          " for license and contribution guidelines.")
         (:p :align "center"
           "Powered by "
           (:a :href "https://www.digitalocean.com/?refcode=ef3cf1ffcbb7" :target "_blank" "DigitalOcean") ", "

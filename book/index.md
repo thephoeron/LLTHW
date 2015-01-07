@@ -26,6 +26,10 @@
   </span>
 </p>
 
+<p align="center">
+<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Learn Lisp The Hard Way</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.lisptoronto.org" property="cc:attributionName" rel="cc:attributionURL">the Toronto Lisp User Group</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.
+</p>
+
 
 ```lisp
 ;; Welcome to L(λ)THW!
