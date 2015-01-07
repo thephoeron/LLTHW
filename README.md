@@ -19,9 +19,21 @@ https://gitorious.org/learn-x-the-hard-way/learn-x-the-hard-way
 
 More information on LxTHW is available at: http://learncodethehardway.org/
 
+### Contribution Guidelines
+
+As an LxTHW book, the style and format should follow [Zed Shaw's guidelines](https://gitorious.org/learn-x-the-hard-way/learn-x-the-hard-way/source/663fd4f6afd17f9d16fe10bafe3e64fdfb29e629:README) (under "Recommended Contents").  This is a show-don't-tell style, so the emphasis should be on source code examples that illustrate a point, and not a point that is illustrated by source-code.
+
+The full book outline is already complete, so if you find a chapter that covers your specialty, you can claim it by creating an issue or a pull request on the repo.
+
+Part Three of the book is designed for exploratory, self-directed projects.  Libraries and new programming techniques are demonstrated, but the reader should be expected to figure out the implementation details on their own.
+
+If you find any errors, or think a section could use more clarification or better code examples, please create an issue and identify the passage of text by chapter, exercise, and paragraph.
+
 ### Supporting this project
 
 You can support this project with your donations:
+
+PayPal: http://learnlispthehardway.org/donate/#paypal
 
 Bitcoin: [17nWsM2aKqKewm7zDzv3mGUyqzKZKjsJGQ](bitcoin:17nWsM2aKqKewm7zDzv3mGUyqzKZKjsJGQ)
 
