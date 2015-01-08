@@ -21,6 +21,10 @@ More information on LxTHW is available at: http://learncodethehardway.org/
 
 ### Contribution Guidelines
 
+It is the intention of the authors to bring this title to print, so please be aware that if you submit original content to the book text of Learn Lisp The Hard Way, you are implicitly agreeing to sign a contract and royalty schedule once the first edition of the book is complete.  However, there are many ways you can contribute to this project if you are not interested in being published and the legal obligations that come with it.
+
+Technically, any open-source material which is relevant to the project and compatible with an MIT License can be contributed to the site and its additional resources (*i.e.*, everything except for the book proper), however, attribution is required and you should always check with the author or maintainer before submitting material which is not of your own creation.
+
 As an LxTHW book, the style and format should follow [Zed Shaw's guidelines](https://gitorious.org/learn-x-the-hard-way/learn-x-the-hard-way/source/663fd4f6afd17f9d16fe10bafe3e64fdfb29e629:README) (under "Recommended Contents").  This is a show-don't-tell style, so the emphasis should be on source code examples that illustrate a point, and not a point that is illustrated by source-code.
 
 The full book outline is already complete, so if you find a chapter that covers your specialty, you can claim it by creating an issue or a pull request on the repo.
