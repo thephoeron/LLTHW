@@ -135,12 +135,15 @@ Parentheses should all close on the same line, when ending multiple forms; while
 
 If you have trouble getting Lisp style right, you can always run your code through the Pretty Printer to see how Lisp thinks it should be formatted.
 
-If you use Emacs+SLIME (and many Lisp Hackers will tell you that you must), proper indentation is handled quite well; other editors, such as Sublime Text, need a plugin installed to indent Lisp code correctly, but don't always do it right---so it's important to know how to manually indent your code.
+If you use Emacs+SLIME (and many Lisp Hackers will tell you that you must), proper indentation is handled quite well; other editors, such as Sublime Text, need a plugin installed to indent Lisp code, but don't always do it right---so it's important to know how to manually indent your code.
 
-Indentation in Lisp uses the space character, not Tabs.  *Bodies* of expressions are indented by two spaces from their parent form, while paramaters and list members are lined up into columns.  For example:
+Indentation in Lisp uses the space character, not Tabs.  *Bodies* of expressions are indented by two spaces from their parent form, while paramaters and list members can be lined up into columns when they take up too many characters to fit on an ideal line of code.  For example:
 
 ```lisp
-;; IF is a special operator, and doesn't have a body expression; see how everything lines up?
+;; IF is a special operator, and doesn't have a body expression
+(if t t nil)
+
+;; but you'll normally need to split the form for clarity; see how the three parameters line up?
 (if t
     (format t "Then: True~%")
     (format t "Else: False~%"))
@@ -150,7 +153,7 @@ Indentation in Lisp uses the space character, not Tabs.  *Bodies* of expressions
   (format t "This is true, too!"))
 ```
 
-You only need a single space between forms in a list.  Likewise, you only need one extra line between top-level forms.  Extraneous whitespace makes your code more difficult for others to read.
+You only need a single space character or line-break between forms in a list.  Likewise, you only need one extra line between top-level forms.  Extraneous whitespace makes your code more difficult for others to read.
 
 You should also avoid the temptation to use the Tab character inside a form or list to force a table-like structure onto your code.  This isn't FORTRAN, it's Lisp---and Lisp should *flow*.
 
