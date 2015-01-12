@@ -1,6 +1,6 @@
 var jqconsole;
 $(function () {
-  jqconsole = $('#console').jqconsole(';; Welcome to L(λ)THW, Powered by JSCL!\n\n', '');
+  jqconsole = $('#console').jqconsole('', '');
   jqconsole.RegisterMatching('(', ')', 'parents');
   if (localStorage.getItem("jqhist"))
      jqconsole.SetHistory(JSON.parse(localStorage.getItem("jqhist")));

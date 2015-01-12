@@ -279,7 +279,7 @@
         (:script :src "/static/js/jqconsole.min.js" :type "text/javascript")
         ; (:script :src "/static/js/llthw.js" :type "text/javascript")
         ; <script></script>
-        (:script "var jqconsole = $('#console').jqconsole(';; Welcome to L(λ)THW, Powered by JSCL!\\n\\n', '');")
+        (:script "var jqconsole = $('#console').jqconsole('', '');")
         (:script :src "/static/js/jscl.js" :type "text/javascript")
         (:script :src "/llthw.js" :type "text/javascript")))))
 
