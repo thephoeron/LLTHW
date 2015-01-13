@@ -131,4 +131,10 @@
 (push (hunchentoot:create-regex-dispatcher "^/book/[\\w-]+/$" 'llthw-book-page)
       hunchentoot:*dispatch-table*)
 
+;; robots.txt file
+
+(define-easy-handler (robots-txt :uri "/robots.txt") ()
+  (setf (content-type*) "text/plain")
+  (format nil "User-agent: *~%Disallow: /static/~%Disallow: /reference/"))
+
 ;; EOF
