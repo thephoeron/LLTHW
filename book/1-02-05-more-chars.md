@@ -21,7 +21,7 @@ Some of these characters you've seen before, but lets go through a few so you ge
 #\cuneiform_sign_an_plus_naga_opposing_an_plus_naga
 ```
 
-These names are not case-sensitive: you could type `#\Greek_Small_Letter_Lamda`, `#\GREEK_SMALL_LETTER_LAMDA`, or even `#\gReEK_sMaLl_LeTtER_lAmDA`, and the Lisp reader will see it the same---for style and legibility of your code, however, you should stick with the lower-case names. You can use this syntax to enter any Unicode character into the REPL.
+These names are not case-sensitive: you could type `#\Greek_Small_Letter_Lamda`, `#\GREEK_SMALL_LETTER_LAMDA`, or even `#\gReEK_sMaLl_LeTtER_lAmDA`, and the Lisp reader will see it the same---for style and legibility of your code, however, you should stick with the lower-case names. You can use this syntax to enter any Unicode character into the SBCL REPL.
 
 #### What You Should See
 
