@@ -40,8 +40,8 @@
           (:ul :class "social-banner-buttons"
             (:li "Contribute:")
             (:li (:a :href "http://github.com/LispTO/llthw" :target "_blank" :title "Learn Lisp The Hard Way on GitHub" (:i :class "fa fa-code-fork fa-2x")))
-            (:li (:a :href "http://github.com/LispTO" :target "_blank" :title "Toronto Lisp User Group on GitHub" (:i :class "fa fa-github-square fa-2x")))
             (:li "Connect with the Authors:")
+            (:li (:a :href "http://github.com/LispTO" :target "_blank" :title "Toronto Lisp User Group on GitHub" (:i :class "fa fa-github-square fa-2x")))
             (:li (:a :href "http://facebook.com/llthw" :target "_blank" :title "Learn Lisp The Hard Way on Facebook" (:i :class "fa fa-facebook-square fa-2x")))
             (:li (:a :href "http://lisptoronto.org/" :target "_blank" :title "Toronto Lisp User Group website" (:i :class "fa fa-globe fa-2x")))
             (:li "Support this project:")
