@@ -16,8 +16,6 @@ It's time to dive head-first into Lisp, no mercy.  You'll need discipline to app
 
 There is a reason, after all, the military uses this methodology for training---it's an application of the metaphor of alchemy, realized in nuclear physics: given enough heat and pressure, you can in fact turn lead into gold. But now, on to Lisp.  Here is everything you need to know to get hacking in Lisp right this second.
 
-**Revision Note:** The exercise "Lisp in More Detail" has been deprecated in favour of separate exercises for each section.
-
 * [Syntax Overview in 5 Minutes](/book/1-01-01-syntax-overview/)
 * [The REPL](/book/1-01-02-repl/)
 * [Expressions, Parentheses, and Return Values](/book/1-01-03-expressions/)
@@ -27,10 +25,6 @@ There is a reason, after all, the military uses this methodology for training---
 * [Common Lisp Style Guide](/book/1-01-07-style-guide/)
 * [Configuring Your Development Environment](/book/1-01-08-configuration/)
 * Extra Credit: [Set up and Learn Emacs Live](/book/1-01-09-emacs-live/)
-
-Deprecated exercises:
-
-* [Lisp in More Detail](/book/1-01-02-more-detail/) (deprecated)
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-0-0-overview/">&laquo; Previous</a></li>
