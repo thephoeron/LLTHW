@@ -12,6 +12,8 @@
 > "While the laws of statistics tell you how unlikely a particular coincidence is, they state just as firmly that coincidences <em>do happen</em>."
 > <footer>Robert A. Heinlein, <em>The Door Into Summer</em></footer>
 
+**Revision Note:** this chapter needs to be updated to reflect referenced text being changed in Ch. 1.1.
+
 In the spirit of Lambda Calculus and a pure functional heritage, the Lisp-family of programming languages gets its name from its purpose---List Processing.  Even though Common Lisp is not a purely-functional programming language, its fundamental syntax has not deviated from this heritage; as you should remember from Chapter 1.1, Lists in Lisp are one of two essential forms of Expressions; and since the other---Atoms---are, by definition, self-evaluating, everything interesting that you can do in Lisp is *effectively* a List operation.
 
 This is important to remember---it's the reason there are *so many* parentheses in Lisp source-code.  Every form surrounded by parentheses is a list. The only difference between code and data, syntactically speaking, is that *code is read and evaluated* whereas *data is only read*; you can switch to "data mode" by quoting an expression, but quoting isn't a free pass.  Lisp still expects to be able to read the forms you've quoted, so the syntax is just as important to data as it is to code.
