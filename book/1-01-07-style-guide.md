@@ -95,7 +95,7 @@ Package internal symbols are sometimes named with a prepended percent-sign, and 
 
 (mad-adder:mad-adder 10)
 
-(mad-adder::%mad-adder 10)
+(mad-adder::%madder 10)
 ```
 
 Predicate functions, *i.e.*, boolean tests, typically end with a suffixed "p".  If it is a multi-word symbol already separated by dashes, you append the suffix as "-p" (dash-p); while if it is a single word or mnemonic symbol name, the "p" can be appended without a dash.
