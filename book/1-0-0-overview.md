@@ -19,7 +19,7 @@ We'll start with a high-level overview of the whole language, working through th
 
 From there we'll move on to strings, characters, writing, and printing; prompting for user input; lists, trees, and special lists like alists and plists; math, vectors and arrays; lexical scope and variables; and functions.
 
-Then we'll build our first application, a straight-forward text-adventure, using everything you've learned up to that point.
+Then we'll build our first application, a straight-forward text-adventure, using everything you've learned up to that point; extend this knowlege to a simple web application and command-line utilities, explore more advanced features of the language, and writing domain-specific languages for even more control over syntax.
 
 <ul class="pager">
   <li class="previous"><a href="/book/acknowledgements/">&laquo; Previous</a></li>
