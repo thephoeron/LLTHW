@@ -27,6 +27,8 @@ This chapter will contain exercises on:
 * Adding items to ALISTS
 * Removing items from ALISTS
 * Practical size-constraints for ALISTS and PLISTS, alternate data types to look out for.
+* Trees
+* Acyclic Graphs
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-04-0-lists/">&laquo; Previous</a></li>
