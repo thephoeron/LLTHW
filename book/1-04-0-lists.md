@@ -33,6 +33,78 @@ This chapter will contain exercises on:
 * Trees
 * Acyclic Graphs
 
+## Exercise 1.4.1
+
+**Cons-Cells**
+
+## Exercise 1.4.2
+
+**Consing**
+
+## Exercise 1.4.3
+
+**Dot-Notation**
+
+## Exercise 1.4.4
+
+**More Consing**
+
+## Exercise 1.4.5
+
+**CAR and CDR**
+
+## Exercise 1.4.6
+
+**More CAR and CDR**
+
+## Exercise 1.4.7
+
+**Even More CAR and CDR**
+
+## Exercise 1.4.8
+
+**Lists**
+
+## Exercise 1.4.9
+
+**More Lists**
+
+## Exercise 1.4.10
+
+**Push**
+
+## Exercise 1.4.11
+
+**Pop**
+
+## Exercise 1.4.12
+
+**More Push and Pop**
+
+## Exercise 1.4.13
+
+**First, Rest, and Last**
+
+## Exercise 1.4.14
+
+**List Position**
+
+## Exercise 1.4.15
+
+**Appending**
+
+## Exercise 1.4.16
+
+**More Appending**
+
+## Exercise 1.4.17
+
+**Quoting**
+
+## Exercise 1.4.18
+
+**More Quoting**
+
 <ul class="pager">
   <li class="previous"><a href="/book/1-03-0-getting-input-from-users/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
