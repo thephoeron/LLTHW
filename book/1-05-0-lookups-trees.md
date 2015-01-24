@@ -30,6 +30,58 @@ This chapter will contain exercises on:
 * Trees
 * Acyclic Graphs
 
+## Exercise 1.5.1
+
+**Lookups: ALISTs and PLISTs**
+
+## Exercise 1.5.2
+
+**PLISTs**
+
+## Exercise 1.5.3
+
+**More PLISTs**
+
+## Exercise 1.5.4
+
+**Even More PLISTs**
+
+## Exercise 1.5.5
+
+**ALISTs**
+
+## Exercise 1.5.6
+
+**More ALISTs**
+
+## Exercise 1.5.7
+
+**Even More ALISTs**
+
+## Exercise 1.5.8
+
+**Efficiency, and Alternatives to ALISTs and PLISTs**
+
+## Exercise 1.5.9
+
+**Trees and Tries**
+
+## Exercise 1.5.10
+
+**More Trees and Tries**
+
+## Exercise 1.5.11
+
+**Object Reference**
+
+## Exercise 1.5.12
+
+**Circular Lists and Trees**
+
+## Exercise 1.5.13
+
+**Acyclic Graphs**
+
 <ul class="pager">
   <li class="previous"><a href="/book/1-04-0-lists/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
