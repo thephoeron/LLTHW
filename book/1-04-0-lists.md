@@ -30,8 +30,8 @@ This chapter will contain exercises on:
 * List Position
 * APPEND
 * Quoting
-* Trees
-* Acyclic Graphs
+* <strike>Trees</strike>
+* <strike>Acyclic Graphs</strike>
 
 ## Exercise 1.4.1
 
