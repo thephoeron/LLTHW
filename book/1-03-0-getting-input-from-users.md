@@ -29,6 +29,58 @@ This Chapter will contain exercises on:
 * Parsing Numbers
 * Custom Prompts
 
+## Exercise 1.3.1
+
+**READ: an introduction to the Lisp Reader**
+
+## Exercise 1.3.2
+
+**EVAL: an introduction to the Lisp Evaluator**
+
+## Exercise 1.3.3
+
+**Sequences**
+
+## Exercise 1.3.4
+
+**More Sequences**
+
+## Exercise 1.3.5
+
+**Sequence Operations**
+
+## Exercise 1.3.6
+
+**Concatenation**
+
+## Exercise 1.3.7
+
+**Splitting**
+
+## Exercise 1.3.8
+
+**Replacing**
+
+## Exercise 1.3.9
+
+**Numbers**
+
+## Exercise 1.3.10
+
+**Input and Output Streams**
+
+## Exercise 1.3.11
+
+**Simple Prompts**
+
+## Exercise 1.3.12
+
+**Custom Prompts**
+
+## Exercise 1.3.13
+
+**Handling Input from Custom Prompts**
+
 <ul class="pager">
   <li class="previous"><a href="/book/1-02-00-input-output/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
