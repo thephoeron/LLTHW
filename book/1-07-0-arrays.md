@@ -12,7 +12,9 @@
 > "As with any tool, merit <em>or</em> demerit lies in how it is used."
 > <footer>Robert A. Heinlein, <em>Friday</em></footer>
 
-Extra credit exercises for working with arrays, vectors, and their associated types.
+When you need to squeeze extra efficiency out of your Lisp program, usually the first place to turn after minimizing consing-operations is to migrate your list data structures to arrays and vectors.  You will lose the flexibility of lists, but you do gain in performance and reduce memory usage.
+
+Just like Lists, Arrays descend from the Sequence type, and vectors are a special type of array with only one dimension, so all sequence operations will also work on arrays and vectors.  List operations, however, will not.  Luckily, Common Lisp includes a number of utilities for working with arrays and vectors---and you should get to know them immediately so that you can start improving your codebase right away.
 
 This chapter will contain exercises on:
 
