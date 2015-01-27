@@ -18,6 +18,58 @@ Closures were first developed to manually evaluate expressions in Lambda Calculu
 
 In this chapter we will further explore the concepts of dynamic and lexical scope, introduce the concept of first-class functions, and walk through a number of interesting examples of Closures to make sure you have a good understanding of their use and potential.  You'll also get a sneak peak at functions, giving you more confidence in the material before you tackle the next chapter!
 
+## Exercise 1.9.1
+
+**Lexical Environments and Scope**
+
+## Exercise 1.9.2
+
+**LET Revisited**
+
+## Exercise 1.9.3
+
+**LET\*: Nested Lexical Scope**
+
+## Exercise 1.9.4
+
+**Pure Functions**
+
+## Exercise 1.9.5
+
+**First-Class Functions**
+
+## Exercise 1.9.6
+
+**Functors: Function Objects**
+
+## Exercise 1.9.7
+
+**LABEL and BLOCK**
+
+## Exercise 1.9.8
+
+**Functions as Arguments**
+
+## Exercise 1.9.9
+
+**Your First Closure**
+
+## Exercise 1.9.10
+
+**Dancing Closures**
+
+## Exercise 1.9.11
+
+**The Macroexpansion of DEFUN**
+
+## Exercise 1.9.12
+
+**Extending Closures: Continuations**
+
+## Exercise 1.9.13
+
+**Extending Closures: Partials**
+
 <ul class="pager">
   <li class="previous"><a href="/book/1-08-0-variables/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
