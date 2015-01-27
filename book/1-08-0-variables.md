@@ -34,7 +34,7 @@ This chapter will contain exercises on:
 
 ## Exercise 1.8.2
 
-**Symbol Tables**
+**Symbol Tables and Inspecting Objects**
 
 ## Exercise 1.8.3
 
