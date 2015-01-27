@@ -28,6 +28,48 @@ This chapter will contain exercises on:
 * Parameters
 * Constants
 
+## Exercise 1.8.1
+
+**Symbols**
+
+## Exercise 1.8.2
+
+**Symbol Tables**
+
+## Exercise 1.8.3
+
+**More Symbols: Binding and Assignment**
+
+## Exercise 1.8.4
+
+**Even More Symbols: Namespaces**
+
+## Exercise 1.8.5
+
+**DEFVAR: Dynamic Binding of Variables**
+
+## Exercise 1.8.6
+
+**LET: Lexical Binding of Variables**
+
+## Exercise 1.8.7
+
+**SETQ vs SETF**
+
+## Exercise 1.8.8
+
+**DEFPARAMETER: Dynamic Binding Revisited**
+
+## Exercise 1.8.9
+
+**DEFCONSTANT**
+
+## Exercise 1.8.10
+
+**Function Parameters**
+
+
+
 <ul class="pager">
   <li class="previous"><a href="/book/1-07-0-arrays/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
