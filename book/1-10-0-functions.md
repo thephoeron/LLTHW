@@ -32,6 +32,74 @@ This chapter will contain exercises on:
 * Defining Macros
 * Backtick syntax
 
+## Exercise 1.10.1
+
+**LAMBDA: Anonymous Functions**
+
+## Exercise 1.10.2
+
+**More LAMBDA**
+
+## Exercise 1.10.3
+
+**Even More Lambda**
+
+## Exercise 1.10.4
+
+**DEFUN: Function Definitions**
+
+## Exercise 1.10.5
+
+**More DEFUN**
+
+## Exercise 1.10.6
+
+**Even More DEFUN**
+
+## Exercise 1.10.7
+
+**FLET: Lexical Function Definitions**
+
+## Exercise 1.10.8
+
+**Recursive Functions**
+
+## Exercise 1.10.9
+
+**More Recursive Functions**
+
+## Exercise 1.10.10
+
+**The Y-Combinator: Recursive Anonymous Functions**
+
+## Exercise 1.10.11
+
+**Tail-Call Optimization**
+
+## Exercise 1.10.12
+
+**Defining Macros**
+
+## Exercise 1.10.13
+
+**Macro Expansion**
+
+## Exercise 1.10.14
+
+**Backtick Syntax**
+
+## Exercise 1.10.15
+
+**Unquoting**
+
+## Exercise 1.10.16
+
+**Splicing**
+
+## Exercise 1.10.17
+
+**Nested Expansions**
+
 <ul class="pager">
   <li class="previous"><a href="/book/1-09-0-closures/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
