@@ -36,6 +36,12 @@ This chapter will contain exercises on:
 
 **LAMBDA: Anonymous Functions**
 
+```lisp
+(lambda (x) (+ x x))
+
+((lambda (x) (+ x x)) 2)
+```
+
 ## Exercise 1.10.2
 
 **More LAMBDA**
