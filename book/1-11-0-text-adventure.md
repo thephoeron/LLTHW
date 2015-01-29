@@ -36,6 +36,46 @@ This chapter will contain exercises on:
 * Quick and Dirty AI enemies
 * Packaging and Running your game
 
+## Exercise 1.11.1
+
+**ASCII-Art and ANSI Escape Codes**
+
+## Exercise 1.11.2
+
+**The Game Interface**
+
+## Exercise 1.11.3
+
+**Theme, Story, and Characters**
+
+## Exercise 1.11.4
+
+**The Game World**
+
+## Exercise 1.11.5
+
+**Movement in the Game World**
+
+## Exercise 1.11.6
+
+**Interacting with the Game World**
+
+## Exercise 1.11.7
+
+** Collecting and Using Items in the Game World**
+
+## Exercise 1.11.8
+
+**Non-Player Characters**
+
+## Exercise 1.11.9
+
+**Quick and Dirty AI Enemies**
+
+## Exercise 1.11.10
+
+**Packaging and Running Your Game**
+
 <ul class="pager">
   <li class="previous"><a href="/book/1-10-0-functions/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
