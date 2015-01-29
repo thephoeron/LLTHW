@@ -34,6 +34,66 @@ This chapter will contain exercises on:
 * Parsing Markdown
 * Writing a simple web-app with Hunchentoot, CL-WHO, CL-CSS, Parenscript, and 3bmd
 
+## Exercise 1.13.1
+
+**Sockets and Streams**
+
+## Exercise 1.13.2
+
+**More Sockets**
+
+## Exercise 1.13.3
+
+**More Sockets: A Simple Echo Server**
+
+## Exercise 1.13.4
+
+**Introducing Hunchentoot**
+
+## Exercise 1.13.5
+
+**Hunchentoot's Easy-Handler Framework**
+
+## Exercise 1.13.6
+
+**Serving Static Files**
+
+## Exercise 1.13.7
+
+**REGEX Dispatchers**
+
+## Exercise 1.13.8
+
+**A Brief Introduction to Domain-Specific Languages**
+
+## Exercise 1.13.9
+
+**CL-WHO: HTML5 in Lisp**
+
+## Exercise 1.13.10
+
+**CL-CSS: CSS3 in Lisp**
+
+## Exercise 1.13.11
+
+**Parenscript: JavaScript in Lisp**
+
+## Exercise 1.13.12
+
+**3bmd: Parsing Markdown in Lisp**
+
+## Exercise 1.13.13
+
+**Your First Web Application**
+
+## Extra Credit Exercise 1.13.14
+
+**Configuring NGINX for Your Lisp Web App**
+
+## Extra Credit Exercise 1.13.15
+
+**A Distributed Lisp Web Application**
+
 <ul class="pager">
   <li class="previous"><a href="/book/1-12-0-namespaces/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
