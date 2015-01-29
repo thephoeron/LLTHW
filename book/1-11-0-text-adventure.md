@@ -62,7 +62,7 @@ This chapter will contain exercises on:
 
 ## Exercise 1.11.7
 
-** Collecting and Using Items in the Game World**
+**Collecting and Using Items in the Game World**
 
 ## Exercise 1.11.8
 
