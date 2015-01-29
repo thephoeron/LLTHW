@@ -26,7 +26,9 @@ In SBCL, you can test specifically for Unicode support using Lisp's read-time co
 * #+sb-unicode (format nil "~C" #\cuneiform_sign_an_plus_naga_opposing_an_plus_naga)
 ```
 
-This code will only return a string of the cuneiform sign if you are using SBCL and you have Unicode support enabled; if you also want to see the cuneiform sign, and not a numbered Unicode box character, you have to install cuneiform fonts as well.  These can be downloaded from <a href="http://oracc.museum.upenn.edu/doc/user/fonts/" target="_blank">ORACC</a>.
+This code will only return a string of the cuneiform sign if you are using SBCL and you have Unicode support enabled; if you also want to see the cuneiform sign, and not a numbered Unicode box character, you have to install cuneiform fonts as well.
+
+On Arch Linux, the `ttf-akkadian` package is available in AUR.  For other platforms, you can find up-to-date links for Sumerian, Akkadian, Old Babylonian, and Neo-Assyrian fonts from the Wikipedia article for the <a href="http://en.wikipedia.org/wiki/Cuneiform_%28Unicode_block%29#Font_packages" target="_blank">Cuneiform (Unicode block)</a>.
 
 <div class="alert alert-info" role="alert">
   <strong>Note:</strong> Unless you plan on working with a lot of different character sets, you'll probably never notice the full Unicode support, when present.
