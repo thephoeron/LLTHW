@@ -35,6 +35,78 @@ Extra Credit exercises (mostly from Alexandria):
 * Conditional lexical variable binding
 * DESTRUCTURING-CASE
 
+## Exercise 1.14.1
+
+**Predicate Functions**
+
+## Exercise 1.14.2
+
+**Equality Predicates**
+
+## Exercise 1.14.3
+
+**Equality Predicates: EQ**
+
+## Exercise 1.14.4
+
+**Equality Predicates: EQL**
+
+## Exercise 1.14.5
+
+**Equality Predicates: EQUAL**
+
+## Exercise 1.14.6
+
+**Equality Predicates: EQUALP**
+
+## Exercise 1.14.7
+
+**Numerical Equality**
+
+## Exercise 1.14.8
+
+**IF Special Forms**
+
+## Exercise 1.14.9
+
+**WHEN Macro**
+
+## Exercise 1.14.10
+
+**UNLESS Macro**
+
+## Exercise 1.14.11
+
+**COND**
+
+## Exercise 1.14.12
+
+**CASE**
+
+## Extra Credit Exercise 1.14.13
+
+**Additional Conditional Forms in Alexandria**
+
+## Extra Credit Exercise 1.14.14
+
+**XOR Predicate**
+
+## Extra Credit Exercise 1.14.15
+
+**WHILE**
+
+## Extra Credit Exercise 1.14.16
+
+**Switches**
+
+## Extra Credit Exercise 1.14.17
+
+**Conditional Bindings**
+
+## Extra Credit Exercise 1.14.18
+
+**DESTRUCTURING-CASE**
+
 <ul class="pager">
   <li class="previous"><a href="/book/1-13-0-simple-web-app/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
