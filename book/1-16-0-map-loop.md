@@ -31,6 +31,90 @@ This chapter will contain exercises on:
 * `APPLY` and `REDUCE`
 * The `LOOP` Macro
 
+## Exercise 1.16.1
+
+**Iteration**
+
+## Exercise 1.16.2
+
+**DO**
+
+## Exercise 1.16.3
+
+**DO\***
+
+## Exercise 1.16.4
+
+**DOTIMES**
+
+## Exercise 1.16.5
+
+**DOLIST**
+
+## Exercise 1.16.6
+
+**Mapping**
+
+## Exercise 1.16.7
+
+**MAP**
+
+## Exercise 1.16.8
+
+**MAPC**
+
+## Exercise 1.16.9
+
+**MAPL**
+
+## Exercise 1.16.10
+
+**MAPCAR**
+
+## Exercise 1.16.11
+
+**MAPCAN**
+
+## Exercise 1.16.12
+
+**MAPHASH**
+
+## Exercise 1.16.13
+
+**MAPCON**
+
+## Exercise 1.16.14
+
+**MAP-INTO**
+
+## Exercise 1.16.15
+
+**APPLY**
+
+## Exercise 1.16.16
+
+**More APPLY**
+
+## Exercise 1.16.17
+
+**REDUCE**
+
+## Exercise 1.16.18
+
+**More REDUCE**
+
+## Exercise 1.16.19
+
+**The LOOP Macro**
+
+## Exercise 1.16.20
+
+**More LOOP**
+
+## Exercise 1.16.21
+
+**Even More LOOP**
+
 <ul class="pager">
   <li class="previous"><a href="/book/1-15-0-command-line-utility/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
