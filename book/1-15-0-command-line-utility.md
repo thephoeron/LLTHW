@@ -33,6 +33,34 @@ This chapter will contain exercises on:
 * Distributing your Text-Adventure as a Binary
 * Deploying your Web App as a Daemon
 
+## Exercise 1.15.1
+
+**Manually parsing arguments from the command-line**
+
+## Exercise 1.15.2
+
+**Introducing CLON: The Command-Line Options Nuker**
+
+## Exercise 1.15.3
+
+**CLON: Synopsis**
+
+## Exercise 1.15.4
+
+**CLON: Event Loop**
+
+## Exercise 1.15.5
+
+**Introducing Buildapp**
+
+## Exercise 1.15.6
+
+**Rewrite Your Text-Adventure to Use CLON and Buildapp**
+
+## Exercise 1.15.7
+
+**Rewrite Your Web App as a Daemon**
+
 <ul class="pager">
   <li class="previous"><a href="/book/1-14-0-conditionals/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
