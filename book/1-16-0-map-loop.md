@@ -16,9 +16,9 @@ As a contrast to Conditionals, sometimes you'll want to do exactly the same thin
 
 Mapping is a different beast than iteration, but you may find a certain synchronicity between the two topics that help you understand both better. For example, if you have two lists, and you want to pair the values of one list with the values of the other, you can map them together using the `cons` function to get an alist as key-value pairs---and you can see here the similarity between mapping and looping.
 
-Lisp also has the functions `apply` and `reduce`, of course---`apply` takes a function as its first argument, and then applies that function to the rest of the arguments you pass it; `reduce` is somewhat similar, but it works with sequences and allows you to specify a number of extra parameters for finer control.
+Lisp also has the functions `apply` and `reduce`, of course---`apply` takes a function as its first argument, and then applies that function to the rest of the arguments you pass it, the last of which must be a list; `reduce` is somewhat similar, but it works with sequences and allows you to specify a number of extra parameters for finer control.
 
-And then there's the infamous and oft-criticized `LOOP` macro---it gets a lot of flak for not being "Lispy" enough, but it's so powerful that it's stuck around.  It has its own internal syntax that looks more like imperative languages than like Lisp, however, it includes the functionality for every possible iterative construct you could ever hope or dream for.
+And then there's the infamous and oft-criticized `LOOP` macro---it gets a lot of flak for not being "Lispy" enough, but it's so powerful that it has stuck around.  It has its own internal syntax that looks more like imperative languages than like Lisp, however, it includes the functionality for every possible iterative construct you could ever hope or dream for.
 
 This chapter will contain exercises on:
 
