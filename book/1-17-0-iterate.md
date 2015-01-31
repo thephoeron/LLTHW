@@ -30,6 +30,58 @@ This chapter will contain exercises on:
 * Parallel Binding and Stepping
 * Types and Declarations
 
+## Exercise 1.17.1
+
+**Configuring Packages for Iterate**
+
+## Exercise 1.17.2
+
+**Iterate vs. Loop**
+
+## Exercise 1.17.3
+
+**Clauses**
+
+## Exercise 1.17.4
+
+**More Clauses**
+
+## Exercise 1.17.5
+
+**Even More Clauses**
+
+## Exercise 1.17.6
+
+**Drivers**
+
+## Exercise 1.17.7
+
+**More Drivers**
+
+## Exercise 1.17.8
+
+**Binding and Assignment**
+
+## Exercise 1.17.9
+
+**Accumulation**
+
+## Exercise 1.17.10
+
+**Multiple Accumulation**
+
+## Exercise 1.17.11
+
+**Parallel Binding**
+
+## Exercise 1.17.12
+
+**Stepping**
+
+## Exercise 1.17.13
+
+**Types and Declarations**
+
 <ul class="pager">
   <li class="previous"><a href="/book/1-16-0-map-loop/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
