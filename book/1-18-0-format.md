@@ -27,6 +27,75 @@ This chapter will contain exercises on:
 * Unprintable Objects
 * Etc.
 
+## Exercise 1.18.1
+
+**The FORMAT Function**
+
+## Exercise 1.18.2
+
+**The Stream Parameter**
+
+## Exercise 1.18.3
+
+**Format Strings**
+
+## Exercise 1.18.4
+
+**Format Directives**
+
+## Exercise 1.18.5
+
+**Consuming and Non-Consuming Directives**
+
+## Exercise 1.18.6
+
+**Arguments to Format Strings**
+
+## Exercise 1.18.7
+
+**Numbers**
+
+## Exercise 1.18.8
+
+**Printing**
+
+## Exercise 1.18.9
+
+**Case Conversion**
+
+## Exercise 1.18.10
+
+**Layout**
+
+## Exercise 1.18.11
+
+**Conditionals**
+
+## Exercise 1.18.12
+
+**Iteration**
+
+## Exercise 1.18.13
+
+**Control Flow**
+
+## Exercise 1.18.14
+
+**Pretty-Printing**
+
+## Exercise 1.18.15
+
+**Unprintable Objects**
+
+## Exercise 1.18.16
+
+**Recursive Processing**
+
+## Exercise 1.18.17
+
+**Function Calls**
+
+
 <ul class="pager">
   <li class="previous"><a href="/book/1-17-0-iterate/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
