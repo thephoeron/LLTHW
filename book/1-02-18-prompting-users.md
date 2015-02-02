@@ -48,5 +48,5 @@ We will be looking at more involved prompts in Chapter 1.3, where your user can 
 <ul class="pager">
   <li class="previous"><a href="/book/1-02-17-binary-streams/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-02-1t"><a href="/book/1-02-19-pretty-printing/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-02-19-pretty-printing/">Next &raquo;</a><li>
 </ul>
