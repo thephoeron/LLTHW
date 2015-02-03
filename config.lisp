@@ -26,9 +26,7 @@
 (defparameter *acc* nil)
 
 (setf hunchentoot:*dispatch-table*
-  (list 'hunchentoot:dispatch-easy-handlers
-        ;(hunchentoot:create-folder-dispatcher-and-handler "/static/" *static-dir*)
-        ))
+  (list 'hunchentoot:dispatch-easy-handlers))
 
 (setf ;; for utf-8
       hunchentoot:*default-content-type* "text/html; charset=utf-8"
