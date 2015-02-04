@@ -18,12 +18,13 @@ Obviously, the gold-standard of pattern matching is Perl's Regular Expressions--
 
 Perhaps one of the less well-known, but most important, facts about Lisp, is that Lisp is better at regular expressions than Perl---consider that!  Perl is *fast*, concise, and highly optimized; and regular expressions originate from Perl.  But the de-facto implementation of Perl-compatible regular expressions for Common Lisp, CL-PPCRE, is on average twice as fast as Perl itself.  This is just one of the many examples that illustrate, with hard benchmark results for proof, that Lisp is better than C for squeezing out maximum performance of your code.
 
-In this Extra Credit chapter, we will take a tour of writing Perl-compatible regular expressions with the CL-PPCRE library, introduce an alternate, more Lispy approach to pattern matching with the Optima library, and then take a look at the CL21 project---which includes in-line regular expressions, amongst its many other cool features.
+In this Extra Credit chapter, we will take a tour of writing Perl-compatible regular expressions with the CL-PPCRE library, introduce alternative, more Lispy approaches to pattern matching with the Optima and ESRAP libraries, and then take a look at the CL21 project---which includes in-line regular expressions, amongst its many other cool features.
 
 This chapter will contain exercises on using:
 
 * CL-PPCRE
 * Optima
+* ESRAP
 * CL21
 
 <ul class="pager">
