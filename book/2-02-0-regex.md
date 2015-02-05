@@ -27,6 +27,30 @@ This chapter will contain exercises on using:
 * ESRAP
 * CL21
 
+## Exercise 2.2.1
+
+**Pattern Matching**
+
+## Exercise 2.2.2
+
+**Pattern Matching with Regular Expressions**
+
+## Exercise 2.2.3
+
+**Regular Expression Syntax**
+
+## Exercise 2.2.4
+
+**String Escapes**
+
+## Exercise 2.2.5
+
+**In-line Regular Expressions with CL21**
+
+## Exercise 2.2.6
+
+**Pattern Matching with ESRAP**
+
 <ul class="pager">
   <li class="previous"><a href="/book/2-01-0-programming-paradigms/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
