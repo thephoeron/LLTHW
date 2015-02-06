@@ -49,7 +49,27 @@ This chapter will contain exercises on using:
 
 ## Exercise 2.2.6
 
+**Optimized Pattern Matching with Optima**
+
+## Exercise 2.2.7
+
+**More Optima**
+
+## Exercise 2.2.8
+
+**Even More Optima**
+
+## Exercise 2.2.9
+
 **Pattern Matching with ESRAP**
+
+## Exercise 2.2.10
+
+**More ESRAP**
+
+## Exercise 2.2.11
+
+**Even More ESRAP**
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-01-0-programming-paradigms/">&laquo; Previous</a></li>
