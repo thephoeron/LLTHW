@@ -12,9 +12,7 @@
 > "Wisdom includes not getting angry unnecessarily. The Law ignores trifles and the wise man does, too."
 > <footer>Robert A. Heinlein, <em>Job: A Comedy of Justice</em></footer>
 
-Despite the common misconception that Lisp is a functional programming lanugage, Lisp has rich support for the Imperative and Object-Oriented paradigms---and these days, you'll find more fully Object-Oriented Lisp applications and libraries than purely-functional ones. While the tools for Imperative and Procedural programming are included alongside all the other standard features of Common Lisp, Object-oriented programming is encapsulated by CLOS: The Common Lisp Object System.
-
-Technically speaking, *everything* in Lisp is an object---and every object descends from `T`, except `NIL` (the empty list).  This is why, for example, every predicate test can return any value at all and be accepted as *true*; while only `NIL` or the empty list means that it evaluates to *false*.  As it turns out, you can also define CLOS classes and use them as types---but, fair warning, the inverse doesn't hold.
+Despite the common misconception that Lisp is a functional programming lanugage, Lisp has rich support for the Imperative and Object-Oriented paradigms---and these days, you'll find more fully Object-Oriented Lisp applications and libraries than purely-functional ones. While the tools for Imperative and Procedural programming are included alongside all the other standard features of Common Lisp, Object-oriented programming is encapsulated by CLOS: The Common Lisp Object System. As it turns out, you can also define CLOS classes and use them as types---but, fair warning, the inverse doesn't hold.
 
 To differentiate from the purely-functional style, it will be helpful to introduce some new terminology as well.  Some of these terms are baked right into the language specification, while others are adopted simply for convenience.  Where official Lisp terminology differs from the mainstream, I will endeavour to make note of it.
 
