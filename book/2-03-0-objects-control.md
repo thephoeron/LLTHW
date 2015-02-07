@@ -26,7 +26,7 @@ Structs and Classes in Lisp have *slots* for data, which are similar to *data me
 
 You can always access the slots in a struct or class manually, but this is considered bad style---and sometimes it can even be dangerous.  As mentioned above, the Struct definition macro automatically creates accessors for all the slots you define; CLOS offers you a choice, and in so doing, allows you to create separate reader and writer methods, or a bi-directional accessor method.  CLOS classes also offer special initialization methods, and method wrapping, for fine-tuning control flow in the life-time of your objects.
 
-CLOS, along with the Meta-Object Protocol, are considered the be-all and end-all of Object-Oriented Programming systems.  While they can be daunting at first, the design of CLOS is actually quite elegant and fits perfectly into the Lisp ecosystem---typically you will never need to worry about the MOP, but on those rare cases you do, you'll be glad it's there.
+CLOS, along with the Meta-Object Protocol, are considered *the be-all and end-all* of Object-Oriented Programming systems, far improving on the object-oriented programming experience you'd get from SmallTalk, Java, C\#, C++, or Objective-C.  While they can be daunting at first, the design of CLOS is actually quite elegant and fits perfectly into the Lisp ecosystem---typically you will never need to worry about the MOP, but on those rare cases you do, you'll be glad it's there.
 
 This chapter will contain exercises on:
 
