@@ -42,6 +42,114 @@ This chapter will contain exercises on:
     * :before and :after methods
     * MOP
 
+## Exercise 2.3.1
+
+**Blocks**
+
+## Exercise 2.3.2
+
+**More Blocks**
+
+## Exercise 2.3.3
+
+**Macroexpand: Hidden Blocks**
+
+## Exercise 2.3.4
+
+**Tagbodys**
+
+## Exercise 2.3.5
+
+**GO**
+
+## Exercise 2.3.6
+
+**More Tagbodys and GO**
+
+## Exercise 2.3.7
+
+**PROGN**
+
+## Exercise 2.3.8
+
+**More PROGN**
+
+## Exercise 2.3.9
+
+**PROG, PROG\*, PROG1, and PROG2**
+
+## Exercise 2.3.10
+
+**PROGV**
+
+## Exercise 2.3.11
+
+**Structs**
+
+## Exercise 2.3.12
+
+**More Structs**
+
+## Exercise 2.3.13
+
+**Even More Structs**
+
+## Exercise 2.3.14
+
+**CLOS: Classes**
+
+## Exercise 2.3.15
+
+**CLOS: Slots**
+
+## Exercise 2.3.16
+
+**CLOS: More Slots**
+
+## Exercise 2.3.17
+
+**CLOS: Even More Slots**
+
+## Exercise 2.3.18
+
+**CLOS: Readers**
+
+## Exercise 2.3.19
+
+**CLOS: Writers**
+
+## Exercise 2.3.20
+
+**CLOS: Accessors**
+
+## Exercise 2.3.21
+
+**CLOS: Inheritance**
+
+## Exercise 2.3.22
+
+**CLOS: Multiple-Inheritance**
+
+## Exercise 2.3.23
+
+**CLOS: Generic Functions**
+
+## Exercise 2.3.24
+
+**CLOS: Methods**
+
+## Exercise 2.3.25
+
+**CLOS: More Methods**
+
+## Exercise 2.3.26
+
+**:BEFORE and :AFTER Methods**
+
+## Exercise 2.3.27
+
+**The Meta-Object Protocol**
+
 <ul class="pager">
   <li class="previous"><a href="/book/2-02-0-regex/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
