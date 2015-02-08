@@ -31,6 +31,74 @@ This chapter will contain exercises on:
 * Working with Relational Databases
 * Document-based Databases
 
+## Exercise 2.4.1
+
+**Validating Input**
+
+## Exercise 2.4.2
+
+**More Validation**
+
+## Exercise 2.4.3
+
+**Even More Validation**
+
+## Exercise 2.4.4
+
+**Binary File Formats**
+
+## Exercise 2.4.5
+
+**Outputting Binary Files**
+
+## Exercise 2.4.6
+
+**Reading Binary Files**
+
+## Exercise 2.4.7
+
+**Binary Files as Programs**
+
+## Exercise 2.4.8
+
+**Hand Compilation**
+
+## Exercise 2.4.9
+
+**Custom Lisp Images**
+
+## Exercise 2.4.10
+
+**Dumping Custom Lisp Images**
+
+## Exercise 2.4.11
+
+**Loading Custom Lisp Images**
+
+## Exercise 2.4.12
+
+**Serializing Lisp Objects**
+
+## Exercise 2.4.13
+
+**More Serialization**
+
+## Exercise 2.4.14
+
+**Even More Serialization**
+
+## Exercise 2.4.15
+
+**Relational Databases**
+
+## Exercise 2.4.16
+
+**Document-based Databases**
+
+## Exercise 2.4.17
+
+**Graph Databases**
+
 <ul class="pager">
   <li class="previous"><a href="/book/2-03-0-objects-control/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
