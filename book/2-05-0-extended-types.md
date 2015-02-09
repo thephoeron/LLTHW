@@ -21,7 +21,6 @@ Where the ANSI standard falls short of your needs, it provides a mature and rich
 This chapter will contain exercises on:
 
 * Hash-Tables
-* Sequences
 * Sets
 * Simple Strings
 * Simple Arrays
