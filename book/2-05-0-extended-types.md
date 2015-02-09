@@ -30,6 +30,78 @@ This chapter will contain exercises on:
 * Type Definition
 * CLOS for Type Definition
 
+## Exercise 2.5.1
+
+**Hash Tables**
+
+## Exercise 2.5.2
+
+**More Hash Tables**
+
+## Exercise 2.5.3
+
+**Even More Hash Tables**
+
+## Exercise 2.5.4
+
+**Sets**
+
+## Exercise 2.5.5
+
+**More Sets**
+
+## Exercise 2.5.6
+
+**Even More Sets**
+
+## Exercise 2.5.7
+
+**Simple Strings**
+
+## Exercise 2.5.8
+
+**More Simple Strings**
+
+## Exercise 2.5.9
+
+**Simple Arrays**
+
+## Exercise 2.5.10
+
+**More Simple Arrays**
+
+## Exercise 2.5.11
+
+**Byte Vectors**
+
+## Exercise 2.5.12
+
+**More Byte Vectors**
+
+## Exercise 2.5.13
+
+**Unsigned Bytes**
+
+## Exercise 2.5.14
+
+**Signed Bytes**
+
+## Exercise 2.5.15
+
+**Bit Vectors**
+
+## Exercise 2.5.16
+
+**More Bit Vectors**
+
+## Exercise 2.5.17
+
+**Defining Types**
+
+## Exercise 2.5.18
+
+**Defining Types with CLOS**
+
 <ul class="pager">
   <li class="previous"><a href="/book/2-04-0-data-persistence/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
