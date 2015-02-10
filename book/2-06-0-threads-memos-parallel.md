@@ -25,6 +25,62 @@ This chapter will contain exercises on:
 * lparallel
 * cl-async
 
+## Exercise 2.6.1
+
+**Threads**
+
+## Exercise 2.6.2
+
+**More Threads**
+
+## Exercise 2.6.3
+
+**Even More Threads**
+
+## Exercise 2.6.4
+
+**Memoization**
+
+## Exercise 2.6.5
+
+**More Memoization**
+
+## Exercise 2.6.6
+
+**Even More Memoization**
+
+## Exercise 2.6.7
+
+**Concurrency**
+
+## Exercise 2.6.8
+
+**More Concurrency**
+
+## Exercise 2.6.9
+
+**Even More Concurrency**
+
+## Exercise 2.6.10
+
+**Asynchronous Web Applications**
+
+## Exercise 2.6.11
+
+**Event Loops**
+
+## Exercise 2.6.12
+
+**Routes**
+
+## Exercise 2.6.13
+
+**Promises**
+
+## Exercise 2.6.14
+
+**Futures**
+
 <ul class="pager">
   <li class="previous"><a href="/book/2-05-0-extended-types/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
