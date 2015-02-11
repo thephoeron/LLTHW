@@ -32,6 +32,90 @@ This chapter will contain exercises on:
 * Linear Algebra
 * Calculus
 
+## Exercise 2.7.1
+
+**Formal Logic**
+
+## Exercise 2.7.2
+
+**Boolean Logic on Integers**
+
+## Exercise 2.7.3
+
+**Boolean Logic on Bit-Vectors**
+
+## Exercise 2.7.4
+
+**Prime Numbers**
+
+## Exercise 2.7.5
+
+**Prime Factorization**
+
+## Exercise 2.7.6
+
+**Modular Arithmetic**
+
+## Exercise 2.7.7
+
+**Imaginary Numbers**
+
+## Exercise 2.7.8
+
+**Complex Numbers**
+
+## Exercise 2.7.9
+
+**Trigonometry**
+
+## Exercise 2.7.10
+
+**More Trigonometry**
+
+## Exercise 2.7.11
+
+**Geometry**
+
+## Exercise 2.7.12
+
+**More Geometry**
+
+## Exercise 2.7.13
+
+**Even More Geometry**
+
+## Exercise 2.7.14
+
+**The GSLL Library**
+
+## Exercise 2.7.15
+
+**Linear Algebra with GSLL**
+
+## Exercise 2.7.16
+
+**More Linear Algebra**
+
+## Exercise 2.7.17
+
+**Even More Linear Algebra**
+
+## Exercise 2.7.18
+
+**Calculus with GSLL**
+
+## Exercise 2.7.19
+
+**More Calculus**
+
+## Exercise 2.7.20
+
+**Even More Calculus**
+
+## Exercise 2.7.21
+
+**Further Explorations with GSLL**
+
 <ul class="pager">
   <li class="previous"><a href="/book/2-06-0-threads-memos-parallel/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
