@@ -31,6 +31,7 @@ This chapter will also contain exercises on:
 
 * Profiling your code performance
 * Laying out your Lisp libraries
+* Optimizations for Performance and Memory-Use
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-07-0-logic-and-more-math/">&laquo; Previous</a></li>
