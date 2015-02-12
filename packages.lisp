@@ -17,6 +17,7 @@
           :3bmd-definition-lists
           :3bmd-tables
           :hunchentoot)
+    (:shadowing-import-from #:parenscript #:%)
     (:export #:*llthw-version*
              #:llthw-start
              #:llthw-stop
