@@ -33,6 +33,94 @@ This chapter will also contain exercises on:
 * Laying out your Lisp libraries
 * Optimizations for Performance and Memory-Use
 
+## Exercise 2.8.1
+
+**Prime Numbers, Revisited**
+
+## Exercise 2.8.2
+
+**Alternate Approaches to Factorization**
+
+## Exercise 2.8.3
+
+**Factorizing Primes with Look-up Tables**
+
+## Exercise 2.8.4
+
+**Factorizing Primes with Pollard's Rho Algorithm**
+
+## Exercise 2.8.5
+
+**Factorizing Primes with Lenstra's Elliptical Curve**
+
+## Exercise 2.8.6
+
+**Factorizing Primes with the Quadratic Sieve**
+
+## Exercise 2.8.7
+
+**Factorizing Primes with the General Number Field Sieve**
+
+## Exercise 2.8.8
+
+**Automatic Factorization Algorithm Selection**
+
+## Exercise 2.8.9
+
+**Polynomials**
+
+## Exercise 2.8.10
+
+**More Polynomials**
+
+## Exercise 2.8.11
+
+**Even More Polynomials**
+
+## Exercise 2.8.12
+
+**Modular Exponentiation**
+
+## Exercise 2.8.13
+
+**More Modular Exponentiation**
+
+## Exercise 2.8.14
+
+**Inverse Modulus**
+
+## Exercise 2.8.15
+
+**The Jacobi Function**
+
+## Exercise 2.8.16
+
+**The Euler Totient Function**
+
+## Exercise 2.8.17
+
+**The Carmichael Functions**
+
+## Exercise 2.8.18
+
+**More Carmichael Functions**
+
+## Exercise 2.8.19
+
+**Even More Carmichael Functions**
+
+## Exercise 2.8.20
+
+**Optimizing for Performance**
+
+## Exercise 2.8.21
+
+**Optimizing for Memory Use**
+
+## Exercise 2.8.22
+
+**Putting It All Together**
+
 <ul class="pager">
   <li class="previous"><a href="/book/2-07-0-logic-and-more-math/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
