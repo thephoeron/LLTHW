@@ -20,9 +20,7 @@ This is also the key to Lisp's homoiconicity---the same syntax is used to repres
 
 But Lists are also a proper type in Common Lisp, that descends from sequences.  We have already seen some sequence operations on other data types, like Strings, and will explore them further.  However, in this chapter, we will focus on Lists as a proper data type and Consing operations on these Lists.
 
-This chapter will contain exercises on:
-
-* Consing and Cons-Cells
+* [Consing and Cons-Cells](/book/1-04-01-cons-cells/)
 * The LIST Function
 * CAR and CDR
 * FIRST, REST, and LAST
