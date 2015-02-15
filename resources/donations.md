@@ -7,9 +7,20 @@
 If you benefit from this project and would like to help keep it going, please consider a small donation to cover the expenses of hosting, development, and on-going maintenance.
 </p>
 
-Donations are accepted from individuals via PayPal, Bitcoin, or Litecoin.  Corporate entities wishing to sponsor this project have additional options, terms, and conditions.
+Donations are accepted from individuals via PayPal, Bitcoin, or Litecoin, or "in-kind" via referral links.  Corporate entities wishing to sponsor this project have additional options, terms, and conditions.
 
-Please note: I welcome feedback, criticism, content suggestions and contributions to this project, however, I cannot and will not show any favoritism to feature or content requests from those who provide donations over those who do not.  This site, its content and source-code are made freely available under the terms of the MIT License, except for the book text which is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.
+Please note: we welcome feedback, criticism, content suggestions and contributions to this project, however, we cannot and will not show any favoritism to feature or content requests from those who provide donations over those who do not.  This site, its content and source-code are made freely available under the terms of the MIT License, except for the book text of Learn Lisp The Hard Way itself which is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.
+
+## Digital Ocean
+
+The easiest way to help support Learn Lisp The Hard Way is to sign up with Digital Ocean using the referral link below.  Digital Ocean provides convenient, droplet-based cloud hosting services that make it a cinch to deploy and administrate your Lisp-based distributed web applications.
+
+For signing up to Digital Ocean with our referral link, you get $10 USD in credit to use immediately---and then when you've reached $25 USD in billings, Learn Lisp The Hard Way gets $25 USD in credit that is applied directly to our hosting, helping us keep the book online for free in perpetuity.
+
+<a class="btn btn-info" href="https://www.digitalocean.com/?refcode=ef3cf1ffcbb7" target="_blank">
+<i class="fa fa-external-link-square"></i>
+Sign up for Cloud Hosting with Digital Ocean
+</a>
 
 ## PayPal
 
