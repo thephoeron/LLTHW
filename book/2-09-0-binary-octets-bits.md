@@ -35,6 +35,74 @@ This chapter will contain exercises on:
 * Extra Credit: Simulating hardware in Lisp
 * Extra Credit: Implementing instruction-sets for hardware
 
+## Exercise 2.9.1
+
+**Base and Order**
+
+## Exercise 2.9.2
+
+**Byte-Vectors**
+
+## Exercise 2.9.3
+
+**Bit-Vectors**
+
+## Exercise 2.9.4
+
+**Integers as Bytes**
+
+## Exercise 2.9.5
+
+**Unsigned Bytes**
+
+## Exercise 2.9.6
+
+**Signed Bytes**
+
+## Exercise 2.9.7
+
+**Big-Endian Byte Ordering**
+
+## Exercise 2.9.8
+
+**Little-Endian Byte Ordering**
+
+## Exercise 2.9.9
+
+**Bit-Shifting**
+
+## Exercise 2.9.10
+
+**Bit-wise Logic**
+
+## Exercise 2.9.11
+
+**Byte-Vector Arithmetic**
+
+## Exercise 2.9.12
+
+**Bit-Vector Arithmetic**
+
+## Exercise 2.9.13
+
+**Binary Streams**
+
+## Exercise 2.9.14
+
+**Binary Sockets and Networks**
+
+## Extra Credit Exercise 2.9.15
+
+**Simulating Hardware in Lisp**
+
+## Extra Credit Exercise 2.9.16
+
+**Binary Instruction Sets**
+
+## Extra Credit Exercise 2.9.17
+
+**Assembly Instructions**
+
 <ul class="pager">
   <li class="previous"><a href="/book/2-08-0-number-theory/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>

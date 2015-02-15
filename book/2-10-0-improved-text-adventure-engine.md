@@ -29,6 +29,58 @@ Expand single-player text adventure into a MUD with:
 * Automatic save games
 * User-created Assets
 
+## Exercise 2.10.1
+
+**The Player and Character Classes**
+
+## Exercise 2.10.2
+
+**The Room and Object Classes**
+
+## Exercise 2.10.3
+
+**Actions**
+
+## Exercise 2.10.4
+
+**The Game World**
+
+## Exercise 2.10.5
+
+**Navigation**
+
+## Exercise 2.10.6
+
+**Basic Agents**
+
+## Exercise 2.10.7
+
+**Agent Attitudes**
+
+## Exercise 2.10.8
+
+**Saved Game Files**
+
+## Extra Credit Exercise 2.10.9
+
+**Multi-User Dungeons**
+
+## Extra Credit Exercise 2.10.10
+
+**An Asynchronous Web App and Database**
+
+## Extra Credit Exercise 2.10.11
+
+**Accounts and Authentication**
+
+## Extra Credit Exercise 2.10.12
+
+**Auto-Save**
+
+## Extra Credit Exercise 2.10.13
+
+**User-Created Assets**
+
 <ul class="pager">
   <li class="previous"><a href="/book/2-09-0-binary-octets-bits/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
