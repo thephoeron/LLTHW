@@ -25,6 +25,58 @@ In this chapter, we'll take a tour through all of Lisp's built-in tools for hand
 * Using `handler-bind`
 * Defining your own Conditions
 
+## Exercise 2.11.1
+
+**Errors vs. Conditions**
+
+## Exercise 2.11.2
+
+**Signaling Conditions**
+
+## Exercise 2.11.3
+
+**ASSERT**
+
+## Exercise 2.11.4
+
+**More ASSERT**
+
+## Exercise 2.11.5
+
+**Handling Conditions**
+
+## Exercise 2.11.6
+
+**HANDLER-CASE**
+
+## Exercise 2.11.7
+
+**More HANDLER-CASE**
+
+## Exercise 2.11.8
+
+**Even More HANDLER-CASE**
+
+## Exercise 2.11.9
+
+**HANDLER-BIND**
+
+## Exercise 2.11.10
+
+**More HANDLER-BIND**
+
+## Exercise 2.11.11
+
+**Even More HANDLER-BIND**
+
+## Exercise 2.11.12
+
+**Defining Conditions**
+
+## Exercise 2.11.13
+
+**Defining Conditions, Again**
+
 <ul class="pager">
   <li class="previous"><a href="/book/2-10-0-improved-text-adventure-engine/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
