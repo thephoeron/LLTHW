@@ -27,6 +27,70 @@ This chapter will contain exercises on:
 * Disassembling Compiled Code
 * The Garbage Collector
 
+## Exercise 2.13.1
+
+**TIME**
+
+## Exercise 2.13.2
+
+**Profiling with SB-PROFILE**
+
+## Exercise 2.13.3
+
+**Profiling with SB-SPROF**
+
+## Exercise 2.13.4
+
+**Consing**
+
+## Exercise 2.13.5
+
+**Less Consing**
+
+## Exercise 2.13.6
+
+**Even Less Consing**
+
+## Exercise 2.13.7
+
+**Static Typing**
+
+## Exercise 2.13.8
+
+**DECLARE**
+
+## Exercise 2.13.9
+
+**PROCLAIM**
+
+## Exercise 2.13.10
+
+**DECLAIM**
+
+## Exercise 2.13.11
+
+**EVAL-WHEN**
+
+## Exercise 2.13.12
+
+**DISASSEMBLE**
+
+## Exercise 2.13.13
+
+**Garbage Collection**
+
+## Exercise 2.13.14
+
+**More Garbage Collection**
+
+## Exercise 2.13.15
+
+**Even More Garbage Collection**
+
+## Exercise 2.13.16
+
+**Purifying Lisp Images**
+
 <ul class="pager">
   <li class="previous"><a href="/book/2-12-0-2d-game/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
