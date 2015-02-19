@@ -22,6 +22,8 @@ Commercial Lisps take a more traditional approach, and provide a clear separatio
 
 Whether or not you care about providing your users the full power of Common Lisp as a part of the application run-time, writing a tree-shaker is an interesting exercise, and may give you a deeper understanding of Lisp's implementation and execution on the machine level.  To-date, the best example of a tree-shaker for SBCL was written several years ago by [Juho Snellman](http://jsnell.iki.fi/blog/archive/2005-07-06.html), but as SBCL has gone under considerable development since that time, it requires a fresh perspective---which is a perfect opportunity for learning!
 
+**Revision Note:** A More recent tree-shaker example is available from [Burton Samograd](https://gist.github.com/burtonsamograd/f08f561264ff94391300), with some relevant chat history from IRC included.
+
 This chapter will contain exercises on:
 
 * Concepts of Tree-Shaking
