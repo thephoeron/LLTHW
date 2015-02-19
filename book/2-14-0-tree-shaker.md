@@ -32,6 +32,64 @@ This chapter will contain exercises on:
 * Packaging the tree-shaker as a library
 * Extending the 2D-Game engine to use the tree-shaker library
 
+## Exercise 2.14.1
+
+**Shaking Trees vs. Stripping Binaries**
+
+## Exercise 2.14.2
+
+**Pruning Trees**
+
+## Exercise 2.14.3
+
+**Unneccessary Run-Time Packages**
+
+## Exercise 2.14.4
+
+**Full Garbage Collection**
+
+## Exercise 2.14.5
+
+**Disabling the Debugger**
+
+## Exercise 2.14.6
+
+**Type Safety**
+
+## Exercise 2.14.7
+
+**A Basic Tree-Shaker**
+
+## Exercise 2.14.8
+
+**Code-Walking**
+
+## Exercise 2.14.9
+
+**More Code-Walking**
+
+## Exercise 2.14.10
+
+**Even More Code-Walking**
+
+## Exercise 2.14.11
+
+**A Smart Tree-Shaker**
+
+## Exercise 2.14.12
+
+**NUKE-LISP-AND-DIE**
+
+aka, Optimize, Collect, Shake, Save, Purify, Compress and Die
+
+## Exercise 2.14.13
+
+**Packaging the Tree-Shaker**
+
+## Exercise 2.14.14
+
+**Revisiting the 2D Game Engine**
+
 <ul class="pager">
   <li class="previous"><a href="/book/2-13-0-compiler/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
