@@ -32,6 +32,58 @@ Extra Credit exercises:
 
 * Additional tools for documentation and inspection in Emacs+SLIME
 
+## Exercise 2.15.1
+
+**Documentation and Comments**
+
+## Exercise 2.15.2
+
+**More Documentation and Comments**
+
+## Exercise 2.15.3
+
+**Even More Documentation and Comments**
+
+## Exercise 2.15.4
+
+**DOCUMENTATION**
+
+## Exercise 2.15.5
+
+**Unreadable Objects**
+
+## Exercise 2.15.6
+
+**Modifying the Lisp Printer**
+
+## Exercise 2.15.7
+
+**DESCRIBE**
+
+## Exercise 2.15.8
+
+**More DESCRIBE**
+
+## Exercise 2.15.9
+
+**Even More DESCRIBE**
+
+## Exercise 2.15.10
+
+**INSPECT**
+
+## Exercise 2.15.11
+
+**More INSPECT**
+
+## Exercise 2.15.12
+
+**Even More INSPECT**
+
+## Extra Credit Exercise 2.15.13
+
+**Documentation and Inspection in Emacs+SLIME**
+
 <ul class="pager">
   <li class="previous"><a href="/book/2-14-0-tree-shaker/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
