@@ -12,6 +12,8 @@
 > "I was indeed a total stranger in an utterly strange and confusing land... but I do not think, in retrospect, that I would have made my condition worse had I simply blurted out my predicament. I would not have been believed."
 > <footer>Robert A. Heinlein, <em>Job: A Comedy of Justice</em></footer>
 
+**Revision Note:** *This chapter needs a little work.*
+
 Like many other languages these days, Lisp allows you to call-out to libraries written in other languages, as if they were native Lisp code. But Lisp was one of the first languages to include this feature, and the term "Foreign Function Interface" was actually introduced specifically for this functionality in Common Lisp.
 
 We've already seen some foreign libraries in action---such as `lispbuilder-sdl` in Chapter 2.12, and a few database libraries in Chapter 2.4. In this chapter we will be exploring a variety of foreign function interface libraries available in Quicklisp, so that you can get a feel for working with Lisp in a diverse ecosystem of code from many different sources---even Python libraries!
