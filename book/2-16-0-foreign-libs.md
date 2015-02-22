@@ -14,9 +14,9 @@
 
 **Revision Note:** *This chapter needs a little work.*
 
-Like many other languages these days, Lisp allows you to call-out to libraries written in other languages, as if they were native Lisp code. But Lisp was one of the first languages to include this feature, and the term "Foreign Function Interface" was actually introduced specifically for this functionality in Common Lisp.
+Like many other languages these days, Lisp allows you to call foreign code libraries, compiled or otherwise, as if they were native code. Lisp was one of the first languages to include this feature, and the term "Foreign Function Interface" was introduced specifically for this functionality in Common Lisp.
 
-We've already seen some foreign libraries in action---such as `lispbuilder-sdl` in Chapter 2.12, and a few database libraries in Chapter 2.4. In this chapter we will be exploring a variety of foreign function interface libraries available in Quicklisp, so that you can get a feel for working with Lisp in a diverse ecosystem of code from many different sources---even Python libraries!
+We have already seen some foreign libraries in action---such as `lispbuilder-sdl` in Chapter 2.12, and a few database libraries in Chapter 2.4. In this chapter we will be exploring a variety of foreign function interface libraries available in Quicklisp, so that you can get a feel for working with Lisp in a diverse ecosystem of code from many different sources---even Python libraries!
 
 * CL-COLLIDER, an interface to the SuperCollider algorithmic programming environment
 * CL+SSL, an interface to the OpenSSL library
