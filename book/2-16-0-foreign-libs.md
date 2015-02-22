@@ -53,6 +53,10 @@ We have already seen some foreign libraries in action---such as `lispbuilder-sdl
 
 **Burgled-Batteries and Python GUI Libraries**
 
+## Exercise 2.16.9
+
+**Burgled-Batteries: Python In Lisp**
+
 <ul class="pager">
   <li class="previous"><a href="/book/2-15-0-docs-and-inspection/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
