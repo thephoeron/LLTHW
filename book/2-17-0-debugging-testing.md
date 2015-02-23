@@ -16,6 +16,42 @@ No matter what you do, how hard you try, your code will eventually break.  You, 
 
 You've seen the interactive debugger enough times by now to have a general idea how it works, but Lisp has a lot more tools to help you debug as you go; you've already seen how to write and handle Conditions in Chapter 2.11---but that's just a small piece of a much bigger puzzle.
 
+## Exercise 2.17.1
+
+**The Debugger**
+
+## Exercise 2.17.2
+
+**Control Stack**
+
+## Exercise 2.17.3
+
+**Backtrace**
+
+## Exercise 2.17.4
+
+**Restarts**
+
+## Exercise 2.17.5
+
+**Stepping**
+
+## Exercise 2.17.6
+
+**LDB, the low-level debugger**
+
+## Exercise 2.17.7
+
+**More LDB**
+
+## Exercise 2.17.8
+
+**Even More LDB**
+
+## Extra Credit Exercise 2.17.9
+
+**Interactive Debugging in Emacs+SLIME**
+
 <ul class="pager">
   <li class="previous"><a href="/book/2-16-0-foreign-libs/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
