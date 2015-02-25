@@ -22,7 +22,6 @@ For starters:
 * CL-FAD
 * Flexi-Streams
 * Babel
-* Iterate
 * Ironclad
 
 ## Exercise 2.19.1
