@@ -25,6 +25,90 @@ For starters:
 * Iterate
 * Ironclad
 
+## Exercise 2.19.1
+
+**ASDF**
+
+## Exercise 2.19.2
+
+**More ASDF**
+
+## Exercise 2.19.3
+
+**Even More ASDF**
+
+## Exercise 2.19.4
+
+**Alexandria**
+
+## Exercise 2.19.5
+
+**More Alexandria**
+
+## Exercise 2.19.6
+
+**Even More Alexandria**
+
+## Exercise 2.19.7
+
+**CL-PPCRE**
+
+## Exercise 2.19.8
+
+**More CL-PPCRE**
+
+## Exercise 2.19.9
+
+**Even More CL-PPCRE**
+
+## Exercise 2.19.10
+
+**CL-FAD**
+
+## Exercise 2.19.11
+
+**More CL-FAD**
+
+## Exercise 2.19.12
+
+**Even More CL-FAD**
+
+## Exercise 2.19.13
+
+**Flexi-Streams**
+
+## Exercise 2.19.14
+
+**More Flexi-Streams**
+
+## Exercise 2.19.15
+
+**Even More Flexi-Streams**
+
+## Exercise 2.19.16
+
+**Babel**
+
+## Exercise 2.19.17
+
+**More Babel**
+
+## Exercise 2.19.18
+
+**Even More Babel**
+
+## Exercise 2.19.19
+
+**Ironclad**
+
+## Exercise 2.19.20
+
+**More Ironclad**
+
+## Exercise 2.19.21
+
+**Even More Ironclad**
+
 <ul class="pager">
   <li class="previous"><a href="/book/2-18-0-ffi/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
