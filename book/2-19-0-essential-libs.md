@@ -12,6 +12,8 @@
 > "He seeks order, not truth. Suppose truth defies order, will he accept it? Will you? I think not."
 > <footer>Robert A. Heinlein, <em>Life-Line</em></footer>
 
+**Revision Note:** *This chapter's intro text needs minor expansion.*
+
 Introduce or review through exercises a number of essential lisp libraries that are included in nearly all serious projects, in some cases being considered extensions to the standard.
 
 For starters:
