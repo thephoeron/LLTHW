@@ -48,7 +48,23 @@ You've seen the interactive debugger enough times by now to have a general idea 
 
 **Even More LDB**
 
-## Extra Credit Exercise 2.17.9
+## Exercise 2.17.9
+
+**Writing Tests**
+
+## Exercise 2.17.10
+
+**Regression Testing with FiveAM**
+
+## Exercise 2.17.11
+
+**More FiveAM**
+
+## Exercise 1.17.12
+
+**Even More FiveAM**
+
+## Extra Credit Exercise 2.17.13
 
 **Interactive Debugging in Emacs+SLIME**
 
