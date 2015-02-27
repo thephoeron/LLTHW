@@ -271,13 +271,74 @@ The other half of the a stack involves destructively removing the first element 
 NIL
 ```
 
+Calling `pop` on an empty list has no effect.
+
+```lisp
+* *stack*
+NIL
+* (pop *stack*)
+NIL
+* *stack*
+NIL
+```
+
 ## Exercise 1.4.12
 
 **More Push and Pop**
 
+Like `cons`, `push` isn't limited to the existing type of its target.
+
+```lisp
+* *stack*
+NIL
+* (push 1 *stack*)
+(1)
+* (push "b" *stack*)
+("b" 1)
+* (push 'c *stack*)
+(c "b" 1)
+* (push (list 4 5) *stack*)
+((4 5) C "a" 1)
+* *stack*
+((4 5) C "a" 1)
+```
+
 ## Exercise 1.4.13
 
 **First, Rest, and Last**
+
+In addition to `car` and `cdr`, it's also possible to manipulate Cons-Cells using the `first` and `rest` functions. They're just different names for the same functions. `first` is the same as `car`
+
+```lisp
+* (cons 'a 'b)
+(A . B)
+* (car (cons 'a 'b))
+A
+* (first (cons 'a 'b))
+A
+```
+
+and `rest` is the same as `cdr`
+
+```lisp
+* (cons 1 2)
+(1 . 2)
+* (cdr (cons 1 2))
+2
+* (rest (cons 1 2))
+2
+```
+
+A third function, `last`, lets you get at the last Cons-Cell in a particular series.
+
+```lisp
+* (last (cons 1 (cons 2 (cons 3 nil))))
+(3)
+* (last (cons 1 2))
+(1 . 2)
+* (last (list 3 4 5))
+(5)
+```
 
 ## Exercise 1.4.14
 
