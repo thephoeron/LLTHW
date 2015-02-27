@@ -78,7 +78,7 @@ Package internal symbols are sometimes named with a prepended percent-sign, and 
   (:use :cl)
   (:export #:mad-adder))
 
-(in-package :mad-adder)
+(in-package :my-new-package)
 
 ;; Do some wonky stuff with a package-internal function
 (defun %madder (x)
@@ -93,9 +93,9 @@ Package internal symbols are sometimes named with a prepended percent-sign, and 
 
 (in-package :cl-user)
 
-(mad-adder:mad-adder 10)
+(my-new-package:mad-adder 10)
 
-(mad-adder::%madder 10)
+(my-new-package::%madder 10)
 ```
 
 Predicate functions, *i.e.*, boolean tests, typically end with a suffixed "p".  If it is a multi-word symbol already separated by dashes, you append the suffix as "-p" (dash-p); while if it is a single word or mnemonic symbol name, the "p" can be appended without a dash.
