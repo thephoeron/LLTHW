@@ -147,7 +147,7 @@ Similarly, we can get the value from the second slot in a Cons-Cell using `cdr`.
 (1 . 2)
 ```
 
-It is an error to use `car` and `cdr` on something other than 
+It is an error to use `car` and `cdr` on something other than a Cons-Cell.
 
 ```lisp
 * (car 1)
@@ -165,11 +165,7 @@ This includes other compound values such as strings and vectors
 ; Evaluation aborted on #<TYPE-ERROR expected-type: LIST datum: #<(SIMPLE-VECTOR 2) {1007D4C76F}>>.
 ```
 
-## Exercise 1.4.7
-
-**Even More CAR and CDR**
-
-The exception is the value `NIL`, which also represents the empty list.
+but not the empty list, also represented as `NIL`
 
 ```lisp
 * (car nil)
@@ -182,7 +178,8 @@ NIL
 NIL
 ```
 
-## Exercise 1.4.8
+## Exercise 1.4.7
+
 
 **Lists**
 
@@ -207,7 +204,7 @@ In this way, we can exploit the Cons-Cells' ability to contain heterogenous data
 (3 2 1)
 ```
 
-## Exercise 1.4.9
+## Exercise 1.4.8
 
 **More Lists**
 
@@ -228,6 +225,39 @@ The expression `(list a b ...)` is effectively shorthand for the expression `(co
 * (equal (list 1 2 3) (cons 1 (cons 2 (cons 3 nil))))
 t
 ```
+
+As with `cons`, it's possible to build up trees, rather than merely lists, using `list`.
+
+```lisp
+* (list 1 (list 2 3) (list 4 (list (list 5) 6 7 8)))
+(1 (2 3) (4 ((5) 6 7 8)))
+```
+
+## Exercise 1.4.9
+
+**Even More CAR and CDR**
+
+Because `car` and `cdr` are purely functional, and return their target value, it's possible to chain them in order to look into nested structures.
+
+```lisp
+* (cons (cons 1 2) 3)
+((1 . 2) . 3)
+* (car (car (cons (cons 1 2) 3)))
+1
+```
+
+This also applies to deeply nested lists.
+
+```lisp
+* (defvar *tree* (list 1 (list 2 3) (list 4 (list (list 5) 6 7 8))))
+*tree*
+* *tree*
+(1 (2 3) (4 ((5) 6 7 8)))
+* (car (cdr (car (cdr *tree*))))
+3
+```
+
+[[TODO: Is this a good place to talk about `cadr` and friends?]]
 
 ## Exercise 1.4.10
 
