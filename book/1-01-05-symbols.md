@@ -86,11 +86,11 @@ Given that you have now defined the `mad-adder` function in `my-new-package` and
 
 ```lisp
 ;; this:
-(newpack:mad-adder one)
+(newpack:mad-adder 1)
 ;; is the same as:
-(my-new-package:mad-adder one)
+(my-new-package:mad-adder 1)
 ;; if a symbol isn't exported, however, you have to use two colons between the package and symbol
-new-pack::*my-private-var*
+newpack::*my-private-var*
 ```
 
 There are some symbol names you can't use, however---at least not without trickery.  As a general rule, you cannot use any of the 978 external symbols in the COMMON-LISP package for either a function or a variable, even if that binding does not exist in the Common Lisp standard.  All the names of symbols exported by the COMMON-LISP package are *reserved*.
