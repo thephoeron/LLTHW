@@ -16,13 +16,21 @@ Try these examples out, and see if you can guess what these format control seque
 
 ```lisp
 (format nil "~~")
+
 (format nil "H~CO" #\subscript_two)
+
 (format nil "~R" 10000)
+
 (format nil "~X" 10000)
+
 (format nil "~D" 10000)
+
 (format nil "~O" 10000)
+
 (format nil "~B" 10000)
+
 (format nil "~%Hello, ~A!" "Colin")
+
 (format nil "~&I said, hello!")
 ```
 
