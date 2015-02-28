@@ -421,17 +421,100 @@ A third function, `last`, lets you get at the last Cons-Cell in a particular ser
 
 **List Position**
 
+When dealing with linked lists, if you want to get at a particular element somewhere in the middle, you could either chain some `car`s and `cdr`s.
+
+```lisp
+* (car (cdr (cdr (cdr (list 0 1 2 3 4 5)))))
+3
+```
+
+or you could use the `nth` function.
+
+```lisp
+* (nth 3 (list 0 1 2 3 4 5))
+3
+
+* (nth 4 (list 0 1 2 3 4 5))
+4
+
+* (nth 5 (list 5 4 3 2 1 0))
+0
+```
+
+This isn't any more efficient (in the run-time sense) than `cdr` traversal, but is shorter to write if you need to access some deeper list element.
+
 ## Exercise 1.4.15
 
 **Appending**
 
+Putting lists together is the job of the `append` function.
+
+```lisp
+* (append (list 1 2 3) (list 4 5 6))
+(1 2 3 4 5 6)
+
+* (append (list 6 5 4 3) (list 2 1))
+(6 5 4 3 2 1)
+```
+
+`append` is an example of a function that takes a `&rest` argument. Meaning you can pass it any number of lists...
+
+```lisp
+* (append (list 'a 'b 'c 'd) (list 'e 'f) (list 'g))
+(A B C D E F G)
+
+* (append (list 1) (list 2) (list 3) (list 4))
+(1 2 3 4)
+```
+
+...though passing it one list is pointless.
+
+```lisp
+* (append (list 1 2 3))
+(1 2 3)
+
+* (list 1 2 3)
+(1 2 3)
+```
 ## Exercise 1.4.16
 
 **More Appending**
 
+Like `car`, `cdr`, `first`, `rest`, `last` and `nth`, `append` is functional. It will return a new list rather than mutating any of its arguments.
+
+```lisp
+* (defvar *lst* (list 1 2 3 4 5))
+*lst*
+
+* *lst*
+(1 2 3 4 5)
+
+* (append *lst* (list 6 7 8))
+(1 2 3 4 5 6 7 8)
+
+* *lst*
+(1 2 3 4 5)
+
+* (append (list -3 -2 -1 0) *lst*)
+(-3 -2 -1 0 1 2 3 4 5)
+
+* *lst*
+(1 2 3 4 5)
+
+* (append (list 0) *lst* (list 6))
+(0 1 2 3 4 5 6)
+
+* *lst*
+(1 2 3 4 5)
+```
+
+This means both that you may safely pass it any data you want appended without worrying about losing the original lists, and that if you want such behavior, you need to explicitly assign the result of `append` yourself.
+
 ## Exercise 1.4.17
 
 **Quoting**
+
+Another way to construct tree structure is using the `quote` or `'`. [[TODO]]
 
 ## Exercise 1.4.18
 
