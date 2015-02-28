@@ -16,9 +16,13 @@ Pathname objects are represented using the reader macro syntax `#P"..."`; they l
 
 ```lisp
 (truename ".")
+
 (pathname-directory (truename "."))
+
 (pathname-host (truename "."))
+
 (pathname-name (truename "."))
+
 (pathname-type (truename "."))
 ```
 
@@ -34,8 +38,11 @@ Back at the REPL, try this now:
 
 ```lisp
 (truename "llthw-ex-1-2-14.lisp")
+
 (pathname-name (truename "llthw-ex-1-2-14.lisp"))
+
 (pathname-type (truename "llthw-ex-1-2-14.lisp"))
+
 (file-namestring (truename "llthw-ex-1-2-14.lisp"))
 ```
 
