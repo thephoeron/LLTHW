@@ -91,6 +91,7 @@
       <li>
         <a href="1-04-0-lists/">Lists and List-Operations</a>
         <i class="glyphicon glyphicon-refresh text-warning"></i>
+        <i class="fa fa-code"></i>
       </li>
       <li>
         Extra Credit:
