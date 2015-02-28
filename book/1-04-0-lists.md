@@ -40,10 +40,13 @@ Cons-Cells are the smallest compound data structure in Lisp. A Cons-Cell is effe
 ```lisp
 * (consp 5)
 NIL
+
 * (consp "a")
 NIL
+
 * (consp 'a)
 NIL
+
 * (consp (cons 'a 'b))
 T
 ```
@@ -56,7 +59,7 @@ One way to create a Cons-Cell is using the `cons` function.
 
 ```lisp
 * (cons 'a 'b)
-(A . A)
+(A . B)
 ```
 
 They can hold any `type` of data, not just symbols.
@@ -78,6 +81,7 @@ You can see that when we cons two atoms together, we get back a Dotted Pair. Thi
 ```lisp
 * (cons 'a 'b)
 (A . B)
+
 * '(a . b)
 (A . B)
 ```
@@ -98,8 +102,10 @@ Cons-Cells need not contain homogenous data.
 ```lisp
 * (cons 'a 2)
 (A . 2)
+
 * (cons 1 "two")
 (1 . "two")
+
 * (cons "a" 'b)
 ("a" . B)
 ```
@@ -113,6 +119,7 @@ Using Cons-Cells as building blocks would be kind of pointless if we couldn't ge
 ```lisp
 * (cons 'a 'b)
 (A . B)
+
 * (car (cons 'a 'b))
 A
 ```
@@ -122,6 +129,7 @@ Similarly, we can get the value from the second slot in a Cons-Cell using `cdr`.
 ```lisp
 * (cons 1 2)
 (1 . 2)
+
 * (cdr (cons 1 2))
 2
 ```
@@ -135,14 +143,19 @@ Similarly, we can get the value from the second slot in a Cons-Cell using `cdr`.
 ```lisp
 * (defvar *a* (cons 1 2))
 *A*
+
 * *a*
 (1 . 2)
+
 * (cdr *a*)
 2
+
 * *a*
 (1 . 2)
+
 * (cons 3 (cdr *a*))
 (3 . 2)
+
 * *a*
 (1 . 2)
 ```
@@ -152,6 +165,7 @@ It is an error to use `car` and `cdr` on something other than a Cons-Cell.
 ```lisp
 * (car 1)
 ; Evaluation aborted on #<TYPE-ERROR expected-type: LIST datum: 1>
+
 * (cdr 'a)
 ; Evaluation aborted on #<TYPE-ERROR expected-type: LIST datum: A>.
 ```
@@ -161,6 +175,7 @@ This includes other compound values such as strings and vectors
 ```lisp
 * (car "a")
 ; Evaluation aborted on #<TYPE-ERROR expected-type: LIST datum: "a">.
+
 * (cdr #(1 2))
 ; Evaluation aborted on #<TYPE-ERROR expected-type: LIST datum: #<(SIMPLE-VECTOR 2) {1007D4C76F}>>.
 ```
@@ -170,10 +185,13 @@ but not the empty list, also represented as `NIL`
 ```lisp
 * (car nil)
 NIL
+
 * (cdr nil)
 NIL
+
 * (car ())
 NIL
+
 * (cdr ())
 NIL
 ```
@@ -188,6 +206,7 @@ A list is either the empty list, or a chain of Cons-Cells ending with the empty 
 ```lisp
 * (listp nil)
 T
+
 * (listp (cons 5 nil))
 T
 ```
@@ -220,10 +239,12 @@ The expression `(list a b ...)` is effectively shorthand for the expression `(co
 ```lisp
 * (list 1 2 3)
 (1 2 3)
+
 * (cons 1 (cons 2 (cons 3 nil)))
 (1 2 3)
+
 * (equal (list 1 2 3) (cons 1 (cons 2 (cons 3 nil))))
-t
+T
 ```
 
 As with `cons`, it's possible to build up trees, rather than merely lists, using `list`.
@@ -242,6 +263,7 @@ Because `car` and `cdr` are purely functional, and return their target value, it
 ```lisp
 * (cons (cons 1 2) 3)
 ((1 . 2) . 3)
+
 * (car (car (cons (cons 1 2) 3)))
 1
 ```
@@ -251,8 +273,10 @@ This also applies to deeply nested lists.
 ```lisp
 * (defvar *tree* (list 1 (list 2 3) (list 4 (list (list 5) 6 7 8))))
 *tree*
+
 * *tree*
 (1 (2 3) (4 ((5) 6 7 8)))
+
 * (car (cdr (car (cdr *tree*))))
 3
 ```
@@ -268,14 +292,19 @@ We mentioned before that `cons`, `car` and `cdr` are purely functional. But, som
 ```lisp
 * (defvar *stack* nil)
 *stack*
+
 * (push 1 *stack*)
 (1)
+
 * *stack*
 (1)
+
 * (push 2 *stack*)
 (2 1)
+
 * (push 3 *stack*)
 (3 2 1)
+
 * *stack*
 (3 2 1)
 ```
@@ -289,14 +318,19 @@ The other half of the a stack involves destructively removing the first element 
 ```lisp
 * *stack*
 (3 2 1)
+
 * (pop *stack*)
 3
+
 * *stack*
 (2 1)
+
 * (pop *stack*)
 2
+
 * (pop *stack*)
 1
+
 * *stack*
 NIL
 ```
@@ -306,8 +340,10 @@ Calling `pop` on an empty list has no effect.
 ```lisp
 * *stack*
 NIL
+
 * (pop *stack*)
 NIL
+
 * *stack*
 NIL
 ```
@@ -321,14 +357,19 @@ Like `cons`, `push` isn't limited to the existing type of its target.
 ```lisp
 * *stack*
 NIL
+
 * (push 1 *stack*)
 (1)
+
 * (push "b" *stack*)
 ("b" 1)
+
 * (push 'c *stack*)
 (c "b" 1)
+
 * (push (list 4 5) *stack*)
 ((4 5) C "a" 1)
+
 * *stack*
 ((4 5) C "a" 1)
 ```
@@ -342,8 +383,10 @@ In addition to `car` and `cdr`, it's also possible to manipulate Cons-Cells usin
 ```lisp
 * (cons 'a 'b)
 (A . B)
+
 * (car (cons 'a 'b))
 A
+
 * (first (cons 'a 'b))
 A
 ```
@@ -353,8 +396,10 @@ and `rest` is the same as `cdr`
 ```lisp
 * (cons 1 2)
 (1 . 2)
+
 * (cdr (cons 1 2))
 2
+
 * (rest (cons 1 2))
 2
 ```
@@ -364,8 +409,10 @@ A third function, `last`, lets you get at the last Cons-Cell in a particular ser
 ```lisp
 * (last (cons 1 (cons 2 (cons 3 nil))))
 (3)
+
 * (last (cons 1 2))
 (1 . 2)
+
 * (last (list 3 4 5))
 (5)
 ```
