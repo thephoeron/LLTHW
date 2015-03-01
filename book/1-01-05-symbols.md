@@ -72,10 +72,16 @@ To fully explore the package system, go ahead and create a file called `ex1-1-5.
 
 You could then continue defining your functions, variables, classes, methods, and other code in your new package, and specifically list the symbols you want to export as the package's public interface in the package definition's `:export` keyword expression. Notice that in this package definition, we've also given the package a nickname, `newpack`, and told it to `use` all the exported symbols from the COMMON-LISP and COMMON-LISP-USER packages in the MY-NEW-PACKAGE local read-table.
 
-Now back at the command line, navigate to the folder where you saved this file and run:
+Now back at the command line, navigate to the folder where you saved this file and, on Linux and OS X, run:
 
 ```sh
 $ rlwrap sbcl --load "ex1-1-5.lisp"
+```
+
+While on Windows, run:
+
+```sh
+$ sbcl --load "ex1-1-5.lisp"
 ```
 
 This will load and compile your source code file into the Lisp image, and as normal you will be dropped at the Lisp prompt in the `COMMON-LISP-USER` package.  If you ever need to check what package you're in, you can evaluate `*package*`.

@@ -20,7 +20,9 @@ Naturally, feel free to substitute your own name in the the example below:
 
 ```lisp
 (y-or-n-p "Is your name Colin?")
+
 (yes-or-no-p "Are you sure?")
+
 (y-or-n-p "Are you a ~S?" 'monkey)
 ```
 

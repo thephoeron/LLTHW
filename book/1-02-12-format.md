@@ -40,7 +40,9 @@ Now try these out:
 
 ```lisp
 (format t "Hello, ~A!" "multiverse")
+
 (format t "Hello, ~S!" "multiverse")
+
 (format t "Hello, ~W!" "multiverse")
 ```
 
