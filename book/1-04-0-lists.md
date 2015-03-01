@@ -510,15 +510,91 @@ Like `car`, `cdr`, `first`, `rest`, `last` and `nth`, `append` is functional. It
 
 This means both that you may safely pass it any data you want appended without worrying about losing the original lists, and that if you want such behavior, you need to explicitly assign the result of `append` yourself.
 
+[[TODO: Is this a good place to talk about `nconc`?]]
+
 ## Exercise 1.4.17
 
 **Quoting**
 
-Another way to construct tree structure is using the `quote` or `'`. [[TODO]]
+Another way to construct tree structure is using the `quote` or `'`.
+
+```lisp
+* (quote (1 2 3))
+(1 2 3)
+
+* '(1 2 3)
+(1 2 3)
+
+* (list 1 2 3)
+(1 2 3)
+```
+
+The structures you create this way are equivalent.
+
+```lisp
+* (equal (quote (1 2 3)) '(1 2 3))
+T
+
+* (equal '(1 2 3) (list 1 2 3))
+T
+```
+
+The difference is that, while `list` essentially means "Return the list of these arguments", `quote`/`'` means "Return this argument without evaluating it".
+
+```lisp
+* (defparameter *test* 2)
+*test*
+
+* (list 1 *test* 3)
+(1 2 3)
+
+* '(1 *test* 3)
+(1 *test* 3)
+
+* (list (+ 3 4) (+ 5 6) (+ 7 8))
+(7 11 15)
+
+* '((+ 3 4) (+ 5 6) (+ 7 8))
+((+ 3 4) (+ 5 6) (+ 7 8))
+```
 
 ## Exercise 1.4.18
 
 **More Quoting**
+
+Because `quote` supresses evaluation, you can easily use it to more easily build deeply nested structures.
+
+```lisp
+* (list 1 (list 2 3) (list 4 (list (list 5) 6 7 8)))
+(1 (2 3) (4 ((5) 6 7 8)))
+
+* '(1 (2 3) (4 ((5) 6 7 8)))
+(1 (2 3) (4 ((5) 6 7 8)))
+```
+
+Take care not to use quoted data for mutation though. While the structures produced may be the same, mutating a quoted structure is undefined by the Common Lisp language spec, and is thus entirely implementation dependant.
+
+```lisp
+* (defvar *listed* (list 3 2 1))
+*listed*
+
+* (defvar *quoted* '(3 2 1))
+*quoted*
+
+* (push 4 *listed*)
+(4 3 2 1)
+
+* *listed*
+(4 3 2 1)
+
+* (push 4 *quoted*)
+???
+
+* *quoted*
+???
+```
+
+The question marks aren't there so you can figure out what's supposed to go there. They signify that what you get back in these situations depends on which implementation of Common Lisp you're using. They may do incompatible things, but because the spec leaves this situation undefined, none of them are actually wrong.
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-03-0-getting-input-from-users/">&laquo; Previous</a></li>
