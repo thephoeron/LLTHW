@@ -594,7 +594,7 @@ Take care not to use quoted data for mutation though. While the structures produ
 ???
 ```
 
-The question marks aren't there so you can figure out what's supposed to go there. They signify that what you get back in these situations depends on which implementation of Common Lisp you're using. They may do incompatible things, but because the spec leaves this situation undefined, none of them are actually wrong.
+The question marks aren't there so you can figure out what the results are supposed to be. They signify that what you get back in these situations depends on which implementation of Common Lisp you're using. They may do incompatible things, but because the spec leaves this situation undefined, none of them are actually wrong. So, you know ... careful.
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-03-0-getting-input-from-users/">&laquo; Previous</a></li>
