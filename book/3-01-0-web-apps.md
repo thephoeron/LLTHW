@@ -1,3 +1,4 @@
+
 <ol class="breadcrumb">
   <li><a href="/">Home</a></li>
   <li><a href="/book/">Book</a></li>
@@ -29,6 +30,50 @@ Web app should be a live-updating feed, pulling from some standard data source i
 Focus on 100% Lisp to generate/parse web languages.
 
 Also, include an exercise that shows how to set up a secure load-balanced cloud lisp web application.
+
+## Exercise 3.1.1
+
+**Full Featured Web Apps**
+
+## Exercise 3.1.2
+
+**Clack and Caveman**
+
+## Exercise 3.1.3
+
+**Wookie**
+
+## Exercise 3.1.4
+
+**CL-ASYNC**
+
+## Exercise 3.1.5
+
+**IOLib**
+
+## Exercise 3.1.6
+
+**IOLib**
+
+## Exercise 3.1.7
+
+**Websockets**
+
+## Exercise 3.1.8
+
+**Databases and ORMs for the Web**
+
+## Exercise 3.1.9
+
+**Serializing Data to JSON**
+
+## Exercise 3.1.10
+
+**An All-in-One Asynchronous Web Framework**
+
+## Exercise 3.1.11
+
+**Deploying a Secure, Distributed Lisp Web Application in the Cloud**
 
 <ul class="pager">
   <li class="previous"><a href="/book/3-0-0-overview/">&laquo; Previous</a></li>
