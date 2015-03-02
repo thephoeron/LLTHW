@@ -34,21 +34,165 @@ This chapter will contain exercises on:
 
 **Lookups: ALISTs and PLISTs**
 
+`alist`s and `plist`s are two basic ways of representing linear-lookup key--value structures. An `alist` is a list of cons cells
+
+```lisp
+* '((a . 1) (b . 2) (c . 3))
+((A . 1) (B . 2) (C . 3))
+```
+
+while a `plist` is a flat list of values, whose every odd element is a key and every even element is a value.
+
+```lisp
+* (list 'a 1 'b 2 'c 3)
+(A 1 B 2 C 3)
+```
+
+Both constructs are of type `list`.
+
+```lisp
+* (listp '((a . 1) (b . 2) (c . 3)))
+T
+
+* (listp (list 'a 1 'b 2 'c 3))
+T
+```
+
+Which is a double-edged blessing; any general list-processing function can transparently take `alist`s or `plist`s as arguments, but it's not possible in general to tell whether a particular construct is a plain `list` or a `plist`/`alist` (and there are cases where you *want* to treat them differently).
+
 ## Exercise 1.5.2
 
 **PLISTs**
+
+A `plist` is just a flat list with an even number of elements. Each odd element is taken to be the key of the immediately following element.
+
+```lisp
+* (list 'a 1 'b 2)
+(A 1 B 2)
+
+* (list :foo "a" :bar "b")
+(:FOO "a" :BAR "b")
+```
+
+Calling the function `getf` on a `plist` and a key will try to find that key in the `plist`. If it is found, the return value will be that keys' value.
+
+```lisp
+* (getf (list :foo "a" :bar "b") :bar)
+"b"
+
+* (getf (list :foo "a" :bar "b") :foo)
+"a"
+```
+
+The `getf` function also takes an optional argument, `default`, which it will return if the given key is not found in the given `plist`. The default `default` is `NIL`.
+
+```lisp
+* (getf (list :foo "a" :bar "b" :baz) :mumble)
+NIL
+
+* (getf (list :foo "a" :bar "b") :mumble 'great-googly-moogly)
+GREAT-GOOGLY-MOOGLY
+```
+
+Trying this on an odd-length list might give you an error, even if you specify a default value.
+
+```lisp
+* (getf (list :foo "a" :bar "b" :baz) :foo)
+"a"
+
+* (getf (list :foo "a" :bar "b" :baz) :mumble)
+
+  malformed property list: (:FOO "a" :BAR "b" :BAZ).
+     [Condition of type SIMPLE-TYPE-ERROR]
+
+* (getf (list :foo "a" :bar "b" :baz) :mumble 'tralala)
+
+  malformed property list: (:FOO "a" :BAR "b" :BAZ).
+     [Condition of type SIMPLE-TYPE-ERROR]
+```
 
 ## Exercise 1.5.3
 
 **More PLISTs**
 
+Like all Cons-Cells, a `plist` can be heterogenously typed. That is, you can put many different types of things in it.
+
+```lisp
+* (list :a 1 :b 'two :c "three")
+(:A 1 :B TWO :C "three")
+
+* (getf (list :a 1 :b 'two :c "three") :b)
+TWO
+
+* (getf (list :a 1 :b 'two :c "three") :c)
+"three"
+```
+
+This goes for the keys, as well as the values.
+
+```lisp
+* (list 1 :a 'two :b "three" :c)
+(1 :A TWO :B "three" :C)
+
+* (getf (list 1 :a 'two :b "three" :c) 1)
+:A
+
+* (getf (list 1 :a 'two :b "three" :c) 'two)
+:B
+```
+
+However, be careful. `getf` tests its keys by pointer equality, and there's no way to specify otherwise. Which means that you can't *really* use compound structures as keys in a `plist`.
+
+```lisp
+* (getf (list 1 :a 'two :b "three" :c) "three")
+NIL
+```
+
 ## Exercise 1.5.4
 
 **Even More PLISTs**
 
+Its possible to mutate `plists`, as most other values, by using `setf`.
+
+```lisp
+* (defparameter *plist* (list :a 1 :b 'two :c "three"))
+*PLIST*
+
+* (getf *plist* :b)
+TWO
+
+* (setf (getf *plist* :b) 'three)
+THREE
+
+* (getf *plist* :b)
+THREE
+
+* *plist*
+(:A 1 :B THREE :C "three")
+```
+
+The key you set this way doesn't need to exist already.
+
+```lisp
+* (setf (getf *plist* :d) 71)
+71
+
+* (getf *plist* :d)
+71
+```
+
+but the order of new keys may surprise you, depending on your implementation, and what you expected.
+
+```lisp
+* *plist*
+(:D 71 :A 1 :B THREE :C "three")
+```
+
 ## Exercise 1.5.5
 
 **ALISTs**
+
+An `alist` is a list of Cons-Cells. The first element of each Cons-Cell is taken to be the key, while the rest is taken to be the value.
 
 ## Exercise 1.5.6
 
