@@ -306,7 +306,7 @@ It is possible to add keys to an `alist`, but you need to be more explicit about
 
 **Efficiency, and Alternatives to ALISTs and PLISTs**
 
-We mentioned earlier that the `alist` and `plist` were both representation of linear-lookup key--value structures. This is because they both work naively. That is, doing a lookup entails traversing the entire structure and comparing each key in turn until one matches the key we're looking for.
+We mentioned earlier that the `alist` and `plist` were both representation of linear-lookup key--value structures. This is because they both work naively. That is, doing a lookup entails traversing the entire structure and comparing each key in turn until one matches the key we're looking for...
 
 ```lisp
 * (defun printest (fn)
@@ -328,13 +328,24 @@ PRINTEST
 (D . 4)
 ```
 
+... or until we reach the end of the list.
+
+```lisp
+* (assoc 'foo '((a . 1) (b . 2) (c . 3) (d . 4)) :test (printest #'eq))
+  > Testing (#<FUNCTION EQ> FOO A)...
+  > Testing (#<FUNCTION EQ> FOO B)...
+  > Testing (#<FUNCTION EQ> FOO C)...
+  > Testing (#<FUNCTION EQ> FOO D)...
+NIL
+```
+
 This is often Good Enough, but there are times when you care about lookup performance, and might be willing to sacrifice simplicity of implementation. No, we're not implementing `hash-table`s. They're already provided as part of the language (though that won't stop us later). Lets take a look at some tree structures.
 
 ## Exercise 1.5.9
 
 **Trees and Tries** [[TODO: I'm probably splitting these off into separate Tree and Trie subsections rather than keeping them together]]
 
-If we pick keys so that we can *sort* them instead of merely comparing them for equality, we could use a tree structure rather than a linear list.
+If we pick keys so that we can *sort* them instead of merely comparing them for equality, we could use a tree structure rather than a plain list.
 
 ## Exercise 1.5.10
 
