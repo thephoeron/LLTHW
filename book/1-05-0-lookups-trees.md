@@ -181,7 +181,7 @@ The key you set this way doesn't need to exist already.
 71
 ```
 
-but the order of new keys may surprise you, depending on your implementation, and what you expected.
+but the order of new keys may surprise you.
 
 ```lisp
 * *plist*
@@ -224,7 +224,7 @@ Trying this on a malformed `alist`s may yield errors, though they won't be quite
      [Condition of type TYPE-ERROR]
 ```
 
-Specifically, this refers to that trailing `c` in our `alist`. This is because `assoc` compares the given key with the `car` of each element in the given list. If a particular element is not a `list`, you can't take its `car`, which means the selector will error.
+Specifically, that `error` refers to that trailing `c` in our `alist`. This is because `assoc` compares the given key with the `car` of each element in the given list. If a particular element is not a `list` (or `cons`), you can't take its `car`, which means the selector will error.
 
 ## Exercise 1.5.6
 
@@ -270,6 +270,38 @@ and this again applies to both keys and values.
 
 **Even More ALISTs**
 
+You can mutate `alist`s, just as you can mutate almost everything else.
+
+```lisp
+* (defparameter *alist* '((a . 1) (b . 2) (c . 3)))
+*ALIST*
+
+* (setf (cdr (assoc 'b *alist*)) 42)
+42
+
+* *alist*
+((A . 1) (B . 42) (C . 3))
+```
+
+Though, unlike with `plist`s, the key you're mutating must already exist.
+
+```lisp
+* (setf (cdr (assoc 'foo *alist*)) 43)
+
+  The value NIL is not of type CONS.
+     [Condition of type TYPE-ERROR]
+```
+
+It is possible to add keys to an `alist`, but you need to be more explicit about it.
+
+```lisp
+* (push '(foo . 43) *alist*)
+((FOO . 43) (A . 1) (B . 42) (C . 3))
+
+* *alist*
+((FOO . 43) (A . 1) (B . 42) (C . 3))
+```
+
 ## Exercise 1.5.8
 
 **Efficiency, and Alternatives to ALISTs and PLISTs**
@@ -301,6 +333,8 @@ This is often Good Enough, but there are times when you care about lookup perfor
 ## Exercise 1.5.9
 
 **Trees and Tries** [[TODO: I'm probably splitting these off into separate Tree and Trie subsections rather than keeping them together]]
+
+If we pick keys so that we can *sort* them instead of merely comparing them for equality, we could use a tree structure rather than a linear list.
 
 ## Exercise 1.5.10
 
