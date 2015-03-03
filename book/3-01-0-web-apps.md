@@ -67,7 +67,7 @@ Also, include an exercise that shows how to set up a secure load-balanced cloud 
 
 **Serializing Data to JSON**
 
-## Exercise 3.1.10
+## Project 3.1.10
 
 **An All-in-One Asynchronous Web Framework**
 
