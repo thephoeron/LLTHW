@@ -194,9 +194,75 @@ but the order of new keys may surprise you, depending on your implementation, an
 
 An `alist` is a list of Cons-Cells. The first element of each Cons-Cell is taken to be the key, while the rest is taken to be the value.
 
+```lisp
+* '((a . 1) (b . 2) (c . 3))
+((A . 1) (B . 2) (C . 3))
+
+* (list (cons :foo "a") (cons :bar "b"))
+((:FOO . "a") (:BAR . "b"))
+```
+
+Calling the function `assoc` on a key and an `alist` will try to find that key in the `alist`. If it is found, the return value will be the whole Cons-Cell in question.
+
+```lisp
+* (assoc 'b '((a . 1) (b . 2) (c . 3)))
+(B . 2)
+
+* (assoc 'a '((a . 1) (b . 2) (c . 3)))
+(A . 1)
+```
+
+Trying this on a malformed `alist`s may yield errors, though they won't be quite as specific as the ones thrown for malformed `plist`s.
+
+```lisp
+* (assoc 'a '((a . 1) (b . 2) c))
+(A . 1)
+
+* (assoc 'c '((a . 1) (b . 2) c))
+
+  The value C is not of type LIST.
+     [Condition of type TYPE-ERROR]
+```
+   
 ## Exercise 1.5.6
 
 **More ALISTs**
+
+As with `plist`s, `alist`s may be heterogenously typed.
+
+```lisp
+* '((a . 1) (b . "two") (c . three) (d . #(#\f #\o #\u #\r)))
+((A . 1) (B . "two") (C . THREE) (D . #(#\f #\o #\u #\r)))
+
+* (assoc 'b '((a . 1) (b . "two") (c . three) (d . #(#\f #\o #\u #\r))))
+(B . "two")
+
+* (assoc 'd '((a . 1) (b . "two") (c . three) (d . #(#\f #\o #\u #\r))))
+(D . #(#\f #\o #\u #\r))
+```
+
+and this again applies to both keys and values.
+
+```lisp
+* '((1 . a) ("two" . b) (three . c) (#(#\f #\o #\u #\r) . d))
+((1 . A) ("two" . B) (THREE . C) (#(#\f #\o #\u #\r) . D))
+
+* (assoc 'three '((1 . a) ("two" . b) (three . c) (#(#\f #\o #\u #\r) . d)))
+(THREE . C)
+
+* (assoc 1 '((1 . a) ("two" . b) (three . c) (#(#\f #\o #\u #\r) . d)))
+(1 . A)
+```
+
+*Un*like with `plists`, compound keys might be useful. Because `assoc` accepts a `test` (or `test-not`) argument, you can specify the test to run when determining key equality.
+
+```lisp
+* (assoc "two" '((1 . a) ("two" . b) (three . c) (#(#\f #\o #\u #\r) . d)) :test #'equal)
+("two" . B)
+
+* (assoc #(#\f #\o #\u #\r) '((1 . a) ("two" . b) (three . c) (#(#\f #\o #\u #\r) . d)) :test #'equalp)
+(#(#\f #\o #\u #\r) . D)
+```
 
 ## Exercise 1.5.7
 
