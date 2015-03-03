@@ -58,7 +58,7 @@ T
 T
 ```
 
-Which is a double-edged blessing; any general list-processing function can transparently take `alist`s or `plist`s as arguments, but it's not possible in general to tell whether a particular construct is a plain `list` or a `plist`/`alist` (and there are cases where you *want* to treat them differently).
+Which is a double-edged blessing; any general list-processing function can transparently take `alist`s or `plist`s as arguments, but it's not easy to tell whether a particular construct is a plain `list` or a `plist`/`alist` (and there are cases where you *want* to treat them differently).
 
 ## Exercise 1.5.2
 
@@ -223,7 +223,9 @@ Trying this on a malformed `alist`s may yield errors, though they won't be quite
   The value C is not of type LIST.
      [Condition of type TYPE-ERROR]
 ```
-   
+
+Specifically, this refers to that trailing `c` in our `alist`. This is because `assoc` compares the given key with the `car` of each element in the given list. If a particular element is not a `list`, you can't take its `car`, which means the selector will error.
+
 ## Exercise 1.5.6
 
 **More ALISTs**
@@ -271,6 +273,8 @@ and this again applies to both keys and values.
 ## Exercise 1.5.8
 
 **Efficiency, and Alternatives to ALISTs and PLISTs**
+
+We mentioned earlier that the `alist` and `plist` were both representation of linear-lookup key--value structures. This is because they both work naively. That is, doing a lookup entails traversing the entire structure and comparing each key in turn until one matches the one we're looking for.
 
 ## Exercise 1.5.9
 
