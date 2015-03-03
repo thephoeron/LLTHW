@@ -22,6 +22,22 @@ That being said, mobile development is primarily a commercial endeavour, so in t
 
 TO-DO: Profile CLASP, ECL, SBCL, and CCL native app development.
 
+## Exercise 3.2.1
+
+**Getting Started with MOCL**
+
+## Exercise 3.2.2
+
+**iOS Development with MOCL**
+
+## Exercise 3.2.3
+
+**Android Development with MOCL**
+
+## Project 3.2.4
+
+**Cross-Platform Mobile App, for iOS and Android**
+
 <ul class="pager">
   <li class="previous"><a href="/book/3-01-0-web-apps/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
