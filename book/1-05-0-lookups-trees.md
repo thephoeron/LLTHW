@@ -274,11 +274,33 @@ and this again applies to both keys and values.
 
 **Efficiency, and Alternatives to ALISTs and PLISTs**
 
-We mentioned earlier that the `alist` and `plist` were both representation of linear-lookup key--value structures. This is because they both work naively. That is, doing a lookup entails traversing the entire structure and comparing each key in turn until one matches the one we're looking for.
+We mentioned earlier that the `alist` and `plist` were both representation of linear-lookup key--value structures. This is because they both work naively. That is, doing a lookup entails traversing the entire structure and comparing each key in turn until one matches the key we're looking for.
+
+```lisp
+* (defun printest (fn)
+	 (lambda (a b)
+	   (format t "  > Testing (~a ~s ~s)...~%" fn a b)
+	   (funcall fn a b)))
+PRINTEST
+
+* (assoc 'b '((a . 1) (b . 2) (c . 3) (d . 4)) :test (printest #'eq))
+  > Testing (#<FUNCTION EQ> B A)...
+  > Testing (#<FUNCTION EQ> B B)...
+(B . 2)
+
+* (assoc 'd '((a . 1) (b . 2) (c . 3) (d . 4)) :test (printest #'eq))
+  > Testing (#<FUNCTION EQ> D A)...
+  > Testing (#<FUNCTION EQ> D B)...
+  > Testing (#<FUNCTION EQ> D C)...
+  > Testing (#<FUNCTION EQ> D D)...
+(D . 4)
+```
+
+This is often Good Enough, but there are times when you care about lookup performance, and might be willing to sacrifice simplicity of implementation. No, we're not implementing `hash-table`s. They're already provided as part of the language (though that won't stop us later). Lets take a look at some tree structures.
 
 ## Exercise 1.5.9
 
-**Trees and Tries**
+**Trees and Tries** [[TODO: I'm probably splitting these off into separate Tree and Trie subsections rather than keeping them together]]
 
 ## Exercise 1.5.10
 
