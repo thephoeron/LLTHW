@@ -309,34 +309,44 @@ It is possible to add keys to an `alist`, but you need to be more explicit about
 We mentioned earlier that the `alist` and `plist` were both representation of linear-lookup key--value structures. This is because they both work naively. That is, doing a lookup entails traversing the entire structure and comparing each key in turn until one matches the key we're looking for...
 
 ```lisp
-* (defun printest (fn)
-	 (lambda (a b)
-	   (format t "  > Testing (~a ~s ~s)...~%" fn a b)
-	   (funcall fn a b)))
-PRINTEST
+* (trace eq)
+(EQ)
 
-* (assoc 'b '((a . 1) (b . 2) (c . 3) (d . 4)) :test (printest #'eq))
-  > Testing (#<FUNCTION EQ> B A)...
-  > Testing (#<FUNCTION EQ> B B)...
+* (assoc 'b '((a . 1) (b . 2) (c . 3) (d . 4)) :test #'eq)
+  0: (EQ B A)
+  0: EQ returned NIL
+  0: (EQ B B)
+  0: EQ returned T
 (B . 2)
 
-* (assoc 'd '((a . 1) (b . 2) (c . 3) (d . 4)) :test (printest #'eq))
-  > Testing (#<FUNCTION EQ> D A)...
-  > Testing (#<FUNCTION EQ> D B)...
-  > Testing (#<FUNCTION EQ> D C)...
-  > Testing (#<FUNCTION EQ> D D)...
+* (assoc 'd '((a . 1) (b . 2) (c . 3) (d . 4)) :test #'eq)
+  0: (EQ D A)
+  0: EQ returned NIL
+  0: (EQ D B)
+  0: EQ returned NIL
+  0: (EQ D C)
+  0: EQ returned NIL
+  0: (EQ D D)
+  0: EQ returned T
 (D . 4)
 ```
 
 ... or until we reach the end of the list.
 
 ```lisp
-* (assoc 'foo '((a . 1) (b . 2) (c . 3) (d . 4)) :test (printest #'eq))
-  > Testing (#<FUNCTION EQ> FOO A)...
-  > Testing (#<FUNCTION EQ> FOO B)...
-  > Testing (#<FUNCTION EQ> FOO C)...
-  > Testing (#<FUNCTION EQ> FOO D)...
+* (assoc 'foo '((a . 1) (b . 2) (c . 3) (d . 4)) :test #'eq)
+  0: (EQ FOO A)
+  0: EQ returned NIL
+  0: (EQ FOO B)
+  0: EQ returned NIL
+  0: (EQ FOO C)
+  0: EQ returned NIL
+  0: (EQ FOO D)
+  0: EQ returned NIL
 NIL
+
+* (untrace eq)
+T
 ```
 
 This is often Good Enough, but there are times when you care about lookup performance, and might be willing to sacrifice simplicity of implementation. No, we're not implementing `hash-table`s. They're already provided as part of the language (though that won't stop us later). Lets take a look at some tree structures.
@@ -345,7 +355,53 @@ This is often Good Enough, but there are times when you care about lookup perfor
 
 **Trees and Tries** [[TODO: I'm probably splitting these off into separate Tree and Trie subsections rather than keeping them together]]
 
-If we pick keys so that we can *sort* them instead of merely comparing them for equality, we could use a tree structure rather than a plain list.
+If we pick keys so that we can *sort* them instead of merely comparing them for equality, we could use a tree structure rather than a plain list. Though we do need to do a bit more work. A tree is typically recursively defined as either
+
+1. A value followed by two trees (a left branch and a right branch)
+2. The terminal value (which marks the end of our tree)
+
+Which we can represent as things like
+
+```lisp
+* '((1 . a) nil nil)
+((1 . A) NIL NIL)
+
+* '((2 . b) ((1 . a) nil nil) ((3 . c) nil ((4 . d) nil nil)))
+((2 . B) ((1 . A) NIL NIL) ((3 . C) NIL ((4 . D) NIL NIL)))
+```
+
+This is not the only possible tree representation, nor necessarily the best. We'll reserve others for later on. You can see that our "value" is a key--value pair in the style of an `alist` and our terminal value is `NIL`. Also, note that our keys are sorted. That is, everything in the left branch of a particular tree has a *lesser* key than the "value" of that tree, while everything in the right branch has a *greater* key. This is the property that will let us do faster lookups. Ideally, it will let us cut half of the remaining search space out with each comparison.
+
+Here's `lookup`:
+
+```lisp
+* (defun lookup (key sorted-tree)
+    (let ((k (caar sorted-tree)))
+      (cond ((null sorted-tree) nil)
+	    ((> k key)
+	     (lookup key (second sorted-tree)))
+	    ((< k key)
+	     (lookup key (third sorted-tree)))
+	    (t
+	     (first sorted-tree)))))
+LOOKUP
+
+* (trace lookup)
+(LOOKUP)
+
+* (lookup 4 '((2 . b) ((1 . a) nil nil) ((3 . c) nil ((4 . d) nil nil))))
+  0: (LOOKUP 4 ((2 . B) ((1 . A) NIL NIL) ((3 . C) NIL ((4 . D) NIL NIL))))
+    1: (LOOKUP 4 ((3 . C) NIL ((4 . D) NIL NIL)))
+      2: (LOOKUP 4 ((4 . D) NIL NIL))
+      2: LOOKUP returned (4 . D)
+    1: LOOKUP returned (4 . D)
+  0: LOOKUP returned (4 . D)
+(4 . D)
+```
+
+Notice that we don't compare against all of the preceding elements in order to get to ours. We only compare against 3. A tree of four key--value pairs isn't the best demonstration of this, so lets do a bit more work.
+
+[[TODO: Define tree-insert, and maybe alist-tree, then show a bigger example. At this point, I think the trie should be a separate sub-section. This section is already heavy compared to what we've gone over in the previous ones.]]
 
 ## Exercise 1.5.10
 
