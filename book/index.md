@@ -97,6 +97,7 @@
         Extra Credit:
         <a href="1-05-0-lookups-trees/">Look-up Lists and Trees</a>
         <i class="glyphicon glyphicon-refresh text-warning"></i>
+        <i class="fa fa-code"></i>
       </li>
       <li>
         <a href="1-06-0-math/">Numbers and Math</a>
