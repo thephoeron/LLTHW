@@ -18,6 +18,38 @@ Drivers, much like any other library, are aptly suited for distribution through 
 
 There are a number of libraries already available in Quicklisp to make the writing of drivers, daemons, and system-utilities much simpler; many of which have already been touched upon in previous chapters.  In the following exercises we will be taking a deeper look at CLON (the Command-Line Options Nuker), SB-DAEMON, Nibbles; how to implement low-level protocols using sockets and streams; and the design of useful command-line interfaces and APIs.
 
+## Exercise 3.4.1
+
+**Nibbles**
+
+## Exercise 3.4.2
+
+**SB-DAEMON**
+
+## Exercise 3.4.3
+
+**CLON, Revisited**
+
+## Exercise 3.4.4
+
+**Useful Command-Line Interfaces**
+
+## Exercise 3.4.5
+
+**Low-Level Protocols**
+
+## Project 3.4.5
+
+**A Hardware Driver**
+
+## Project 3.4.6
+
+**A Daemonized Service**
+
+## Project 3.4.7
+
+**A Suite of Command-Line Utilities**
+
 <ul class="pager">
   <li class="previous"><a href="/book/3-03-0-gui/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
