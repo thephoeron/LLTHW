@@ -353,7 +353,7 @@ This is often Good Enough, but there are times when you care about lookup perfor
 
 ## Exercise 1.5.9
 
-**Trees and Tries** [[TODO: I'm probably splitting these off into separate Tree and Trie subsections rather than keeping them together]]
+**Trees**
 
 If we pick keys so that we can *sort* them instead of merely comparing them for equality, we could use a tree structure rather than a plain list. Though we do need to do a bit more work. A tree is typically recursively defined as either
 
@@ -399,23 +399,144 @@ LOOKUP
 (4 . D)
 ```
 
-Notice that we don't compare against all of the preceding elements in order to get to ours. We only compare against 3. A tree of four key--value pairs isn't the best demonstration of this, so lets do a bit more work.
-
-[[TODO: Define tree-insert, and maybe alist-tree, then show a bigger example. At this point, I think the trie should be a separate sub-section. This section is already heavy compared to what we've gone over in the previous ones.]]
+Notice that we don't compare against all of the preceding elements in order to get to ours. We only compare against 3. A tree of four key--value pairs isn't the best demonstration of this, of course. 
 
 ## Exercise 1.5.10
 
-**More Trees and Tries**
+**More Trees**
+
+Since we're doing more work on trees, we may as well go [SICP](TODO link)-style and define the functional interface.
+
+```lisp
+* (defun tree (val left right) 
+    (list val left right))
+TREE
+
+* (defun tree-value (tree) (first tree))
+TREE-VALUE
+
+* (defun tree-left (tree) (second tree))
+TREE-LEFT
+
+* (defun tree-right (tree) (third tree))
+TREE-RIGHT
+
+* (defun lookup (key tree)
+    (if (null tree)
+        nil
+        (let ((k (car (tree-value tree))))
+          (cond ((> k key) (lookup key (tree-left tree)))
+                ((< k key) (lookup key (tree-right tree)))
+                (t (tree-value tree))))))
+; STYLE-WARNING: redefining COMMON-LISP-USER::LOOKUP in DEFUN
+LOOKUP
+```
+
+Now that we have that, a naive `insert` looks like
+
+```lisp
+* (defun insert (key value tree)
+    (if (null tree)
+        (tree (cons key value) nil nil)
+        (let ((k (car (tree-value tree))))
+          (cond ((> k key) 
+                 (tree (tree-value tree) 
+                       (insert key value (tree-left tree))
+                       (tree-right tree)))
+                ((< k key)
+                 (tree (tree-value tree)
+                       (tree-left tree)
+                       (insert key value (tree-right tree))))
+                (t tree)))))
+INSERT
+```
+
+We can use that insert on this specially-ordered `alist` to give us a balanced tree.
+
+```lisp
+* (defparameter *lst* '((5 . e) (3 . c) (4 . d) (2 . b) (1 . a) (7 . g) (6 . f) (8 . h) (9 . i) (10 . j)))
+*LST*
+
+* (reduce
+    (lambda (memo pair)
+      (insert (car pair) (cdr pair) memo))
+    *lst* :initial-value nil)
+((5 . E) ((3 . C) ((2 . B) ((1 . A) NIL NIL) NIL) ((4 . D) NIL NIL))
+ ((7 . G) ((6 . F) NIL NIL) ((8 . H) NIL ((9 . I) NIL ((10 . J) NIL NIL)))))
+
+* (defparameter *tree*
+    (reduce
+     (lambda (memo pair)
+       (insert (car pair) (cdr pair) memo))
+     *lst* :initial-value nil))
+```
+
+Now, lets compare lookup steps involved.
+
+```lisp
+* (trace = lookup)
+(= lookup)
+
+* (assoc 9 *lst* :test #'=)
+  0: (= 9 5)
+  0: = returned NIL
+  0: (= 9 3)
+  0: = returned NIL
+  0: (= 9 4)
+  0: = returned NIL
+  0: (= 9 2)
+  0: = returned NIL
+  0: (= 9 1)
+  0: = returned NIL
+  0: (= 9 7)
+  0: = returned NIL
+  0: (= 9 6)
+  0: = returned NIL
+  0: (= 9 8)
+  0: = returned NIL
+  0: (= 9 9)
+  0: = returned T
+(9 . I)
+
+* (lookup 9 *tree*)
+  0: (LOOKUP 9
+             ((5 . E)
+              ((3 . C) ((2 . B) ((1 . A) NIL NIL) NIL) ((4 . D) NIL NIL))
+              ((7 . G) ((6 . F) NIL NIL)
+               ((8 . H) NIL ((9 . I) NIL ((10 . J) NIL NIL))))))
+    1: (LOOKUP 9
+               ((7 . G) ((6 . F) NIL NIL)
+                ((8 . H) NIL ((9 . I) NIL ((10 . J) NIL NIL)))))
+      2: (LOOKUP 9 ((8 . H) NIL ((9 . I) NIL ((10 . J) NIL NIL))))
+        3: (LOOKUP 9 ((9 . I) NIL ((10 . J) NIL NIL)))
+        3: LOOKUP returned (9 . I)
+      2: LOOKUP returned (9 . I)
+    1: LOOKUP returned (9 . I)
+  0: LOOKUP returned (9 . I)
+(9 . I)
+```
+
+##### TODO
+- write a recursive `my-assoc` so that we can compare like-for-like in the traces
+- should we mention asymptotic notation here? I feel like we're getting close enough to it, but it's not *exactly* in-scope.
 
 ## Exercise 1.5.11
 
-**Object Reference**
+**Tries**
 
 ## Exercise 1.5.12
 
-**Circular Lists and Trees**
+**More Tries**
 
 ## Exercise 1.5.13
+
+**Object Reference**
+
+## Exercise 1.5.14
+
+**Circular Lists and Trees**
+
+## Exercise 1.5.15
 
 **Acyclic Graphs**
 
