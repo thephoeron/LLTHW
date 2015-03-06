@@ -18,6 +18,50 @@ Reverse Engineering is an art, more than a science---that being said, it is also
 
 In this chapter we will explore the structure of binary applications as output by various compilers, the features available across the most popular reverse engineering tools, and what Lisp offers that other tools don't.  We will then tackle the specific reverse engineering tasks to progressively migrate a closed-source application to Lisp by parsing `objdump` files, generating header files (for software compiled from C/C++), parsing common patterns in Assembly Language to create low-level Lisp code, and then wrapping up everything together to generate high-level Lisp code that can be used to maintain and compile a new version of the reverse engineered software.
 
+## Exercise 3.5.1
+
+**OBJDUMP: Dumping Binaries as Assembly**
+
+## Exercise 3.5.2
+
+**Operating System Kernels**
+
+## Exercise 3.5.3
+
+**x86 Assembly**
+
+## Exercise 3.5.4
+
+**x86-64 Assembly**
+
+## Exercise 3.5.5
+
+**Stripped Binaries**
+
+## Exercise 3.5.6
+
+**(Re)Generating Header Files**
+
+## Exercise 3.5.7
+
+**Obfuscation and Deobfuscation**
+
+## Exercise 3.5.8
+
+**Finding Compiler Patterns**
+
+## Exercise 3.5.9
+
+**Transforming Assembly to Low-Level Lisp**
+
+## Exercise 3.5.10
+
+**High-Level Transformations**
+
+## Project 3.5.11
+
+**A Reverse Engineering Toolkit**
+
 <ul class="pager">
   <li class="previous"><a href="/book/3-04-0-system-utils/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
