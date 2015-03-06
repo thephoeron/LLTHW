@@ -531,6 +531,9 @@ Now, lets compare lookup steps involved.
     1: LOOKUP returned (9 . I)
   0: LOOKUP returned (9 . I)
 (9 . I)
+
+* (untrace lookup rec-assoc)
+T
 ```
 
 The tree structure saves us a bit of work in a situation like this. And, if we can arrange for our lookup tree to be balanced or almost balanced, we'll save *more* work the bigger our data-set becomes.
@@ -550,10 +553,60 @@ A Trie is a node, a value and a (possibly empty) dictionary of nodes to Tries. W
 * '(nil nil nil)
 (NIL NIL NIL)
 
-* '(nil nil ((#\o nil ((#\n nil ((#\e "one - the english name for the numeral 1")))))))
+* '(nil nil ((#\o nil ((#\n "on - activated; not off" ((#\e "one - the english name for the numeral 1")))))))
 (NIL NIL
- ((#\o NIL ((#\n NIL ((#\e "one - the english name for the numeral 1")))))))
+ ((#\o NIL
+   ((#\n "on - activated; not off"
+     ((#\e "one - the english name for the numeral 1")))))))
+
+* '(nil nil ((1 nil ((2 nil ((3 "1 2 3 - ah ah ah." nil)))))))
+(NIL NIL ((1 NIL ((2 NIL ((3 "1 2 3 - ah ah ah." NIL)))))))
+
+* '(nil nil
+    ((this nil 
+      ((sentence nil
+        ((is nil 
+          ((a nil ((key "This sentence is a key" nil)))
+           (not nil ((a nil ((key "This sentence is NOT a key" nil)))))
+           (meaningless t nil)))))))))
+(NIL NIL
+ ((THIS NIL
+   ((SENTENCE NIL
+     ((IS NIL
+       ((A NIL ((KEY "This sentence is a key" NIL)))
+        (NOT NIL ((A NIL ((KEY "This sentence is NOT a key" NIL)))))
+        (MEANINGLESS T NIL)))))))))
 ```
+
+Looking up a key in a Trie means taking the decomposed key, and looking up each component level-wise.
+
+```lisp
+* (defun trie-lookup (key-parts trie)
+    (if (null key-parts)
+        (second trie)
+        (let ((next (assoc (car key-parts) (third trie))))
+	      (when next
+	        (trie-lookup (cdr key-parts) next)))))
+TRIE-LOOKUP
+
+* (defparameter *trie*
+    '(nil nil ((#\o nil ((#\n "on - activated; not off" ((#\e "one - the english name for the numeral 1"))))))))
+*TRIE*
+
+* (trie-lookup '(#\o #\n) *trie*)
+"on - activated; not off"
+
+* (trie-lookup '(#\o #\n #\e) *trie*)
+"one - the english name for the numeral 1"
+
+* (trie-lookup '(#\o #\n #\e #\i #\r #\o #\s) *trie*)
+NIL
+
+* (trie-lookup '(#\t #\w #\o) *trie*)
+NIL
+```
+
+The idea here is that any common prefixes among keys are collapsed, and that some extra data about a particular sequence is held as the `value`.
 
 ## Exercise 1.5.12
 
