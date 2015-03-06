@@ -451,7 +451,7 @@ Now that we have that, a naive `insert` looks like
 INSERT
 ```
 
-We can use that insert on this specially-ordered `alist` to give us a balanced tree.
+We can use that insert on this specially-ordered `alist` to give us a reasonably balanced tree.
 
 ```lisp
 * (defparameter *lst* '((5 . e) (3 . c) (4 . d) (2 . b) (1 . a) (7 . g) (6 . f) (8 . h) (9 . i) (10 . j)))
@@ -471,31 +471,48 @@ We can use that insert on this specially-ordered `alist` to give us a balanced t
      *lst* :initial-value nil))
 ```
 
+And, just so that we're comparing like-for-like, here's a recursive definition of `assoc`
+
+```lisp
+* (defun rec-assoc (key alist)
+	(cond ((null alist) nil)
+          ((eq key (caar alist)) (car alist))
+          (t (my-assoc key (cdr alist)))))
+REC-ASSOC
+```
+
 Now, lets compare lookup steps involved.
 
 ```lisp
-* (trace = lookup)
-(= lookup)
+* (trace lookup rec-assoc)
+(LOOKUP REC-ASSOC)
 
-* (assoc 9 *lst* :test #'=)
-  0: (= 9 5)
-  0: = returned NIL
-  0: (= 9 3)
-  0: = returned NIL
-  0: (= 9 4)
-  0: = returned NIL
-  0: (= 9 2)
-  0: = returned NIL
-  0: (= 9 1)
-  0: = returned NIL
-  0: (= 9 7)
-  0: = returned NIL
-  0: (= 9 6)
-  0: = returned NIL
-  0: (= 9 8)
-  0: = returned NIL
-  0: (= 9 9)
-  0: = returned T
+* (rec-assoc 9 *lst*)
+  0: (REC-ASSOC 9
+                ((5 . E) (3 . C) (4 . D) (2 . B) (1 . A) (7 . G) (6 . F)
+                 (8 . H) (9 . I) (10 . J)))
+    1: (MY-ASSOC 9
+                 ((3 . C) (4 . D) (2 . B) (1 . A) (7 . G) (6 . F) (8 . H)
+                  (9 . I) (10 . J)))
+      2: (MY-ASSOC 9
+                   ((4 . D) (2 . B) (1 . A) (7 . G) (6 . F) (8 . H) (9 . I)
+                    (10 . J)))
+        3: (MY-ASSOC 9
+                     ((2 . B) (1 . A) (7 . G) (6 . F) (8 . H) (9 . I) (10 . J)))
+          4: (MY-ASSOC 9 ((1 . A) (7 . G) (6 . F) (8 . H) (9 . I) (10 . J)))
+            5: (MY-ASSOC 9 ((7 . G) (6 . F) (8 . H) (9 . I) (10 . J)))
+              6: (MY-ASSOC 9 ((6 . F) (8 . H) (9 . I) (10 . J)))
+                7: (MY-ASSOC 9 ((8 . H) (9 . I) (10 . J)))
+                  8: (MY-ASSOC 9 ((9 . I) (10 . J)))
+                  8: MY-ASSOC returned (9 . I)
+                7: MY-ASSOC returned (9 . I)
+              6: MY-ASSOC returned (9 . I)
+            5: MY-ASSOC returned (9 . I)
+          4: MY-ASSOC returned (9 . I)
+        3: MY-ASSOC returned (9 . I)
+      2: MY-ASSOC returned (9 . I)
+    1: MY-ASSOC returned (9 . I)
+  0: REC-ASSOC returned (9 . I)
 (9 . I)
 
 * (lookup 9 *tree*)
@@ -516,9 +533,10 @@ Now, lets compare lookup steps involved.
 (9 . I)
 ```
 
+The tree structure saves us a bit of work in a situation like this. And, if we can arrange for our lookup tree to be balanced or almost balanced, we'll save *more* work the bigger our data-set becomes.
+
 ##### TODO
-- write a recursive `my-assoc` so that we can compare like-for-like in the traces
-- should we mention asymptotic notation here? I feel like we're getting close enough to it, but it's not *exactly* in-scope.
+- should we mention asymptotic notation and/or tail-call elimination here? I feel like both are pretty relevant, but not *exactly* in-scope.
 
 ## Exercise 1.5.11
 
