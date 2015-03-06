@@ -542,6 +542,19 @@ The tree structure saves us a bit of work in a situation like this. And, if we c
 
 **Tries**
 
+If we can pick keys so that they're not merely sortable, but also *decomposable*, we can save a bit more time and space by using Tries *(As an aside, "Tree" and "Trie" are pronounced the same way. This is doubly annoying because, as you'll see in a moment, a Trie is a kind of Tree. So you can't even disambiguate by saying things like "Trie, the data structure". You'll sometimes hear Tries referred to as "Prefix trees", which may or may not help the situation)*.
+
+A Trie is a node, a value and a (possibly empty) dictionary of nodes to Tries. Which can be represented as:
+
+```lisp
+* '(nil nil nil)
+(NIL NIL NIL)
+
+* '(nil nil ((#\o nil ((#\n nil ((#\e "one - the english name for the numeral 1")))))))
+(NIL NIL
+ ((#\o NIL ((#\n NIL ((#\e "one - the english name for the numeral 1")))))))
+```
+
 ## Exercise 1.5.12
 
 **More Tries**
