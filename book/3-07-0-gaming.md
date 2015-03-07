@@ -12,6 +12,8 @@
 > "For modern man one of the most troubling aspects of eternity lies in getting used to the slippery quality of time."
 > <footer>Robert A. Heinlein, <em>Job: A Comedy of Justice</em></footer>
 
+**Revision Note:** *Chapter 2.18 already includes an FFI library for the Oculus Rift, so this chapter can focus on integration into a Lisp game engine.*
+
 Game development is a highly competitive industry; there are a lot of development platforms and technology-stacks available for the would-be game developer, and all of them have their own particular strengths and advantages.  If you want an out of the box solution, and are working with 3D artists to create your assets, you will get everything you need with popular frameworks such as the Unreal Engine, or Unity3D; but creating a commercial platformer is not the only reason developers get into game development.  Sometimes, you just want to create something for yourself and your friends---and you want the satisfaction of knowing you did it your own way.
 
 Game development in Lisp has many options, and offers the unique strength that you can program everything---even the graphics and audio.  You don't need to work with a team of asset creators and audio engineers, you can do everything yourself with pure Lisp code.  Naturally, game development on any platform is still a lot of work---but building a 3D platformer in 100% Lisp source code requires no more effort than a game built in Unity3D, and as a programmer, you may find the pure source code approach more intuitive.  That being said, Lisp doesn't stop you from working with a 3D artist to create your assets; you can adopt the approach that works best for you.
