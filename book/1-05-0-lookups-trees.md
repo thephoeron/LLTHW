@@ -477,7 +477,7 @@ And, just so that we're comparing like-for-like, here's a recursive definition o
 * (defun rec-assoc (key alist)
 	(cond ((null alist) nil)
           ((eq key (caar alist)) (car alist))
-          (t (my-assoc key (cdr alist)))))
+          (t (rec-assoc key (cdr alist)))))
 REC-ASSOC
 ```
 
@@ -491,27 +491,27 @@ Now, lets compare lookup steps involved.
   0: (REC-ASSOC 9
                 ((5 . E) (3 . C) (4 . D) (2 . B) (1 . A) (7 . G) (6 . F)
                  (8 . H) (9 . I) (10 . J)))
-    1: (MY-ASSOC 9
-                 ((3 . C) (4 . D) (2 . B) (1 . A) (7 . G) (6 . F) (8 . H)
-                  (9 . I) (10 . J)))
-      2: (MY-ASSOC 9
-                   ((4 . D) (2 . B) (1 . A) (7 . G) (6 . F) (8 . H) (9 . I)
-                    (10 . J)))
-        3: (MY-ASSOC 9
-                     ((2 . B) (1 . A) (7 . G) (6 . F) (8 . H) (9 . I) (10 . J)))
-          4: (MY-ASSOC 9 ((1 . A) (7 . G) (6 . F) (8 . H) (9 . I) (10 . J)))
-            5: (MY-ASSOC 9 ((7 . G) (6 . F) (8 . H) (9 . I) (10 . J)))
-              6: (MY-ASSOC 9 ((6 . F) (8 . H) (9 . I) (10 . J)))
-                7: (MY-ASSOC 9 ((8 . H) (9 . I) (10 . J)))
-                  8: (MY-ASSOC 9 ((9 . I) (10 . J)))
-                  8: MY-ASSOC returned (9 . I)
-                7: MY-ASSOC returned (9 . I)
-              6: MY-ASSOC returned (9 . I)
-            5: MY-ASSOC returned (9 . I)
-          4: MY-ASSOC returned (9 . I)
-        3: MY-ASSOC returned (9 . I)
-      2: MY-ASSOC returned (9 . I)
-    1: MY-ASSOC returned (9 . I)
+    1: (REC-ASSOC 9
+                  ((3 . C) (4 . D) (2 . B) (1 . A) (7 . G) (6 . F) (8 . H)
+                   (9 . I) (10 . J)))
+      2: (REC-ASSOC 9
+                    ((4 . D) (2 . B) (1 . A) (7 . G) (6 . F) (8 . H) (9 . I)
+                     (10 . J)))
+        3: (REC-ASSOC 9
+                      ((2 . B) (1 . A) (7 . G) (6 . F) (8 . H) (9 . I) (10 . J)))
+          4: (REC-ASSOC 9 ((1 . A) (7 . G) (6 . F) (8 . H) (9 . I) (10 . J)))
+            5: (REC-ASSOC 9 ((7 . G) (6 . F) (8 . H) (9 . I) (10 . J)))
+              6: (REC-ASSOC 9 ((6 . F) (8 . H) (9 . I) (10 . J)))
+                7: (REC-ASSOC 9 ((8 . H) (9 . I) (10 . J)))
+                  8: (REC-ASSOC 9 ((9 . I) (10 . J)))
+                  8: REC-ASSOC returned (9 . I)
+                7: REC-ASSOC returned (9 . I)
+              6: REC-ASSOC returned (9 . I)
+            5: REC-ASSOC returned (9 . I)
+          4: REC-ASSOC returned (9 . I)
+        3: REC-ASSOC returned (9 . I)
+      2: REC-ASSOC returned (9 . I)
+    1: REC-ASSOC returned (9 . I)
   0: REC-ASSOC returned (9 . I)
 (9 . I)
 
@@ -552,7 +552,7 @@ A Trie is a node, a value and a (possibly empty) dictionary of nodes to Tries. W
 * '(nil nil nil)
 (NIL NIL NIL)
 
-* '(nil nil ((#\o nil ((#\n "on - activated; not off" ((#\e "one - the english name for the numeral 1")))))))
+* '(nil nil ((#\o nil ((#\n "on - activated; not off" ((#\e "one - the english name for the numeral 1" NIL)))))))
 (NIL NIL
  ((#\o NIL
    ((#\n "on - activated; not off"
@@ -589,7 +589,7 @@ Looking up a key in a Trie means taking the decomposed key, and looking up each 
 TRIE-LOOKUP
 
 * (defparameter *trie*
-    '(nil nil ((#\o nil ((#\n "on - activated; not off" ((#\e "one - the english name for the numeral 1"))))))))
+    '(nil nil ((#\o nil ((#\n "on - activated; not off" ((#\e "one - the english name for the numeral 1" NIL))))))))
 *TRIE*
 
 * (trie-lookup '(#\o #\n) *trie*)
@@ -613,17 +613,138 @@ The idea here is that any common prefixes among keys are collapsed, and that som
 
 So lets go explicit-interface-style on this problem.
 
+```lisp
+* (defun trie (elem val map)
+    (list elem val map))
+TRIE
+
+* (defun empty-trie () 
+    (trie nil nil nil))
+EMPTY-TRIE
+
+* (empty-trie)
+(NIL NIL NIL)
+
+* (defun trie-k (trie) 
+    (first trie))
+TRIE-K
+
+* (defun trie-value (trie)
+    (second trie))
+TRIE-VALUE
+
+* (defun trie-table (trie)
+    (third trie))
+TRIE-TABLE
+
+* (defun trie-assoc (key-part table)
+    (assoc key-part (trie-table trie)))
+TRIE-ASSOC
+
+* (defun trie-lookup (key-parts trie)
+    (if (null key-parts)
+        (trie-value trie)
+        (let ((next (trie-assoc (first key-parts) trie)))
+          (when next
+            (trie-lookup (rest key-parts) next)))))
+```
+
+Those are the basic getters. And nothing really fancy has been said yet. You can see why I'd leave them out for the initial pass based on their trivial nature. Insertion is less trivial to implement, but still conceptually simple.
+
+```lisp
+* (defun trie-insert (key value trie)
+    (if key
+        (let ((next (trie-assoc (first key) trie)))
+          (trie (trie-k trie) (trie-value trie)
+                (cons
+                 (trie-insert 
+                  (rest key) value
+                  (or next (trie (first key) nil nil)))
+                 (remove (trie-k next) (trie-table trie) :key #'trie-k))))
+    (trie (trie-k trie) value (trie-table trie))))
+TRIE-INSERT
+
+* (trie-insert (coerce "once" 'list) "once - one time, and one time only" *trie*)
+(NIL NIL
+ (#\o NIL
+  (#\n "on - activated; not off"
+   ((#\c NIL ((#\e "once - one time, and one time only" NIL)))
+    (#\e "one - the english name for the numeral 1" NIL)))))
+```
+
+In order to insert a new value, associated with a particular key, we traverse that keys' parts and either recur to the next level of the `trie` by looking up the current part, or freshly insert that part into the current `trie`. If we run out of key to traverse, we insert the new value, replacing an existing key if necessary.
+
+```lisp
+* (trie-insert (coerce "on" 'list) "on - switched on" *trie*)
+(NIL NIL
+ (#\o NIL
+  (#\n "on - switched on"
+   ((#\e "one - the english name for the numeral 1" NIL)))))
+
+* *trie*
+(NIL NIL
+ ((#\o NIL
+   ((#\n "on - activated; not off"
+     ((#\e "one - the english name for the numeral 1" NIL)))))))
+```
+
+Though of course, as always, we're not doing this replacement destructively.
+
+```lisp
+* *trie*
+(NIL NIL
+ ((#\o NIL
+   ((#\n "on - activated; not off"
+     ((#\e "one - the english name for the numeral 1" NIL)))))))
+```
+
+Now, lets do the same comparison we did earlier in the Trees chapter.
+
+```
+* (defun rec-string-assoc (key alist)
+	(cond ((null alist) nil)
+          ((string= key (caar alist)) (car alist))
+          (t (rec-string-assoc key (cdr alist)))))
+
+* (defparameter *alist*
+    '(("p" . "the 16th letter of the English alphabet")
+      ("pea" . "the small spherical seed or the seed-pod of the pod fruit Pisum sativum")
+      ("peanut" . "a plant species in the legume family")
+      ("peanuts" . "plural of peanut; syndicated comic strip started in 1950")
+      ("peanut butter" . "a creamy delight commonly used in sandwiches")
+      ("on" . "activated; not off")
+      ("one" . "the English name for the numeral 1")
+      ("ones" . "plural of 'one'")
+      ("once" . "one time, and one time only")))
+
+* (defparameter *trie*
+    (reduce
+	 (lambda (memo pair)
+       (trie-insert
+        (coerce (car pair) 'list)
+        (cdr pair)
+        memo))
+     *alist* :initial-value (empty-trie)))
+*TRIE*
+
+* (trace)
 
 
 ## Exercise 1.5.13
 
-**Object Reference**
+**Even More Tries**
+
+
 
 ## Exercise 1.5.14
 
-**Circular Lists and Trees**
+**Object Reference**
 
 ## Exercise 1.5.15
+
+**Circular Lists and Trees**
+
+## Exercise 1.5.16
 
 **Acyclic Graphs**
 
