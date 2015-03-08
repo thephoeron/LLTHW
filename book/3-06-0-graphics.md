@@ -18,6 +18,50 @@ A natural extension to this topic is the visualization of data---you could simpl
 
 In this chapter we will explore various methods for generating both vector and bitmap image files; plotting complex data; and creating a simple paint application with a GUI.
 
+## Exercise 3.6.1
+
+**Vector Graphics with VECTO**
+
+## Exercise 3.6.2
+
+**More VECTO**
+
+## Exercise 3.6.3
+
+**Even More VECTO**
+
+## Exercise 3.6.4
+
+**Raster Graphics with CL-PNG**
+
+## Exercise 3.6.5
+
+**More CL-PNG**
+
+## Exercise 3.6.6
+
+**Even More CL-PNG**
+
+## Exercise 3.6.7
+
+**Plotting Data with VECTO**
+
+## Exercise 3.6.8
+
+**Plotting Data with CL-PLplot**
+
+## Exercise 3.6.9
+
+**Plotting Data for the Web**
+
+## Project 3.6.10
+
+**A Web-Based Data Plotting Service**
+
+## Project 3.6.11
+
+**A Simple Paint Application with VECTO and Qtools**
+
 <ul class="pager">
   <li class="previous"><a href="/book/3-05-0-reverse-engineering/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
