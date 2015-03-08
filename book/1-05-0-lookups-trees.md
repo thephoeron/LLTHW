@@ -538,8 +538,7 @@ T
 
 The tree structure saves us a bit of work in a situation like this. And, if we can arrange for our lookup tree to be balanced or almost balanced, we'll save *more* work the bigger our data-set becomes.
 
-##### TODO
-- should we mention asymptotic notation and/or tail-call elimination here? I feel like both are pretty relevant, but not *exactly* in-scope.
+[[TODO: should we mention asymptotic notation and/or tail-call elimination here? I feel like both are pretty relevant, but not *exactly* in-scope.]]
 
 ## Exercise 1.5.11
 
@@ -611,6 +610,10 @@ The idea here is that any common prefixes among keys are collapsed, and that som
 ## Exercise 1.5.12
 
 **More Tries**
+
+So lets go explicit-interface-style on this problem.
+
+
 
 ## Exercise 1.5.13
 
