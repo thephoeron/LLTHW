@@ -727,14 +727,147 @@ Now, lets do the same comparison we did earlier in the Trees chapter.
      *alist* :initial-value (empty-trie)))
 *TRIE*
 
-* (trace)
+* (trace rec-string-assoc trie-lookup)
+(REC-STRING-ASSOC TRIE-LOOKUP)
 
+* (trie-lookup (coerce "once" 'list) *trie*)
+  0: (TRIE-LOOKUP (#\o #\n #\c #\e)
+                  (NIL NIL
+                   ((#\o NIL
+                     ((#\n "activated; not off"
+                       ((#\c NIL ((#\e "one time, and one time only" NIL)))
+                        (#\e "the English name for the numeral 1"
+                         ((#\s "plural of 'one'" NIL)))))))
+                    (#\p "the 16th letter of the English alphabet"
+                     ((#\e NIL
+                       ((#\a
+                         "the small spherical seed or the seed-pod of the pod fruit Pisum sativum"
+                         ((#\n NIL
+                           ((#\u NIL
+                             ((#\t "a plant species in the legume family"
+                               ((#\  NIL
+                                 ((#\b NIL
+                                   ((#\u NIL
+                                     ((#\t NIL
+                                       ((#\t NIL
+                                         ((#\e NIL
+                                           ((#\r
+                                             "a creamy delight commonly used in sandwiches"
+                                             NIL)))))))))))))
+                                (#\s
+                                 "plural of peanut; syndicated comic strip started in 1950"
+                                 NIL))))))))))))))))
+    1: (TRIE-LOOKUP (#\n #\c #\e)
+                    (#\o NIL
+                     ((#\n "activated; not off"
+                       ((#\c NIL ((#\e "one time, and one time only" NIL)))
+                        (#\e "the English name for the numeral 1"
+                         ((#\s "plural of 'one'" NIL))))))))
+      2: (TRIE-LOOKUP (#\c #\e)
+                      (#\n "activated; not off"
+                       ((#\c NIL ((#\e "one time, and one time only" NIL)))
+                        (#\e "the English name for the numeral 1"
+                         ((#\s "plural of 'one'" NIL))))))
+        3: (TRIE-LOOKUP (#\e)
+                        (#\c NIL ((#\e "one time, and one time only" NIL))))
+          4: (TRIE-LOOKUP NIL (#\e "one time, and one time only" NIL))
+          4: TRIE-LOOKUP returned "one time, and one time only"
+        3: TRIE-LOOKUP returned "one time, and one time only"
+      2: TRIE-LOOKUP returned "one time, and one time only"
+    1: TRIE-LOOKUP returned "one time, and one time only"
+  0: TRIE-LOOKUP returned "one time, and one time only"
+"one time, and one time only"
+
+* (rec-string-assoc "once" *alist*)
+  0: (REC-STRING-ASSOC "once"
+                       (("p" . "the 16th letter of the English alphabet")
+                        ("pea"
+                         . "the small spherical seed or the seed-pod of the pod fruit Pisum sativum")
+                        ("peanut" . "a plant species in the legume family")
+                        ("peanuts"
+                         . "plural of peanut; syndicated comic strip started in 1950")
+                        ("peanut butter"
+                         . "a creamy delight commonly used in sandwiches")
+                        ("on" . "activated; not off")
+                        ("one" . "the English name for the numeral 1")
+                        ("ones" . "plural of 'one'")
+                        ("once" . "one time, and one time only")))
+    1: (REC-STRING-ASSOC "once"
+                         (("pea"
+                           . "the small spherical seed or the seed-pod of the pod fruit Pisum sativum")
+                          ("peanut" . "a plant species in the legume family")
+                          ("peanuts"
+                           . "plural of peanut; syndicated comic strip started in 1950")
+                          ("peanut butter"
+                           . "a creamy delight commonly used in sandwiches")
+                          ("on" . "activated; not off")
+                          ("one" . "the English name for the numeral 1")
+                          ("ones" . "plural of 'one'")
+                          ("once" . "one time, and one time only")))
+      2: (REC-STRING-ASSOC "once"
+                           (("peanut" . "a plant species in the legume family")
+                            ("peanuts"
+                             . "plural of peanut; syndicated comic strip started in 1950")
+                            ("peanut butter"
+                             . "a creamy delight commonly used in sandwiches")
+                            ("on" . "activated; not off")
+                            ("one" . "the English name for the numeral 1")
+                            ("ones" . "plural of 'one'")
+                            ("once" . "one time, and one time only")))
+        3: (REC-STRING-ASSOC "once"
+                             (("peanuts"
+                               . "plural of peanut; syndicated comic strip started in 1950")
+                              ("peanut butter"
+                               . "a creamy delight commonly used in sandwiches")
+                              ("on" . "activated; not off")
+                              ("one" . "the English name for the numeral 1")
+                              ("ones" . "plural of 'one'")
+                              ("once" . "one time, and one time only")))
+          4: (REC-STRING-ASSOC "once"
+                               (("peanut butter"
+                                 . "a creamy delight commonly used in sandwiches")
+                                ("on" . "activated; not off")
+                                ("one" . "the English name for the numeral 1")
+                                ("ones" . "plural of 'one'")
+                                ("once" . "one time, and one time only")))
+            5: (REC-STRING-ASSOC "once"
+                                 (("on" . "activated; not off")
+                                  ("one"
+                                   . "the English name for the numeral 1")
+                                  ("ones" . "plural of 'one'")
+                                  ("once" . "one time, and one time only")))
+              6: (REC-STRING-ASSOC "once"
+                                   (("one"
+                                     . "the English name for the numeral 1")
+                                    ("ones" . "plural of 'one'")
+                                    ("once" . "one time, and one time only")))
+                7: (REC-STRING-ASSOC "once"
+                                     (("ones" . "plural of 'one'")
+                                      ("once" . "one time, and one time only")))
+                  8: (REC-STRING-ASSOC "once"
+                                       (("once"
+                                         . "one time, and one time only")))
+                  8: REC-STRING-ASSOC returned
+                       ("once" . "one time, and one time only")
+                7: REC-STRING-ASSOC returned
+                     ("once" . "one time, and one time only")
+              6: REC-STRING-ASSOC returned
+                   ("once" . "one time, and one time only")
+            5: REC-STRING-ASSOC returned
+                 ("once" . "one time, and one time only")
+          4: REC-STRING-ASSOC returned ("once" . "one time, and one time only")
+        3: REC-STRING-ASSOC returned ("once" . "one time, and one time only")
+      2: REC-STRING-ASSOC returned ("once" . "one time, and one time only")
+    1: REC-STRING-ASSOC returned ("once" . "one time, and one time only")
+  0: REC-STRING-ASSOC returned ("once" . "one time, and one time only")
+("once" . "one time, and one time only")
+```
+
+As you can see, we've got a similar situation here. When using a Trie to store our keys, we can essentially ignore groups of values for the purposes of doing a lookup. Which lets us do lookups in much better than linear time.
 
 ## Exercise 1.5.13
 
 **Even More Tries**
-
-
 
 ## Exercise 1.5.14
 
