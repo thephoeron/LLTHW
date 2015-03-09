@@ -552,14 +552,14 @@ A Trie is a value and a (possibly empty) dictionary of key parts to Tries. Which
 * '(nil nil)
 (NIL NIL)
 
-* '(nil ((#\o nil ((#\n "on - activated; not off" ((#\e "one - the english name for the numeral 1" NIL)))))))
+* '(nil ((#\o nil ((#\n "activated; not off" ((#\e "the english name for the numeral 1" NIL)))))))
 (NIL
  ((#\o NIL
-   ((#\n "on - activated; not off"
-     ((#\e "one - the english name for the numeral 1")))))))
+   ((#\n "activated; not off"
+     ((#\e "the english name for the numeral 1")))))))
 
-* '(nil ((1 nil ((2 nil ((3 "1 2 3 - ah ah ah." nil)))))))
-(NIL ((1 NIL ((2 NIL ((3 "1 2 3 - ah ah ah." NIL)))))))
+* '(nil ((1 nil ((2 nil ((3 "ah ah ah." nil)))))))
+(NIL ((1 NIL ((2 NIL ((3 "ah ah ah." NIL)))))))
 
 * '(nil
     ((this nil 
@@ -589,14 +589,14 @@ Looking up a key in a Trie means taking the decomposed key, and looking up each 
 TRIE-LOOKUP
 
 * (defparameter *trie*
-    '(nil ((#\o nil ((#\n "on - activated; not off" ((#\e "one - the english name for the numeral 1" NIL))))))))
+    '(nil ((#\o nil ((#\n "activated; not off" ((#\e "the english name for the numeral 1" NIL))))))))
 *TRIE*
 
 * (trie-lookup '(#\o #\n) *trie*)
-"on - activated; not off"
+"activated; not off"
 
 * (trie-lookup '(#\o #\n #\e) *trie*)
-"one - the english name for the numeral 1"
+"the english name for the numeral 1"
 
 * (trie-lookup '(#\o #\n #\e #\i #\r #\o #\s) *trie*)
 NIL
@@ -667,12 +667,12 @@ TRIE-ALIST-INSERT
         (trie value (trie-table trie))))
 TRIE-INSERT
 
-* (trie-insert (coerce "once" 'list) "once - one time, and one time only" *trie*)
+* (trie-insert (coerce "once" 'list) "one time, and one time only" *trie*)
 (NIL
  ((#\o NIL
-   ((#\n "on - activated; not off"
-     ((#\c NIL ((#\e "once - one time, and one time only" NIL)))
-      (#\e "one - the english name for the numeral 1" NIL)))))))
+   ((#\n "activated; not off"
+     ((#\c NIL ((#\e "one time, and one time only" NIL)))
+      (#\e "the english name for the numeral 1" NIL)))))))
 ```
 
 In order to insert a new value, associated with a particular key, we traverse that keys' parts and either recur to the next level of the `trie` by looking up the current part, or freshly insert that part into the current `trie` table. If we run out of key to traverse, we insert the new value, replacing an existing one if necessary.
@@ -681,14 +681,14 @@ In order to insert a new value, associated with a particular key, we traverse th
 * *trie*
 (NIL NIL
  ((#\o NIL
-   ((#\n "on - activated; not off"
-     ((#\e "one - the english name for the numeral 1" NIL)))))))
+   ((#\n "activated; not off"
+     ((#\e "the english name for the numeral 1" NIL)))))))
 
-* (trie-insert (coerce "on" 'list) "on - switched on" *trie*)
+* (trie-insert (coerce "on" 'list) "switched on" *trie*)
 (NIL
  ((#\o NIL
-   ((#\n "on - switched on"
-     ((#\e "one - the english name for the numeral 1" NIL)))))))
+   ((#\n "switched on"
+     ((#\e "the english name for the numeral 1" NIL)))))))
 ```
 
 Though of course, as always, we're not doing this replacement destructively.
@@ -697,8 +697,8 @@ Though of course, as always, we're not doing this replacement destructively.
 * *trie*
 (NIL NIL
  ((#\o NIL
-   ((#\n "on - activated; not off"
-     ((#\e "one - the english name for the numeral 1" NIL)))))))
+   ((#\n "activated; not off"
+     ((#\e "the english name for the numeral 1" NIL)))))))
 ```
 
 Now, lets do the same comparison we did earlier in the Trees section.
@@ -863,6 +863,9 @@ Now, lets do the same comparison we did earlier in the Trees section.
     1: REC-STRING-ASSOC returned ("once" . "one time, and one time only")
   0: REC-STRING-ASSOC returned ("once" . "one time, and one time only")
 ("once" . "one time, and one time only")
+
+* (untrace rec-string-assoc trie-lookup)
+T
 ```
 
 As you can see, we've got a similar situation here. When using a Trie to store our keys, we can essentially ignore groups of values for the purposes of doing a lookup. Which lets us do lookups in much better than linear time.
@@ -870,6 +873,40 @@ As you can see, we've got a similar situation here. When using a Trie to store o
 ## Exercise 1.5.13
 
 **Even More Tries**
+
+Completely apart from basic lookup performance, which is good but not all-important, Tries let us compute completions fairly cheaply. In the definition of `trie-lookup` we've already seen, walking the trie is conflated with getting a particular value out...
+
+```lisp
+(defun trie-lookup (key-parts trie)
+  (if (null key-parts)
+      (trie-value trie)
+      (let ((next (trie-assoc (first key-parts) trie)))
+	(when next
+	  (trie-lookup (rest key-parts) next)))))
+```
+
+...but it doesn't have to be.
+
+```lisp
+* (defun trie-walk (key-parts trie)
+    (if (null key-parts)
+        trie
+        (let ((next (trie-assoc (first key-parts) trie)))
+	      (when next
+	        (trie-walk (rest key-parts) next)))))
+TRIE-WALK
+
+* (trie-walk (coerce "on" 'list) *trie*)
+("activated; not off"
+ ((#\c NIL ((#\e "one time, and one time only" NIL)))
+  (#\e "the English name for the numeral 1" ((#\s "plural of 'one'" NIL)))))
+
+* (defun trie-lookup (key-parts trie)
+    (trie-value (trie-walk key-parts trie)))
+TRIE-LOOKUP
+```
+
+[[TODO - trie-completions, maybe talk about changing out table structure and other kinds of keys]]
 
 ## Exercise 1.5.14
 
