@@ -19,6 +19,46 @@ There are a lot of solutions available in the Lisp world for working with audio;
 
 In this chapter, we will explore the variety of audio generation and manipulation libraries available for Lisp, with a particular emphasis on CL-Collider for algorithmic audio generation and live hacking.  If you have not set up Emacs Live yet, now will be a good time to do so, as it was specifically designed with live hacking in mind.  We will also revisit our 3D platformer game from the previous chapter, to embed a soundtrack and custom sound-effects, all generated with Lisp source code.
 
+## Exercise 3.8.1
+
+**CL-Collider and SuperCollider**
+
+## Exercise 3.8.2
+
+**Notes and Chords**
+
+## Exercise 3.8.3
+
+**Instruments**
+
+## Exercise 3.8.4
+
+**Filters**
+
+## Exercise 3.8.5
+
+**Controlling MIDI Devices**
+
+## Exercise 3.8.6
+
+**MIDI Input**
+
+## Exercise 3.8.7
+
+**Bouncing Audio to Disk**
+
+## Exercise 3.8.8
+
+**Mixing and Mastering Audio**
+
+## Exercise 3.8.9
+
+**Live Hacking CL-Collider in Emacs Live**
+
+## Project 3.8.10
+
+**Extending your 3D Game Engine with programmatic audio**
+
 <ul class="pager">
   <li class="previous"><a href="/book/3-07-0-gaming/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
