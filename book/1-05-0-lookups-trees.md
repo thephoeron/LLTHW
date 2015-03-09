@@ -906,7 +906,26 @@ TRIE-WALK
 TRIE-LOOKUP
 ```
 
-[[TODO - trie-completions, maybe talk about changing out table structure and other kinds of keys]]
+With a definition of `trie-walk` so decoupled, we can now do the pre-order traversal and come out with a list of contained keys that start with the components we pass in.
+
+```lisp
+* (defun trie-completions (key-parts trie)
+    (labels ((recur (path trie)
+               (let ((rest (loop for (k . sub-trie) in (trie-table trie)
+                              append (recur (append path (list k)) sub-trie)) ))
+                 (if (trie-value trie)
+                     (cons path rest)
+                     rest))))
+      (recur key-parts (trie-walk key-parts trie))))
+TRIE-COMPLETIONS
+
+* (trie-completions (coerce "on" 'list) *trie*)
+((#\o #\n) (#\o #\n #\c #\e) (#\o #\n #\e) (#\o #\n #\e #\s))
+```
+
+There are a couple of other ways we can vary Trie implementations. Firstly, we can change the representation of our `trie-map`. In all of the above examples, they're `alist`s, but that's not a requirement. It might be reasonable to make them `hash-table`s, or Trees, or even sub-Tries depending on our situation. Secondly, except for a few brief examples back in exercise 1.5.11, we've been dealing with Tries whose keys are strings and decompose into characters. Other options are possible; for example the top level might be a phrase that decomposes into words, or numbers that decompose into bits.
+
+We won't be investigating any of the variations at the moment though; that might happen in later chapters.
 
 ## Exercise 1.5.14
 
