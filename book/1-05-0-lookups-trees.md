@@ -546,29 +546,29 @@ The tree structure saves us a bit of work in a situation like this. And, if we c
 
 If we can pick keys so that they're not merely sortable, but also *decomposable*, we can save a bit more time and space by using Tries *(As an aside, "Tree" and "Trie" are pronounced the same way. This is doubly annoying because, as you'll see in a moment, a Trie is a kind of Tree. So you can't even disambiguate by saying things like "Trie, the data structure". You'll sometimes hear Tries referred to as "Prefix trees", which may or may not help the situation)*.
 
-A Trie is a node, a value and a (possibly empty) dictionary of nodes to Tries. Which can be represented as:
+A Trie is a value and a (possibly empty) dictionary of key parts to Tries. Which can be represented as:
 
 ```lisp
-* '(nil nil nil)
-(NIL NIL NIL)
+* '(nil nil)
+(NIL NIL)
 
-* '(nil nil ((#\o nil ((#\n "on - activated; not off" ((#\e "one - the english name for the numeral 1" NIL)))))))
-(NIL NIL
+* '(nil ((#\o nil ((#\n "on - activated; not off" ((#\e "one - the english name for the numeral 1" NIL)))))))
+(NIL
  ((#\o NIL
    ((#\n "on - activated; not off"
      ((#\e "one - the english name for the numeral 1")))))))
 
-* '(nil nil ((1 nil ((2 nil ((3 "1 2 3 - ah ah ah." nil)))))))
-(NIL NIL ((1 NIL ((2 NIL ((3 "1 2 3 - ah ah ah." NIL)))))))
+* '(nil ((1 nil ((2 nil ((3 "1 2 3 - ah ah ah." nil)))))))
+(NIL ((1 NIL ((2 NIL ((3 "1 2 3 - ah ah ah." NIL)))))))
 
-* '(nil nil
+* '(nil
     ((this nil 
       ((sentence nil
         ((is nil 
           ((a nil ((key "This sentence is a key" nil)))
            (not nil ((a nil ((key "This sentence is NOT a key" nil)))))
            (meaningless t nil)))))))))
-(NIL NIL
+(NIL
  ((THIS NIL
    ((SENTENCE NIL
      ((IS NIL
@@ -577,19 +577,19 @@ A Trie is a node, a value and a (possibly empty) dictionary of nodes to Tries. W
         (MEANINGLESS T NIL)))))))))
 ```
 
-Looking up a key in a Trie means taking the decomposed key, and looking up each component level-wise.
+Looking up a key in a Trie means taking the decomposed key, and looking up each key part level-wise.
 
 ```lisp
 * (defun trie-lookup (key-parts trie)
     (if (null key-parts)
-        (second trie)
-        (let ((next (assoc (car key-parts) (third trie))))
+        (first trie)
+        (let ((next (cdr (assoc (car key-parts) (second trie)))))
 	      (when next
 	        (trie-lookup (cdr key-parts) next)))))
 TRIE-LOOKUP
 
 * (defparameter *trie*
-    '(nil nil ((#\o nil ((#\n "on - activated; not off" ((#\e "one - the english name for the numeral 1" NIL))))))))
+    '(nil ((#\o nil ((#\n "on - activated; not off" ((#\e "one - the english name for the numeral 1" NIL))))))))
 *TRIE*
 
 * (trie-lookup '(#\o #\n) *trie*)
@@ -605,7 +605,7 @@ NIL
 NIL
 ```
 
-The idea here is that any common prefixes among keys are collapsed, and that some extra data about a particular sequence is held as the `value`.
+The idea here is that any common prefixes among keys are collapsed, and that some extra data about a particular sequence is held as the `value`. The best casefor a lookup is a key that shares no prefix with anything in the Trie. The worst case is a key that shares a long prefix, since we need to traverse the entire prefix before discovering the absence.
 
 ## Exercise 1.5.12
 
@@ -614,31 +614,27 @@ The idea here is that any common prefixes among keys are collapsed, and that som
 So lets go explicit-interface-style on this problem.
 
 ```lisp
-* (defun trie (elem val map)
-    (list elem val map))
+* (defun trie (val map)
+    (list val map))
 TRIE
 
 * (defun empty-trie () 
-    (trie nil nil nil))
+    (trie nil nil))
 EMPTY-TRIE
 
 * (empty-trie)
-(NIL NIL NIL)
-
-* (defun trie-k (trie) 
-    (first trie))
-TRIE-K
+(NIL NIL)
 
 * (defun trie-value (trie)
-    (second trie))
+    (first trie))
 TRIE-VALUE
 
 * (defun trie-table (trie)
-    (third trie))
+    (second trie))
 TRIE-TABLE
 
-* (defun trie-assoc (key-part table)
-    (assoc key-part (trie-table trie)))
+* (defun trie-assoc (key-part trie)
+    (cdr (assoc key-part (trie-table trie))))
 TRIE-ASSOC
 
 * (defun trie-lookup (key-parts trie)
@@ -652,39 +648,46 @@ TRIE-ASSOC
 Those are the basic getters. And nothing really fancy has been said yet. You can see why I'd leave them out for the initial pass based on their trivial nature. Insertion is less trivial to implement, but still conceptually simple.
 
 ```lisp
+* (defun trie-alist-insert (k trie alist)
+    (cons (cons k trie)
+	      (remove k alist :key #'car)))
+TRIE-ALIST-INSERT
+
 * (defun trie-insert (key value trie)
     (if key
-        (let ((next (trie-assoc (first key) trie)))
-          (trie (trie-k trie) (trie-value trie)
-                (cons
+        (let* ((k (first key))
+               (next (trie-assoc k trie)))
+          (trie (trie-value trie)
+                (trie-alist-insert
+                 k 
                  (trie-insert 
                   (rest key) value
-                  (or next (trie (first key) nil nil)))
-                 (remove (trie-k next) (trie-table trie) :key #'trie-k))))
-    (trie (trie-k trie) value (trie-table trie))))
+                  (or next (trie nil nil)))
+                 (trie-table trie))))
+        (trie value (trie-table trie))))
 TRIE-INSERT
 
 * (trie-insert (coerce "once" 'list) "once - one time, and one time only" *trie*)
-(NIL NIL
- (#\o NIL
-  (#\n "on - activated; not off"
-   ((#\c NIL ((#\e "once - one time, and one time only" NIL)))
-    (#\e "one - the english name for the numeral 1" NIL)))))
+(NIL
+ ((#\o NIL
+   ((#\n "on - activated; not off"
+     ((#\c NIL ((#\e "once - one time, and one time only" NIL)))
+      (#\e "one - the english name for the numeral 1" NIL)))))))
 ```
 
-In order to insert a new value, associated with a particular key, we traverse that keys' parts and either recur to the next level of the `trie` by looking up the current part, or freshly insert that part into the current `trie`. If we run out of key to traverse, we insert the new value, replacing an existing key if necessary.
+In order to insert a new value, associated with a particular key, we traverse that keys' parts and either recur to the next level of the `trie` by looking up the current part, or freshly insert that part into the current `trie` table. If we run out of key to traverse, we insert the new value, replacing an existing one if necessary.
 
 ```lisp
-* (trie-insert (coerce "on" 'list) "on - switched on" *trie*)
-(NIL NIL
- (#\o NIL
-  (#\n "on - switched on"
-   ((#\e "one - the english name for the numeral 1" NIL)))))
-
 * *trie*
 (NIL NIL
  ((#\o NIL
    ((#\n "on - activated; not off"
+     ((#\e "one - the english name for the numeral 1" NIL)))))))
+
+* (trie-insert (coerce "on" 'list) "on - switched on" *trie*)
+(NIL
+ ((#\o NIL
+   ((#\n "on - switched on"
      ((#\e "one - the english name for the numeral 1" NIL)))))))
 ```
 
@@ -698,7 +701,7 @@ Though of course, as always, we're not doing this replacement destructively.
      ((#\e "one - the english name for the numeral 1" NIL)))))))
 ```
 
-Now, lets do the same comparison we did earlier in the Trees chapter.
+Now, lets do the same comparison we did earlier in the Trees section.
 
 ```
 * (defun rec-string-assoc (key alist)
@@ -732,7 +735,7 @@ Now, lets do the same comparison we did earlier in the Trees chapter.
 
 * (trie-lookup (coerce "once" 'list) *trie*)
   0: (TRIE-LOOKUP (#\o #\n #\c #\e)
-                  (NIL NIL
+                  (NIL
                    ((#\o NIL
                      ((#\n "activated; not off"
                        ((#\c NIL ((#\e "one time, and one time only" NIL)))
@@ -758,19 +761,18 @@ Now, lets do the same comparison we did earlier in the Trees chapter.
                                  "plural of peanut; syndicated comic strip started in 1950"
                                  NIL))))))))))))))))
     1: (TRIE-LOOKUP (#\n #\c #\e)
-                    (#\o NIL
+                    (NIL
                      ((#\n "activated; not off"
                        ((#\c NIL ((#\e "one time, and one time only" NIL)))
                         (#\e "the English name for the numeral 1"
                          ((#\s "plural of 'one'" NIL))))))))
       2: (TRIE-LOOKUP (#\c #\e)
-                      (#\n "activated; not off"
+                      ("activated; not off"
                        ((#\c NIL ((#\e "one time, and one time only" NIL)))
                         (#\e "the English name for the numeral 1"
                          ((#\s "plural of 'one'" NIL))))))
-        3: (TRIE-LOOKUP (#\e)
-                        (#\c NIL ((#\e "one time, and one time only" NIL))))
-          4: (TRIE-LOOKUP NIL (#\e "one time, and one time only" NIL))
+        3: (TRIE-LOOKUP (#\e) (NIL ((#\e "one time, and one time only" NIL))))
+          4: (TRIE-LOOKUP NIL ("one time, and one time only" NIL))
           4: TRIE-LOOKUP returned "one time, and one time only"
         3: TRIE-LOOKUP returned "one time, and one time only"
       2: TRIE-LOOKUP returned "one time, and one time only"
