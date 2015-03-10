@@ -28,6 +28,12 @@ This chapter will contain exercises on:
 * Removing items from ALISTS
 * Practical size-constraints for ALISTS and PLISTS, alternate data types to look out for.
 * Trees
+* More Trees
+* Tries
+* More Tries
+* Why Can't I Hold All These Tries?
+* Object Reference
+* Circular Lists and Trees
 * Acyclic Graphs
 
 ## Exercise 1.5.1
@@ -955,7 +961,10 @@ NIL
 * (fourth *cycle*)
 NIL
 
-* (setf *print-circle* t (cddr *cycle*) *cycle*)
+* (setf *print-circle* t)
+T
+
+* (nconc *cycle* *cycle*)
 #1=(A B . #1#)
 
 * (third *cycle*)
@@ -964,6 +973,8 @@ A
 * (fourth *cycle*)
 B
 ```
+
+[[TODO - demonstrate the same on trees]]
 
 ## Exercise 1.5.16
 
