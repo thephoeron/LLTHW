@@ -931,9 +931,39 @@ We won't be investigating any of the variations at the moment though; that might
 
 **Object Reference**
 
+[[What do we want here? Just a demonstration of defclass, and that it isn't *really* a k/v construct?]]
+
 ## Exercise 1.5.15
 
 **Circular Lists and Trees**
+
+Using side-effects, it's possible to create circular lists.
+
+```lisp
+* (defparameter *cycle* (list 'a 'b))
+*CYCLE*
+
+* (first *cycle*)
+A
+
+* (second *cycle*)
+B
+
+* (third *cycle*)
+NIL
+
+* (fourth *cycle*)
+NIL
+
+* (setf *print-circle* t (cddr *cycle*) *cycle*)
+#1=(A B . #1#)
+
+* (third *cycle*)
+A
+
+* (fourth *cycle*)
+B
+```
 
 ## Exercise 1.5.16
 
