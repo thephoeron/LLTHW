@@ -262,7 +262,7 @@ and this again applies to both keys and values.
 (1 . A)
 ```
 
-*Un*like with `plists`, compound keys might be useful. Because `assoc` accepts a `test` (or `test-not`) argument, you can specify the test to run when determining key equality.
+*Un*like with `plists`, compound keys might be useful. Because `assoc` accepts a `test` (or `test-not`) argument, which lets you specify the test to run when determining key equality.
 
 ```lisp
 * (assoc "two" '((1 . a) ("two" . b) (three . c) (#(#\f #\o #\u #\r) . d)) :test #'equal)
