@@ -685,7 +685,7 @@ In order to insert a new value, associated with a particular key, we traverse th
 
 ```lisp
 * *trie*
-(NIL NIL
+(NIL
  ((#\o NIL
    ((#\n "activated; not off"
      ((#\e "the english name for the numeral 1" NIL)))))))
@@ -701,7 +701,7 @@ Though of course, as always, we're not doing this replacement destructively.
 
 ```lisp
 * *trie*
-(NIL NIL
+(NIL
  ((#\o NIL
    ((#\n "activated; not off"
      ((#\e "the english name for the numeral 1" NIL)))))))
