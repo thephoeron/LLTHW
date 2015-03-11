@@ -47,7 +47,7 @@ This chapter will contain exercises on:
 ((A . 1) (B . 2) (C . 3))
 ```
 
-while a `plist` is a flat list of values, whose every odd element is a key and every even element is a value.
+while a `plist` is a flat list of expressions, whose every odd element is a key and every even element is a value.
 
 ```lisp
 * (list 'a 1 'b 2 'c 3)
