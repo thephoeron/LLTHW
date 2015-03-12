@@ -929,7 +929,7 @@ TRIE-COMPLETIONS
 ((#\o #\n) (#\o #\n #\c #\e) (#\o #\n #\e) (#\o #\n #\e #\s))
 ```
 
-There are a couple of other ways we can vary Trie implementations. Firstly, we can change the representation of our `trie-map`. In all of the above examples, they're `alist`s, but that's not a requirement. It might be reasonable to make them `hash-table`s, or Trees, or even sub-Tries depending on our situation. Secondly, except for a few brief examples back in exercise 1.5.11, we've been dealing with Tries whose keys are strings and decompose into characters. Other options are possible; for example the top level might be a phrase that decomposes into words, or numbers that decompose into bits.
+There are a couple of other ways we can vary Trie implementations. Firstly, we can change the representation of our `trie-map`. In all of the above examples, they're `alist`s, but that's not a requirement. It might be reasonable to make them `hash-table`s, or objects, or Trees, or even sub-Tries depending on our situation. Secondly, except for a few brief examples back in exercise 1.5.11, we've been dealing with Tries whose keys are strings and decompose into characters. Other options are possible; for example the top level might be a phrase that decomposes into words, or numbers that decompose into bits.
 
 We won't be investigating any of the variations at the moment though; that might happen in later chapters.
 
@@ -937,7 +937,24 @@ We won't be investigating any of the variations at the moment though; that might
 
 **Object Reference**
 
-[[TODO - What do we want here? Just a demonstration of defclass, and that it isn't *really* a k/v construct? Should we get into defstruct?]]
+Speaking of Objects, there are two constructs in Common Lisp that give you some behaviors you might expect from them; `class`es and `struct`s. This exercise won't be a complete treatment, but will sho you the basics.
+
+```lisp
+* (defclass foo ()
+    ((a :initform 1) 
+     (b :initform 2)
+     (c :initform 3)))
+#<STANDARD-CLASS FOO>
+
+* (make-instance 'foo)
+#<FOO {10058567E3}>
+
+* (slot-value (make-instance 'foo) 'a)
+1
+
+* (slot-value (make-instance 'foo) 'c)
+3
+```
 
 ## Exercise 1.5.15
 
