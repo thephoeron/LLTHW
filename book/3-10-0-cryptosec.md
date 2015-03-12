@@ -20,6 +20,42 @@ In this chapter we will review again the mathematics of cryptography, alongside 
 
 For a list of further readings on cryptography, please consult the Resources section of this site.
 
+## Exercise 3.10.1
+
+**The Math of Modern Cryptography**
+
+## Exercise 3.10.2
+
+**Post-Quantum Cryptography**
+
+## Exercise 3.10.3
+
+**Cryptographically Strong (Pseudo)-Random Number Generators**
+
+## Exercise 3.10.4
+
+**A One-Time Pad using CL-ISAAC**
+
+## Exercise 3.10.5
+
+**Ironclad: Authentication**
+
+## Exercise 3.10.6
+
+**Ironclad: Hashing**
+
+## Exercise 3.10.7
+
+**Ironclad: Encryption**
+
+## Exercise 3.10.8
+
+**Secure Coding Principles**
+
+## Project 3.10.9
+
+**Extending Ironclad: Elliptical Curve Cryptography**
+
 <ul class="pager">
   <li class="previous"><a href="/book/3-09-0-data/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
