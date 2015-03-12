@@ -943,6 +943,8 @@ We won't be investigating any of the variations at the moment though; that might
 
 **Circular Lists and Trees**
 
+[[TODO - is this really the right place for cycles? Seems like they have little to do with lookup structures. Maybe move to 1-04?]]
+
 Using side-effects, it's possible to create circular lists.
 
 ```lisp
@@ -962,7 +964,7 @@ NIL
 NIL
 ```
 
-Before we create an actual cycle, we need to tell the interpreter to print them (otherwise the request to print a circular list would never return; unlike Haskell, Common Lisp is not a lazy language).
+Before we create an actual cycle, we need to tell the interpreter to print them (otherwise the request to print a circular list would never return; unlike Haskell, Common Lisp is not a lazy language by default).
 
 ```lisp
 * (setf *print-circle* t)
@@ -984,11 +986,11 @@ B
 The `nconc` procedure is fine when all you want is a simple cycle, but it's also possible to use direct mutation to create more elaborate structures.
 
 ```lisp
-* (defparameter *knot* (list 1 2 3 4 (cons 'a 'b)))
+* (defparameter *knot* (list 1 2 3 4 (cons nil nil)))
 *KNOT*
 
 * (setf (car (nth 4 *knot*)) (cdr *knot*))
-#1=(1 2 3 4 (#1# . B))
+#1=(1 2 3 4 (#1#))
 
 * (setf (cdr (nth 4 *knot*)) (cddr *knot*))
 #1=(3 4 ((1 2 . #1#) . #1#))
