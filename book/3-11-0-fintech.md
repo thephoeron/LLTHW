@@ -18,6 +18,67 @@ Naturally, security is of utmost concern; so if you have not already read it, wo
 
 So in this chapter, we'll take an overview of the strongest encryption protocols available in Common Lisp, design a personal wallet that utilizes Bitcoin to store and transfer value, interface with the Bitcoin blockchain from Common Lisp, and review some of the more interesting Bitcoin Improvement Proposals (BIPs) to add valuable features to your personal wallet.  We will also point you to some important resources for learning how to do a basic security profile of your application, to harden your wallet against potential loss through theft or other malicious activity.
 
+## Exercise 3.11.1
+
+**Working with Crypto-Currencies in Common Lisp**
+
+## Exercise 3.11.2
+
+**JSON-RPC Interfaces**
+
+## Exercise 3.11.3
+
+**ECDSA, SHA256, and Ripemd160**
+
+## Exercise 3.11.4
+
+**Base-58 and Base-64 Representations**
+
+## Exercise 3.11.5
+
+**Transactions**
+
+## Exercise 3.11.6
+
+**Addresses**
+
+## Exercise 3.11.7
+
+**Op-Codes**
+
+## Exercise 3.11.8
+
+**Scripts**
+
+## Exercise 3.11.9
+
+**Unspent-Outs**
+
+## Exercise 3.11.10
+
+**Wallets**
+
+## Exercise 3.11.11
+
+**Writing an Encrypted Wallet**
+
+Two methods:
+
+* Encrypt database fields individually
+* Encrypt Wallet Instance Object
+
+## Exercise 3.11.12
+
+**Providing a RESTful API to the Blockchain**
+
+## Exercise 3.11.13
+
+**Hierarchical--Deterministic Keychains**
+
+## Project 3.11.14
+
+**A Personal Bitcoin Wallet Web-App**
+
 <ul class="pager">
   <li class="previous"><a href="/book/3-10-0-cryptosec/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
