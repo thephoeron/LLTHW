@@ -937,7 +937,7 @@ We won't be investigating any of the variations at the moment though; that might
 
 **Object Reference**
 
-Speaking of Objects, there are two constructs in Common Lisp that give you some behaviors you might expect from them; `class`es and `struct`s. This exercise won't be a complete treatment, but will sho you the basics.
+Speaking of Objects, there are two constructs in Common Lisp that give you some behaviors you might expect from them; `class`es and `struct`s. This exercise won't be a complete treatment, but will show you the basics.
 
 ```lisp
 * (defclass foo ()
@@ -955,6 +955,94 @@ Speaking of Objects, there are two constructs in Common Lisp that give you some 
 * (slot-value (make-instance 'foo) 'c)
 3
 ```
+
+Instead of using `slot-value`, it's possible to define reader and accessor functions for individual slots.
+
+```lisp
+* (defclass bar ()
+	   ((a :initform 1 :reader a)
+	    (b :initform 2 :accessor b)
+	    (c :initform 3)))
+#<STANDARD-CLASS BAR>
+
+* (a (make-instance 'bar))
+1
+
+* (b (make-instance 'bar))
+2
+```
+
+A `reader` is basically just a getter function. You can't set its value directly.
+
+```lisp
+* (defparameter *instance* (make-instance 'bar))
+*INSTANCE*
+
+* *instance*
+#<BAR {1005F806E3}>
+
+* (a *instance*)
+1
+
+* (setf (a *instance*) 32)
+ Evaluation aborted on #<UNDEFINED-FUNCTION (SETF A) {1005DCB833}>.
+```
+
+An `accessor` on the other hand, is both a getter and a setter. So you can both read and assign through the interface it sets up.
+
+```lisp
+* (b *instance*)
+2
+
+* (setf (b *instance*) 32)
+32
+
+* (b *instance*)
+32
+```
+
+This isn't the same as setting public or private methods though. Even if you don't expose an accessor, it's possible to set a slots' value using the `slot-value` function.
+
+```lisp
+* (setf (slot-value *instance* 'a) 16)
+16
+
+* (a *instance*)
+16
+```
+
+Unlike the key--value constructs we've seen so far, there isn't an easy and portable (across Common Lisp implementations) way to iterate over keys and values. If you want that, you're stuck doing something a touch hacky. In real life, it would be *a bit* less hacky (see [here](cl-mop) for what you'd really do), but we haven't covered packages yet.
+
+```lisp
+* (defun class-slots (class)
+    #+openmcl-native-threads (ccl:class-slots class) 
+    #+cmu (pcl:class-slots class) 
+    #+sbcl (sb-pcl:class-slots class) 
+    #+lispworks (hcl:class-slots class) 
+    #+allegro (mop:class-slots class) 
+    #+clisp (clos:class-slots class))
+CLASS-SLOTS
+
+* (defun slot-definition-name (slot)
+    #+openmcl-native-threads (ccl:slot-definition-name slot) 
+    #+cmu (pcl:slot-definition-name slot) 
+    #+sbcl (sb-pcl:slot-definition-name slot) 
+    #+lispworks (hcl:slot-definition-name slot) 
+    #+allegro (mop:slot-definition-name slot) 
+    #+clisp (clos:slot-definition-name slot))
+
+* (defun map-slots (fn instance)
+    (loop for slot in (class-slots (class-of instance))
+       for slot-name = (slot-definition-name slot)
+       collect (when (slot-boundp instance slot-name)
+	             (funcall fn slot-name (slot-value instance slot-name)))))
+MAP-SLOTS
+
+* (map-slots (lambda (k v) (list k v)) *instance*)
+((A 16) (B 32) (C 3))
+```
+
+[[TODO - should I even mention the iteration thing? Really, we've only been iterating over the rest of these things to do lookups, and those happen without a traversal when we're dealing with instances]]
 
 ## Exercise 1.5.15
 
