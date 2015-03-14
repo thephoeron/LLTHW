@@ -28,8 +28,8 @@ But Lists are also a proper type in Common Lisp, that descends from sequences.  
 * List Position
 * APPEND
 * Quoting
-* <strike>Trees</strike>
-* <strike>Acyclic Graphs</strike>
+* Circular Lists
+* Circular Trees
 
 ## Exercise 1.4.1
 
@@ -510,9 +510,103 @@ Like `car`, `cdr`, `first`, `rest`, `last` and `nth`, `append` is functional. It
 
 This means both that you may safely pass it any data you want appended without worrying about losing the original lists, and that if you want such behavior, you need to explicitly assign the result of `append` yourself.
 
-[[TODO: Is this a good place to talk about `nconc`?]]
 
 ## Exercise 1.4.17
+
+**Circular Lists**
+
+The destructive equivalent of `append` is `nconc`. Using such side-effects, it's possible to create circular lists.
+
+```lisp
+* (defparameter *cycle* (list 'a 'b))
+*CYCLE*
+
+* (first *cycle*)
+A
+
+* (second *cycle*)
+B
+
+* (third *cycle*)
+NIL
+
+* (fourth *cycle*)
+NIL
+```
+
+Before we create an actual cycle, we need to tell the interpreter to print them (otherwise the request to print a circular list would never return; unlike Haskell, Common Lisp is not a lazy language by default).
+
+```lisp
+* (setf *print-circle* t)
+T
+
+* (nconc *cycle* *cycle*)
+#1=(A B . #1#)
+
+* (third *cycle*)
+A
+
+* (fourth *cycle*)
+B
+
+* (loop repeat 15 for elem in *cycle* collect elem)
+(A B A B A B A B A B A B A B A)
+```
+
+## Exercise 1.4.18
+
+**Circular Trees**
+
+The `nconc` procedure is fine when all you want is a simple cycle, but it's also possible to use direct mutation to create more elaborate structures.
+
+```lisp
+* (defparameter *knot* (list 1 2 3 4 (cons nil nil)))
+*KNOT*
+
+* (setf (car (nth 4 *knot*)) (cdr *knot*))
+#1=(1 2 3 4 (#1#))
+
+* (setf (cdr (nth 4 *knot*)) (cddr *knot*))
+#1=(3 4 ((1 2 . #1#) . #1#))
+```
+
+Now we've got a structure that branches back on itself twice.
+
+```lisp
+* (defun cycle-walk (count cycle &key (turn #'car))
+    (loop with place = cycle 
+          repeat count for elem = (car place) 
+          unless (consp elem) do (format t "~a " elem)
+          do (setf place (if (consp elem)
+			                 (funcall turn elem)
+			                 (cdr place)))))
+CYCLE-WALK
+
+* (cycle-walk 25 *knot* :turn #'car)
+1 2 3 4 2 3 4 2 3 4 2 3 4 2 3 4 2 3 4 
+NIL
+
+* (cycle-walk 25 *knot* :turn #'cdr)
+1 2 3 4 3 4 3 4 3 4 3 4 3 4 3 4 3 4 
+NIL
+
+* (let ((dir)) 
+    (defun switch (pair)
+      (setf dir (not dir))
+      (if dir 
+	      (car pair)
+	      (cdr pair))))
+SWITCH
+
+* (cycle-walk 25 *knot* :turn #'switch)
+1 2 3 4 3 4 2 3 4 3 4 2 3 4 3 4 2 3 4 
+NIL
+```
+
+Of course, it's possible to go further. Large, divergent "trees" that eventually cycle backwards from any number of branches at arbitrary depths. You'd build them the same way though; using some combination of `nconc`, `setf` along with `car`/`cdr` and friends.
+
+
+## Exercise 1.4.19
 
 **Quoting**
 
@@ -558,7 +652,7 @@ The difference is that, while `list` essentially means "Return the list of these
 ((+ 3 4) (+ 5 6) (+ 7 8))
 ```
 
-## Exercise 1.4.18
+## Exercise 1.4.20
 
 **More Quoting**
 

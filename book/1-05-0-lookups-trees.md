@@ -33,7 +33,6 @@ This chapter will contain exercises on:
 * More Tries
 * Why Can't I Hold All These Tries?
 * Object Reference
-* Circular Lists and Trees
 * Acyclic Graphs
 
 ## Exercise 1.5.1
@@ -1045,98 +1044,6 @@ MAP-SLOTS
 [[TODO - should I even mention the iteration thing? Really, we've only been iterating over the rest of these things to do lookups, and those happen without a traversal when we're dealing with instances]]
 
 ## Exercise 1.5.15
-
-**Circular Lists and Trees**
-
-[[TODO - is this really the right place for cycles? Seems like they have little to do with lookup structures. Maybe move to 1-04?]]
-
-Using side-effects, it's possible to create circular lists.
-
-```lisp
-* (defparameter *cycle* (list 'a 'b))
-*CYCLE*
-
-* (first *cycle*)
-A
-
-* (second *cycle*)
-B
-
-* (third *cycle*)
-NIL
-
-* (fourth *cycle*)
-NIL
-```
-
-Before we create an actual cycle, we need to tell the interpreter to print them (otherwise the request to print a circular list would never return; unlike Haskell, Common Lisp is not a lazy language by default).
-
-```lisp
-* (setf *print-circle* t)
-T
-
-* (nconc *cycle* *cycle*)
-#1=(A B . #1#)
-
-* (third *cycle*)
-A
-
-* (fourth *cycle*)
-B
-
-* (loop repeat 15 for elem in *cycle* collect elem)
-(A B A B A B A B A B A B A B A)
-```
-
-The `nconc` procedure is fine when all you want is a simple cycle, but it's also possible to use direct mutation to create more elaborate structures.
-
-```lisp
-* (defparameter *knot* (list 1 2 3 4 (cons nil nil)))
-*KNOT*
-
-* (setf (car (nth 4 *knot*)) (cdr *knot*))
-#1=(1 2 3 4 (#1#))
-
-* (setf (cdr (nth 4 *knot*)) (cddr *knot*))
-#1=(3 4 ((1 2 . #1#) . #1#))
-```
-
-Now we've got a structure that branches back on itself twice.
-
-```lisp
-* (defun cycle-walk (count cycle &key (turn #'car))
-    (loop with place = cycle 
-          repeat count for elem = (car place) 
-          unless (consp elem) do (format t "~a " elem)
-          do (setf place (if (consp elem)
-			                 (funcall turn elem)
-			                 (cdr place)))))
-CYCLE-WALK
-
-* (cycle-walk 25 *knot* :turn #'car)
-1 2 3 4 2 3 4 2 3 4 2 3 4 2 3 4 2 3 4 
-NIL
-
-* (cycle-walk 25 *knot* :turn #'cdr)
-1 2 3 4 3 4 3 4 3 4 3 4 3 4 3 4 3 4 
-NIL
-
-* (let ((dir)) 
-    (defun switch (pair)
-      (setf dir (not dir))
-      (if dir 
-	      (car pair)
-	      (cdr pair))))
-SWITCH
-
-* (cycle-walk 25 *knot* :turn #'switch)
-1 2 3 4 3 4 2 3 4 3 4 2 3 4 3 4 2 3 4 
-NIL
-```
-
-Of course, it's possible to go further. Large, divergent "trees" that eventually cycle backwards from any number of branches at arbitrary depths. You'd build them the same way though; using some combination of `nconc`, `setf` along with `car`/`cdr` and friends.
-
-## Exercise 1.5.16
 
 **Acyclic Graphs**
 
