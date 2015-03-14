@@ -35,6 +35,8 @@ This chapter will contain exercises on:
 * Object Reference
 * Acyclic Graphs
 
+[[ TODO - talk about deletion as well as insertion. Consider adding a section or two on hash tables. ]]
+
 ## Exercise 1.5.1
 
 **Lookups: ALISTs and PLISTs**
@@ -1010,7 +1012,7 @@ This isn't the same as setting public or private methods though. Even if you don
 16
 ```
 
-Unlike the key--value constructs we've seen so far, there isn't an easy and portable (across Common Lisp implementations) way to iterate over keys and values. If you want that, you're stuck doing something a touch hacky. In real life, it would be *a bit* less hacky (see [here](cl-mop) for what you'd really do), but we haven't covered packages yet.
+Unlike the key--value constructs we've seen so far, there isn't an easy and portable (across Common Lisp implementations) way to iterate over keys and values. If you want that, you're stuck doing something a touch hacky. In real life, it would be *a bit* less hacky (see [here](https://github.com/Inaimathi/cl-mop/blob/master/package.lisp) for what you'd really do), but we haven't covered packages yet.
 
 ```lisp
 * (defun class-slots (class)
