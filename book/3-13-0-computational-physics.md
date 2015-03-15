@@ -26,7 +26,7 @@ In this chapter, we will revisit the methodology from Chapters 3.12 on Scientifi
 
 ## Exercise 3.13.2
 
-**Ising and Binary Notation**
+**The Ising Model**
 
 ## Exercise 3.13.3
 
