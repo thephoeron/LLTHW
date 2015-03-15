@@ -36,6 +36,7 @@ This chapter will contain exercises on:
 * Acyclic Graphs
 
 [[ TODO - talk about deletion as well as insertion. Consider adding a section or two on hash tables. ]]
+[[ TODO - talk about functional insertion for alists and plists (somehow skipped that the first time through) ]]
 
 ## Exercise 1.5.1
 
@@ -358,6 +359,7 @@ T
 
 This is often Good Enough, but there are times when you care about lookup performance, and might be willing to sacrifice simplicity of implementation. No, we're not implementing `hash-table`s. They're already provided as part of the language (though that won't stop us later). Lets take a look at some tree structures.
 
+
 ## Exercise 1.5.9
 
 **Trees**
@@ -544,8 +546,6 @@ T
 ```
 
 The tree structure saves us a bit of work in a situation like this. And, if we can arrange for our lookup tree to be balanced or almost balanced, we'll save *more* work the bigger our data-set becomes.
-
-[[TODO: should we mention asymptotic notation and/or tail-call elimination here? I feel like both are pretty relevant, but not *exactly* in-scope.]]
 
 ## Exercise 1.5.11
 
@@ -933,6 +933,36 @@ TRIE-COMPLETIONS
 There are a couple of other ways we can vary Trie implementations. Firstly, we can change the representation of our `trie-map`. In all of the above examples, they're `alist`s, but that's not a requirement. It might be reasonable to make them `hash-table`s, or objects, or Trees, or even sub-Tries depending on our situation. Secondly, except for a few brief examples back in exercise 1.5.11, we've been dealing with Tries whose keys are strings and decompose into characters. Other options are possible; for example the top level might be a phrase that decomposes into words, or numbers that decompose into bits.
 
 We won't be investigating any of the variations at the moment though; that might happen in later chapters.
+
+## Exercise 1.5.??
+
+**Hash Tables**
+
+Hash Tables are the standard constant-time lookup structure you're familiar with from other languages.
+
+```lisp
+* (make-hash-table)
+#<HASH-TABLE :TEST EQL :COUNT 0 {1003F59933}>
+```
+
+Unlike the other table structures we've taken a look at, there isn't really a non-destructive way to interact with a Hash Table. If you want to insert keys, you mutate the argument. You *could* copy the table out manually and add your new key to the copy, but that makes insertion take linear time. And you still have to do it manually; you don't get it for free the way you might with a Trie or `alist`.
+
+```lisp
+* (let ((hash (make-hash-table)))
+    (setf (gethash 'a hash) 1
+	      (gethash 'b hash) 2
+	      (gethash 'c hash) 3)
+    hash)
+#<HASH-TABLE :TEST EQL :COUNT 3 {1004099983}>
+
+* (let ((hash (make-hash-table)))
+    (setf (gethash 'a hash) 1
+	      (gethash 'b hash) 2
+	      (gethash 'c hash) 3)
+    (gethash 'b hash))
+2
+T
+```
 
 ## Exercise 1.5.14
 
