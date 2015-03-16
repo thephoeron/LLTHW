@@ -24,6 +24,70 @@ With that aim in mind, in this chapter we will review the basic theory of quantu
 
 Additional material for specialization in Quantum Computer Science will be listed under the Resources section of this site.
 
+## Exercise 3.14.1
+
+**The Qubit**
+
+## Exercise 3.14.2
+
+**State Preparation**
+
+## Exercise 3.14.3
+
+**Measurement**
+
+## Exercise 3.14.4
+
+**Probability and Superposition**
+
+## Exercise 3.14.5
+
+**Entanglement**
+
+## Exercise 3.14.6
+
+**Quantum Registers**
+
+## Exercise 3.14.7
+
+**Quantum Gates**
+
+## Exercise 3.14.8
+
+**The Hadamard Gate**
+
+## Exercise 3.14.9
+
+**The CNOT Gate**
+
+## Exercise 3.14.10
+
+**The Toffoli Gate**
+
+## Exercise 3.14.11
+
+**Additional Quantum Gates**
+
+## Exercise 3.14.12
+
+**Quantum Memory**
+
+Storing Unmeasured Quantum States
+
+## Exercise 3.14.13
+
+**Universal Quantum Computers**
+
+Quantum Turing Completeness
+
+## Exercise 3.14.14
+
+**Outputting Circuit Diagrams with LaTeX**
+
+## Project 3.14.15
+
+**A Quantum Computer Simulator**
+
 <ul class="pager">
   <li class="previous"><a href="/book/3-13-0-computational-physics/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
