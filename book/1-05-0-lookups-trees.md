@@ -212,6 +212,17 @@ but the order of new keys may surprise you.
 (:D 71 :A 1 :B THREE :C "three")
 ```
 
+In order to *remove* keys from a `plist`, you'd have to remove the desired key and its related value. The destructive procedure `remf` does exactly that.
+
+```lisp
+* (remf *plist* :b)
+T
+
+* *plist*
+(:D 71 :A 1 :C "three")
+```
+
+
 ## Exercise 1.5.5
 
 **ALISTs**
