@@ -159,17 +159,26 @@ NIL
 Because it's a flat list, you can add keys to an existing `plist` using `cons` or `append`.
 
 ```lisp
-* (cons :d (cons 4 (list :a 1 :b 2 :c 3)))
+* (list :a 1 :b 2 :c 3)
+(:A 1 :B 2 :C 3)
+
+* (let ((plist (list :a 1 :b 2 :c 3)))
+    (cons :d (cons 4 plist)))
 (:D 4 :A 1 :B 2 :C 3)
 
-* (getf (cons :d (cons 4 (list :a 1 :b 2 :c 3))) :d)
-4
+* (let ((plist (list :a 1 :b 2 :c 3)))
+    (cons :d (cons 4 plist))
+	plist)
+(:A 1 :B 2 :C 3)
 
-* (append (list :d 4 :e 5) (list :a 1 :b 2 :c 3))
+* (let ((plist (list :a 1 :b 2 :c 3)))
+    (append (list :d 4 :e 5) plist))
 (:D 4 :E 5 :A 1 :B 2 :C 3)
 
-* (getf (append (list :d 4 :e 5) (list :a 1 :b 2 :c 3)) :e)
-5
+* (let ((plist (list :a 1 :b 2 :c 3)))
+    (append (list :d 4 :e 5) plist)
+	plist)
+(:A 1 :B 2 :C 3)
 ```
 
 ## Exercise 1.5.4
@@ -221,7 +230,6 @@ T
 * *plist*
 (:D 71 :A 1 :C "three")
 ```
-
 
 ## Exercise 1.5.5
 
@@ -291,7 +299,7 @@ and this again applies to both keys and values.
 (1 . A)
 ```
 
-*Un*like with `plists`, compound keys might be useful. Because `assoc` accepts a `test` (or `test-not`) argument, which lets you specify the test to run when determining key equality.
+*Un*like with `plist`s, compound keys might be useful. Because `assoc` accepts a `test` (or `test-not`) argument, which lets you specify the test to run when determining key equality.
 
 ```lisp
 * (assoc "two" '((1 . a) ("two" . b) (three . c) (#(#\f #\o #\u #\r) . d)) :test #'equal)
@@ -299,6 +307,38 @@ and this again applies to both keys and values.
 
 * (assoc #(#\f #\o #\u #\r) '((1 . a) ("two" . b) (three . c) (#(#\f #\o #\u #\r) . d)) :test #'equalp)
 (#(#\f #\o #\u #\r) . D)
+```
+
+Because `alist`s are lists of `cons` cells, you can use `cons` to functionally insert items
+
+```lisp
+* '((a . 1) (b . "two") (c . three))
+((A . 1) (B . "two") (C . THREE))
+
+* (let ((alist '((a . 1) (b . "two") (c . three))))
+    (cons (cons 'd 'four) alist))
+((D . FOUR) (A . 1) (B . "two") (C . THREE))
+
+* (let ((alist '((a . 1) (b . "two") (c . three))))
+    (cons (cons 'd 'four) alist)
+	alist)
+((A . 1) (B . "two") (C . THREE))
+```
+
+Similarly, you can use the standard `remove`/`remove-if` functions on `alist`s transparently.
+
+```lisp
+* (remove 'b '((a . 1) (b . "two") (c . three)) :key #'car)
+((A . 1) (C . THREE))
+
+* (remove-if (lambda (p) (eq 'c (car p))) '((a . 1) (b . "two") (c . three)))
+((A . 1) (B . "two"))
+
+* (remove-if 
+    (lambda (pair) 
+      (numberp (car pair)))
+    '((a . 1) (1 . a) (b . "two") (2 . b) (c . three)))
+((A . 1) (B . "two") (C . THREE))
 ```
 
 ## Exercise 1.5.7
