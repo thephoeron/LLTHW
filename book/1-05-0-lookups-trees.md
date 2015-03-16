@@ -377,6 +377,16 @@ It is possible to add keys to an `alist`, but you need to be more explicit about
 ((FOO . 43) (A . 1) (B . 42) (C . 3))
 ```
 
+You can also remove keys using `setf` and the functional approaches we discussed in the previous section.
+
+```lisp
+* (setf *alist* (remove 'b *alist* :key #'car))
+((FOO . 43) (A . 1) (C . 3))
+
+* *alist*
+((FOO . 43) (A . 1) (C . 3))
+```
+
 ## Exercise 1.5.8
 
 **Efficiency, and Alternatives to ALISTs and PLISTs**
