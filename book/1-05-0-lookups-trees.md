@@ -1041,6 +1041,18 @@ Unlike the other table structures we've taken a look at, there isn't really a no
 T
 ```
 
+There's no functional way to remove keys from hash tables either, other than the mentioned table-copying approach. Removing a key mutates the argument.
+
+```lisp
+* (let ((hash (make-hash-table)))
+    (setf (gethash 'a hash) 1
+          (gethash 'b hash) 2
+		  (gethash 'c hash) 3)
+    (remhash 'b hash)
+    hash)
+#<HASH-TABLE :TEST EQL :COUNT 2 {100758CFB3}>
+```
+
 ## Exercise 1.5.14
 
 **Object Reference**
