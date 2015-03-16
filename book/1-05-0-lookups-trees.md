@@ -156,6 +156,22 @@ However, be careful. `getf` tests its keys by pointer equality, and there's no w
 NIL
 ```
 
+Because it's a flat list, you can add keys to an existing `plist` using `cons` or `append`.
+
+```lisp
+* (cons :d (cons 4 (list :a 1 :b 2 :c 3)))
+(:D 4 :A 1 :B 2 :C 3)
+
+* (getf (cons :d (cons 4 (list :a 1 :b 2 :c 3))) :d)
+4
+
+* (append (list :d 4 :e 5) (list :a 1 :b 2 :c 3))
+(:D 4 :E 5 :A 1 :B 2 :C 3)
+
+* (getf (append (list :d 4 :e 5) (list :a 1 :b 2 :c 3)) :e)
+5
+```
+
 ## Exercise 1.5.4
 
 **Even More PLISTs**
