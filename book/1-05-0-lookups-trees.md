@@ -35,9 +35,6 @@ This chapter will contain exercises on:
 * Object Reference
 * Acyclic Graphs
 
-[[ TODO - talk about deletion as well as insertion. Consider adding a section or two on hash tables. ]]
-[[ TODO - talk about functional insertion for alists and plists (somehow skipped that the first time through) ]]
-
 ## Exercise 1.5.1
 
 **Lookups: ALISTs and PLISTs**
@@ -1052,6 +1049,35 @@ There's no functional way to remove keys from hash tables either, other than the
     hash)
 #<HASH-TABLE :TEST EQL :COUNT 2 {100758CFB3}>
 ```
+
+There's a few different ways of iterating over a Hash Table, depending on specifically what you're up to. If you're looking to make some destructive changes, or maybe just print pairs, there's `maphash`.
+
+```lisp
+* (let ((hash (make-hash-table)))
+    (setf (gethash 'a hash) 1
+          (gethash 'b hash) 2
+		  (gethash 'c hash) 3)
+    (maphash (lambda (k v) (format t "~a -> ~a~%" k v)) hash))
+A -> 1
+B -> 2
+C -> 3
+NIL
+```
+
+Note that `maphash` doesn't collect results, so you couldn't convert a Hash Table to an `alist` by calling it with `cons`.
+
+```lisp
+* (let ((hash (make-hash-table)))
+    (setf (gethash 'a hash) 1
+          (gethash 'b hash) 2
+		  (gethash 'c hash) 3)
+    (maphash #'cons hash))
+NIL
+```
+
+If you wanted that, you'd either need to use some functions from [`alexandria`](TODO link to alexandria chapter), or you'd use a specific piece of `loop`.
+
+[[ TODO - put together the loop example of iterating over a hash-table ]]
 
 ## Exercise 1.5.14
 
