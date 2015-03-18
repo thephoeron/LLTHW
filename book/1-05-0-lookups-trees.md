@@ -1008,7 +1008,7 @@ There are a couple of other ways we can vary Trie implementations. Firstly, we c
 
 We won't be investigating any of the variations at the moment though; that might happen in later chapters.
 
-## Exercise 1.5.??
+## Exercise 1.5.14
 
 **Hash Tables**
 
@@ -1101,7 +1101,7 @@ If you wanted that, you'd either need to use some functions from [`alexandria`](
 ((C . 3) (B . 2) (A . 1))
 ```
 
-## Exercise 1.5.14
+## Exercise 1.5.15
 
 **Object Reference**
 
@@ -1212,7 +1212,7 @@ MAP-SLOTS
 
 [[TODO - should I even mention the iteration thing? Really, we've only been iterating over the rest of these things to do lookups, and those happen without a traversal when we're dealing with instances]]
 
-## Exercise 1.5.15
+## Exercise 1.5.16
 
 **Acyclic Graphs**
 
