@@ -1075,9 +1075,31 @@ Note that `maphash` doesn't collect results, so you couldn't convert a Hash Tabl
 NIL
 ```
 
-If you wanted that, you'd either need to use some functions from [`alexandria`](TODO link to alexandria chapter), or you'd use a specific piece of `loop`.
+If you wanted that, you'd either need to use some functions from [`alexandria`](TODO link to alexandria chapter), or a specific piece of [`loop`](TODO link to the loop section (assuming there is one))...
 
-[[ TODO - put together the loop example of iterating over a hash-table ]]
+```lisp
+* (let ((hash (make-hash-table)))
+    (setf (gethash 'a hash) 1
+          (gethash 'b hash) 2
+		  (gethash 'c hash) 3)
+    (loop for k being the hash-keys of hash
+       for v being the hash-values of hash
+       collect (cons k v)))
+((A . 1) (B . 2) (C . 3))
+```
+
+... or you'd set up your own accumulator explicitly.
+
+```lisp
+* (let ((hash (make-hash-table))
+        (acc nil))
+    (setf (gethash 'a hash) 1
+          (gethash 'b hash) 2
+		  (gethash 'c hash) 3)
+    (maphash (lambda (k v) (push (cons k v) acc)) hash)
+    acc)
+((C . 3) (B . 2) (A . 1))
+```
 
 ## Exercise 1.5.14
 
