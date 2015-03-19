@@ -33,6 +33,35 @@ This Chapter will contain exercises on:
 
 **READ: an introduction to the Lisp Reader**
 
+The `read` procedure can read from a stream
+
+```lisp
+* (read)
+```
+
+...
+
+Nothing actually happens until you type something else.
+
+
+```lisp
+* (read)
+test ;; this is the thing I type when read blocks
+TEST
+```
+
+Since `read` invokes the Lisp reader, any comments you type in its input are ignored. It reads an `s-expression`, not a line. So you can do things like
+
+```lisp
+* (read)
+(list 1 2
+      3 4
+	  5 6)
+(LIST 1 2 3 4 5 6)
+```
+
+As you can see by that call to list, an expression read this way is *not* evaluated. Which is why you can still see the symbol `list` at the front of the List `read` returns.
+
 ## Exercise 1.3.2
 
 **EVAL: an introduction to the Lisp Evaluator**

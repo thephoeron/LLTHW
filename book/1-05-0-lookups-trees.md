@@ -1210,8 +1210,6 @@ MAP-SLOTS
 ((A 16) (B 32) (C 3))
 ```
 
-[[TODO - should I even mention the iteration thing? Really, we've only been iterating over the rest of these things to do lookups, and those happen without a traversal when we're dealing with instances]]
-
 ## Exercise 1.5.16
 
 **Acyclic Graphs**
