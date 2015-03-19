@@ -87,6 +87,7 @@
         Extra Credit:
         <a href="1-03-0-getting-input-from-users/">Getting Input from Users</a>
         <i class="glyphicon glyphicon-refresh text-warning"></i>
+        <i class="fa fa-code"></i>
       </li>
       <li>
         <a href="1-04-0-lists/">Lists and List-Operations</a>
