@@ -48,11 +48,25 @@ Nothing actually happens until you type something else.
 * (read)
 test ;; this is the thing I type when read blocks
 TEST
+
+* (read)
+12345
+12345
+
+* (read)
+"A string"
+"A string"
 ```
 
 Since `read` invokes the Lisp reader, any comments you type in its input are ignored. It reads an `s-expression`, not a line. So you can do things like
 
 ```lisp
+* (read)
+"This is a
+multiline string"
+"This is a
+multiline string"
+
 * (read)
 (list 1 2
       3 4
@@ -61,6 +75,17 @@ Since `read` invokes the Lisp reader, any comments you type in its input are ign
 ```
 
 As you can see by that call to list, an expression read this way is *not* evaluated. Which is why you can still see the symbol `list` at the front of the List `read` returns.
+
+```lisp
+* (read)
+(defun foo ()
+  (+ a b))
+(DEFUN FOO () (+ A B))
+
+* (read)
+(loop (format t "Fun!~%))
+(LOOP (FORMAT T "Fun!~%"))
+```
 
 ## Exercise 1.3.2
 
