@@ -78,6 +78,10 @@ As you can see by that call to list, an expression read this way is *not* evalua
 
 ```lisp
 * (read)
+(+ 2 3)
+(+ 2 3)
+
+* (read)
 (defun foo ()
   (+ a b))
 (DEFUN FOO () (+ A B))
@@ -90,6 +94,52 @@ As you can see by that call to list, an expression read this way is *not* evalua
 ## Exercise 1.3.2
 
 **EVAL: an introduction to the Lisp Evaluator**
+
+In order to evaluate something you `read`, you need to use `eval`. Some forms are self-evaluating (that is, they return themselves when evaluated).
+
+```lisp
+* (eval (read)) ;; NEVER DO THIS IN A REAL PROGRAM
+12345
+12345
+
+* (eval (read))
+"A string"
+"A string"
+```
+
+Some don't.
+
+```lisp
+* (eval (read))
+test
+  The variable TEST is unbound.
+     [Condition of type UNBOUND-VARIABLE]
+
+* (eval (read))
+(+ 2 3)
+5
+
+* (eval (read))
+(defun foo ()
+  (+ a b))
+
+; in: DEFUN FOO
+;     (+ A B)
+; 
+; caught WARNING:
+;   undefined variable: A
+; 
+; caught WARNING:
+;   undefined variable: B
+; 
+; compilation unit finished
+;   Undefined variables:
+;     A B
+;   caught 2 WARNING conditions
+FOO
+```
+
+We're not going to try to *call* that `foo` we just defined because, as you can see by the compilation warnings, we don't have values for `a` and `b` anywhere (and we're not covering dynamic scope until later).
 
 ## Exercise 1.3.3
 
