@@ -87,7 +87,7 @@ As you can see by that call to list, an expression read this way is *not* evalua
 (DEFUN FOO () (+ A B))
 
 * (read)
-(loop (format t "Fun!~%))
+(loop (format t "Fun!~%"))
 (LOOP (FORMAT T "Fun!~%"))
 ```
 
@@ -140,6 +140,25 @@ FOO
 ```
 
 We're not going to try to *call* that `foo` we just defined because, as you can see by the compilation warnings, we don't have values for `a` and `b` anywhere (and we're not covering dynamic scope until later).
+
+Hopefully you noticed the `NEVER DO THIS...` comment up top. It's because of things like
+
+```lisp
+* (eval (read))
+(loop (format t "Fun!~%"))
+Fun!
+Fun!
+Fun!
+Fun!
+Fun!
+Fun!
+Fun!
+Fun!
+Fun!
+Fun!
+Fun!
+... ;; FOREVER (until you kill the process with an interrupt)
+```
 
 ## Exercise 1.3.3
 
