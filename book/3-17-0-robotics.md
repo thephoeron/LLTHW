@@ -24,6 +24,70 @@ Programming in general is a highly satisfying career choice, as there is nothing
 
 In this chapter, we will review the field of robotics, AI-controlled automatons, and learning algorithms; suppliers for components and robot kits; write a library to allow us to program a kit robot in Common Lisp; extend this library with an architecture to support intent-based motion; and finally, integrate a basic AI that will allow your kit robot to walk around, explore, and make its own decisions based on the environment you put it in.
 
+## Exercise 3.17.1
+
+**The Basic Principles of Robotics**
+
+## Exercise 3.17.2
+
+**Programmable Kit Robots**
+
+The Bioloid Premium Robot Kit is probably the most cost-effective solution that offers a full complement of programmable kit robot features.
+
+http://www.robotshop.com/
+
+## Exercise 3.17.3
+
+**Handling Controllers, Servos, and Sensors**
+
+## Exercise 3.17.4
+
+**The Control Board**
+
+## Exercise 3.17.5
+
+**Dispatching to Servos**
+
+## Exercise 3.17.6
+
+**Sensors: Gyroscope**
+
+## Exercise 3.17.7
+
+**Sensors: Infrared**
+
+## Exercise 3.17.8
+
+**Sensors: Distance Measurement**
+
+## Exercise 3.17.9
+
+**USB Interfaces**
+
+## Project 3.17.10
+
+**A Library for the BIOLOID Premium Robot Kit**
+
+## Exercise 3.17.11
+
+**Robot AI**
+
+## Exercise 3.17.12
+
+**Motion Teaching and Learning**
+
+## Exercise 3.17.13
+
+**Intent-Based Motion**
+
+## Exercise 3.17.14
+
+**Decision-Making, for Robots**
+
+## Project 3.17.15
+
+**An Independent, Learning Automaton**
+
 <ul class="pager">
   <li class="previous"><a href="/book/3-16-0-ai/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
