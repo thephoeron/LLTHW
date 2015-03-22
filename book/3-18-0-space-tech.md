@@ -22,6 +22,46 @@ Space Tech is a complex field of interrelated, specialized disciplines---and ine
 
 In this chapter, we will explore a very high-level overview of a selection of the topics in the field of Space Tech, namely astrophysics, microgravity, properties of vacuums and near-vacuums, propulsion, aerospace engineering, and communication; design idealized model satellites and probes, integrating a basic AI that can be overridden by a controller on Earth; and implement an environment to simulate space-like conditions for testing these models.  As an extra credit exercise, we will extend this text-based simulator to a 3D simulation, where you can see your model space-craft in action.
 
+## Exercise 3.18.1
+
+**Simulating Physics and Astrophysics**
+
+## Exercise 3.18.2
+
+**Microgravity**
+
+## Exercise 3.18.3
+
+**Vacuums and Near-Vacuums**
+
+## Exercise 3.18.4
+
+**Orbits**
+
+## Exercise 3.18.5
+
+**Simulating Space-Tech**
+
+## Exercise 3.18.6
+
+**Basic Principles of Aerospace Engineering**
+
+## Exercise 3.18.7
+
+**Propulsion**
+
+## Exercise 3.18.8
+
+**Communication**
+
+## Exercise 3.18.9
+
+**A Controller AI**
+
+## Project 3.18.10
+
+**A 3D Space Simulator**
+
 <ul class="pager">
   <li class="previous"><a href="/book/3-17-0-robotics/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
