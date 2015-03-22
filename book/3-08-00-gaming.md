@@ -1,11 +1,11 @@
 <ol class="breadcrumb">
   <li><a href="/">Home</a></li>
   <li><a href="/book/">Book</a></li>
-  <li><a href="/book/3-0-0-overview/">Part Three: Lisp So(u)rcery</a></li>
+  <li><a href="/book/3-00-00-overview/">Part Three: Lisp So(u)rcery</a></li>
   <li class="active">OpenGL, SDL, and 3D Game Development</li>
 </ol>
 
-## Chapter 3.7
+## Chapter 3.8
 
 # OpenGL, SDL, and 3D Game Development
 
@@ -22,44 +22,44 @@ To create the immersive worlds of today's platformer games, you will have to sta
 
 In this chapter, we will be modelling a basic 3+1n Spacetime, to get you thinking in terms of the environments you will be building for your games, and transforming objects within them over time; reviewing the available libraries in Quicklisp for 3D game development; and creating a couple simple games---first, programmatically with procedurally generated environments and assets, and second, using assets created with the open-source 3D artwork platform, Blender.  As an extra credit exercise, we will also be writing a bridge to the Oculus Rift VR headset, so that you can create fully immersive virtual reality games.
 
-## Exercise 3.7.1
+## Exercise 3.8.1
 
 **Blackthorn 3D: OpenGL, SDL and Lisp**
 
-## Exercise 3.7.2
+## Exercise 3.8.2
 
 **More Blackthorn 3D**
 
-## Exercise 3.7.3
+## Exercise 3.8.3
 
 **Even More Blackthorn 3D**
 
-## Exercise 3.7.4
+## Exercise 3.8.4
 
 **Physics Modelling in Lisp**
 
-## Exercise 3.7.5
+## Exercise 3.8.5
 
 **Importing 3D Assets**
 
-## Exercise 3.7.6
+## Exercise 3.8.6
 
 **Procedurally Generated 3D Environments**
 
-## Exercise 3.7.7
+## Exercise 3.8.7
 
 **More Procedural Generation**
 
-## Exercise 3.7.8
+## Exercise 3.8.8
 
 **Integrating Oculus Rift**
 
-## Project 3.7.9
+## Project 3.8.9
 
 **Build a 3D Platform Game**
 
 <ul class="pager">
-  <li class="previous"><a href="/book/3-06-0-graphics/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-07-00-graphics/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/3-08-0-audio/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-09-00-audio/">Next &raquo;</a><li>
 </ul>

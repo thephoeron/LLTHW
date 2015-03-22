@@ -1,11 +1,11 @@
 <ol class="breadcrumb">
   <li><a href="/">Home</a></li>
   <li><a href="/book/">Book</a></li>
-  <li><a href="/book/3-0-0-overview/">Part Three: Lisp So(u)rcery</a></li>
+  <li><a href="/book/3-00-00-overview/">Part Three: Lisp So(u)rcery</a></li>
   <li class="active">Drivers, Daemons, and System-Utilities</li>
 </ol>
 
-## Chapter 3.4
+## Chapter 3.5
 
 # Drivers, Daemons, and System-Utilities
 
@@ -18,40 +18,40 @@ Drivers, much like any other library, are aptly suited for distribution through 
 
 There are a number of libraries already available in Quicklisp to make the writing of drivers, daemons, and system-utilities much simpler; many of which have already been touched upon in previous chapters.  In the following exercises we will be taking a deeper look at CLON (the Command-Line Options Nuker), SB-DAEMON, Nibbles; how to implement low-level protocols using sockets and streams; and the design of useful command-line interfaces and APIs.
 
-## Exercise 3.4.1
+## Exercise 3.5.1
 
 **Nibbles**
 
-## Exercise 3.4.2
+## Exercise 3.5.2
 
 **SB-DAEMON**
 
-## Exercise 3.4.3
+## Exercise 3.5.3
 
 **CLON, Revisited**
 
-## Exercise 3.4.4
+## Exercise 3.5.4
 
 **Useful Command-Line Interfaces**
 
-## Exercise 3.4.5
+## Exercise 3.5.5
 
 **Low-Level Protocols**
 
-## Project 3.4.5
+## Project 3.5.6
 
 **A Hardware Driver**
 
-## Project 3.4.6
+## Project 3.5.7
 
 **A Daemonized Service**
 
-## Project 3.4.7
+## Project 3.5.8
 
 **A Suite of Command-Line Utilities**
 
 <ul class="pager">
-  <li class="previous"><a href="/book/3-03-0-gui/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-04-00-gui/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/3-05-0-reverse-engineering/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-06-00-reverse-engineering/">Next &raquo;</a><li>
 </ul>

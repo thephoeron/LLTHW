@@ -1,11 +1,11 @@
 <ol class="breadcrumb">
   <li><a href="/">Home</a></li>
   <li><a href="/book/">Book</a></li>
-  <li><a href="/book/3-0-0-overview/">Part Three: Lisp So(u)rcery</a></li>
+  <li><a href="/book/3-00-00-overview/">Part Three: Lisp So(u)rcery</a></li>
   <li class="active">Quantum Computing</li>
 </ol>
 
-## Chapter 3.14
+## Chapter 3.15
 
 # Quantum Computing
 
@@ -24,72 +24,72 @@ With that aim in mind, in this chapter we will review the basic theory of quantu
 
 Additional material for specialization in Quantum Computer Science will be listed under the Resources section of this site.
 
-## Exercise 3.14.1
+## Exercise 3.15.1
 
 **The Qubit**
 
-## Exercise 3.14.2
+## Exercise 3.15.2
 
 **State Preparation**
 
-## Exercise 3.14.3
+## Exercise 3.15.3
 
 **Measurement**
 
-## Exercise 3.14.4
+## Exercise 3.15.4
 
 **Probability and Superposition**
 
-## Exercise 3.14.5
+## Exercise 3.15.5
 
 **Entanglement**
 
-## Exercise 3.14.6
+## Exercise 3.15.6
 
 **Quantum Registers**
 
-## Exercise 3.14.7
+## Exercise 3.15.7
 
 **Quantum Gates**
 
-## Exercise 3.14.8
+## Exercise 3.15.8
 
 **The Hadamard Gate**
 
-## Exercise 3.14.9
+## Exercise 3.15.9
 
 **The CNOT Gate**
 
-## Exercise 3.14.10
+## Exercise 3.15.10
 
 **The Toffoli Gate**
 
-## Exercise 3.14.11
+## Exercise 3.15.11
 
 **Additional Quantum Gates**
 
-## Exercise 3.14.12
+## Exercise 3.15.12
 
 **Quantum Memory**
 
 Storing Unmeasured Quantum States
 
-## Exercise 3.14.13
+## Exercise 3.15.13
 
 **Universal Quantum Computers**
 
 Quantum Turing Completeness
 
-## Exercise 3.14.14
+## Exercise 3.15.14
 
 **Outputting Circuit Diagrams with LaTeX**
 
-## Project 3.14.15
+## Project 3.15.15
 
 **A Quantum Computer Simulator**
 
 <ul class="pager">
-  <li class="previous"><a href="/book/3-13-0-computational-physics/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-14-00-computational-physics/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/3-15-0-nlp/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-16-00-nlp/">Next &raquo;</a><li>
 </ul>

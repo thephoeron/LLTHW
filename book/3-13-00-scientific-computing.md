@@ -1,11 +1,11 @@
 <ol class="breadcrumb">
   <li><a href="/">Home</a></li>
   <li><a href="/book/">Book</a></li>
-  <li><a href="/book/3-0-0-overview/">Part Three: Lisp So(u)rcery</a></li>
+  <li><a href="/book/3-00-00-overview/">Part Three: Lisp So(u)rcery</a></li>
   <li class="active">Scientific Computing</li>
 </ol>
 
-## Chapter 3.12
+## Chapter 3.13
 
 # Scientific Computing
 
@@ -18,40 +18,40 @@ At the most basic level, computational science requires featureful and fast alge
 
 In this chapter we will review the Lisp syntax of the math necessary to model problems in computational science, translate a selection of problems in computational science from pseudo-code to Common Lisp, work heavily from the REPL to model systems interactively in real-time, graph and plot our results, and run exhaustive tests and benchmarks against other platforms as part of the optimization process, to prove to yourself and others that Common Lisp is the ideal platform for Scientific Computing.
 
-## Exercise 3.12.1
+## Exercise 3.13.1
 
 **The Math of Scientific Computing**
 
-## Exercise 3.12.2
+## Exercise 3.13.2
 
 **GSLL**
 
-## Exercise 3.12.3
+## Exercise 3.13.3
 
 **Leveraging Massive Concurrency**
 
-## Exercise 3.12.4
+## Exercise 3.13.4
 
 **Floating-Point Calculations using CL-GPU**
 
-## Exercise 3.12.5
+## Exercise 3.13.5
 
 **Plotting Your Results**
 
-## Exercise 3.12.6
+## Exercise 3.13.6
 
 **Performance Testing and Optimization**
 
-## Exercise 3.12.7
+## Exercise 3.13.7
 
 **Proofing Results**
 
-## Project 3.12.8
+## Project 3.13.8
 
 **A Scientific Computing Application**
 
 <ul class="pager">
-  <li class="previous"><a href="/book/3-11-0-fintech/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-12-00-fintech/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/3-13-0-computational-physics/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-14-00-computational-physics/">Next &raquo;</a><li>
 </ul>

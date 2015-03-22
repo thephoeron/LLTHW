@@ -1,11 +1,11 @@
 <ol class="breadcrumb">
   <li><a href="/">Home</a></li>
   <li><a href="/book/">Book</a></li>
-  <li><a href="/book/3-0-0-overview/">Part Three: Lisp So(u)rcery</a></li>
+  <li><a href="/book/3-00-00-overview/">Part Three: Lisp So(u)rcery</a></li>
   <li class="active">Neuroscience and Thought-Controlled Computing</li>
 </ol>
 
-## Chapter 3.19
+## Chapter 3.20
 
 # Neuroscience and Thought-Controlled Computing
 
@@ -22,8 +22,64 @@ The one issue with available Brain--Computer Interfaces is the lack of software 
 
 In this chapter, we will review the basic concepts of Neuroscience and the various BCIs available on the market, their specifications and SDKs; we will parse the resulting brainwave data in Lisp, and attempt to structure Neural-net models to get a better understanding of what our brains are doing; and write several brainwave controlled utility applications specifically designed for improving your Lisp workflow, including a brief introduction to Emacs Lisp that will enable us to map BCI input to Emacs keyboard commands.
 
+## Exercise 3.20.1
+
+**An Introduction to Neuroscience**
+
+*Note:* illustrate concepts of neuroscience with a model neural net that produces externally visible brainwaves as a software interface.
+
+## Exercise 3.20.2
+
+**An Introduction to Thought-Controlled Computing**
+
+*Note:* extend the previous exercise to demonstrate use of the visible brainwave interface.
+
+## Exercise 3.20.3
+
+**Commercial Brain--Computer Interfaces**
+
+## Exercise 3.20.4
+
+**Muse and OSC**
+
+## Exercise 3.20.5
+
+**Emotiv EPOC SDK**
+
+## Exercise 3.20.6
+
+**Analyzing Brainwave Data in Lisp**
+
+## Exercise 3.20.7
+
+**Mapping Mnemonic Brainwave Patterns**
+
+## Exercise 3.20.8
+
+**Training Your Brain to Activate BCI Sensors**
+
+## Exercise 3.20.9
+
+**Training Your Brain's Resting State**
+
+## Project 3.20.10
+
+**Interactive Meditation and Self-Awareness**
+
+## Exercise 3.20.11
+
+**Mapping Brainwave Data to Text Input**
+
+## Exercise 3.20.12
+
+**Mapping Brainwave Data to Mouse Input**
+
+## Project 3.20.13
+
+**An Emacs Extension for Thought-Controlled Computing**
+
 <ul class="pager">
-  <li class="previous"><a href="/book/3-18-0-space-tech/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-19-00-space-tech/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/3-20-0-lispos/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-21-00-lispos/">Next &raquo;</a><li>
 </ul>

@@ -2,7 +2,7 @@
 <ol class="breadcrumb">
   <li><a href="/">Home</a></li>
   <li><a href="/book/">Book</a></li>
-  <li><a href="/book/3-0-0-overview/">Part Three: Lisp So(u)rcery</a></li>
+  <li><a href="/book/3-00-00-overview/">Part Three: Lisp So(u)rcery</a></li>
   <li class="active">Real-World Web Applications</li>
 </ol>
 
@@ -76,7 +76,7 @@ Also, include an exercise that shows how to set up a secure load-balanced cloud 
 **Deploying a Secure, Distributed Lisp Web Application in the Cloud**
 
 <ul class="pager">
-  <li class="previous"><a href="/book/3-0-0-overview/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-00-00-overview/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/3-02-0-mobile/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-02-00-typesetting/">Next &raquo;</a><li>
 </ul>

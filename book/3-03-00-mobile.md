@@ -1,11 +1,11 @@
 <ol class="breadcrumb">
   <li><a href="/">Home</a></li>
   <li><a href="/book/">Book</a></li>
-  <li><a href="/book/3-0-0-overview/">Part Three: Lisp So(u)rcery</a></li>
+  <li><a href="/book/3-00-00-overview/">Part Three: Lisp So(u)rcery</a></li>
   <li class="active">Native Mobile Applications</li>
 </ol>
 
-## Chapter 3.2
+## Chapter 3.3
 
 # Native Mobile Applications
 
@@ -22,24 +22,24 @@ That being said, mobile development is primarily a commercial endeavour, so in t
 
 TO-DO: Profile CLASP, ECL, SBCL, and CCL native app development.
 
-## Exercise 3.2.1
+## Exercise 3.3.1
 
 **Getting Started with MOCL**
 
-## Exercise 3.2.2
+## Exercise 3.3.2
 
 **iOS Development with MOCL**
 
-## Exercise 3.2.3
+## Exercise 3.3.3
 
 **Android Development with MOCL**
 
-## Project 3.2.4
+## Project 3.3.4
 
 **Cross-Platform Mobile App, for iOS and Android**
 
 <ul class="pager">
-  <li class="previous"><a href="/book/3-01-0-web-apps/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-02-00-typesetting/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/3-03-0-gui/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-04-00-gui/">Next &raquo;</a><li>
 </ul>

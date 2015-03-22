@@ -35,5 +35,5 @@ Only once you've fully internalized the Common Lisp HyperSpec, can you proudly b
 <ul class="pager">
   <li class="previous"><a href="/book/2-20-0-packaging-libs/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/3-0-0-overview/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-00-00-overview/">Next &raquo;</a><li>
 </ul>
