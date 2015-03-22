@@ -20,7 +20,7 @@ Now, imagine the relative convenience of a space-craft where all the systems are
 
 Space Tech is a complex field of interrelated, specialized disciplines---and inevitably, after a cursory introduction to the field as a whole in an undergraduate program, students are expected to focus on one of the many specializations, such as astrophysics, propulsion, aerospace engineering, communications, etc.  But it is advantageous to have a big picture, wide-view of the field before choosing a specialization.
 
-In this chapter, we will explore a very high-level overview of a selection of the topics in the field of Space Tech, namely astrophysics, microgravity, properties of vacuums and near-vacuums, propulsion, aerospace engineering, and communication; design idealized model satellites and probes, integrating a basic AI that can be overridden by a controller on Earth; and implement an environment to simulate space-like conditions for testing these models.  As an extra credit exercise, we will extend this text-based simulator to a 3D simulation, where you can see your model space-craft in action.
+In this chapter, we will explore a very high-level overview of a selection of the topics in the field of Space Tech, namely astrophysics, microgravity, properties of vacuums and near-vacuums, propulsion, aerospace engineering, and communication; design idealized model satellites and probes, integrating a basic AI that can be overridden by a controller on Earth; and implement an environment to simulate space-like conditions for testing these models.  And lastly, we will extend this text-based simulator to a 3D simulation, where you can see your model space-craft in action.
 
 ## Exercise 3.18.1
 
