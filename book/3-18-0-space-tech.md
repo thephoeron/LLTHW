@@ -58,7 +58,19 @@ In this chapter, we will explore a very high-level overview of a selection of th
 
 **A Controller AI**
 
-## Project 3.18.10
+## Exercise 3.18.10
+
+**Unmanned Spacecraft**
+
+## Exercise 3.18.11
+
+**Simulating Life-Support for Manned Spacecraft**
+
+## Exercise 3.18.12
+
+**Live Hacking Mission-Critical Systems**
+
+## Project 3.18.13
 
 **A 3D Space Simulator**
 
