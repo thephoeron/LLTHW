@@ -5,7 +5,7 @@
   <li class="active">Financial Software and Crypto-Currencies</li>
 </ol>
 
-## Chapter 3.11
+## Chapter 3.12
 
 # Financial Software and Crypto-Currencies
 
@@ -18,47 +18,47 @@ Naturally, security is of utmost concern; so if you have not already read it, wo
 
 So in this chapter, we'll take an overview of the strongest encryption protocols available in Common Lisp, design a personal wallet that utilizes Bitcoin to store and transfer value, interface with the Bitcoin blockchain from Common Lisp, and review some of the more interesting Bitcoin Improvement Proposals (BIPs) to add valuable features to your personal wallet.  We will also point you to some important resources for learning how to do a basic security profile of your application, to harden your wallet against potential loss through theft or other malicious activity.
 
-## Exercise 3.11.1
+## Exercise 3.12.1
 
 **Working with Crypto-Currencies in Common Lisp**
 
-## Exercise 3.11.2
+## Exercise 3.12.2
 
 **JSON-RPC Interfaces**
 
-## Exercise 3.11.3
+## Exercise 3.12.3
 
 **ECDSA, SHA256, and Ripemd160**
 
-## Exercise 3.11.4
+## Exercise 3.12.4
 
 **Base-58 and Base-64 Representations**
 
-## Exercise 3.11.5
+## Exercise 3.12.5
 
 **Transactions**
 
-## Exercise 3.11.6
+## Exercise 3.12.6
 
 **Addresses**
 
-## Exercise 3.11.7
+## Exercise 3.12.7
 
 **Op-Codes**
 
-## Exercise 3.11.8
+## Exercise 3.12.8
 
 **Scripts**
 
-## Exercise 3.11.9
+## Exercise 3.12.9
 
 **Unspent-Outs**
 
-## Exercise 3.11.10
+## Exercise 3.12.10
 
 **Wallets**
 
-## Exercise 3.11.11
+## Exercise 3.12.11
 
 **Writing an Encrypted Wallet**
 
@@ -67,20 +67,20 @@ Two methods:
 * Encrypt database fields individually
 * Encrypt Wallet Instance Object
 
-## Exercise 3.11.12
+## Exercise 3.12.12
 
 **Providing a RESTful API to the Blockchain**
 
-## Exercise 3.11.13
+## Exercise 3.12.13
 
 **Hierarchical--Deterministic Keychains**
 
-## Project 3.11.14
+## Project 3.12.14
 
 **A Personal Bitcoin Wallet Web-App**
 
 <ul class="pager">
-  <li class="previous"><a href="/book/3-10-0-cryptosec/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-11-00-cryptosec/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/3-12-0-scientific-computing/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-13-00-scientific-computing/">Next &raquo;</a><li>
 </ul>

@@ -5,7 +5,7 @@
   <li class="active">Computational Physics</li>
 </ol>
 
-## Chapter 3.13
+## Chapter 3.14
 
 # Computational Physics
 
@@ -20,48 +20,48 @@ While modelling problems in M-Theory, Quantum Field Theory, or other novel appro
 
 In this chapter, we will revisit the methodology from Chapters 3.12 on Scientific Computing, and 3.7 on 3D Game Development, to progressively build 3D OpenGL simulations of n-body problems, gravitational fields, relativistic systems that warp spacetime, and models of sub-atomic particle physics; and as a final exercise, we will explore Newtonian Mechanics as an emergent system of Quantum Mechanics.
 
-## Exercise 3.13.1
+## Exercise 3.14.1
 
 **Common Problems in Computational Physics**
 
-## Exercise 3.13.2
+## Exercise 3.14.2
 
 **The Ising Model**
 
-## Exercise 3.13.3
+## Exercise 3.14.3
 
 **Simulating Physics with OpenGL**
 
-## Exercise 3.13.4
+## Exercise 3.14.4
 
 **An n-body Problem**
 
-## Exercise 3.13.5
+## Exercise 3.14.5
 
 **Gravitational Fields**
 
-## Exercise 3.13.6
+## Exercise 3.14.6
 
 **Relativistic Velocities**
 
-## Exercise 3.13.7
+## Exercise 3.14.7
 
 **Visualizing a Warped Space-Time**
 
-## Exercise 3.13.8
+## Exercise 3.14.8
 
 **Modelling the sub-atomic world**
 
-## Exercise 3.13.9
+## Exercise 3.14.9
 
 **Newtonian Mechanics as Emergent from Quantum Mechanics**
 
-## Project 3.13.10
+## Project 3.14.10
 
 **Extending the Computational Science Application for Physics Simulation**
 
 <ul class="pager">
-  <li class="previous"><a href="/book/3-12-0-scientific-computing/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-13-00-scientific-computing/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/3-14-0-quantum-computing/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-15-00-quantum-computing/">Next &raquo;</a><li>
 </ul>

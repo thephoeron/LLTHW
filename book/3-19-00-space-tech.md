@@ -5,7 +5,7 @@
   <li class="active">Space-Tech</li>
 </ol>
 
-## Chapter 3.18
+## Chapter 3.19
 
 # Space-Tech
 
@@ -22,60 +22,60 @@ Space Tech is a complex field of interrelated, specialized disciplines---and ine
 
 In this chapter, we will explore a very high-level overview of a selection of the topics in the field of Space Tech, namely astrophysics, microgravity, properties of vacuums and near-vacuums, propulsion, aerospace engineering, and communication; design idealized model satellites and probes, integrating a basic AI that can be overridden by a controller on Earth; and implement an environment to simulate space-like conditions for testing these models.  And lastly, we will extend this text-based simulator to a 3D simulation, where you can see your model space-craft in action.
 
-## Exercise 3.18.1
+## Exercise 3.19.1
 
 **Simulating Physics and Astrophysics**
 
-## Exercise 3.18.2
+## Exercise 3.19.2
 
 **Microgravity**
 
-## Exercise 3.18.3
+## Exercise 3.19.3
 
 **Vacuums and Near-Vacuums**
 
-## Exercise 3.18.4
+## Exercise 3.19.4
 
 **Orbits**
 
-## Exercise 3.18.5
+## Exercise 3.19.5
 
 **Simulating Space-Tech**
 
-## Exercise 3.18.6
+## Exercise 3.19.6
 
 **Basic Principles of Aerospace Engineering**
 
-## Exercise 3.18.7
+## Exercise 3.19.7
 
 **Propulsion**
 
-## Exercise 3.18.8
+## Exercise 3.19.8
 
 **Communication**
 
-## Exercise 3.18.9
+## Exercise 3.19.9
 
 **A Controller AI**
 
-## Exercise 3.18.10
+## Exercise 3.19.10
 
 **Unmanned Spacecraft**
 
-## Exercise 3.18.11
+## Exercise 3.19.11
 
 **Simulating Life-Support for Manned Spacecraft**
 
-## Exercise 3.18.12
+## Exercise 3.19.12
 
 **Live Hacking Mission-Critical Systems**
 
-## Project 3.18.13
+## Project 3.19.13
 
 **A 3D Space Simulator**
 
 <ul class="pager">
-  <li class="previous"><a href="/book/3-17-0-robotics/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-18-00-robotics/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/3-19-0-neurotech/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-20-00-neurotech/">Next &raquo;</a><li>
 </ul>

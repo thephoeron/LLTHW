@@ -5,7 +5,7 @@
   <li class="active">Reverse Engineering</li>
 </ol>
 
-## Chapter 3.5
+## Chapter 3.6
 
 # Reverse Engineering
 
@@ -18,52 +18,52 @@ Reverse Engineering is an art, more than a science---that being said, it is also
 
 In this chapter we will explore the structure of binary applications as output by various compilers, the features available across the most popular reverse engineering tools, and what Lisp offers that other tools don't.  We will then tackle the specific reverse engineering tasks to progressively migrate a closed-source application to Lisp by parsing `objdump` files, generating header files (for software compiled from C/C++), parsing common patterns in Assembly Language to create low-level Lisp code, and then wrapping up everything together to generate high-level Lisp code that can be used to maintain and compile a new version of the reverse engineered software.
 
-## Exercise 3.5.1
+## Exercise 3.6.1
 
 **OBJDUMP: Dumping Binaries as Assembly**
 
-## Exercise 3.5.2
+## Exercise 3.6.2
 
 **Operating System Kernels**
 
-## Exercise 3.5.3
+## Exercise 3.6.3
 
 **x86 Assembly**
 
-## Exercise 3.5.4
+## Exercise 3.6.4
 
 **x86-64 Assembly**
 
-## Exercise 3.5.5
+## Exercise 3.6.5
 
 **Stripped Binaries**
 
-## Exercise 3.5.6
+## Exercise 3.6.6
 
 **(Re)Generating Header Files**
 
-## Exercise 3.5.7
+## Exercise 3.6.7
 
 **Obfuscation and Deobfuscation**
 
-## Exercise 3.5.8
+## Exercise 3.6.8
 
 **Finding Compiler Patterns**
 
-## Exercise 3.5.9
+## Exercise 3.6.9
 
 **Transforming Assembly to Low-Level Lisp**
 
-## Exercise 3.5.10
+## Exercise 3.6.10
 
 **High-Level Transformations**
 
-## Project 3.5.11
+## Project 3.6.11
 
 **A Reverse Engineering Toolkit**
 
 <ul class="pager">
-  <li class="previous"><a href="/book/3-04-0-system-utils/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-05-00-system-utils/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/3-06-0-graphics/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-07-00-graphics/">Next &raquo;</a><li>
 </ul>

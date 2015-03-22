@@ -5,7 +5,7 @@
   <li class="active">Cryptography and Security</li>
 </ol>
 
-## Chapter 3.10
+## Chapter 3.11
 
 # Cryptography and Security
 
@@ -20,44 +20,44 @@ In this chapter we will review again the mathematics of cryptography, alongside 
 
 For a list of further readings on cryptography, please consult the Resources section of this site.
 
-## Exercise 3.10.1
+## Exercise 3.11.1
 
 **The Math of Modern Cryptography**
 
-## Exercise 3.10.2
+## Exercise 3.11.2
 
 **Post-Quantum Cryptography**
 
-## Exercise 3.10.3
+## Exercise 3.11.3
 
 **Cryptographically Strong (Pseudo)-Random Number Generators**
 
-## Exercise 3.10.4
+## Exercise 3.11.4
 
 **A One-Time Pad using CL-ISAAC**
 
-## Exercise 3.10.5
+## Exercise 3.11.5
 
 **Ironclad: Authentication**
 
-## Exercise 3.10.6
+## Exercise 3.11.6
 
 **Ironclad: Hashing**
 
-## Exercise 3.10.7
+## Exercise 3.11.7
 
 **Ironclad: Encryption**
 
-## Exercise 3.10.8
+## Exercise 3.11.8
 
 **Secure Coding Principles**
 
-## Project 3.10.9
+## Project 3.11.9
 
 **Extending Ironclad: Elliptical Curve Cryptography**
 
 <ul class="pager">
-  <li class="previous"><a href="/book/3-09-0-data/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-10-00-data/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/3-11-0-fintech/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-12-00-fintech/">Next &raquo;</a><li>
 </ul>
