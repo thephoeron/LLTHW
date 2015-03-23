@@ -20,7 +20,47 @@ The elegance, power, and expressiveness of Lisp often encourages students of the
 
 If you already run a Linux-based Operating System, you can start by just replacing pieces of your distro one-by-one with Lisp-based equivalents; but it is probably much safer if you use a spare computer, or a virtual machine, so that if anything goes wrong you won't lose any personal data.
 
-In this chapter, we will review the basic organization of operating systems, and what software they typically need to contain; take a brief tour of the available open-source Common Lisp software for building an Operating System; and build a custom version of Linux that uses a Common Lisp composite display manager, window manager, and the SBCL REPL as your login shell.
+In this chapter, we will review the basic organization of operating systems, and what software they typically need to contain; take a brief tour of the available open-source Common Lisp software for building an Operating System; and assemble a basic Lisp-based operating system which can be run on a virtual machine or installed on a spare computer for testing.
+
+## Exercise 3.21.1
+
+**The Scope of Operating Systems**
+
+## Exercise 3.21.2
+
+**The Kernel**
+
+## Exercise 3.21.3
+
+**The Shell**
+
+## Exercise 3.21.4
+
+**I/O**
+
+## Exercise 3.21.5
+
+**File Systems**
+
+## Exercise 3.21.6
+
+**Memory Management**
+
+## Exercise 3.21.7
+
+**Processes and Threads**
+
+## Exercise 3.21.8
+
+**Sandboxing**
+
+## Exercise 3.21.9
+
+**Window Managers and Graphical User Interfaces**
+
+## Project 3.21.10
+
+**A Basic LispOS for Virtual Machines**
 
 <ul class="pager">
   <li class="previous"><a href="/book/3-20-00-neurotech/">&laquo; Previous</a></li>
