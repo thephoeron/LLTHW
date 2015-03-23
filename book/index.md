@@ -15,13 +15,13 @@
   <span style="font-size:32px;">Toronto Lisp User Group</span><br><br>
   <span style="font-size:18px;">Authors:</span><br>
   <span style="font-size:24px;">
-  "the Phoeron" Colin J.E. Lupton,<br>
+  "the Phoeron" Colin J.E. Lupton<br>
   Leo "Inaimathi" Zovic
   </span><br><br>
   <span style="font-size:18px;">Additional Contributors:</span><br>
   <span style="font-size:24px;">
-  Dann Toliver,<br>
-  Gaelen D'Costa,<br>
+  Dann Toliver<br>
+  Gaelen D'Costa<br>
   Josh Teneycke
   </span>
 </p>
