@@ -186,10 +186,10 @@ abcdefghi
 * (let ((dest (list)))
     (read-sequence dest *standard-input*)
 	dest)
-NIL ;; note that it doesn't even wait for input when given a zero-length buffer
+NIL
 ```
 
-And at the same time, it will keep reading until the buffer is filled...
+Note that it doesn't even wait for input when given a zero-length buffer. It will also keep reading until the buffer is filled...
 
 ```lisp
 * (defparameter *buf* (make-list 7))
