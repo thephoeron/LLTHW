@@ -656,7 +656,7 @@ The difference is that, while `list` essentially means "Return the list of these
 
 **More Quoting**
 
-Because `quote` supresses evaluation, you can easily use it to more easily build deeply nested structures.
+Because `quote` supresses evaluation, you can use it to more easily build deeply nested structures.
 
 ```lisp
 * (list 1 (list 2 3) (list 4 (list (list 5) 6 7 8)))
