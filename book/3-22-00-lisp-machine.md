@@ -24,6 +24,62 @@ As we have already covered in previous chapters, it's common knowledge that Lisp
 
 This chapter will contain a review of available FPGA-based boards and ASIC manufacturers; a brief primer on synthesizable Verilog, and a DSL for producing Verilog/VHDL from Common Lisp source-code; and a schema for a 64-bit Lisp Machine.  As an extra credit exercise, we will modify an existing Common Lisp implementation to run directly on this Lisp Machine and use it as the basis for a LispOS for your new Lisp Machine.
 
+## Exercise 3.22.1
+
+**Hardware Prototyping and Fabrication**
+
+## Exercise 3.22.2
+
+**Field Programmable Gate Arrays**
+
+## Exercise 3.22.3
+
+**Application-Specific Integrated Circuits**
+
+## Exercise 3.22.4
+
+**Prototyping CPUs**
+
+## Exercise 3.22.5
+
+**Synthesizable Verilog**
+
+## Exercise 3.22.6
+
+**More Synthesizable Verilog**
+
+## Exercise 3.22.7
+
+**Even More Synthesizable Verilog**
+
+## Exercise 3.22.8
+
+**Generating Verilog/VHDL from Common Lisp**
+
+## Project 3.22.9
+
+**A DSL for Verilog/VHDL**
+
+## Exercise 3.22.10
+
+**Hardware Support for Common Lisp's Special Forms**
+
+## Exercise 3.22.11
+
+**The Lisp Machine's Memory Model**
+
+## Exercise 3.22.12
+
+**A 64-Bit Lisp Machine Architecture**
+
+## Project 3.22.13
+
+**Common Lisp for the Lisp Machine**
+
+## Project 3.22.14
+
+**Porting the LispOS to the Lisp Machine Architecture**
+
 <ul class="pager">
   <li class="previous"><a href="/book/3-21-00-lispos/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>

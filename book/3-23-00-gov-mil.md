@@ -16,9 +16,97 @@ The technological needs of Government and Military organizations are, by necessi
 
 Security is not a final destination, however, it's a process; and a complicated one at that.  In military operations, every action and piece of information is time-sensitive, so efficiency and flexibility are just as fundamental needs as adaptability and situational awareness.  You can see then, after everything that you've learned so far, how important a dynamic, interactive general purpose programming language like Common Lisp is to the success of military operations, and to the secure and efficient operation of government in general.  But a number of other topics we've covered also have direct application to military service, civilian military contracts, and the operation of government in the 21st century.
 
-The next generation of Military and Government contractors have a lot more work to do than just getting the jobs assigned to them done on time and in-budget; they also need to understand that the industry as a whole is full of bloat---inefficiencies, redundancies, and carelessness---and that this bloat is literally costing lives and putting civilians in harms way.  This bloat is as much an enemy of the state as a hostile dictatorship armed with weapons of mass destruction---and the best weapon to fight this bloat is a technology stack that is designed to eliminate bloat.  On average, an experienced Lisp Hacker can achieve what normally requires a team of 6 developers, in a fraction of the time; this has a lot to do with the type of programmers that have been attracted to Lisp, but it also has a lot to do with the interactive, iterative development process where code is progressively tested and optimized as it's written.  This essential feature of Lisp is a great advantage to military contractors, cyber-warfare soldiers, and TECHINT intelligence operatives.
+The next generation of Military and Government contractors have a lot more work to do than just getting the jobs assigned to them done on time and in-budget; they also need to understand that the industry as a whole is full of bloat---inefficiencies, redundancies, and carelessness---and that this bloat is literally costing lives and putting civilians in harms way.  This bloat is as much an enemy of the state as a hostile dictatorship armed with weapons of mass destruction---and the best weapon to fight this bloat is a technology stack that is designed to eliminate bloat.  On average, an experienced Lisp Hacker can achieve what normally requires a team of 6 senior developers, in a fraction of the time; this has a lot to do with the type of programmers that have been attracted to Lisp, but it also has a lot to do with the interactive, iterative development process where code is progressively tested and optimized as it's written.  This essential feature of Lisp is a great advantage to military contractors, cyber-warfare soldiers, and TECHINT intelligence operatives.
 
 In this chapter, we will review the basic requirements of Government and Military Grade systems, in so far as these requirements are declassified; use our Lisp Verilog DSL and FPGA skills to create live-hackable battlefield hardware; and revisit the topic of cryptography, authentication, and authorization for handling extremely sensitive Need-To-Know classified information, in such a way that if it is leaked or intercepted, the person responsible can be held fully accountable with minimal delay.
+
+## Exercise 3.23.1
+
+**Battlefield Hardware**
+
+## Exercise 3.23.2
+
+**Drone Kits**
+
+## Exercise 3.23.3
+
+**Fail-Safes for Drones**
+
+## Project 3.23.4
+
+**A Live-Hackable Drone**
+
+## Exercise 3.23.5
+
+**The Techniques of Cyber-Warfare**
+
+## Exercise 3.23.6
+
+**Deductive Reasoning**
+
+## Exercise 3.23.7
+
+**Intelligence**
+
+## Exercise 3.23.8
+
+**Automation and Abstraction**
+
+## Exercise 3.23.9
+
+**Pre-Computation**
+
+## Exercise 3.23.10
+
+**Obfuscation**
+
+## Exercise 3.23.11
+
+**Cryptography, Revisited**
+
+## Exercise 3.23.12
+
+**Hardware-Assisted Cryptography**
+
+## Project 3.23.13
+
+**A Hardware Module for Hashing, Encryption, and Decryption**
+
+## Exercise 3.23.14
+
+**Hierarchical--Deterministic Keychains**
+
+## Exercise 3.23.15
+
+**Device-Locked Master Keys**
+
+## Exercise 3.23.16
+
+**Users and Keys**
+
+## Exercise 3.23.17
+
+**Accountability**
+
+## Exercise 3.23.18
+
+**Data Permutation**
+
+(i.e., selectively mutating information to embed detectable signatures in decrypted classified data)
+
+## Exercise 3.23.19
+
+**Role-Based Redaction**
+
+## Exercise 3.23.20
+
+**Self-Destructing Hardware**
+
+## Project 3.23.21
+
+**A Hardware-Assisted Intelligence Subnet with Strong Accountability**
+
+(Not actually military-grade, but useful to illustrate TECHINT principles)
 
 <ul class="pager">
   <li class="previous"><a href="/book/3-22-00-lisp-machine/">&laquo; Previous</a></li>
