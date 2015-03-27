@@ -210,13 +210,13 @@ T
 * (listp (cons 5 nil))
 T
 ```
-If you cons something oneto the empty list, you get the list of that thing.
+If you cons something onto the empty list, you get the list of that thing.
 
 ```lisp
 * (cons 5 nil)
 (5)
 ```
-In this way, we can exploit the Cons-Cells' ability to contain heterogenous data in order to represent linked lists (or trees, as we'll see later).
+We can exploit the Cons-Cells' ability to contain heterogenous data in order to represent linked lists or trees.
 
 ```lisp
 * (cons 3 (cons 2 (cons 1 nil)))
@@ -271,7 +271,7 @@ Because `car` and `cdr` are purely functional, and return their target value, it
 This also applies to deeply nested lists.
 
 ```lisp
-* (defvar *tree* (list 1 (list 2 3) (list 4 (list (list 5) 6 7 8))))
+* (defparameter *tree* (list 1 (list 2 3) (list 4 (list (list 5) 6 7 8))))
 *tree*
 
 * *tree*
@@ -281,13 +281,39 @@ This also applies to deeply nested lists.
 3
 ```
 
-[[TODO: Is this a good place to talk about `cadr` and friends?]]
+This is common enough that Lisp supports shorthand for such tree selections.
+
+```lisp
+* (car *tree*)
+1
+
+* (cadr *tree*)
+
+(2 3)
+
+* (cadadr *tree*)
+3
+
+* (cddr *tree*)
+((4 ((5) 6 7 8)))
+
+* (cdddr *tree*)
+NIL
+```
+
+They're actual functions though. Not a reader syntax based on the number of `a`s and `d` s between the `c` and `r`. So, for instance:
+
+```lisp
+* (caddadddaaar *tree*)
+   The function COMMON-LISP-USER::CADDADDDAAAR is undefined.
+      [Condition of type UNDEFINED-FUNCTION]
+```
 
 ## Exercise 1.4.10
 
 **Push and Pop**
 
-We mentioned before that `cons`, `car` and `cdr` are purely functional. But, sometimes, you want to destructively modify a list you've defined. For instance, in order to simulate a stack. In order to destructively `cons` elements onto a list, use `push`.
+We mentioned before that `cons`, `car`, `cdr` and friends are purely functional. But, sometimes, you want to destructively modify a list you've defined. For instance, in order to implement a mutable stack. In order to destructively `cons` elements onto a list, use `push`.
 
 ```lisp
 * (defvar *stack* nil)
@@ -426,6 +452,9 @@ When dealing with linked lists, if you want to get at a particular element somew
 ```lisp
 * (car (cdr (cdr (cdr (list 0 1 2 3 4 5)))))
 3
+
+* (cadddr (list 0 1 2 3 4 5))
+3
 ```
 
 or you could use the `nth` function.
@@ -441,7 +470,7 @@ or you could use the `nth` function.
 0
 ```
 
-This isn't any more efficient (in the run-time sense) than `cdr` traversal, but is shorter to write if you need to access some deeper list element.
+This isn't any more efficient (in the run-time sense) than `cdr` traversal, but is shorter to write if you need to access some deeper list element in a flat list.
 
 ## Exercise 1.4.15
 
