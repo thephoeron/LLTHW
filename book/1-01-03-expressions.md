@@ -23,23 +23,23 @@ Common Lisp only has S-Expressions; imperative programming languages, for exampl
 
 ```lisp
 ;; first lets define a couple variables
-* (defvar *test-list-a* '(a b c))
-* (defvar *test-list-b* '(d e f))
+* (defvar *test-list-a* (list 1 2 3))
+* (defvar *test-list-b* (list 'd 'e 'f))
 ;; append returns a new list from its arguments
 * (append *test-list-a* *test-list-b*)
-=> (A B C D E F)
+=> (1 2 3 D E F)
 ;; you can see that the original lists haven't changed
 * *test-list-a*
-=> (A B C)
+=> (1 2 3)
 * *test-list-b*
 => (D E F)
 ;; but now lets do a destructive operation, NCONC (ie, in-place list concatenation)
 * (nconc *test-list-a* *test-list-b*)
-=> (A B C D E F)
+=> (1 2 3 D E F)
 ;; the variable's binding and assignment haven't changed, but the last cons-cell
 ;; now points to *test-list-b* instead of terminating at NIL
 * *test-list-a*
-=> (A B C D E F)
+=> (1 2 3 D E F)
 ```
 
 Expressions, in an abstract sense, are *expected to* return a value; S-Expressions in Common Lisp almost always do, as well, but there are some exceptions. A function call, for example, is expected to return the value of the last form in its body as the value of the entire function:
