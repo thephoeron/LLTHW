@@ -101,13 +101,7 @@
     (cl-who:with-html-output (hunchentoot::*standard-output*)
       (str (3bmd:parse-and-print-to-stream "book/index.md" hunchentoot::*standard-output* :format :html)))))
 
-;;; slot for removal
-
-; (eval-when (:execute :compile-toplevel :load-toplevel)
-;   (create-book-pages (directory (merge-pathnames "*.md" *the-book-dir*))))
-
-; (push (hunchentoot:create-regex-dispatcher "^/\d{4}/\d{2}/\d{2}/[\w-]+/$" 'generate-blog-page-for-post)
-;       (dispatch-table vhost-web))
+;; Handle book pages by reference
 
 (defun llthw-book-page ()
   "Probe for the book-page file from the current request script name;"
