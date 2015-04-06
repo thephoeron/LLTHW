@@ -13,9 +13,10 @@
 (defparameter *the-book-dir* (merge-pathnames "book/" *default-dir*))
 (defparameter *res-dir* (merge-pathnames "resources/" *default-dir*))
 (defparameter *ref-dir* (merge-pathnames "reference/" *default-dir*))
-;(defparameter *tl-dir* (merge-pathnames "try-lisp/" *default-dir*))
+
 ;; lists of MD files
 (defparameter *book-files* (directory (merge-pathnames "*.md" *the-book-dir*)))
+
 ;; Define hunchentoot log files
 (defparameter *acc-log* (merge-pathnames "log/access.log" *default-dir*))
 (defparameter *msg-log* (merge-pathnames "log/message.log" *default-dir*))
