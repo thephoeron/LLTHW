@@ -173,13 +173,10 @@
         (:meta :name "description" :content "Learn Lisp The Hard Way")
         (:meta :name "author" :content "Toronto Lisp User Group")
         (:title ,title)
-        (str ,*ie8-support*)
-        ;(google-analytics)
-        )
+        (str ,*ie8-support*))
       (:body
         ,@body
-        (:script :type "text/javascript" "MathJax.Hub.Queue(['Typeset',MathJax.Hub,'refSearchModalBody']);")
-        ))))
+        (:script :type "text/javascript" "MathJax.Hub.Queue(['Typeset',MathJax.Hub,'refSearchModalBody']);")))))
 
 (defmacro try-lisp-basic-page ((&key (title "L(λ)THW")) &body body)
   `(cl-who:with-html-output-to-string (hunchentoot::*standard-output* nil :prologue t :indent t)
@@ -190,9 +187,7 @@
         (:meta :name "description" :content "Learn Lisp The Hard Way")
         (:meta :name "author" :content "Toronto Lisp User Group")
         (:title ,title)
-        (str ,*ie8-support*)
-        ;(google-analytics)
-        )
+        (str ,*ie8-support*))
       (:body
         ,@body
         (:script :type "text/javascript" "MathJax.Hub.Queue(['Typeset',MathJax.Hub,'trylispbody']);")
