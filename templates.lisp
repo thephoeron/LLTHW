@@ -268,8 +268,6 @@
         (:script :src "//cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_HTMLorMML-full" :type "text/javascript")
         (:script :src "/static/js/select2-3.5.0/select2.min.js")
         (:script :src "/static/js/jqconsole.min.js" :type "text/javascript")
-        ; (:script :src "/static/js/llthw.js" :type "text/javascript")
-        ; <script></script>
         (:script "var jqconsole = $('#console').jqconsole('', '');")
         (:script :src "/static/js/jscl.js" :type "text/javascript")
         (:script :src "/llthw.js" :type "text/javascript")))))
