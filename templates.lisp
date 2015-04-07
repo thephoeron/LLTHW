@@ -16,11 +16,7 @@
 (defun reference-search ()
   (loop for k being the hash-keys in *cl-reference-symbols* using (hash-value v)
           collect (cl-who:with-html-output (hunchentoot::*standard-output*)
-                    (:option :value (string k) :data-label (string (getf v :label)) :data-clhs (string (getf v :clhs)) (:strong (str (getf v :text))) " "
-                             ;(cond ((string= (getf v :label) "constant")
-                             ;       (htm (:span :class "label label-default" "[" (str (getf v :label)) "]")))
-                             ;      (t (htm (:em "{" (str (getf v :label)) "}"))))
-                                   ))))
+                    (:option :value (string k) :data-label (string (getf v :label)) :data-clhs (string (getf v :clhs)) (:strong (str (getf v :text))) " "))))
 
 (defun llthw-footer ()
   (cl-who:with-html-output (hunchentoot::*standard-output*)
