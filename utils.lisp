@@ -7,8 +7,8 @@
 (in-package :llthw)
 
 ;;; Most of the code in this file is deprecated
-;;; Slot for removal
 
+;; Slot for removal:
 ;; Loop over contents of passed FILES list, build pages automatically
 (defmacro create-book-pages (files)
   "Loop over contents of passed FILES list, build pages automatically at compile time."
@@ -19,6 +19,9 @@
                           (cl-who:with-html-output (hunchentoot::*standard-output*)
                             (str (3bmd:parse-and-print-to-stream ,(format nil "book/~(~A~)" (file-namestring file)) hunchentoot::*standard-output* :format :html))))))))
 
+;; This was used to dynamically generate handlers for reference pages
+;; deprecated, slot for removal
+
 (defmacro create-reference-pages (files &key (section "reference"))
   "Loop over contents of passes FILES list, build pages automatically at compile time using REFERENCE-BASIC-PAGE template under folder labelled SECTION."
   `(progn
@@ -27,6 +30,9 @@
                         (reference-basic-page ()
                           (cl-who:with-html-output (hunchentoot::*standard-output*)
                             (str (3bmd:parse-and-print-to-stream ,(format nil "~(~A/~A~)" section (file-namestring file)) hunchentoot::*standard-output* :format :html))))))))
+
+;; Used to automatically build reference templates for all Common Lisp symbols
+;; no longer needed, slot for removal
 
 (defun create-reference-files ()
   (loop for k being the hash-keys in *cl-reference-symbols* using (hash-value v)
