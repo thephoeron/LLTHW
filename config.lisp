@@ -38,8 +38,7 @@
       3bmd-code-blocks:*code-blocks* t
       3bmd-definition-lists:*definition-lists* t
       3bmd-tables:*tables* t
-      3bmd-code-blocks:*code-blocks-default-colorize* :common-lisp
-      )
+      3bmd-code-blocks:*code-blocks-default-colorize* :common-lisp)
 
 (defun server-type ()
   "Hunchentoot")
