@@ -6,4 +6,6 @@
 
 (in-package :llthw)
 
+;;;; Deprecate this file, no longer used.
+
 ;; EOF
