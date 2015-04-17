@@ -43,8 +43,6 @@ Litecoin: [LZfkNpcQetVcNNbpERQoCvRJkVERYry9Me](litecoin:LZfkNpcQetVcNNbpERQoCvRJ
 
 ### License
 
-Copyright &copy; 2012--2015, "the Phoeron" Colin J.E. Lupton and the Authors.
-
-The web site and source code are released under the MIT License.  See `llthw/LICENSE` for more information.
+Copyright &copy; 2012--2015, "the Phoeron" Colin J.E. Lupton and the Authors.  The web site and source code are released under the MIT License.  See `llthw/LICENSE` for more information.
 
 The book text of Learn Lisp The Hard Way is is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.
