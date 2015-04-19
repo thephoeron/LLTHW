@@ -27,7 +27,7 @@ As an LxTHW book, the style and format should follow [Zed Shaw's guidelines](htt
 
 The full book outline is already complete, so if you find a chapter that covers your specialty, you can claim it by creating an issue or a pull request on the repo.
 
-Part Three of the book is designed for exploratory, self-directed projects.  Libraries and new programming techniques are demonstrated, but the reader should be expected to figure out the implementation details on their own.
+Part Three of the book is designed for exploratory, self-directed, domain-specific projects.  Libraries, new programming techniques, and common problem domains tackled by Common Lisp are demonstrated, but the reader should be expected to figure out the implementation details on their own.
 
 If you find any errors, or think a section could use more clarification or better code examples, please create an issue and identify the passage of text by chapter, exercise, and paragraph.
 
