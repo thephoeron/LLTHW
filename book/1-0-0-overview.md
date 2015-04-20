@@ -21,6 +21,11 @@ From there we'll move on to strings, characters, writing, and printing; promptin
 
 Then we'll build our first application, a straight-forward text-adventure, using everything you've learned up to that point; extend this knowlege to a simple web application and command-line utilities, explore more advanced features of the language, and writing domain-specific languages for even more control over syntax.
 
+### Chapters
+
+#. [Common Lisp Bootcamp](/book/1-01-00-lisp-bootcamp/)
+#. [I/O](/book/1-02-00-input-output/)
+
 <ul class="pager">
   <li class="previous"><a href="/book/acknowledgements/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
