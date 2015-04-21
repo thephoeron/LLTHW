@@ -25,6 +25,10 @@ Then we'll build our first application, a straight-forward text-adventure, using
 
 #. [Common Lisp Bootcamp](/book/1-01-00-lisp-bootcamp/)
 #. [I/O](/book/1-02-00-input-output/)
+#. [Getting Input From Users](/book/1-03-00-getting-input-from-users/)
+#. [Lists](/book/1-04-00-lists/)
+#. [Look-up Lists and Trees](/book/1-05-00-lookups-trees/)
+#. [Math](/book/1-06-00-math/)
 
 <ul class="pager">
   <li class="previous"><a href="/book/acknowledgements/">&laquo; Previous</a></li>
