@@ -24,11 +24,14 @@ Then we'll build our first application, a straight-forward text-adventure, using
 ### Chapters
 
 #. [Common Lisp Bootcamp](/book/1-01-00-lisp-bootcamp/)
-#. [I/O](/book/1-02-00-input-output/)
-#. [Getting Input From Users](/book/1-03-00-getting-input-from-users/)
-#. [Lists](/book/1-04-00-lists/)
-#. [Look-up Lists and Trees](/book/1-05-00-lookups-trees/)
-#. [Math](/book/1-06-00-math/)
+#. [Printing, Strings and Streams](/book/1-02-00-input-output/)
+#. [Getting Input From Users](/book/1-03-0-getting-input-from-users/)
+#. [Lists and List-Operations](/book/1-04-0-lists/)
+#. [Look-up Lists and Trees](/book/1-05-0-lookups-trees/)
+#. [Numbers and Math](/book/1-06-0-math/)
+#. [Arrays and Vectors](/book/1-07-0-arrays/)
+#. [Variables, Parameters, and Constants](/book/1-08-0-variables/)
+#. [Closures](/book/1-09-0-closures/)
 
 <ul class="pager">
   <li class="previous"><a href="/book/acknowledgements/">&laquo; Previous</a></li>
