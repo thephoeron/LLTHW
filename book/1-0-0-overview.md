@@ -32,6 +32,17 @@ Then we'll build our first application, a straight-forward text-adventure, using
 #. [Arrays and Vectors](/book/1-07-0-arrays/)
 #. [Variables, Parameters, and Constants](/book/1-08-0-variables/)
 #. [Closures](/book/1-09-0-closures/)
+#. [Functions and Macros](/book/1-10-0-functions/)
+#. [A Simple Text Adventure](/book/1-11-0-text-adventure/)
+#. [Namespaces, Symbols, Packages, and Systems](/book/1-12-0-namespaces/)
+#. [A Simple Web Application](/book/1-13-0-simple-web-app/)
+#. [Conditionals](/book/1-14-0-conditionals/)
+#. [Command-Line Utilities](/book/1-15-0-command-line-utility/)
+#. [Mapping and Looping](/book/1-16-0-map-loop/)
+#. [Revisiting Loops with Iterate](/book/1-17-0-iterate/)
+#. [Format Strings](/book/1-18-0-format/)
+#. [Domain Specific Languages](/book/1-19-0-dsl/)
+#. [Part One in Review](/book/1-20-0-review/)
 
 <ul class="pager">
   <li class="previous"><a href="/book/acknowledgements/">&laquo; Previous</a></li>
