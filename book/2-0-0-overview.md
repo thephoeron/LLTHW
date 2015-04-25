@@ -17,6 +17,14 @@ As Zen Buddhism teaches, however, it is important to not get sucked in to the pa
 
 But enough with the metaphors for now.  From a practical standpoint, in Part Two you'll be learning all the advanced features of the Common Lisp language---the secrets of multi-paradigm programming; CLOS, the Common Lisp Object System; Regular Expressions and Pattern Matching; Persistent storage and serialization; writing custom types; parellel processing; advanced mathematics and logic; working with binary, assembly language, and the compiler; the foreign-function interface; and a whole lot more.
 
+### Chapters
+
+#. [Programming Paradigms](/book/2-01-0-programming-paradigms/)
+#. [Regular Expressions](/book/2-02-0-regex/)
+#. [Objects and Control Structures](/book/2-03-0-objects-control/)
+#. [Persistence and Databases](/book/2-04-0-data-persistence/)
+#. [Extended Types](/book/2-05-0-extended-types/)
+
 <ul class="pager">
   <li class="previous"><a href="/book/1-20-0-review/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
