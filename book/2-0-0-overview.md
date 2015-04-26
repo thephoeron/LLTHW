@@ -24,6 +24,9 @@ But enough with the metaphors for now.  From a practical standpoint, in Part Two
 #. [Objects and Control Structures](/book/2-03-0-objects-control/)
 #. [Persistence and Databases](/book/2-04-0-data-persistence/)
 #. [Extended Types](/book/2-05-0-extended-types/)
+#. [Concurrency and Memoization](/book/2-06-0-threads-memos-parallel/)
+#. [Logic and Advanced Math](/book/2-07-0-logic-and-more-math/)
+#. [Number Theory](/book/2-08-0-number-theory/)
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-20-0-review/">&laquo; Previous</a></li>
