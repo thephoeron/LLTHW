@@ -27,6 +27,9 @@ But enough with the metaphors for now.  From a practical standpoint, in Part Two
 #. [Concurrency and Memoization](/book/2-06-0-threads-memos-parallel/)
 #. [Logic and Advanced Math](/book/2-07-0-logic-and-more-math/)
 #. [Number Theory](/book/2-08-0-number-theory/)
+#. [Binary Streams, Octet-Vectors, and Bit-Vectors](/book/2-09-0-binary-octets-bits/)
+#. [An Improved Text Adventure Engine](/book/2-10-0-improved-text-adventure-engine/)
+#. [Conditions and Error Handling](/book/2-11-0-conditions/)
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-20-0-review/">&laquo; Previous</a></li>
