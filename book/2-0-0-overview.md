@@ -30,6 +30,10 @@ But enough with the metaphors for now.  From a practical standpoint, in Part Two
 #. [Binary Streams, Octet-Vectors, and Bit-Vectors](/book/2-09-0-binary-octets-bits/)
 #. [An Improved Text Adventure Engine](/book/2-10-0-improved-text-adventure-engine/)
 #. [Conditions and Error Handling](/book/2-11-0-conditions/)
+#. [Write a 2D Game](/book/2-12-0-2d-game/)
+#. [The Compiler](/book/2-13-0-compiler/)
+#. [Write a Tree-Shaker](/book/2-14-0-tree-shaker/)
+#. [Documentation and Inspection](/book/2-15-0-docs-and-inspection/)
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-20-0-review/">&laquo; Previous</a></li>
