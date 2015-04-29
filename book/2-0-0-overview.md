@@ -34,6 +34,12 @@ But enough with the metaphors for now.  From a practical standpoint, in Part Two
 #. [The Compiler](/book/2-13-0-compiler/)
 #. [Write a Tree-Shaker](/book/2-14-0-tree-shaker/)
 #. [Documentation and Inspection](/book/2-15-0-docs-and-inspection/)
+#. [Foreign Libraries in Lisp](/book/2-16-0-foreign-libs/)
+#. [Debugging and Unit Testing](/book/2-17-0-debugging-testing/)
+#. [Write a Foreign Function Interface](/book/2-18-0-ffi/)
+#. [Essential Lisp Libraries](/book/2-19-0-essential-libs/)
+#. [Packaging Lisp Libraries](/book/2-20-0-packaging-libs/)
+#. [Detailed Syntax Review](/book/2-21-0-review/)
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-20-0-review/">&laquo; Previous</a></li>
