@@ -17,7 +17,12 @@ This part of the book will also be less prescriptive, and leave you to rely on y
 
 ### Chapters
 
-#. [Real-World Web Applications](/book/3-01-00-web-apps/)
+#. [Real-World Web Apps](/book/3-01-00-web-apps/)
+#. [Typesetting](/book/3-02-00-typesetting/)
+#. [Native Mobile Applications](/book/3-03-00-mobile/)
+#. [Cross-Platform Desktop Applications](/book/3-04-00-gui/)
+#. [Drivers, Daemons, and System-Utilities](/book/3-05-00-system-utils/)
+#. [Reverse Engineering](/book/3-06-00-reverse-engineering/)
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-21-0-review/">&laquo; Previous</a></li>
