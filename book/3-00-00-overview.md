@@ -23,6 +23,9 @@ This part of the book will also be less prescriptive, and leave you to rely on y
 #. [Cross-Platform Desktop Applications](/book/3-04-00-gui/)
 #. [Drivers, Daemons, and System-Utilities](/book/3-05-00-system-utils/)
 #. [Reverse Engineering](/book/3-06-00-reverse-engineering/)
+#. [Graphics Rendering](/book/3-07-00-graphics/)
+#. [OpenGL, SDL, and 3D Game Development](/book/3-08-00-gaming/)
+#. [Audio Generation and Manipulation](/book/3-09-00-audio/)
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-21-0-review/">&laquo; Previous</a></li>
