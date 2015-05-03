@@ -26,6 +26,12 @@ This part of the book will also be less prescriptive, and leave you to rely on y
 #. [Graphics Rendering](/book/3-07-00-graphics/)
 #. [OpenGL, SDL, and 3D Game Development](/book/3-08-00-gaming/)
 #. [Audio Generation and Manipulation](/book/3-09-00-audio/)
+#. [Data Aggregation and Analysis](/book/3-10-00-data/)
+#. [Cryptography and Security](/book/3-11-00-cryptosec/)
+#. [Financial Software and Crypto-Currencies](/book/3-12-00-fintech/)
+#. [Scientific Computing](/book/3-13-00-scientific-computing/)
+#. [Computational Physics](/book/3-14-00-computational-physics/)
+#. [Quantum Computing](/book/3-15-00-quantum-computing/)
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-21-0-review/">&laquo; Previous</a></li>
