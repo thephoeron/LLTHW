@@ -33,6 +33,9 @@ This part of the book will also be less prescriptive, and leave you to rely on y
 #. [Computational Physics](/book/3-14-00-computational-physics/)
 #. [Quantum Computing](/book/3-15-00-quantum-computing/)
 #. [Natural Language Processing](/book/3-16-00-nlp/)
+#. [Artificial Intelligence](/book/3-17-00-ai/)
+#. [Robotics](/book/3-18-00-robotics/)
+#. [Space-Tech](/book/3-19-00-space-tech/)
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-21-0-review/">&laquo; Previous</a></li>
