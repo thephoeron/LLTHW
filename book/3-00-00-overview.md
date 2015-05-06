@@ -36,6 +36,10 @@ This part of the book will also be less prescriptive, and leave you to rely on y
 #. [Artificial Intelligence](/book/3-17-00-ai/)
 #. [Robotics](/book/3-18-00-robotics/)
 #. [Space-Tech](/book/3-19-00-space-tech/)
+#. [Neuroscience and Thought-Controlled Computing](/book/3-20-00-neurotech/)
+#. [A Simple LispOS](/book/3-21-00-lispos/)
+#. [Build Your Own Lisp Machine](/book/3-22-00-lisp-machine/)
+#. [Government and Military Grade Systems](/book/3-23-00-gov-mil/)
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-21-0-review/">&laquo; Previous</a></li>
