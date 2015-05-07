@@ -18,7 +18,7 @@
     :version #.*llthw-version*
     :author "\"the Phoeron\" Colin J.E. Lupton <sysop@thephoeron.com>"
     :license "MIT"
-    :description "LLTHW"
+    :description "Learn Lisp The Hard Way, web application and complete book text."
     :serial t
     :depends-on (:hunchentoot
                  :cl-who
