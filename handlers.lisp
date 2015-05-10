@@ -7,6 +7,7 @@
 (in-package :llthw)
 
 ;; Splash page
+
 (define-easy-handler (llthw-splash-page :uri "/") ()
   (basic-llthw-page ()
     (cl-who:with-html-output (hunchentoot::*standard-output*)
@@ -55,6 +56,7 @@
             (str (3bmd:parse-and-print-to-stream "splash-faq.md" hunchentoot::*standard-output* :format :html))))))))
 
 ;; Try Lisp pages
+
 (define-easy-handler (llthw-try-lisp :uri "/try-lisp/") ()
   (try-lisp-page ()
     (cl-who:with-html-output (hunchentoot::*standard-output*)
@@ -73,12 +75,12 @@
         (reference-basic-page ()
           (cl-who:with-html-output (hunchentoot::*standard-output*)
             (str (3bmd:parse-and-print-to-stream the-ref-page hunchentoot::*standard-output* :format :html))))
-        ;else
         (reference-basic-page ()
           (cl-who:with-html-output (hunchentoot::*standard-output*)
             (:h4 "Error 404: Not Found"))))))
 
 ;; Main site pages
+
 (define-easy-handler (llthw-get-lisp :uri "/get-lisp/") ()
   (llthw-page (:subtitle "Download and Install Steel Bank Common Lisp" :section "get-lisp")
     (cl-who:with-html-output (hunchentoot::*standard-output*)
@@ -96,12 +98,14 @@
 
 ;; Book, Contents at a Glance
 ;; also available at /book/index/
+
 (define-easy-handler (llthw-book :uri "/book/") ()
   (llthw-page ()
     (cl-who:with-html-output (hunchentoot::*standard-output*)
       (str (3bmd:parse-and-print-to-stream "book/index.md" hunchentoot::*standard-output* :format :html)))))
 
 ;; Handle book pages by reference
+;; - this function could use some refactoring and clean-up
 
 (defun llthw-book-page ()
   "Probe for the book-page file from the current request script name."
@@ -123,10 +127,12 @@
           (abort-request-handler)))))
 
 ;; Regex dispatcher for book pages
+
 (push (hunchentoot:create-regex-dispatcher "^/book/[\\w-]+/$" 'llthw-book-page)
       hunchentoot:*dispatch-table*)
 
 ;; robots.txt file
+
 (define-easy-handler (robots-txt :uri "/robots.txt") ()
   (setf (content-type*) "text/plain")
   (format nil "User-agent: *~%Disallow: /static/~%Disallow: /reference/"))
