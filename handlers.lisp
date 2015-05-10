@@ -104,7 +104,7 @@
 ;; Handle book pages by reference
 
 (defun llthw-book-page ()
-  "Probe for the book-page file from the current request script name;"
+  "Probe for the book-page file from the current request script name."
   (let* ((script-name (hunchentoot:script-name*))
          (script-list (split-sequence #\/ script-name :remove-empty-subseqs t)))
     (if (= (length script-list) 2)
@@ -122,11 +122,11 @@
           (setf (return-code*) +http-forbidden+)
           (abort-request-handler)))))
 
+;; Regex dispatcher for book pages
 (push (hunchentoot:create-regex-dispatcher "^/book/[\\w-]+/$" 'llthw-book-page)
       hunchentoot:*dispatch-table*)
 
 ;; robots.txt file
-
 (define-easy-handler (robots-txt :uri "/robots.txt") ()
   (setf (content-type*) "text/plain")
   (format nil "User-agent: *~%Disallow: /static/~%Disallow: /reference/"))
