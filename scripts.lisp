@@ -17,14 +17,18 @@
             (let ((the-href ((@ ($ this) attr) "href")))
               ((@ ($ "#trylispbody") load) the-href)
                 (return false))))
-        ((@ ($ "#reference-search") select2) (create placeholder "Search Common Lisp Symbol Reference..."
-                                                     allow-clear true
-                                                     format-result (lambda (obj)
-                                                                     (let* ((item (@ obj element))
-                                                                            (label ((@ ($ item) data) "label")))
-                                                                       (return (+ "<strong>" (@ obj text) "</strong> <span class='label label-default'>" label "</span>"))
-                                                                       ))
-                                                     escape-markup (lambda (m) (return m))))
+        ((@ ($ "#reference-search") select2) 
+            (create placeholder "Search Common Lisp Symbol Reference..."
+                    allow-clear true
+                    format-result (lambda (obj)
+                                    (let* ((item (@ obj element))
+                                           (label ((@ ($ item) data) "label")))
+                                      (return (+ "<strong>" 
+                                                 (@ obj text)
+                                                 "</strong> <span class='label label-default'>"
+                                                 label
+                                                 "</span>"))))
+                    escape-markup (lambda (m) (return m))))
         ((@ ($ "#reference-search") change)
           (lambda ()
             (let* ((the-id ((@ ($ "#reference-search") select2) "val"))
