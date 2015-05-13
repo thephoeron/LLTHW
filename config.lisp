@@ -6,6 +6,8 @@
 
 (in-package :llthw)
 
+;; Project Directory and Sub-Directory variables
+
 (defparameter *default-dir*
   (pathname (directory-namestring #.(or *compile-file-truename*
                                         *load-truename*))))
@@ -14,20 +16,29 @@
 (defparameter *res-dir* (merge-pathnames "resources/" *default-dir*))
 (defparameter *ref-dir* (merge-pathnames "reference/" *default-dir*))
 
-;; lists of MD files
+;; list of book files, may be deprecated
+
 (defparameter *book-files* (directory (merge-pathnames "*.md" *the-book-dir*)))
 
 ;; Define hunchentoot log files
+
 (defparameter *acc-log* (merge-pathnames "log/access.log" *default-dir*))
 (defparameter *msg-log* (merge-pathnames "log/message.log" *default-dir*))
+
+;; Sanity check, ensure subdirectories have been created
 
 (ensure-directories-exist *acc-log*)
 
 ;; LLTHW Acceptor
+
 (defparameter *acc* nil)
+
+;; Dispatch Table -- only need easy handlers
 
 (setf hunchentoot:*dispatch-table*
   (list 'hunchentoot:dispatch-easy-handlers))
+
+;; Library settings
 
 (setf ;; for utf-8
       hunchentoot:*default-content-type* "text/html; charset=utf-8"
@@ -39,6 +50,8 @@
       3bmd-definition-lists:*definition-lists* t
       3bmd-tables:*tables* t
       3bmd-code-blocks:*code-blocks-default-colorize* :common-lisp)
+
+;; Server Information
 
 (defun server-type ()
   "Hunchentoot")
