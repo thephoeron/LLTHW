@@ -15,11 +15,11 @@
 (defparameter *llthw-version* "0.2.4")
 
 (defsystem llthw
+    :serial t
+    :license "MIT"
     :version #.*llthw-version*
     :author "\"the Phoeron\" Colin J.E. Lupton <sysop@thephoeron.com>"
-    :license "MIT"
     :description "Learn Lisp The Hard Way, web application and complete book text."
-    :serial t
     :depends-on (:hunchentoot
                  :cl-who
                  :cl-css
