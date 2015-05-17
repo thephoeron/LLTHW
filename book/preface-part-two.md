@@ -33,9 +33,9 @@ An important theme of this book is also on the skills necessary for programming 
 
 ### Reading and Writing
 
-Programming, much like human language, involves the intentional use of a specific set of language-dependent characters that have *meaning*, some of which you might not be used to typing. If you have trouble reading, writing, or typing, you will struggle writing code.
+Programming, much like human language, involves the intentional use of a specific set of language-dependent characters that have *meaning*, some of which you might not be used to typing. Programming is significantly more exact than human languages---if you have trouble reading, writing, or typing, you will struggle writing code.
 
-Take the time to read over the code examples carefully, and double-check your work once you have typed it.  This will save you a lot of migraines along the way.
+Take the time to read over the code examples carefully, and double-check your work once you have typed it.  This will save you from many stress headaches along the way.
 
 ### Attention to Detail
 
@@ -45,7 +45,7 @@ By manually typing each exercise *exactly* as you work through this book, you wi
 
 ### Spotting Differences
 
-The natural extension to the first two skills is the ability to spot differences.  With careful reading, typing, and attention to detail, you will also be training your brain to highlight subtle differences, so that when you make a mistake, you notice, and can correct it immediately.
+The natural extension to the first two skills is the ability to spot differences.  With careful reading, typing, and attention to detail, you will also be training your brain to highlight subtle differences for you, so that when you make a mistake, you notice, and can correct it immediately.
 
 Naturally, this skill will also help you more quickly spot and correct bugs in other people's code that you have to upgrade and maintain.
 
@@ -59,7 +59,7 @@ If the very idea of math makes your heart skip a beat, your hands shake, and you
 
 If you copy-and-paste the code from the exercises into the Lisp REPL instead of typing them out yourself, you might as well not do them at all.  As both teacher and student for the duration of this book, you have to force yourself to type in every example.  No matter how easy or self-evident a code example appears to be, you have to stop yourself from cheating.
 
-The point of these exercises is to train your hands, your eyes, your brain, and your mind how to read, write, see, think, and dream code.  When you cheat here, you're cheating yourself.
+The point of these exercises is to train your hands, your eyes, your brain, and your mind how to read, write, see, think, and dream code.  When you cheat here, you're only cheating yourself.
 
 <ul class="pager">
   <li class="previous"><a href="/book/preface/">&laquo; Previous</a></li>
