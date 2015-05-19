@@ -11,7 +11,7 @@
 > "Do not handicap your children by making their lives easy."
 > <footer>Robert A. Heinlein, <em>Time Enough for Love</em></footer>
 
-Many books on programming can be quite tedious.  There is a tendency among programming language education literature to be one of two types: such a basic introduction that you know less about the subject after reading the book, or so dense that it is not a useful introduction to learn the language outside of an ivy-league university's computer science program.  *The Hard Way* is different.
+Programming books can be tedious, and usually come in only one of two bland flavours---so basic an introduction you know less about the language after reading the book, or so dense a tome it is not useful outside an ivy-league university's computer science program.  *The Hard Way* is different.
 
 You don't have to know anything about programming or computer science to learn Lisp with this book, but I'm not going to talk down to you either.  I'm going to assume that you know that learning any new skill is hard for everyone, and that you need to work hard in order to succeed.
 
