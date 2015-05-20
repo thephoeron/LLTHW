@@ -35,45 +35,89 @@ Also, include an exercise that shows how to set up a secure load-balanced cloud 
 
 **Full Featured Web Apps**
 
+```lisp
+
+```
+
 ## Exercise 3.1.2
 
 **Clack and Caveman**
+
+```lisp
+
+```
 
 ## Exercise 3.1.3
 
 **Wookie**
 
+```lisp
+
+```
+
 ## Exercise 3.1.4
 
 **CL-ASYNC**
+
+```lisp
+
+```
 
 ## Exercise 3.1.5
 
 **IOLib**
 
+```lisp
+
+```
+
 ## Exercise 3.1.6
 
 **IOLib**
+
+```lisp
+
+```
 
 ## Exercise 3.1.7
 
 **Websockets**
 
+```lisp
+
+```
+
 ## Exercise 3.1.8
 
 **Databases and ORMs for the Web**
+
+```lisp
+
+```
 
 ## Exercise 3.1.9
 
 **Serializing Data to JSON**
 
+```lisp
+
+```
+
 ## Project 3.1.10
 
 **An All-in-One Asynchronous Web Framework**
 
+```lisp
+
+```
+
 ## Exercise 3.1.11
 
 **Deploying a Secure, Distributed Lisp Web Application in the Cloud**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/3-00-00-overview/">&laquo; Previous</a></li>
