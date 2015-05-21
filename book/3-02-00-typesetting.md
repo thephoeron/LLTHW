@@ -20,6 +20,10 @@ In this chapter we will explore single-source documents with multiple output for
 
 **CL-Typesetting Syntax**
 
+```lisp
+
+```
+
 ## Exercise 3.2.2
 
 **Markdown vs. reStructuredText**
@@ -28,9 +32,17 @@ In this chapter we will explore single-source documents with multiple output for
 
 Note: we will prefer CL-Typesetting integrated with 3bmd for a Lispier solution; but CL-Docutils is useful for outputting LaTeX.
 
+```lisp
+
+```
+
 ## Exercise 3.2.3
 
 **Integrating 3bmd with CL-Typesetting**
+
+```lisp
+
+```
 
 ## Exercise 3.2.4
 
@@ -44,45 +56,89 @@ Highlight unique considerations for:
 * Web
 * Screen Readers
 
+```lisp
+
+```
+
 ## Exercise 3.2.5
 
 **Book Design**
+
+```lisp
+
+```
 
 ## Exercise 3.2.6
 
 **Fonts &amp; Typography**
 
+```lisp
+
+```
+
 ## Exercise 3.2.7
 
 **Document Structure**
+
+```lisp
+
+```
 
 ## Exercise 3.2.8
 
 **White-space and Black-space**
 
+```lisp
+
+```
+
 ## Exercise 3.2.9
 
 **Headers, Footers, and Margins**
+
+```lisp
+
+```
 
 ## Exercise 3.2.10
 
 **Footnotes, Citations, Bibliographies**
 
+```lisp
+
+```
+
 ## Exercise 3.2.11
 
 **Contents and Indices**
+
+```lisp
+
+```
 
 ## Exercise 3.2.12
 
 **In-Line Graphics and Plots**
 
+```lisp
+
+```
+
 ## Exercise 3.2.13
 
 **Typesetting Mathematical Notation**
 
+```lisp
+
+```
+
 ## Exercise 3.2.14
 
 **Self-Publishing Services**
+
+```lisp
+
+```
 
 ## Project 3.2.15
 
@@ -94,6 +150,10 @@ Output to:
 * Ebook
 * Web
 * Plain-Text
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/3-01-00-web-apps/">&laquo; Previous</a></li>
