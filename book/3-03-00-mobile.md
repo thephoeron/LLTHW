@@ -26,17 +26,33 @@ TO-DO: Profile CLASP, ECL, SBCL, and CCL native app development.
 
 **Getting Started with MOCL**
 
+```lisp
+
+```
+
 ## Exercise 3.3.2
 
 **iOS Development with MOCL**
+
+```lisp
+
+```
 
 ## Exercise 3.3.3
 
 **Android Development with MOCL**
 
+```lisp
+
+```
+
 ## Project 3.3.4
 
 **Cross-Platform Mobile App, for iOS and Android**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/3-02-00-typesetting/">&laquo; Previous</a></li>
