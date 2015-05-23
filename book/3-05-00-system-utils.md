@@ -22,33 +22,65 @@ There are a number of libraries already available in Quicklisp to make the writi
 
 **Nibbles**
 
+```lisp
+
+```
+
 ## Exercise 3.5.2
 
 **SB-DAEMON**
+
+```lisp
+
+```
 
 ## Exercise 3.5.3
 
 **CLON, Revisited**
 
+```lisp
+
+```
+
 ## Exercise 3.5.4
 
 **Useful Command-Line Interfaces**
+
+```lisp
+
+```
 
 ## Exercise 3.5.5
 
 **Low-Level Protocols**
 
+```lisp
+
+```
+
 ## Project 3.5.6
 
 **A Hardware Driver**
+
+```lisp
+
+```
 
 ## Project 3.5.7
 
 **A Daemonized Service**
 
+```lisp
+
+```
+
 ## Project 3.5.8
 
 **A Suite of Command-Line Utilities**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/3-04-00-gui/">&laquo; Previous</a></li>
