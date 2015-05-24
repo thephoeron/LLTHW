@@ -22,45 +22,89 @@ In this chapter we will explore the structure of binary applications as output b
 
 **OBJDUMP: Dumping Binaries as Assembly**
 
+```lisp
+
+```
+
 ## Exercise 3.6.2
 
 **Operating System Kernels**
+
+```lisp
+
+```
 
 ## Exercise 3.6.3
 
 **x86 Assembly**
 
+```lisp
+
+```
+
 ## Exercise 3.6.4
 
 **x86-64 Assembly**
+
+```lisp
+
+```
 
 ## Exercise 3.6.5
 
 **Stripped Binaries**
 
+```lisp
+
+```
+
 ## Exercise 3.6.6
 
 **(Re)Generating Header Files**
+
+```lisp
+
+```
 
 ## Exercise 3.6.7
 
 **Obfuscation and Deobfuscation**
 
+```lisp
+
+```
+
 ## Exercise 3.6.8
 
 **Finding Compiler Patterns**
+
+```lisp
+
+```
 
 ## Exercise 3.6.9
 
 **Transforming Assembly to Low-Level Lisp**
 
+```lisp
+
+```
+
 ## Exercise 3.6.10
 
 **High-Level Transformations**
 
+```lisp
+
+```
+
 ## Project 3.6.11
 
 **A Reverse Engineering Toolkit**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/3-05-00-system-utils/">&laquo; Previous</a></li>
