@@ -26,37 +26,73 @@ In this chapter, we will be modelling a basic 3+1n Spacetime, to get you thinkin
 
 **Blackthorn 3D: OpenGL, SDL and Lisp**
 
+```lisp
+
+```
+
 ## Exercise 3.8.2
 
 **More Blackthorn 3D**
+
+```lisp
+
+```
 
 ## Exercise 3.8.3
 
 **Even More Blackthorn 3D**
 
+```lisp
+
+```
+
 ## Exercise 3.8.4
 
 **Physics Modelling in Lisp**
+
+```lisp
+
+```
 
 ## Exercise 3.8.5
 
 **Importing 3D Assets**
 
+```lisp
+
+```
+
 ## Exercise 3.8.6
 
 **Procedurally Generated 3D Environments**
+
+```lisp
+
+```
 
 ## Exercise 3.8.7
 
 **More Procedural Generation**
 
+```lisp
+
+```
+
 ## Exercise 3.8.8
 
 **Integrating Oculus Rift**
 
+```lisp
+
+```
+
 ## Project 3.8.9
 
 **Build a 3D Platform Game**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/3-07-00-graphics/">&laquo; Previous</a></li>
