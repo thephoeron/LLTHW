@@ -22,45 +22,89 @@ In this chapter we will explore various methods for generating both vector and b
 
 **Vector Graphics with VECTO**
 
+```lisp
+
+```
+
 ## Exercise 3.7.2
 
 **More VECTO**
+
+```lisp
+
+```
 
 ## Exercise 3.7.3
 
 **Even More VECTO**
 
+```lisp
+
+```
+
 ## Exercise 3.7.4
 
 **Raster Graphics with CL-PNG**
+
+```lisp
+
+```
 
 ## Exercise 3.7.5
 
 **More CL-PNG**
 
+```lisp
+
+```
+
 ## Exercise 3.7.6
 
 **Even More CL-PNG**
+
+```lisp
+
+```
 
 ## Exercise 3.7.7
 
 **Plotting Data with VECTO**
 
+```lisp
+
+```
+
 ## Exercise 3.7.8
 
 **Plotting Data with CL-PLplot**
+
+```lisp
+
+```
 
 ## Exercise 3.7.9
 
 **Plotting Data for the Web**
 
+```lisp
+
+```
+
 ## Project 3.7.10
 
 **A Web-Based Data Plotting Service**
 
+```lisp
+
+```
+
 ## Project 3.7.11
 
 **A Simple Paint Application with VECTO and Qtools**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/3-06-00-reverse-engineering/">&laquo; Previous</a></li>
