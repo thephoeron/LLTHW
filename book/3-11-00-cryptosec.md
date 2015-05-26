@@ -24,37 +24,73 @@ For a list of further readings on cryptography, please consult the Resources sec
 
 **The Math of Modern Cryptography**
 
+```lisp
+
+```
+
 ## Exercise 3.11.2
 
 **Post-Quantum Cryptography**
+
+```lisp
+
+```
 
 ## Exercise 3.11.3
 
 **Cryptographically Strong (Pseudo)-Random Number Generators**
 
+```lisp
+
+```
+
 ## Exercise 3.11.4
 
 **A One-Time Pad using CL-ISAAC**
+
+```lisp
+
+```
 
 ## Exercise 3.11.5
 
 **Ironclad: Authentication**
 
+```lisp
+
+```
+
 ## Exercise 3.11.6
 
 **Ironclad: Hashing**
+
+```lisp
+
+```
 
 ## Exercise 3.11.7
 
 **Ironclad: Encryption**
 
+```lisp
+
+```
+
 ## Exercise 3.11.8
 
 **Secure Coding Principles**
 
+```lisp
+
+```
+
 ## Project 3.11.9
 
 **Extending Ironclad: Elliptical Curve Cryptography**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/3-10-00-data/">&laquo; Previous</a></li>
