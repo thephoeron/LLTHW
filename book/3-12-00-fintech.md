@@ -22,41 +22,81 @@ So in this chapter, we'll take an overview of the strongest encryption protocols
 
 **Working with Crypto-Currencies in Common Lisp**
 
+```lisp
+
+```
+
 ## Exercise 3.12.2
 
 **JSON-RPC Interfaces**
+
+```lisp
+
+```
 
 ## Exercise 3.12.3
 
 **ECDSA, SHA256, and Ripemd160**
 
+```lisp
+
+```
+
 ## Exercise 3.12.4
 
 **Base-58 and Base-64 Representations**
+
+```lisp
+
+```
 
 ## Exercise 3.12.5
 
 **Transactions**
 
+```lisp
+
+```
+
 ## Exercise 3.12.6
 
 **Addresses**
+
+```lisp
+
+```
 
 ## Exercise 3.12.7
 
 **Op-Codes**
 
+```lisp
+
+```
+
 ## Exercise 3.12.8
 
 **Scripts**
+
+```lisp
+
+```
 
 ## Exercise 3.12.9
 
 **Unspent-Outs**
 
+```lisp
+
+```
+
 ## Exercise 3.12.10
 
 **Wallets**
+
+```lisp
+
+```
 
 ## Exercise 3.12.11
 
@@ -67,17 +107,33 @@ Two methods:
 * Encrypt database fields individually
 * Encrypt Wallet Instance Object
 
+```lisp
+
+```
+
 ## Exercise 3.12.12
 
 **Providing a RESTful API to the Blockchain**
+
+```lisp
+
+```
 
 ## Exercise 3.12.13
 
 **Hierarchical--Deterministic Keychains**
 
+```lisp
+
+```
+
 ## Project 3.12.14
 
 **A Personal Bitcoin Wallet Web-App**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/3-11-00-cryptosec/">&laquo; Previous</a></li>
