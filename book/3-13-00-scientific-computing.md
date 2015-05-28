@@ -22,33 +22,65 @@ In this chapter we will review the Lisp syntax of the math necessary to model pr
 
 **The Math of Scientific Computing**
 
+```lisp
+
+```
+
 ## Exercise 3.13.2
 
 **GSLL**
+
+```lisp
+
+```
 
 ## Exercise 3.13.3
 
 **Leveraging Massive Concurrency**
 
+```lisp
+
+```
+
 ## Exercise 3.13.4
 
 **Floating-Point Calculations using CL-GPU**
+
+```lisp
+
+```
 
 ## Exercise 3.13.5
 
 **Plotting Your Results**
 
+```lisp
+
+```
+
 ## Exercise 3.13.6
 
 **Performance Testing and Optimization**
+
+```lisp
+
+```
 
 ## Exercise 3.13.7
 
 **Proofing Results**
 
+```lisp
+
+```
+
 ## Project 3.13.8
 
 **A Scientific Computing Application**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/3-12-00-fintech/">&laquo; Previous</a></li>
