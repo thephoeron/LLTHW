@@ -24,41 +24,81 @@ In this chapter, we will revisit the methodology from Chapters 3.12 on Scientifi
 
 **Common Problems in Computational Physics**
 
+```lisp
+
+```
+
 ## Exercise 3.14.2
 
 **The Ising Model**
+
+```lisp
+
+```
 
 ## Exercise 3.14.3
 
 **Simulating Physics with OpenGL**
 
+```lisp
+
+```
+
 ## Exercise 3.14.4
 
 **An n-body Problem**
+
+```lisp
+
+```
 
 ## Exercise 3.14.5
 
 **Gravitational Fields**
 
+```lisp
+
+```
+
 ## Exercise 3.14.6
 
 **Relativistic Velocities**
+
+```lisp
+
+```
 
 ## Exercise 3.14.7
 
 **Visualizing a Warped Space-Time**
 
+```lisp
+
+```
+
 ## Exercise 3.14.8
 
 **Modelling the sub-atomic world**
+
+```lisp
+
+```
 
 ## Exercise 3.14.9
 
 **Newtonian Mechanics as Emergent from Quantum Mechanics**
 
+```lisp
+
+```
+
 ## Project 3.14.10
 
 **Extending the Computational Science Application for Physics Simulation**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/3-13-00-scientific-computing/">&laquo; Previous</a></li>
