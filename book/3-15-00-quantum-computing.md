@@ -28,45 +28,89 @@ Additional material for specialization in Quantum Computer Science will be liste
 
 **The Qubit**
 
+```lisp
+
+```
+
 ## Exercise 3.15.2
 
 **State Preparation**
+
+```lisp
+
+```
 
 ## Exercise 3.15.3
 
 **Measurement**
 
+```lisp
+
+```
+
 ## Exercise 3.15.4
 
 **Probability and Superposition**
+
+```lisp
+
+```
 
 ## Exercise 3.15.5
 
 **Entanglement**
 
+```lisp
+
+```
+
 ## Exercise 3.15.6
 
 **Quantum Registers**
+
+```lisp
+
+```
 
 ## Exercise 3.15.7
 
 **Quantum Gates**
 
+```lisp
+
+```
+
 ## Exercise 3.15.8
 
 **The Hadamard Gate**
+
+```lisp
+
+```
 
 ## Exercise 3.15.9
 
 **The CNOT Gate**
 
+```lisp
+
+```
+
 ## Exercise 3.15.10
 
-**The Toffoli Gate**
+**Single-Qubit T-Gates**
+
+```lisp
+
+```
 
 ## Exercise 3.15.11
 
 **Additional Quantum Gates**
+
+```lisp
+
+```
 
 ## Exercise 3.15.12
 
@@ -74,19 +118,35 @@ Additional material for specialization in Quantum Computer Science will be liste
 
 Storing Unmeasured Quantum States
 
+```lisp
+
+```
+
 ## Exercise 3.15.13
 
 **Universal Quantum Computers**
 
 Quantum Turing Completeness
 
+```lisp
+
+```
+
 ## Exercise 3.15.14
 
 **Outputting Circuit Diagrams with LaTeX**
 
+```lisp
+
+```
+
 ## Project 3.15.15
 
 **A Quantum Computer Simulator**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/3-14-00-computational-physics/">&laquo; Previous</a></li>
