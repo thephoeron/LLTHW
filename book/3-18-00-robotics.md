@@ -28,6 +28,10 @@ In this chapter, we will review the field of robotics, AI-controlled automatons,
 
 **The Basic Principles of Robotics**
 
+```lisp
+
+```
+
 ## Exercise 3.18.2
 
 **Programmable Kit Robots**
@@ -36,57 +40,113 @@ The Bioloid Premium Robot Kit is probably the most cost-effective solution that 
 
 http://www.robotshop.com/
 
+```lisp
+
+```
+
 ## Exercise 3.18.3
 
 **Handling Controllers, Servos, and Sensors**
+
+```lisp
+
+```
 
 ## Exercise 3.18.4
 
 **The Control Board**
 
+```lisp
+
+```
+
 ## Exercise 3.18.5
 
 **Dispatching to Servos**
+
+```lisp
+
+```
 
 ## Exercise 3.18.6
 
 **Sensors: Gyroscope**
 
+```lisp
+
+```
+
 ## Exercise 3.18.7
 
 **Sensors: Infrared**
+
+```lisp
+
+```
 
 ## Exercise 3.18.8
 
 **Sensors: Distance Measurement**
 
+```lisp
+
+```
+
 ## Exercise 3.18.9
 
 **USB Interfaces**
+
+```lisp
+
+```
 
 ## Project 3.18.10
 
 **A Library for the BIOLOID Premium Robot Kit**
 
+```lisp
+
+```
+
 ## Exercise 3.18.11
 
 **Robot AI**
+
+```lisp
+
+```
 
 ## Exercise 3.18.12
 
 **Motion Teaching and Learning**
 
+```lisp
+
+```
+
 ## Exercise 3.18.13
 
 **Intent-Based Motion**
+
+```lisp
+
+```
 
 ## Exercise 3.18.14
 
 **Decision-Making, for Robots**
 
+```lisp
+
+```
+
 ## Project 3.18.15
 
 **An Independent, Learning Automaton**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/3-17-00-ai/">&laquo; Previous</a></li>
