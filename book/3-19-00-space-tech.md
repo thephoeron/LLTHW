@@ -26,53 +26,105 @@ In this chapter, we will explore a very high-level overview of a selection of th
 
 **Simulating Physics and Astrophysics**
 
+```lisp
+
+```
+
 ## Exercise 3.19.2
 
 **Microgravity**
+
+```lisp
+
+```
 
 ## Exercise 3.19.3
 
 **Vacuums and Near-Vacuums**
 
+```lisp
+
+```
+
 ## Exercise 3.19.4
 
 **Orbits**
+
+```lisp
+
+```
 
 ## Exercise 3.19.5
 
 **Simulating Space-Tech**
 
+```lisp
+
+```
+
 ## Exercise 3.19.6
 
 **Basic Principles of Aerospace Engineering**
+
+```lisp
+
+```
 
 ## Exercise 3.19.7
 
 **Propulsion**
 
+```lisp
+
+```
+
 ## Exercise 3.19.8
 
 **Communication**
+
+```lisp
+
+```
 
 ## Exercise 3.19.9
 
 **A Controller AI**
 
+```lisp
+
+```
+
 ## Exercise 3.19.10
 
 **Unmanned Spacecraft**
+
+```lisp
+
+```
 
 ## Exercise 3.19.11
 
 **Simulating Life-Support for Manned Spacecraft**
 
+```lisp
+
+```
+
 ## Exercise 3.19.12
 
 **Live Hacking Mission-Critical Systems**
 
+```lisp
+
+```
+
 ## Project 3.19.13
 
 **A 3D Space Simulator**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/3-18-00-robotics/">&laquo; Previous</a></li>
