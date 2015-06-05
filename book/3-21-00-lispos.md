@@ -26,41 +26,81 @@ In this chapter, we will review the basic organization of operating systems, and
 
 **The Scope of Operating Systems**
 
+```lisp
+
+```
+
 ## Exercise 3.21.2
 
 **The Kernel**
+
+```lisp
+
+```
 
 ## Exercise 3.21.3
 
 **The Shell**
 
+```lisp
+
+```
+
 ## Exercise 3.21.4
 
 **I/O**
+
+```lisp
+
+```
 
 ## Exercise 3.21.5
 
 **File Systems**
 
+```lisp
+
+```
+
 ## Exercise 3.21.6
 
 **Memory Management**
+
+```lisp
+
+```
 
 ## Exercise 3.21.7
 
 **Processes and Threads**
 
+```lisp
+
+```
+
 ## Exercise 3.21.8
 
 **Sandboxing**
+
+```lisp
+
+```
 
 ## Exercise 3.21.9
 
 **Window Managers and Graphical User Interfaces**
 
+```lisp
+
+```
+
 ## Project 3.21.10
 
 **A Basic LispOS for Virtual Machines**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/3-20-00-neurotech/">&laquo; Previous</a></li>
