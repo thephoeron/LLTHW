@@ -28,57 +28,113 @@ This chapter will contain a review of available FPGA-based boards and ASIC manuf
 
 **Hardware Prototyping and Fabrication**
 
+```lisp
+
+```
+
 ## Exercise 3.22.2
 
 **Field Programmable Gate Arrays**
+
+```lisp
+
+```
 
 ## Exercise 3.22.3
 
 **Application-Specific Integrated Circuits**
 
+```lisp
+
+```
+
 ## Exercise 3.22.4
 
 **Prototyping CPUs**
+
+```lisp
+
+```
 
 ## Exercise 3.22.5
 
 **Synthesizable Verilog**
 
+```lisp
+
+```
+
 ## Exercise 3.22.6
 
 **More Synthesizable Verilog**
+
+```lisp
+
+```
 
 ## Exercise 3.22.7
 
 **Even More Synthesizable Verilog**
 
+```lisp
+
+```
+
 ## Exercise 3.22.8
 
 **Generating Verilog/VHDL from Common Lisp**
+
+```lisp
+
+```
 
 ## Project 3.22.9
 
 **A DSL for Verilog/VHDL**
 
+```lisp
+
+```
+
 ## Exercise 3.22.10
 
 **Hardware Support for Common Lisp's Special Forms**
+
+```lisp
+
+```
 
 ## Exercise 3.22.11
 
 **The Lisp Machine's Memory Model**
 
+```lisp
+
+```
+
 ## Exercise 3.22.12
 
 **A 64-Bit Lisp Machine Architecture**
+
+```lisp
+
+```
 
 ## Project 3.22.13
 
 **Common Lisp for the Lisp Machine**
 
+```lisp
+
+```
+
 ## Project 3.22.14
 
 **Porting the LispOS to the Lisp Machine Architecture**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/3-21-00-lispos/">&laquo; Previous</a></li>
