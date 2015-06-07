@@ -24,69 +24,137 @@ In this chapter, we will review the basic requirements of Government and Militar
 
 **Battlefield Hardware**
 
+```lisp
+
+```
+
 ## Exercise 3.23.2
 
 **Drone Kits**
+
+```lisp
+
+```
 
 ## Exercise 3.23.3
 
 **Fail-Safes for Drones**
 
+```lisp
+
+```
+
 ## Project 3.23.4
 
 **A Live-Hackable Drone**
+
+```lisp
+
+```
 
 ## Exercise 3.23.5
 
 **The Techniques of Cyber-Warfare**
 
+```lisp
+
+```
+
 ## Exercise 3.23.6
 
 **Deductive Reasoning**
+
+```lisp
+
+```
 
 ## Exercise 3.23.7
 
 **Intelligence**
 
+```lisp
+
+```
+
 ## Exercise 3.23.8
 
 **Automation and Abstraction**
+
+```lisp
+
+```
 
 ## Exercise 3.23.9
 
 **Pre-Computation**
 
+```lisp
+
+```
+
 ## Exercise 3.23.10
 
 **Obfuscation**
+
+```lisp
+
+```
 
 ## Exercise 3.23.11
 
 **Cryptography, Revisited**
 
+```lisp
+
+```
+
 ## Exercise 3.23.12
 
 **Hardware-Assisted Cryptography**
+
+```lisp
+
+```
 
 ## Project 3.23.13
 
 **A Hardware Module for Hashing, Encryption, and Decryption**
 
+```lisp
+
+```
+
 ## Exercise 3.23.14
 
 **Hierarchical--Deterministic Keychains**
+
+```lisp
+
+```
 
 ## Exercise 3.23.15
 
 **Device-Locked Master Keys**
 
+```lisp
+
+```
+
 ## Exercise 3.23.16
 
 **Users and Keys**
 
+```lisp
+
+```
+
 ## Exercise 3.23.17
 
 **Accountability**
+
+```lisp
+
+```
 
 ## Exercise 3.23.18
 
@@ -94,19 +162,35 @@ In this chapter, we will review the basic requirements of Government and Militar
 
 (i.e., selectively mutating information to embed detectable signatures in decrypted classified data)
 
+```lisp
+
+```
+
 ## Exercise 3.23.19
 
 **Role-Based Redaction**
 
+```lisp
+
+```
+
 ## Exercise 3.23.20
 
 **Self-Destructing Hardware**
+
+```lisp
+
+```
 
 ## Project 3.23.21
 
 **A Hardware-Assisted Intelligence Subnet with Strong Accountability**
 
 (Not actually military-grade, but useful to illustrate TECHINT principles)
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/3-22-00-lisp-machine/">&laquo; Previous</a></li>
