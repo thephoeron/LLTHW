@@ -33,61 +33,121 @@ This chapter will contain exercises on:
 
 **The Multi-Paradigm Approach**
 
+```lisp
+
+```
+
 ## Exercise 2.1.2
 
 **Imperative Programming**
+
+```lisp
+
+```
 
 ## Exercise 2.1.3
 
 **Declarative Programming**
 
+```lisp
+
+```
+
 ## Exercise 2.1.4
 
 **Procedural Programming**
+
+```lisp
+
+```
 
 ## Exercise 2.1.5
 
 **Object-Oriented Programming**
 
+```lisp
+
+```
+
 ## Exercise 2.1.6
 
 **Pure Functional Programming**
+
+```lisp
+
+```
 
 ## Exercise 2.1.7
 
 **Functional Programming in Practice**
 
+```lisp
+
+```
+
 ## Exercise 2.1.8
 
 **Metaprogramming**
+
+```lisp
+
+```
 
 ## Exercise 2.1.9
 
 **Combining Paradigms: the wrong way**
 
+```lisp
+
+```
+
 ## Exercise 2.1.10
 
 **Combining Paradigms: the right way**
+
+```lisp
+
+```
 
 ## Exercise 2.1.11
 
 **The Style Guide, revisited**
 
+```lisp
+
+```
+
 ## Exercise 2.1.12
 
 **Alternate Paradigms: Aspect-Oriented**
+
+```lisp
+
+```
 
 ## Exercise 2.1.13
 
 **Alternate Paradigms: Agent-Oriented**
 
+```lisp
+
+```
+
 ## Exercise 2.1.14
 
 **Alternate Paradigms: Flow-Based Programming**
 
+```lisp
+
+```
+
 ## Exercise 2.1.15
 
 **Alternate Paradigms: Functional--Reactive Programming**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-0-0-overview/">&laquo; Previous</a></li>
