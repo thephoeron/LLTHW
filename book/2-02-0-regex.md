@@ -31,45 +31,89 @@ This chapter will contain exercises on using:
 
 **Pattern Matching**
 
+```lisp
+
+```
+
 ## Exercise 2.2.2
 
 **Pattern Matching with Regular Expressions**
+
+```lisp
+
+```
 
 ## Exercise 2.2.3
 
 **Regular Expression Syntax**
 
+```lisp
+
+```
+
 ## Exercise 2.2.4
 
 **String Escapes**
+
+```lisp
+
+```
 
 ## Exercise 2.2.5
 
 **In-line Regular Expressions with CL21**
 
+```lisp
+
+```
+
 ## Exercise 2.2.6
 
 **Optimized Pattern Matching with Optima**
+
+```lisp
+
+```
 
 ## Exercise 2.2.7
 
 **More Optima**
 
+```lisp
+
+```
+
 ## Exercise 2.2.8
 
 **Even More Optima**
+
+```lisp
+
+```
 
 ## Exercise 2.2.9
 
 **Pattern Matching with ESRAP**
 
+```lisp
+
+```
+
 ## Exercise 2.2.10
 
 **More ESRAP**
 
+```lisp
+
+```
+
 ## Exercise 2.2.11
 
 **Even More ESRAP**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-01-0-programming-paradigms/">&laquo; Previous</a></li>
