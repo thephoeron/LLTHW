@@ -28,20 +28,6 @@ You can always access the slots in a struct or class manually, but this is consi
 
 CLOS, along with the Meta-Object Protocol, are considered *the be-all and end-all* of Object-Oriented Programming systems, far improving on the object-oriented programming experience you'd get from SmallTalk, Java, C\#, C++, or Objective-C.  While they can be daunting at first, the design of CLOS is actually quite elegant and fits perfectly into the Lisp ecosystem---typically you will never need to worry about the MOP, but on those rare cases you do, you'll be glad it's there.
 
-This chapter will contain exercises on:
-
-* Blocks
-* Tagbodys
-* GO
-* PROG, PROGN
-* Structs
-* CLOS
-    * Classes
-    * Generic Functions
-    * Methods
-    * :before and :after methods
-    * MOP
-
 ## Exercise 2.3.1
 
 **Blocks**
