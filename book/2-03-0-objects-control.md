@@ -32,109 +32,217 @@ CLOS, along with the Meta-Object Protocol, are considered *the be-all and end-al
 
 **Blocks**
 
+```lisp
+
+```
+
 ## Exercise 2.3.2
 
 **More Blocks**
+
+```lisp
+
+```
 
 ## Exercise 2.3.3
 
 **Macroexpand: Hidden Blocks**
 
+```lisp
+
+```
+
 ## Exercise 2.3.4
 
 **Tagbodys**
+
+```lisp
+
+```
 
 ## Exercise 2.3.5
 
 **GO**
 
+```lisp
+
+```
+
 ## Exercise 2.3.6
 
 **More Tagbodys and GO**
+
+```lisp
+
+```
 
 ## Exercise 2.3.7
 
 **PROGN**
 
+```lisp
+
+```
+
 ## Exercise 2.3.8
 
 **More PROGN**
+
+```lisp
+
+```
 
 ## Exercise 2.3.9
 
 **PROG, PROG\*, PROG1, and PROG2**
 
+```lisp
+
+```
+
 ## Exercise 2.3.10
 
 **PROGV**
+
+```lisp
+
+```
 
 ## Exercise 2.3.11
 
 **Structs**
 
+```lisp
+
+```
+
 ## Exercise 2.3.12
 
 **More Structs**
+
+```lisp
+
+```
 
 ## Exercise 2.3.13
 
 **Even More Structs**
 
+```lisp
+
+```
+
 ## Exercise 2.3.14
 
 **CLOS: Classes**
+
+```lisp
+
+```
 
 ## Exercise 2.3.15
 
 **CLOS: Slots**
 
+```lisp
+
+```
+
 ## Exercise 2.3.16
 
 **CLOS: More Slots**
+
+```lisp
+
+```
 
 ## Exercise 2.3.17
 
 **CLOS: Even More Slots**
 
+```lisp
+
+```
+
 ## Exercise 2.3.18
 
 **CLOS: Readers**
+
+```lisp
+
+```
 
 ## Exercise 2.3.19
 
 **CLOS: Writers**
 
+```lisp
+
+```
+
 ## Exercise 2.3.20
 
 **CLOS: Accessors**
+
+```lisp
+
+```
 
 ## Exercise 2.3.21
 
 **CLOS: Inheritance**
 
+```lisp
+
+```
+
 ## Exercise 2.3.22
 
 **CLOS: Multiple-Inheritance**
+
+```lisp
+
+```
 
 ## Exercise 2.3.23
 
 **CLOS: Generic Functions**
 
+```lisp
+
+```
+
 ## Exercise 2.3.24
 
 **CLOS: Methods**
+
+```lisp
+
+```
 
 ## Exercise 2.3.25
 
 **CLOS: More Methods**
 
+```lisp
+
+```
+
 ## Exercise 2.3.26
 
 **:BEFORE and :AFTER Methods**
 
+```lisp
+
+```
+
 ## Exercise 2.3.27
 
 **The Meta-Object Protocol**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-02-0-regex/">&laquo; Previous</a></li>
