@@ -1,5 +1,7 @@
 # LLTHW
 
+[![Join the chat at https://gitter.im/LispTO/llthw](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/LispTO/llthw?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ```lisp
 ;; Welcome to L(λ)THW!
 (let ((llthw '(learn lisp the hard way)))
