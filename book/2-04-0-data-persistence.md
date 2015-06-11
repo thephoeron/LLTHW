@@ -22,15 +22,6 @@ Sometimes you may also want to serialize and store not just your data, but your 
 
 Lastly, you can also dump an entire Lisp session to your file system, and run it instead of having to load everything into memory again.  Everything you had in memory will be there again when you launch this dumped executable.  This can be useful if you have a lot of customizations, or default packages that you use all the time---but naturally, this too comes with its caveats.
 
-This chapter will contain exercises on:
-
-* Validating input from files, databases, and users
-* Creation of binary file formats for saving data
-* Saving Complete Lisp Images
-* The CL-STORE Library
-* Working with Relational Databases
-* Document-based Databases
-
 ## Exercise 2.4.1
 
 **Validating Input**
