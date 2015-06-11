@@ -26,69 +26,137 @@ Lastly, you can also dump an entire Lisp session to your file system, and run it
 
 **Validating Input**
 
+```lisp
+
+```
+
 ## Exercise 2.4.2
 
 **More Validation**
+
+```lisp
+
+```
 
 ## Exercise 2.4.3
 
 **Even More Validation**
 
+```lisp
+
+```
+
 ## Exercise 2.4.4
 
 **Binary File Formats**
+
+```lisp
+
+```
 
 ## Exercise 2.4.5
 
 **Outputting Binary Files**
 
+```lisp
+
+```
+
 ## Exercise 2.4.6
 
 **Reading Binary Files**
+
+```lisp
+
+```
 
 ## Exercise 2.4.7
 
 **Binary Files as Programs**
 
+```lisp
+
+```
+
 ## Exercise 2.4.8
 
 **Hand Compilation**
+
+```lisp
+
+```
 
 ## Exercise 2.4.9
 
 **Custom Lisp Images**
 
+```lisp
+
+```
+
 ## Exercise 2.4.10
 
 **Dumping Custom Lisp Images**
+
+```lisp
+
+```
 
 ## Exercise 2.4.11
 
 **Loading Custom Lisp Images**
 
+```lisp
+
+```
+
 ## Exercise 2.4.12
 
 **Serializing Lisp Objects**
+
+```lisp
+
+```
 
 ## Exercise 2.4.13
 
 **More Serialization**
 
+```lisp
+
+```
+
 ## Exercise 2.4.14
 
 **Even More Serialization**
+
+```lisp
+
+```
 
 ## Exercise 2.4.15
 
 **Relational Databases**
 
+```lisp
+
+```
+
 ## Exercise 2.4.16
 
 **Document-based Databases**
 
+```lisp
+
+```
+
 ## Exercise 2.4.17
 
 **Graph Databases**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-03-0-objects-control/">&laquo; Previous</a></li>
