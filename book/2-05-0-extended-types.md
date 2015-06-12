@@ -22,73 +22,145 @@ Where the ANSI standard falls short of your needs, it provides a mature and rich
 
 **Hash Tables**
 
+```lisp
+
+```
+
 ## Exercise 2.5.2
 
 **More Hash Tables**
+
+```lisp
+
+```
 
 ## Exercise 2.5.3
 
 **Even More Hash Tables**
 
+```lisp
+
+```
+
 ## Exercise 2.5.4
 
 **Sets**
+
+```lisp
+
+```
 
 ## Exercise 2.5.5
 
 **More Sets**
 
+```lisp
+
+```
+
 ## Exercise 2.5.6
 
 **Even More Sets**
+
+```lisp
+
+```
 
 ## Exercise 2.5.7
 
 **Simple Strings**
 
+```lisp
+
+```
+
 ## Exercise 2.5.8
 
 **More Simple Strings**
+
+```lisp
+
+```
 
 ## Exercise 2.5.9
 
 **Simple Arrays**
 
+```lisp
+
+```
+
 ## Exercise 2.5.10
 
 **More Simple Arrays**
+
+```lisp
+
+```
 
 ## Exercise 2.5.11
 
 **Byte Vectors**
 
+```lisp
+
+```
+
 ## Exercise 2.5.12
 
 **More Byte Vectors**
+
+```lisp
+
+```
 
 ## Exercise 2.5.13
 
 **Unsigned Bytes**
 
+```lisp
+
+```
+
 ## Exercise 2.5.14
 
 **Signed Bytes**
+
+```lisp
+
+```
 
 ## Exercise 2.5.15
 
 **Bit Vectors**
 
+```lisp
+
+```
+
 ## Exercise 2.5.16
 
 **More Bit Vectors**
+
+```lisp
+
+```
 
 ## Exercise 2.5.17
 
 **Defining Types**
 
+```lisp
+
+```
+
 ## Exercise 2.5.18
 
 **Defining Types with CLOS**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-04-0-data-persistence/">&laquo; Previous</a></li>
