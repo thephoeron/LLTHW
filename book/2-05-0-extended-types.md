@@ -18,17 +18,6 @@ Many of these specialized data types have their own set of functions for working
 
 Where the ANSI standard falls short of your needs, it provides a mature and rich type definition system.  You can also, if needs must, mercilessly abuse CLOS to define your more complicated, structured types with classes---which also allows you to use generic functions and methods to provide operator overloading for them.
 
-This chapter will contain exercises on:
-
-* Hash-Tables
-* Sets
-* Simple Strings
-* Simple Arrays
-* Signed and Unsigned Byte Vectors
-* Bit Vectors
-* Type Definition
-* CLOS for Type Definition
-
 ## Exercise 2.5.1
 
 **Hash Tables**
