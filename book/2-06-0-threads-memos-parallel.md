@@ -18,13 +18,6 @@ Now, Memoization is a really useful tool to have that ties in well with the subj
 
 Lastly, we will wrap up our first tour of concurrency in this chapter with a look at general asynchronous operations and event-oriented programming techniques. Using this, we will then create a very simple asynchronous web application!
 
-This chapter will contain exercises on:
-
-* bordeaux-threads
-* fare-memoization
-* lparallel
-* cl-async
-
 ## Exercise 2.6.1
 
 **Threads**
