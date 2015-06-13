@@ -22,57 +22,113 @@ Lastly, we will wrap up our first tour of concurrency in this chapter with a loo
 
 **Threads**
 
+```lisp
+
+```
+
 ## Exercise 2.6.2
 
 **More Threads**
+
+```lisp
+
+```
 
 ## Exercise 2.6.3
 
 **Even More Threads**
 
+```lisp
+
+```
+
 ## Exercise 2.6.4
 
 **Memoization**
+
+```lisp
+
+```
 
 ## Exercise 2.6.5
 
 **More Memoization**
 
+```lisp
+
+```
+
 ## Exercise 2.6.6
 
 **Even More Memoization**
+
+```lisp
+
+```
 
 ## Exercise 2.6.7
 
 **Concurrency**
 
+```lisp
+
+```
+
 ## Exercise 2.6.8
 
 **More Concurrency**
+
+```lisp
+
+```
 
 ## Exercise 2.6.9
 
 **Even More Concurrency**
 
+```lisp
+
+```
+
 ## Exercise 2.6.10
 
 **Asynchronous Web Applications**
+
+```lisp
+
+```
 
 ## Exercise 2.6.11
 
 **Event Loops**
 
+```lisp
+
+```
+
 ## Exercise 2.6.12
 
 **Routes**
+
+```lisp
+
+```
 
 ## Exercise 2.6.13
 
 **Promises**
 
+```lisp
+
+```
+
 ## Exercise 2.6.14
 
 **Futures**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-05-0-extended-types/">&laquo; Previous</a></li>
