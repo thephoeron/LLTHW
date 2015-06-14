@@ -22,18 +22,6 @@ But Math is more important than even that, to all programmers.  Every program th
 
 Lisp is particularly good for generating 3D graphics without having to use assets created in a third-party application.  In fact, that was one of the greatest strengths of the fabled Lisp Machines.  In Part Three we will be tackling this problem head-on, to create a complete 3D game without any third-party assets.  Just code.  *This* chapter will provide you with all the math you'll need to achieve that feat---any many, many more.
 
-This chapter will contain exercises on:
-
-* Logic Functions
-* Boolean Logic
-* Prime Numbers
-* Modulus
-* Complex Numbers
-* Imaginary Numbers
-* Trigonometry
-* Linear Algebra
-* Calculus
-
 ## Exercise 2.7.1
 
 **Formal Logic**
