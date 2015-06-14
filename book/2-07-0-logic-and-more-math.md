@@ -26,85 +26,169 @@ Lisp is particularly good for generating 3D graphics without having to use asset
 
 **Formal Logic**
 
+```lisp
+
+```
+
 ## Exercise 2.7.2
 
 **Boolean Logic on Integers**
+
+```lisp
+
+```
 
 ## Exercise 2.7.3
 
 **Boolean Logic on Bit-Vectors**
 
+```lisp
+
+```
+
 ## Exercise 2.7.4
 
 **Prime Numbers**
+
+```lisp
+
+```
 
 ## Exercise 2.7.5
 
 **Prime Factorization**
 
+```lisp
+
+```
+
 ## Exercise 2.7.6
 
 **Modular Arithmetic**
+
+```lisp
+
+```
 
 ## Exercise 2.7.7
 
 **Imaginary Numbers**
 
+```lisp
+
+```
+
 ## Exercise 2.7.8
 
 **Complex Numbers**
+
+```lisp
+
+```
 
 ## Exercise 2.7.9
 
 **Trigonometry**
 
+```lisp
+
+```
+
 ## Exercise 2.7.10
 
 **More Trigonometry**
+
+```lisp
+
+```
 
 ## Exercise 2.7.11
 
 **Geometry**
 
+```lisp
+
+```
+
 ## Exercise 2.7.12
 
 **More Geometry**
+
+```lisp
+
+```
 
 ## Exercise 2.7.13
 
 **Even More Geometry**
 
+```lisp
+
+```
+
 ## Exercise 2.7.14
 
 **The GSLL Library**
+
+```lisp
+
+```
 
 ## Exercise 2.7.15
 
 **Linear Algebra with GSLL**
 
+```lisp
+
+```
+
 ## Exercise 2.7.16
 
 **More Linear Algebra**
+
+```lisp
+
+```
 
 ## Exercise 2.7.17
 
 **Even More Linear Algebra**
 
+```lisp
+
+```
+
 ## Exercise 2.7.18
 
 **Calculus with GSLL**
+
+```lisp
+
+```
 
 ## Exercise 2.7.19
 
 **More Calculus**
 
+```lisp
+
+```
+
 ## Exercise 2.7.20
 
 **Even More Calculus**
 
+```lisp
+
+```
+
 ## Exercise 2.7.21
 
 **Further Explorations with GSLL**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-06-0-threads-memos-parallel/">&laquo; Previous</a></li>
