@@ -20,89 +20,177 @@ Through the excercises in this chapter, we will put together a Number Theory lib
 
 **Prime Numbers, Revisited**
 
+```lisp
+
+```
+
 ## Exercise 2.8.2
 
 **Alternate Approaches to Factorization**
+
+```lisp
+
+```
 
 ## Exercise 2.8.3
 
 **Factorizing Primes with Look-up Tables**
 
+```lisp
+
+```
+
 ## Exercise 2.8.4
 
 **Factorizing Primes with Pollard's Rho Algorithm**
+
+```lisp
+
+```
 
 ## Exercise 2.8.5
 
 **Factorizing Primes with Lenstra's Elliptical Curve**
 
+```lisp
+
+```
+
 ## Exercise 2.8.6
 
 **Factorizing Primes with the Quadratic Sieve**
+
+```lisp
+
+```
 
 ## Exercise 2.8.7
 
 **Factorizing Primes with the General Number Field Sieve**
 
+```lisp
+
+```
+
 ## Exercise 2.8.8
 
 **Automatic Factorization Algorithm Selection**
+
+```lisp
+
+```
 
 ## Exercise 2.8.9
 
 **Polynomials**
 
+```lisp
+
+```
+
 ## Exercise 2.8.10
 
 **More Polynomials**
+
+```lisp
+
+```
 
 ## Exercise 2.8.11
 
 **Even More Polynomials**
 
+```lisp
+
+```
+
 ## Exercise 2.8.12
 
 **Modular Exponentiation**
+
+```lisp
+
+```
 
 ## Exercise 2.8.13
 
 **More Modular Exponentiation**
 
+```lisp
+
+```
+
 ## Exercise 2.8.14
 
 **Inverse Modulus**
+
+```lisp
+
+```
 
 ## Exercise 2.8.15
 
 **The Jacobi Function**
 
+```lisp
+
+```
+
 ## Exercise 2.8.16
 
 **The Euler Totient Function**
+
+```lisp
+
+```
 
 ## Exercise 2.8.17
 
 **The Carmichael Functions**
 
+```lisp
+
+```
+
 ## Exercise 2.8.18
 
 **More Carmichael Functions**
+
+```lisp
+
+```
 
 ## Exercise 2.8.19
 
 **Even More Carmichael Functions**
 
+```lisp
+
+```
+
 ## Exercise 2.8.20
 
 **Optimizing for Performance**
+
+```lisp
+
+```
 
 ## Exercise 2.8.21
 
 **Optimizing for Memory Use**
 
+```lisp
+
+```
+
 ## Exercise 2.8.22
 
 **Putting It All Together**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-07-0-logic-and-more-math/">&laquo; Previous</a></li>
