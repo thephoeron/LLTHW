@@ -18,23 +18,6 @@ You can do a lot with high-level programming constructs, but when performance is
 
 In this chapter we will go into much more detail on the subject of binary streams, octet-vectors, and bit-vectors.  We've seen them all before, but only in passing---now it's time to take on the subjects of signed and unsigned bytes, little-endian and big-endian bit ordering, manipulating bits, conversion between bit-vectors, octet-vectors, and their integer equivalents, and of course, bit-wise logic and binary arithmetic.  We have also already covered the binary, octet, and hexadecimal notation system for integers, but a formal tour of those notations will also be helpful to this discussion, so we'll tackle that first.
 
-This chapter will contain exercises on:
-
-* Radix -- understanding the bases and orders of integers
-* Representation of integers in byte-vectors
-* Signed and Unsigned Bytes
-* Big-Endian and Little-Endian bit ordering
-* Creating byte-vectors
-* Creating bit-vectors
-* Manipulating Bits
-* Bit-wise Logic
-* Arithmetic on byte-vectors
-* Arithmetic on bit-vectors
-* Binary streams
-* Binary network streams
-* Extra Credit: Simulating hardware in Lisp
-* Extra Credit: Implementing instruction-sets for hardware
-
 ## Exercise 2.9.1
 
 **Base and Order**
