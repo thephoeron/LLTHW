@@ -22,69 +22,137 @@ In this chapter we will go into much more detail on the subject of binary stream
 
 **Base and Order**
 
+```lisp
+
+```
+
 ## Exercise 2.9.2
 
 **Byte-Vectors**
+
+```lisp
+
+```
 
 ## Exercise 2.9.3
 
 **Bit-Vectors**
 
+```lisp
+
+```
+
 ## Exercise 2.9.4
 
 **Integers as Bytes**
+
+```lisp
+
+```
 
 ## Exercise 2.9.5
 
 **Unsigned Bytes**
 
+```lisp
+
+```
+
 ## Exercise 2.9.6
 
 **Signed Bytes**
+
+```lisp
+
+```
 
 ## Exercise 2.9.7
 
 **Big-Endian Byte Ordering**
 
+```lisp
+
+```
+
 ## Exercise 2.9.8
 
 **Little-Endian Byte Ordering**
+
+```lisp
+
+```
 
 ## Exercise 2.9.9
 
 **Bit-Shifting**
 
+```lisp
+
+```
+
 ## Exercise 2.9.10
 
 **Bit-wise Logic**
+
+```lisp
+
+```
 
 ## Exercise 2.9.11
 
 **Byte-Vector Arithmetic**
 
+```lisp
+
+```
+
 ## Exercise 2.9.12
 
 **Bit-Vector Arithmetic**
+
+```lisp
+
+```
 
 ## Exercise 2.9.13
 
 **Binary Streams**
 
+```lisp
+
+```
+
 ## Exercise 2.9.14
 
 **Binary Sockets and Networks**
+
+```lisp
+
+```
 
 ## Extra Credit Exercise 2.9.15
 
 **Simulating Hardware in Lisp**
 
+```lisp
+
+```
+
 ## Extra Credit Exercise 2.9.16
 
 **Binary Instruction Sets**
 
+```lisp
+
+```
+
 ## Extra Credit Exercise 2.9.17
 
 **Assembly Instructions**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-08-0-number-theory/">&laquo; Previous</a></li>
