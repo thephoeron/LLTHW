@@ -24,53 +24,105 @@ As a final note, it bears mentioning that this isn't a book on AI---so we'll sim
 
 **The Player and Character Classes**
 
+```lisp
+
+```
+
 ## Exercise 2.10.2
 
 **The Room and Object Classes**
+
+```lisp
+
+```
 
 ## Exercise 2.10.3
 
 **Actions**
 
+```lisp
+
+```
+
 ## Exercise 2.10.4
 
 **The Game World**
+
+```lisp
+
+```
 
 ## Exercise 2.10.5
 
 **Navigation**
 
+```lisp
+
+```
+
 ## Exercise 2.10.6
 
 **Basic Agents**
+
+```lisp
+
+```
 
 ## Exercise 2.10.7
 
 **Agent Attitudes**
 
+```lisp
+
+```
+
 ## Exercise 2.10.8
 
 **Saved Game Files**
+
+```lisp
+
+```
 
 ## Extra Credit Exercise 2.10.9
 
 **Multi-User Dungeons**
 
+```lisp
+
+```
+
 ## Extra Credit Exercise 2.10.10
 
 **An Asynchronous Web App and Database**
+
+```lisp
+
+```
 
 ## Extra Credit Exercise 2.10.11
 
 **Accounts and Authentication**
 
+```lisp
+
+```
+
 ## Extra Credit Exercise 2.10.12
 
 **Auto-Save**
 
+```lisp
+
+```
+
 ## Extra Credit Exercise 2.10.13
 
 **User-Created Assets**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-09-0-binary-octets-bits/">&laquo; Previous</a></li>
