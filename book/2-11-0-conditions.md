@@ -22,53 +22,105 @@ In this chapter, we'll take a tour through all of Lisp's built-in tools for hand
 
 **Errors vs. Conditions**
 
+```lisp
+
+```
+
 ## Exercise 2.11.2
 
 **Signaling Conditions**
+
+```lisp
+
+```
 
 ## Exercise 2.11.3
 
 **ASSERT**
 
+```lisp
+
+```
+
 ## Exercise 2.11.4
 
 **More ASSERT**
+
+```lisp
+
+```
 
 ## Exercise 2.11.5
 
 **Handling Conditions**
 
+```lisp
+
+```
+
 ## Exercise 2.11.6
 
 **HANDLER-CASE**
+
+```lisp
+
+```
 
 ## Exercise 2.11.7
 
 **More HANDLER-CASE**
 
+```lisp
+
+```
+
 ## Exercise 2.11.8
 
 **Even More HANDLER-CASE**
+
+```lisp
+
+```
 
 ## Exercise 2.11.9
 
 **HANDLER-BIND**
 
+```lisp
+
+```
+
 ## Exercise 2.11.10
 
 **More HANDLER-BIND**
+
+```lisp
+
+```
 
 ## Exercise 2.11.11
 
 **Even More HANDLER-BIND**
 
+```lisp
+
+```
+
 ## Exercise 2.11.12
 
 **Defining Conditions**
 
+```lisp
+
+```
+
 ## Exercise 2.11.13
 
 **Defining Conditions, Again**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-10-0-improved-text-adventure-engine/">&laquo; Previous</a></li>
