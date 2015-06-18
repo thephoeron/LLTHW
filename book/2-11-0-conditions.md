@@ -18,13 +18,6 @@ Thankfully, Lisp has a very mature and robust system for handling errors gracefu
 
 In this chapter, we'll take a tour through all of Lisp's built-in tools for handling, defining, and working with Conditions.
 
-* Errors vs. Conditions
-* Signaling
-* Assertions
-* Using `handler-case`
-* Using `handler-bind`
-* Defining your own Conditions
-
 ## Exercise 2.11.1
 
 **Errors vs. Conditions**
