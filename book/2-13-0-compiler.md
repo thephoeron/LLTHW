@@ -18,15 +18,6 @@ Another great thing about Lisp is that you can also optimize your applications t
 
 We will also be covering relevant techniques for profiling the performance of your code-base, minimizing extraneous consing, reviewing the disassembly of your compiled code, and static type declarations.  And from here on out, we'll adopt all these techniques for subsequent exercises.
 
-This chapter will contain exercises on:
-
-* Profiling Code Performance
-* Declarations, Proclamations, Declamations
-* Controlling Compile-Time, EVAL-WHEN
-* Compiler Optimizations
-* Disassembling Compiled Code
-* The Garbage Collector
-
 ## Exercise 2.13.1
 
 **TIME**
