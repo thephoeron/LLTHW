@@ -22,65 +22,129 @@ We will also be covering relevant techniques for profiling the performance of yo
 
 **TIME**
 
+```lisp
+
+```
+
 ## Exercise 2.13.2
 
 **Profiling with SB-PROFILE**
+
+```lisp
+
+```
 
 ## Exercise 2.13.3
 
 **Profiling with SB-SPROF**
 
+```lisp
+
+```
+
 ## Exercise 2.13.4
 
 **Consing**
+
+```lisp
+
+```
 
 ## Exercise 2.13.5
 
 **Less Consing**
 
+```lisp
+
+```
+
 ## Exercise 2.13.6
 
 **Even Less Consing**
+
+```lisp
+
+```
 
 ## Exercise 2.13.7
 
 **Static Typing**
 
+```lisp
+
+```
+
 ## Exercise 2.13.8
 
 **DECLARE**
+
+```lisp
+
+```
 
 ## Exercise 2.13.9
 
 **PROCLAIM**
 
+```lisp
+
+```
+
 ## Exercise 2.13.10
 
 **DECLAIM**
+
+```lisp
+
+```
 
 ## Exercise 2.13.11
 
 **EVAL-WHEN**
 
+```lisp
+
+```
+
 ## Exercise 2.13.12
 
 **DISASSEMBLE**
+
+```lisp
+
+```
 
 ## Exercise 2.13.13
 
 **Garbage Collection**
 
+```lisp
+
+```
+
 ## Exercise 2.13.14
 
 **More Garbage Collection**
+
+```lisp
+
+```
 
 ## Exercise 2.13.15
 
 **Even More Garbage Collection**
 
+```lisp
+
+```
+
 ## Exercise 2.13.16
 
 **Purifying Lisp Images**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-12-0-2d-game/">&laquo; Previous</a></li>
