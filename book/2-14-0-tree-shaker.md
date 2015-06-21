@@ -28,45 +28,89 @@ Whether or not you care about providing your users the full power of Common Lisp
 
 **Shaking Trees vs. Stripping Binaries**
 
+```lisp
+
+```
+
 ## Exercise 2.14.2
 
 **Pruning Trees**
+
+```lisp
+
+```
 
 ## Exercise 2.14.3
 
 **Unneccessary Run-Time Packages**
 
+```lisp
+
+```
+
 ## Exercise 2.14.4
 
 **Full Garbage Collection**
+
+```lisp
+
+```
 
 ## Exercise 2.14.5
 
 **Disabling the Debugger**
 
+```lisp
+
+```
+
 ## Exercise 2.14.6
 
 **Type Safety**
+
+```lisp
+
+```
 
 ## Exercise 2.14.7
 
 **A Basic Tree-Shaker**
 
+```lisp
+
+```
+
 ## Exercise 2.14.8
 
 **Code-Walking**
+
+```lisp
+
+```
 
 ## Exercise 2.14.9
 
 **More Code-Walking**
 
+```lisp
+
+```
+
 ## Exercise 2.14.10
 
 **Even More Code-Walking**
 
+```lisp
+
+```
+
 ## Exercise 2.14.11
 
 **A Smart Tree-Shaker**
+
+```lisp
+
+```
 
 ## Exercise 2.14.12
 
@@ -74,13 +118,25 @@ Whether or not you care about providing your users the full power of Common Lisp
 
 aka, Optimize, Collect, Shake, Save, Purify, Compress and Die
 
+```lisp
+
+```
+
 ## Exercise 2.14.13
 
 **Packaging the Tree-Shaker**
 
+```lisp
+
+```
+
 ## Exercise 2.14.14
 
 **Revisiting the 2D Game Engine**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-13-0-compiler/">&laquo; Previous</a></li>
