@@ -24,14 +24,6 @@ Whether or not you care about providing your users the full power of Common Lisp
 
 **Revision Note:** A More recent tree-shaker example is available from [Burton Samograd](https://gist.github.com/burtonsamograd/f08f561264ff94391300), with some relevant chat history from IRC included.
 
-This chapter will contain exercises on:
-
-* Concepts of Tree-Shaking
-* A Basic Tree-Shaker for SBCL
-* Improving and Extending the Tree-Shaker
-* Packaging the tree-shaker as a library
-* Extending the 2D-Game engine to use the tree-shaker library
-
 ## Exercise 2.14.1
 
 **Shaking Trees vs. Stripping Binaries**
