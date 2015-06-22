@@ -24,53 +24,105 @@ Oh right, this is Lisp.  You can get into the REPL of any running Lisp applicati
 
 **Documentation and Comments**
 
+```lisp
+
+```
+
 ## Exercise 2.15.2
 
 **More Documentation and Comments**
+
+```lisp
+
+```
 
 ## Exercise 2.15.3
 
 **Even More Documentation and Comments**
 
+```lisp
+
+```
+
 ## Exercise 2.15.4
 
 **DOCUMENTATION**
+
+```lisp
+
+```
 
 ## Exercise 2.15.5
 
 **Unreadable Objects**
 
+```lisp
+
+```
+
 ## Exercise 2.15.6
 
 **Modifying the Lisp Printer**
+
+```lisp
+
+```
 
 ## Exercise 2.15.7
 
 **DESCRIBE**
 
+```lisp
+
+```
+
 ## Exercise 2.15.8
 
 **More DESCRIBE**
+
+```lisp
+
+```
 
 ## Exercise 2.15.9
 
 **Even More DESCRIBE**
 
+```lisp
+
+```
+
 ## Exercise 2.15.10
 
 **INSPECT**
+
+```lisp
+
+```
 
 ## Exercise 2.15.11
 
 **More INSPECT**
 
+```lisp
+
+```
+
 ## Exercise 2.15.12
 
 **Even More INSPECT**
 
+```lisp
+
+```
+
 ## Extra Credit Exercise 2.15.13
 
 **Documentation and Inspection in Emacs+SLIME**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-14-0-tree-shaker/">&laquo; Previous</a></li>
