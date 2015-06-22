@@ -20,18 +20,6 @@ Another problem can be the opaqueness of objects. In any serious project, you ha
 
 Oh right, this is Lisp.  You can get into the REPL of any running Lisp application and inspect *everything*.
 
-This chapter will contain exercises on:
-
-* Writing good documentation and comments
-* Getting documentation on a symbol
-* Lisp-printer conventions for unreadable objects
-* Describing an Object
-* Inspecting an Object
-
-Extra Credit exercises:
-
-* Additional tools for documentation and inspection in Emacs+SLIME
-
 ## Exercise 2.15.1
 
 **Documentation and Comments**
