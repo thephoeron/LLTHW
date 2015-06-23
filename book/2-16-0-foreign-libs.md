@@ -20,37 +20,73 @@ We have already seen some foreign libraries in action---such as `lispbuilder-sdl
 
 **CL-COLLIDER: an interface to SuperCollider**
 
+```lisp
+
+```
+
 ## Exercise 2.16.2
 
 **CL-COLLIDER: Live-Hacking Audio**
+
+```lisp
+
+```
 
 ## Exercise 2.16.3
 
 **CL-COLLIDER: Audio-Generating Macros**
 
+```lisp
+
+```
+
 ## Exercise 2.16.4
 
 **CL+SSL: an interface to OpenSSL**
+
+```lisp
+
+```
 
 ## Exercise 2.16.5
 
 **GSLL: an interface to the GNU Scientific Library**
 
+```lisp
+
+```
+
 ## Exercise 2.16.6
 
 **Burgled-Batteries: a Python--Lisp Bridge**
+
+```lisp
+
+```
 
 ## Exercise 2.16.7
 
 **Burgled-Batteries and SciPy**
 
+```lisp
+
+```
+
 ## Exercise 2.16.8
 
 **Burgled-Batteries and Python GUI Libraries**
 
+```lisp
+
+```
+
 ## Exercise 2.16.9
 
 **Burgled-Batteries: Python In Lisp**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-15-0-docs-and-inspection/">&laquo; Previous</a></li>
