@@ -16,11 +16,6 @@ Like many other languages these days, Lisp allows you to call foreign code libra
 
 We have already seen some foreign libraries in action---such as `lispbuilder-sdl` in Chapter 2.12, and a few database libraries in Chapter 2.4. In this chapter we will be exploring a variety of foreign function interface libraries available in Quicklisp, so that you can get a feel for working with Lisp in a diverse ecosystem of code from many different sources---even Python libraries!
 
-* CL-COLLIDER, an interface to the SuperCollider algorithmic programming environment
-* CL+SSL, an interface to the OpenSSL library
-* GSLL, an interface to the GNU Scientific Library
-* Burgled-Batteries, a Lisp bridge to Python
-
 ## Exercise 2.16.1
 
 **CL-COLLIDER: an interface to SuperCollider**
