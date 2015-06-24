@@ -20,53 +20,105 @@ You've seen the interactive debugger enough times by now to have a general idea 
 
 **The Debugger**
 
+```lisp
+
+```
+
 ## Exercise 2.17.2
 
 **Control Stack**
+
+```lisp
+
+```
 
 ## Exercise 2.17.3
 
 **Backtrace**
 
+```lisp
+
+```
+
 ## Exercise 2.17.4
 
 **Restarts**
+
+```lisp
+
+```
 
 ## Exercise 2.17.5
 
 **Stepping**
 
+```lisp
+
+```
+
 ## Exercise 2.17.6
 
 **LDB, the low-level debugger**
+
+```lisp
+
+```
 
 ## Exercise 2.17.7
 
 **More LDB**
 
+```lisp
+
+```
+
 ## Exercise 2.17.8
 
 **Even More LDB**
+
+```lisp
+
+```
 
 ## Exercise 2.17.9
 
 **Writing Tests**
 
+```lisp
+
+```
+
 ## Exercise 2.17.10
 
 **Regression Testing with FiveAM**
+
+```lisp
+
+```
 
 ## Exercise 2.17.11
 
 **More FiveAM**
 
+```lisp
+
+```
+
 ## Exercise 1.17.12
 
 **Even More FiveAM**
 
+```lisp
+
+```
+
 ## Extra Credit Exercise 2.17.13
 
 **Interactive Debugging in Emacs+SLIME**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-16-0-foreign-libs/">&laquo; Previous</a></li>
