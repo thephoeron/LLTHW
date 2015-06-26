@@ -30,85 +30,169 @@ For starters:
 
 **ASDF**
 
+```lisp
+
+```
+
 ## Exercise 2.19.2
 
 **More ASDF**
+
+```lisp
+
+```
 
 ## Exercise 2.19.3
 
 **Even More ASDF**
 
+```lisp
+
+```
+
 ## Exercise 2.19.4
 
 **Alexandria**
+
+```lisp
+
+```
 
 ## Exercise 2.19.5
 
 **More Alexandria**
 
+```lisp
+
+```
+
 ## Exercise 2.19.6
 
 **Even More Alexandria**
+
+```lisp
+
+```
 
 ## Exercise 2.19.7
 
 **CL-PPCRE**
 
+```lisp
+
+```
+
 ## Exercise 2.19.8
 
 **More CL-PPCRE**
+
+```lisp
+
+```
 
 ## Exercise 2.19.9
 
 **Even More CL-PPCRE**
 
+```lisp
+
+```
+
 ## Exercise 2.19.10
 
 **CL-FAD**
+
+```lisp
+
+```
 
 ## Exercise 2.19.11
 
 **More CL-FAD**
 
+```lisp
+
+```
+
 ## Exercise 2.19.12
 
 **Even More CL-FAD**
+
+```lisp
+
+```
 
 ## Exercise 2.19.13
 
 **Flexi-Streams**
 
+```lisp
+
+```
+
 ## Exercise 2.19.14
 
 **More Flexi-Streams**
+
+```lisp
+
+```
 
 ## Exercise 2.19.15
 
 **Even More Flexi-Streams**
 
+```lisp
+
+```
+
 ## Exercise 2.19.16
 
 **Babel**
+
+```lisp
+
+```
 
 ## Exercise 2.19.17
 
 **More Babel**
 
+```lisp
+
+```
+
 ## Exercise 2.19.18
 
 **Even More Babel**
+
+```lisp
+
+```
 
 ## Exercise 2.19.19
 
 **Ironclad**
 
+```lisp
+
+```
+
 ## Exercise 2.19.20
 
 **More Ironclad**
 
+```lisp
+
+```
+
 ## Exercise 2.19.21
 
 **Even More Ironclad**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-18-0-ffi/">&laquo; Previous</a></li>
