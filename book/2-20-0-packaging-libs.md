@@ -20,57 +20,113 @@ But, as the famous saying goes, with great power comes great responsibility---th
 
 **Considerations for a Useful Library**
 
+```lisp
+
+```
+
 ## Exercise 2.20.2
 
 **Quicklisp Library Submission Guidelines**
+
+```lisp
+
+```
 
 ## Exercise 2.20.3
 
 **Required System Metadata**
 
+```lisp
+
+```
+
 ## Exercise 2.20.4
 
 **ASDF In More Detail**
+
+```lisp
+
+```
 
 ## Exercise 2.20.5
 
 **System Dependencies**
 
+```lisp
+
+```
+
 ## Exercise 2.20.6
 
 **More System Dependencies**
+
+```lisp
+
+```
 
 ## Exercise 2.20.7
 
 **Components: Files and Modules**
 
+```lisp
+
+```
+
 ## Exercise 2.20.8
 
 **Component Interdependency**
+
+```lisp
+
+```
 
 ## Exercise 2.20.9
 
 **Multiple Systems and Packages**
 
+```lisp
+
+```
+
 ## Exercise 2.20.10
 
 **Test Suites**
+
+```lisp
+
+```
 
 ## Exercise 2.20.11
 
 **More Test Suites: FiveAM**
 
+```lisp
+
+```
+
 ## Exercise 2.20.12
 
 **More Test Suites: Prove**
+
+```lisp
+
+```
 
 ## Exercise 2.20.13
 
 **Continuous Integration Testing**
 
+```lisp
+
+```
+
 ## Exercise 2.20.14
 
 **Code Coverage Testing**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/2-19-0-essential-libs/">&laquo; Previous</a></li>
