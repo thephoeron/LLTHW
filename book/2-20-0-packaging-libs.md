@@ -16,16 +16,6 @@ Now that you've got a solid grounding in writing, optimizing, debugging and test
 
 But, as the famous saying goes, with great power comes great responsibility---there's a right way of packaging your libraries, and there are certain limitations as to what sort of project qualifies for inclusion in Quicklisp.  We'll be covering all this and more.
 
-This chapter will include exercises on:
-
-* ASDF Files and `defsystem`
-* Naming rules of ASDF system files
-* Required System Metadata for Quicklisp
-* Dependencies
-* Component files and modules
-* Splitting up your library into multiple systems
-* Separate systems for codebase and test-suites
-
 ## Exercise 2.20.1
 
 **Considerations for a Useful Library**
