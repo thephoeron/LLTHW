@@ -56,6 +56,22 @@ But, as the famous saying goes, with great power comes great responsibility---th
 
 **Test Suites**
 
+## Exercise 2.20.11
+
+**More Test Suites: FiveAM**
+
+## Exercise 2.20.12
+
+**More Test Suites: Prove**
+
+## Exercise 2.20.13
+
+**Continuous Integration Testing**
+
+## Exercise 2.20.14
+
+**Code Coverage Testing**
+
 <ul class="pager">
   <li class="previous"><a href="/book/2-19-0-essential-libs/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
