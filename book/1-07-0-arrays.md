@@ -36,57 +36,113 @@ This chapter will contain exercises on:
 
 **Sequences Revisited: Arrays and Vectors**
 
+```lisp
+
+```
+
 ## Exercise 1.7.2
 
 **Arrays**
+
+```lisp
+
+```
 
 ## Exercise 1.7.3
 
 **More Arrays: Element-Type**
 
+```lisp
+
+```
+
 ## Exercise 1.7.4
 
 **More Arrays: Dimension**
+
+```lisp
+
+```
 
 ## Exercise 1.7.5
 
 **More Arrays: Extensible**
 
+```lisp
+
+```
+
 ## Exercise 1.7.6
 
 **More Arrays: Fill-Pointers**
+
+```lisp
+
+```
 
 ## Exercise 1.7.7
 
 **Splicing Arrays**
 
+```lisp
+
+```
+
 ## Exercise 1.7.8
 
 **Splitting Arrays**
+
+```lisp
+
+```
 
 ## Exercise 1.7.9
 
 **Concatenating Arrays**
 
+```lisp
+
+```
+
 ## Exercise 1.7.10
 
 **Matrices**
+
+```lisp
+
+```
 
 ## Exercise 1.7.11
 
 **Matrix Multiplication**
 
+```lisp
+
+```
+
 ## Exercise 1.7.12
 
 **Octet-Vectors**
+
+```lisp
+
+```
 
 ## Exercise 1.7.13
 
 **More Octet-Vectors**
 
+```lisp
+
+```
+
 ## Exercise 1.7.14
 
 **Vectors and Binary Streams**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-06-0-math/">&laquo; Previous</a></li>
