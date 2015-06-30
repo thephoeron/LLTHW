@@ -32,43 +32,81 @@ This chapter will contain exercises on:
 
 **Symbols**
 
+```lisp
+
+```
+
 ## Exercise 1.8.2
 
 **Symbol Tables and Inspecting Objects**
+
+```lisp
+
+```
 
 ## Exercise 1.8.3
 
 **More Symbols: Binding and Assignment**
 
+```lisp
+
+```
+
 ## Exercise 1.8.4
 
 **Even More Symbols: Namespaces**
+
+```lisp
+
+```
 
 ## Exercise 1.8.5
 
 **DEFVAR: Dynamic Binding of Variables**
 
+```lisp
+
+```
+
 ## Exercise 1.8.6
 
 **LET: Lexical Binding of Variables**
+
+```lisp
+
+```
 
 ## Exercise 1.8.7
 
 **SETQ vs SETF**
 
+```lisp
+
+```
+
 ## Exercise 1.8.8
 
 **DEFPARAMETER: Dynamic Binding Revisited**
+
+```lisp
+
+```
 
 ## Exercise 1.8.9
 
 **DEFCONSTANT**
 
+```lisp
+
+```
+
 ## Exercise 1.8.10
 
 **Function Parameters**
 
+```lisp
 
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-07-0-arrays/">&laquo; Previous</a></li>
