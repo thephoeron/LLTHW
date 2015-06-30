@@ -34,6 +34,11 @@ This chapter will contain exercises on:
 
 ```lisp
 
+(intern "FOO")
+FOO
+NIL
+
+
 ```
 
 ## Exercise 1.8.2
