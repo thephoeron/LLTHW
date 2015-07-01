@@ -22,53 +22,105 @@ In this chapter we will further explore the concepts of dynamic and lexical scop
 
 **Lexical Environments and Scope**
 
+```lisp
+
+```
+
 ## Exercise 1.9.2
 
 **LET Revisited**
+
+```lisp
+
+```
 
 ## Exercise 1.9.3
 
 **LET\*: Nested Lexical Scope**
 
+```lisp
+
+```
+
 ## Exercise 1.9.4
 
 **Pure Functions**
+
+```lisp
+
+```
 
 ## Exercise 1.9.5
 
 **First-Class Functions**
 
+```lisp
+
+```
+
 ## Exercise 1.9.6
 
 **Functors: Function Objects**
+
+```lisp
+
+```
 
 ## Exercise 1.9.7
 
 **LABEL and BLOCK**
 
+```lisp
+
+```
+
 ## Exercise 1.9.8
 
 **Functions as Arguments**
+
+```lisp
+
+```
 
 ## Exercise 1.9.9
 
 **Your First Closure**
 
+```lisp
+
+```
+
 ## Exercise 1.9.10
 
 **Dancing Closures**
+
+```lisp
+
+```
 
 ## Exercise 1.9.11
 
 **The Macroexpansion of DEFUN**
 
+```lisp
+
+```
+
 ## Exercise 1.9.12
 
 **Extending Closures: Continuations**
 
+```lisp
+
+```
+
 ## Exercise 1.9.13
 
 **Extending Closures: Partials**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-08-0-variables/">&laquo; Previous</a></li>
