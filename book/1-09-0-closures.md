@@ -23,7 +23,13 @@ In this chapter we will further explore the concepts of dynamic and lexical scop
 **Lexical Environments and Scope**
 
 ```lisp
-
+;; let's look at lexical scoping
+(let ((one 1))
+  (let ((two (+ one one)))
+    (let ((three (+ one two)))
+      (let ((one 1.0))
+        (+ one two three)))))
+6.0
 ```
 
 ## Exercise 1.9.2
@@ -31,6 +37,10 @@ In this chapter we will further explore the concepts of dynamic and lexical scop
 **LET Revisited**
 
 ```lisp
+(let ((one 1)
+      (two 2)
+      (three 3))
+  (- three two one))
 
 ```
 
@@ -39,12 +49,19 @@ In this chapter we will further explore the concepts of dynamic and lexical scop
 **LET\*: Nested Lexical Scope**
 
 ```lisp
-
+(let* ((one 1)
+       (two (+ one one))
+       (three (+ two one)))
+  (* three three))
 ```
 
 ## Exercise 1.9.4
 
 **Pure Functions**
+
+* No side-effects
+* No reliance on external state
+* Same input => same output, every time
 
 ```lisp
 
