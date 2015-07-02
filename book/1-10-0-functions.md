@@ -46,65 +46,129 @@ This chapter will contain exercises on:
 
 **More LAMBDA**
 
+```lisp
+
+```
+
 ## Exercise 1.10.3
 
 **Even More Lambda**
+
+```lisp
+
+```
 
 ## Exercise 1.10.4
 
 **DEFUN: Function Definitions**
 
+```lisp
+
+```
+
 ## Exercise 1.10.5
 
 **More DEFUN**
+
+```lisp
+
+```
 
 ## Exercise 1.10.6
 
 **Even More DEFUN**
 
+```lisp
+
+```
+
 ## Exercise 1.10.7
 
 **FLET: Lexical Function Definitions**
+
+```lisp
+
+```
 
 ## Exercise 1.10.8
 
 **Recursive Functions**
 
+```lisp
+
+```
+
 ## Exercise 1.10.9
 
 **More Recursive Functions**
+
+```lisp
+
+```
 
 ## Exercise 1.10.10
 
 **The Y-Combinator: Recursive Anonymous Functions**
 
+```lisp
+
+```
+
 ## Exercise 1.10.11
 
 **Tail-Call Optimization**
+
+```lisp
+
+```
 
 ## Exercise 1.10.12
 
 **Defining Macros**
 
+```lisp
+
+```
+
 ## Exercise 1.10.13
 
 **Macro Expansion**
+
+```lisp
+
+```
 
 ## Exercise 1.10.14
 
 **Backtick Syntax**
 
+```lisp
+
+```
+
 ## Exercise 1.10.15
 
 **Unquoting**
+
+```lisp
+
+```
 
 ## Exercise 1.10.16
 
 **Splicing**
 
+```lisp
+
+```
+
 ## Exercise 1.10.17
 
 **Nested Expansions**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-09-0-closures/">&laquo; Previous</a></li>
