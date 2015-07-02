@@ -71,8 +71,10 @@ In this chapter we will further explore the concepts of dynamic and lexical scop
 
 **First-Class Functions**
 
-```lisp
+Functions can be passed as an argument to another function.
 
+```lisp
+(map 'vector #'+ '(1 2 3 4) '(10 20 30 40))
 ```
 
 ## Exercise 1.9.6
