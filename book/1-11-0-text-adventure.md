@@ -40,41 +40,81 @@ This chapter will contain exercises on:
 
 **ASCII-Art and ANSI Escape Codes**
 
+```lisp
+
+```
+
 ## Exercise 1.11.2
 
 **The Game Interface**
+
+```lisp
+
+```
 
 ## Exercise 1.11.3
 
 **Theme, Story, and Characters**
 
+```lisp
+
+```
+
 ## Exercise 1.11.4
 
 **The Game World**
+
+```lisp
+
+```
 
 ## Exercise 1.11.5
 
 **Movement in the Game World**
 
+```lisp
+
+```
+
 ## Exercise 1.11.6
 
 **Interacting with the Game World**
+
+```lisp
+
+```
 
 ## Exercise 1.11.7
 
 **Collecting and Using Items in the Game World**
 
+```lisp
+
+```
+
 ## Exercise 1.11.8
 
 **Non-Player Characters**
+
+```lisp
+
+```
 
 ## Exercise 1.11.9
 
 **Quick and Dirty AI Enemies**
 
+```lisp
+
+```
+
 ## Exercise 1.11.10
 
 **Packaging and Running Your Game**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-10-0-functions/">&laquo; Previous</a></li>
