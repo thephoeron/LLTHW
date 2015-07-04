@@ -81,7 +81,18 @@ T
 
 **Symbol Names**
 
+Symbol names are stored as case-sensitive strings in the symbol table.  Typically, the Lisp reader upcases symbol-names when they are interned unless forced to do otherwise.
+
 ```lisp
+(symbol-name 'pi)
+"PI"
+
+(intern "myCamelCaseSymbol")
+|myCamelCaseSymbol|
+NIL
+
+(symbol-name '|myCamelCaseSymbol|)
+"myCamelCaseSymbol"
 
 ```
 
