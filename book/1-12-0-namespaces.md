@@ -83,6 +83,8 @@ T
 
 Symbol names are stored as case-sensitive strings in the symbol table.  Typically, the Lisp reader upcases symbol-names when they are interned unless forced to do otherwise.
 
+Symbols exist within packages, so their full name is prefixed with their package.  When your working package is the same namespace as where the symbol was interned, you can omit the package prefix---but it is still there.
+
 ```lisp
 (symbol-name 'pi)
 "PI"
@@ -92,6 +94,17 @@ Symbol names are stored as case-sensitive strings in the symbol table.  Typicall
 NIL
 
 (symbol-name '|myCamelCaseSymbol|)
+"myCamelCaseSymbol"
+
+;; this symbol hasn't been exported yet, so we have to refer to it using package-internal namespacing
+(symbol-name 'cl-user::|myCamelCaseSymbol|)
+"myCamelCaseSymbol"
+
+(export '|myCamelCaseSymbol|)
+T
+
+;; now that we've exported |myCamelCaseSymbol|, we can call it with package-external namespacing and import it into other packages
+(symbol-name 'cl-user:|myCamelCaseSymbol|)
 "myCamelCaseSymbol"
 
 ```
