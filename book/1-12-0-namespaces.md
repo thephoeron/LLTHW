@@ -115,6 +115,25 @@ T
 
 ```lisp
 
+(defpackage my-new-package)
+#<PACKAGE "MY-NEW-PACKAGE">
+
+(in-package :my-new-package)
+#<COMMON-LISP:PACKAGE "MY-NEW-PACKAGE">
+
+(cl:defparameter *hello-world*
+  (cl:format cl:nil "Hello ~A!" 'multiverse))
+*HELLO-WORLD*
+
+(cl:export '*hello-world*)
+T
+
+(cl:in-package :cl-user)
+#<PACKAGE "COMMON-LISP-USER">
+
+my-new-package:*hello-world*
+"Hello MULTIVERSE!"
+
 ```
 
 ## Exercise 1.12.7
