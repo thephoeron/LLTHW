@@ -113,6 +113,10 @@ T
 
 **Packages**
 
+In addition to the separate Function and Variable namespaces offered by Common Lisp, your code can be organized into *packages*.  Packages allow you to design an interface to your code-base under a common name, separating the functions, variables, and other units of code from the Common Lisp language and from other libraries; as a result, they can help eliminate symbol collision as well.
+
+Note how in your new package, you have to explicitly namespace-resolve symbols from the Common Lisp package now in order to use them.  This can be both useful and irritating, so we will introduce how to use another package's exported symbols as if they were local symbols in a few exercises.
+
 ```lisp
 
 (defpackage my-new-package)
