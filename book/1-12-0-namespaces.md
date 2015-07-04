@@ -145,6 +145,8 @@ my-new-package:*hello-world*
 **More Packages: Nicknames**
 
 ```lisp
+(defpackage my-new-package
+  (:nicknames :mnp :newpack))
 
 ```
 
@@ -153,6 +155,9 @@ my-new-package:*hello-world*
 **More Packages: Exporting Symbols**
 
 ```lisp
+(defpackage my-new-package
+  (:nicknames :mnp :newpack)
+  (:export #:*hello-world*))
 
 ```
 
@@ -161,6 +166,10 @@ my-new-package:*hello-world*
 **More Packages: Using Other Packages**
 
 ```lisp
+(defpackage my-new-package
+  (:nicknames :mnp :newpack)
+  (:use :cl :cl-user)
+  (:export #:*hello-world*))
 
 ```
 
