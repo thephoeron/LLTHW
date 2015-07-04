@@ -38,69 +38,137 @@ Extra Credit Exercises (intro material, more detail in Chapter 2.20):
 
 **Dynamic and Lexical Scope, Revisited**
 
+```lisp
+
+```
+
 ## Exercise 1.12.2
 
 **Implicit Lexical Scope**
+
+```lisp
+
+```
 
 ## Exercise 1.12.3
 
 **Function and Variable Namespaces, Revisited**
 
+```lisp
+
+```
+
 ## Exercise 1.12.4
 
 **First-Class Functions**
+
+```lisp
+
+```
 
 ## Exercise 1.12.5
 
 **Symbol Names**
 
+```lisp
+
+```
+
 ## Exercise 1.12.6
 
 **Packages**
+
+```lisp
+
+```
 
 ## Exercise 1.12.7
 
 **More Packages: Nicknames**
 
+```lisp
+
+```
+
 ## Exercise 1.12.8
 
 **More Packages: Exporting Symbols**
+
+```lisp
+
+```
 
 ## Exercise 1.12.9
 
 **More Packages: Using Other Packages**
 
+```lisp
+
+```
+
 ## Exercise 1.12.10
 
 **More Packages: Importing Specific Symbols**
+
+```lisp
+
+```
 
 ## Exercise 1.12.11
 
 **More Packages: Shadowing-Imports**
 
+```lisp
+
+```
+
 ## Extra Credit Exercise 1.12.12
 
 **ASDF and Systems**
+
+```lisp
+
+```
 
 ## Extra Credit Exercise 1.12.13
 
 **ASDF Systems: Dependencies**
 
+```lisp
+
+```
+
 ## Extra Credit Exercise 1.12.14
 
 **ASDF Systems: Files**
+
+```lisp
+
+```
 
 ## Extra Credit Exercise 1.12.15
 
 **ASDF Systems: Modules**
 
+```lisp
+
+```
+
 ## Extra Credit Exercise 1.12.16
 
 **ASDF Systems: Serial mode vs. Dependency Tree**
 
+```lisp
+
+```
+
 ## Extra Credit Exercise 1.12.17
 
 **The Quicklisp Package Manager**
+
+```lisp
+
+```
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-11-0-text-adventure/">&laquo; Previous</a></li>
