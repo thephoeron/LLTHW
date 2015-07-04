@@ -144,6 +144,10 @@ my-new-package:*hello-world*
 
 **More Packages: Nicknames**
 
+You can give your packages shorter, alternative nicknames which can be used for namespace-resolution on symbols, instead of having to type the full package name every single time.  You have already seen this in the previous exercise, where you had to refer to Common Lisp functions and variables prefixed with `cl`.  This is a package nickname for the `COMMON-LISP` package.
+
+You define a package's nicknames with the `defpackage` macro.  You can have as many nicknames as you want; but like package names themselves, they have to be unique.
+
 ```lisp
 (defpackage my-new-package
   (:nicknames :mnp :newpack))
