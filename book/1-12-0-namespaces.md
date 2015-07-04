@@ -166,7 +166,32 @@ Extra Credit Exercises (intro material, more detail in Chapter 2.20):
 
 **The Quicklisp Package Manager**
 
+Now that you have your new project configured for ASDF, you can automatically load it and all its dependencies into your current Lisp image through the Quicklisp package manager.
+
+Quicklisp runs *inside* your Lisp image, not from the command-line.
+
+It is considered best practice to not call Quicklisp inside your Lisp source-code, but to rely on ASDF and portable Common Lisp; for deploying executables, tools such as `BUILDAPP` will use Quicklisp automatically to retrieve dependencies and include them in your binary, without adding the overhead of the Quicklisp system to your binary.  The Lisp API to Quicklisp, however, is very useful for testing, exploring, and interactively programming with Lisp libraries from the REPL.  For example, you can now automatically load the library you've created in this chapter into a new Lisp image, and start playing with it right away.
+
 ```lisp
+(ql:quickload :my-lisp-project)
+To load "my-lisp-project":
+  Load 1 ASDF system:
+    my-lisp-project
+; Loading "my-lisp-project"
+..................................................
+[package base58]..................................
+[package cl-base64]...............................
+[package nibbles].................................
+[package ironclad]................................
+..................................................
+..................................................
+..................................................
+[package my-lisp-project]..
+(PROVE MY-LISP-PROJECT)
+
+(in-package :my-lisp-project)
+#<PACKAGE "MY-LISP-PROJECT">
+
 
 ```
 
