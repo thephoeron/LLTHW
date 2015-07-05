@@ -199,6 +199,8 @@ You won't always need to *use* a full library; more often than not, you will onl
 
 **More Packages: Shadowing-Imports**
 
+Sometimes, you will come across naming collisions between libraries you need to use, which at first glance may seem to force you to manually import, symbol by symbol, everything from a library except the offender.  That's not very efficient, however, so Lisp has you covered---you can *shadow-import*, which lets you tell Lisp exactly which symbol from which package you want to favour in the case of a naming collision.
+
 ```lisp
 
 ```
