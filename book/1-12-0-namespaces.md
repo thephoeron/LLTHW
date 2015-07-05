@@ -189,6 +189,8 @@ At the very minimum, you will want to *use* the `COMMON-LISP` package, which has
 
 **More Packages: Importing Specific Symbols**
 
+You won't always need to *use* a full library; more often than not, you will only need to import a handful of specific symbols.  This is another advantage of typing out the full symbol, package namespace included, while developing your library---you can search through your source code for references to a given package, and make a judgment call as to whether you need to use it or only import the symbols you need.  This helps to avoid cluttering your namespace, among other things.
+
 ```lisp
 
 ```
