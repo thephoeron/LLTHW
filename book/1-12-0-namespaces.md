@@ -209,7 +209,26 @@ Sometimes, you will come across naming collisions between libraries you need to 
 
 **ASDF and Systems**
 
+ASDF is, essentially, a build-system for Common Lisp---but that doesn't really do it justice.  For our purposes, it is a necessary tool for defining libraries for the Quicklisp package manager.
+
+ASDF focuses on the concept of a *System*.  A System is a collection of Lisp source-code files, which may or may not include a number of packages, wrapped up with some meta-data.
+
+ASDF Systems are typically defined in their own `*.asd` files, instead of `*.lisp`.  However, they are still written using Common Lisp syntax.
+
+In your `~/quicklisp/local-projects/` directory, create a subdirectory called `my-new-package/`, and in it, create a new file called `my-new-package.asd`.  The contents of this file should look like the following, with the appropriate personalizations completed:
+
 ```lisp
+(in-package :cl-user)
+
+(defpackage my-new-package-asd
+  (:use :cl :cl-user :asdf))
+
+(in-package :my-new-package-asd)
+
+(defsystem my-new-package
+  :version "1.0.0"
+  :license "MIT"
+  :author "A.B. <a.b@example.org>")
 
 ```
 
