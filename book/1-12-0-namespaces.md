@@ -215,17 +215,17 @@ ASDF focuses on the concept of a *System*.  A System is a collection of Lisp sou
 
 ASDF Systems are typically defined in their own `*.asd` files, instead of `*.lisp`.  However, they are still written using Common Lisp syntax.
 
-In your `~/quicklisp/local-projects/` directory, create a subdirectory called `my-new-package/`, and in it, create a new file called `my-new-package.asd`.  The contents of this file should look like the following, with the appropriate personalizations completed:
+In your `~/quicklisp/local-projects/` directory, create a subdirectory called `my-new-project/`, and in it, create a new file called `my-new-project.asd`.  The contents of this file should look like the following, with the appropriate personalizations completed:
 
 ```lisp
 (in-package :cl-user)
 
-(defpackage my-new-package-asd
+(defpackage my-new-project-asd
   (:use :cl :cl-user :asdf))
 
-(in-package :my-new-package-asd)
+(in-package :my-new-project-asd)
 
-(defsystem my-new-package
+(defsystem my-new-project
   :version "1.0.0"
   :license "MIT"
   :author "A.B. <a.b@example.org>")
@@ -236,17 +236,17 @@ In your `~/quicklisp/local-projects/` directory, create a subdirectory called `m
 
 **ASDF Systems: Dependencies**
 
-Revise `my-new-package.asd` to look like the following:
+Revise `my-new-project.asd` to look like the following:
 
 ```lisp
 (in-package :cl-user)
 
-(defpackage my-new-package-asd
+(defpackage my-new-project-asd
   (:use :cl :cl-user :asdf))
 
-(in-package :my-new-package-asd)
+(in-package :my-new-project-asd)
 
-(defsystem my-new-package
+(defsystem my-new-project
   :version "1.0.0"
   :license "MIT"
   :author "A.B. <a.b@example.org>"
@@ -258,24 +258,24 @@ Revise `my-new-package.asd` to look like the following:
 
 **ASDF Systems: Files**
 
-Revise `my-new-package.asd` to look like the following:
+Revise `my-new-project.asd` to look like the following:
 
 ```lisp
 (in-package :cl-user)
 
-(defpackage my-new-package-asd
+(defpackage my-new-project-asd
   (:use :cl :cl-user :asdf))
 
-(in-package :my-new-package-asd)
+(in-package :my-new-project-asd)
 
-(defsystem my-new-package
+(defsystem my-new-project
   :version "1.0.0"
   :license "MIT"
   :author "A.B. <a.b@example.org>"
   :depends-on (:ironclad)
   :serial t
   :components ((:file "packages")
-               (:file "my-new-package")))
+               (:file "my-new-project")))
 
 ```
 
