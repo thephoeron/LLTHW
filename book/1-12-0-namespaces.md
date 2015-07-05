@@ -173,6 +173,10 @@ You can export your defined units of code either with the `export` form, or spec
 
 **More Packages: Using Other Packages**
 
+When you *use* a package in your package, you are telling Lisp to add all the exported symbols of that package to your current package-internal namespace, so that you can call any unit of code locally as if you defined it yourself in your current package.
+
+At the very minimum, you will want to *use* the `COMMON-LISP` package, which has the `CL` nickname; and if you plan to do a lot of work at the REPL from your package, you will also want to *use* the `COMMON-LISP-USER` package, which imports all the extra default features of your Lisp implementation.  While you develop your library, it can be useful to call out units of code from other packages and libraries explicitly, so that there is no confusion on your dev team as to what code is being called---if you find that you're relying heavily enough on a library that typing out its package nickname before each symbol becomes tedious, annoying, and a source of existential woe, that is a good indicator the library should be *used*, and your full dev team deeply familiar with its interface.
+
 ```lisp
 (defpackage my-new-package
   (:nicknames :mnp :newpack)
