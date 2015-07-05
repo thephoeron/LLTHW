@@ -158,6 +158,10 @@ You define a package's nicknames with the `defpackage` macro.  You can have as m
 
 **More Packages: Exporting Symbols**
 
+Technically, once a package and all its source code has been loaded into your Lisp image, you can call any unit of code within it by using the full symbol, `<package-name>::<symbol-name>`; but it is more convenient to export an interface to your users, which they can then *import* into their packages individually, or *use* your entire library's API.
+
+You can export your defined units of code either with the `export` form, or specifying symbols to export in your package definition; if you try to export the same symbol twice, once from the package definition and again with `export` form, you'll trigger a condition.  Generally speaking it's considered best practice to export all your symbols from the package definition form, so that your library's API is clear and together in one place.
+
 ```lisp
 (defpackage my-new-package
   (:nicknames :mnp :newpack)
