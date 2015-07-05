@@ -236,7 +236,21 @@ In your `~/quicklisp/local-projects/` directory, create a subdirectory called `m
 
 **ASDF Systems: Dependencies**
 
+Revise `my-new-package.asd` to look like the following:
+
 ```lisp
+(in-package :cl-user)
+
+(defpackage my-new-package-asd
+  (:use :cl :cl-user :asdf))
+
+(in-package :my-new-package-asd)
+
+(defsystem my-new-package
+  :version "1.0.0"
+  :license "MIT"
+  :author "A.B. <a.b@example.org>"
+  :depends-on (:ironclad))
 
 ```
 
@@ -244,7 +258,24 @@ In your `~/quicklisp/local-projects/` directory, create a subdirectory called `m
 
 **ASDF Systems: Files**
 
+Revise `my-new-package.asd` to look like the following:
+
 ```lisp
+(in-package :cl-user)
+
+(defpackage my-new-package-asd
+  (:use :cl :cl-user :asdf))
+
+(in-package :my-new-package-asd)
+
+(defsystem my-new-package
+  :version "1.0.0"
+  :license "MIT"
+  :author "A.B. <a.b@example.org>"
+  :depends-on (:ironclad)
+  :serial t
+  :components ((:file "packages")
+               (:file "my-new-package")))
 
 ```
 
