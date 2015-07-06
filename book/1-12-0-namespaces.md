@@ -258,6 +258,10 @@ Revise `my-new-project.asd` to look like the following:
 
 **ASDF Systems: Files**
 
+In the same directory as `my-new-project.asd`, create empty files for `packages.lisp` and `my-new-project.lisp`.
+
+You don't have to specify that the files you're including in components are `*.lisp` files, you only have to specify their names, without the file extension.
+
 Revise `my-new-project.asd` to look like the following:
 
 ```lisp
