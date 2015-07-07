@@ -236,6 +236,10 @@ In your `~/quicklisp/local-projects/` directory, create a subdirectory called `m
 
 **ASDF Systems: Dependencies**
 
+ASDF allows you to specify library dependencies in your system definition; the project will then not compile unless these dependencies are available.  The Quicklisp package manager uses this information to automatically resolve all dependencies when quickloading a library.
+
+If you *use* a library in any package within your project, you must include it in the system's `:depends-on` form, to ensure that it is available to your project wherever it is run or installed.
+
 Revise `my-new-project.asd` to look like the following:
 
 ```lisp
