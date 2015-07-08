@@ -113,15 +113,18 @@
       <li>
         <a href="1-08-0-variables/">Variables, Parameters, and Constants</a>
         <i class="glyphicon glyphicon-refresh text-warning"></i>
+        <i class="fa fa-code"></i>
       </li>
       <li>
         Extra Credit:
         <a href="1-09-0-closures/">Closures</a>
         <i class="glyphicon glyphicon-refresh text-warning"></i>
+        <i class="fa fa-code"></i>
       </li>
       <li>
         <a href="1-10-0-functions/">Functions and Macros</a>
         <i class="glyphicon glyphicon-refresh text-warning"></i>
+        <i class="fa fa-code"></i>
       </li>
       <li>
         Extra Credit:
@@ -131,6 +134,7 @@
       <li>
         <a href="1-12-0-namespaces/">Namespaces, Symbols, Packages, and Systems</a>
         <i class="glyphicon glyphicon-refresh text-warning"></i>
+        <i class="fa fa-code"></i>
       </li>
       <li>
         Extra Credit:
