@@ -65,16 +65,67 @@ T
 
 **Function and Variable Namespaces, Revisited**
 
-```lisp
+Common Lisp has seprate namespaces for Functions and Variables.  This means that you can define a function and variable within the same dynamic or lexical scope that share the same symbol name, and Lisp will generally figure out on its own which you mean by its context---*i.e.*, where in an S-Expression the symbol appears.
 
+You can inspect any object in Lisp.  When you inspect a symbol, you get its symbol table in the form of a menu with a new prompt, `>`.  This allows you to choose an entry in the table by number, and see more information about it.  You can return to the Common Lisp REPL by entering `q`, or navigate back up a level with `u`.  When you've defined both a variable and a function with the same name, you can then see them both in the symbol table and inspect every object that they consist of.
+
+```lisp
+(defparameter nonce 1.4)
+NONCE
+
+(defun nonce (n)
+  (* (random 128) n))
+NONCE
+
+(inspect 'nonce)
+The object is a SYMBOL.
+0. Name: "NONCE"
+1. Package: #<PACKAGE "COMMON-LISP-USER">
+2. Value: 1.4
+3. Function: #<FUNCTION NONCE>
+4. Plist: NIL
+> 2
+
+The object is an ATOM:
+  1.4
+> u
+...
+
+> 3
+
+The object is a FUNCTION named NONCE.
+0. Lambda-list: (N)
+1. Ftype: (FUNCTION (T) (VALUES NUMBER &OPTIONAL))
+> 0
+
+The object is a CONS.
+0. CAR: N
+1. CDR: NIL
+> u
+...
+
+> 1
+
+The object is a proper list of length 3.
+0. 0: FUNCTION
+1. 1: (T)
+2. 2: (VALUES NUMBER &OPTIONAL)
+> q
 ```
 
 ## Exercise 1.12.4
 
 **First-Class Functions**
 
-```lisp
+As mentioned in the previous exercise, Lisp will assume that when a symbol appears in the operator position of a list, it refers to a function, and when it appears in the lambda list, it refers to the variable value.  But Common Lisp supports first-class functions, so naturally there must be a way, in parameter position, for the Lisp reader to recognize when you mean the function namespace in parameter position.
 
+This is the reader macro `#'`.  Prepend it to a symbol, and the Lisp reader will know to treat that parameter as a first-class function instead of as a variable.
+
+Now, first-class functions are very different than a function application that happens to be in parameter position.  Lisp code is evaluated innermost-form first, so a form in source-code can almost always be replaced by its return value---and as far as Lisp is concerned, it is.  This is known in Comp-Sci parlance as "pass-by-value" or "call-by-value", which is to say that a form is actually evaluated to a result, and the result itself is passed to the parent form and copied---anything done to that value has no effect on the original.  For a function application, this doesn't mean much because the evaluation usually *computes* this original value in the first place---but for first-class function objects and variables, this is quite important.
+
+```lisp
+(mapcar #'nonce '(128 123 118 113 108 103 98 93))
+(13184 12300 10502 13786 3564 1751 4998 5115)
 ```
 
 ## Exercise 1.12.5
