@@ -29,7 +29,7 @@ There are a few new things here, which we can go over quickly for now.  They wil
 
 First, notice that the `print` function takes two arguments: the *object* you want to print, and then the *stream* you want to print the object to.  You can use the boolean truth symbol `t` as shorthand for `*standard-output*`.  You don't have to pass the second argument---the default is `nil`, so the first line of code is the same in principle as the third.
 
-`progn` is a useful wrapper macro.  It tells Lisp to evaluate each expression in its body sequentially, in the order they appear.
+`progn`, one of the special operators, tells Lisp to evaluate each expression in its body sequentially, in the order they appear.
 
 `terpri` stands for "terminate printing".  It's used to send a new-line character to a stream.  It seems slightly illogical to use it at the *beginning* of a printing sequence, but that is how the `print` function is implemented.
 
