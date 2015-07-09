@@ -10,7 +10,7 @@
 
 # A Little Bit More on Format
 
-Now that you've seen how the `format` macro works, we'll go through a few more control sequences that you might find useful.  Again, the full tour of format string syntax won't be coming until chapter 1.18, but this should give you enough to work with for now.
+Now that you've seen how the `format` function works, we'll go through a few more control sequences that you might find useful.  Again, the full tour of format string syntax won't be coming until chapter 1.18, but this should give you enough to work with for now.
 
 Try these examples out, and see if you can guess what these format control sequences do.  They will be explained afterwards, but don't cheat---try them out, and see if you can guess what they do before you read on past the example.
 
