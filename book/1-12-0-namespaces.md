@@ -38,6 +38,8 @@ Extra Credit Exercises (intro material, more detail in Chapter 2.20):
 
 **Dynamic and Lexical Scope, Revisited**
 
+All symbols in Common Lisp are namespaced, and within a namespace, symbols are also scoped.  There are two flavours of scope---dynamic and lexical.  Dynamic scope is special---while it is not quite accurate to equate dynamic scope with the concept of global scope, it is similar in intent.  Lexical scope is tightly integrated with the structure of Lisp code and the lambda calculus from which it descends.
+
 ```lisp
 
 ```
