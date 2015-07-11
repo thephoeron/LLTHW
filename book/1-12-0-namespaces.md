@@ -40,7 +40,7 @@ Extra Credit Exercises (intro material, more detail in Chapter 2.20):
 
 All symbols in Common Lisp are namespaced in packages, and within a namespace, symbols are also scoped.  *Scope* refers to how the Lisp reader looks up symbol definitions in the current environment.
 
-There are two flavours of scope---dynamic and lexical.  Dynamic scope is special---while it is not quite accurate to equate dynamic scope with the concept of global scope, it is similar in intent.  Lexical scope is tightly integrated with the structure of Lisp code and the lambda calculus from which it descends; it is *spatial* to the establishing form.
+There are two flavours of scope---dynamic and lexical.  Lexical scope is tightly integrated with the structure of Lisp code and the lambda calculus from which it descends; it is *spatial* to the establishing form.  Dynamic scope is special, because it has indefinite scope and dynamic extent, which is to say that dynamically scoped symbols are not lexically contained to their establishing form and they live in the dynamic environment.
 
 Remember that Lexical Scope *shadows* Dynamic scope, as well as surrounding lexical scopes.  Unless you specify otherwise, the innermost binding of a symbol is the one that is found by the Lisp reader.
 
