@@ -20,20 +20,6 @@ So, as you can see, what a symbol happens to mean is highly contextual---and for
 
 We will also cover some basic aspects of packaging your Lisp code for the wild, and working with ASDF and the Quicklisp package manager built on top of it.
 
-This chapter will contain exercises on:
-
-* Dynamic and Lexical Scope
-* Forms that introduce Lexical Scope
-* Function and Variable Namespaces
-* First-class Functions
-* Symbol Names
-* Defining Packages
-
-Extra Credit Exercises (intro material, more detail in Chapter 2.20):
-
-* ASDF and Systems
-* The Quicklisp Package Manager
-
 ## Exercise 1.12.1
 
 **Dynamic and Lexical Scope, Revisited**
