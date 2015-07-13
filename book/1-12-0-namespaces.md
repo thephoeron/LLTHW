@@ -36,7 +36,11 @@ Remember that Lexical Scope *shadows* Dynamic scope, as well as surrounding lexi
 (let ((one 1))
   (let ((one 1.0))
     (let ((one "one"))
-      (format t "~a~%" one))))
+      (format t "~a~%" one))
+    (format t "~a~%" one))
+  (format t "~a~%" one))
+
+(format t "#x~X~%" one)
 ```
 
 ## Exercise 1.12.2
