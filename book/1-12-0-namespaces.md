@@ -73,6 +73,20 @@ Remember that Lexical Scope *shadows* Dynamic scope, as well as surrounding lexi
 
 Many forms in Common Lisp introduce an *implicit* lexical scope.  That is, you do not have explicitly call a `let` or `flet` to introduce a new nested scope; they provide a means for binding and assignment that is more intuitive for their particular use-case.  You have already seen a few of these forms, like the `DEFUN` macro.  You will also find implicit lexical scoping in `BLOCK` forms, and destructuring macros such as `DESTRUCTURING-BIND`, to name a few.
 
+### In the REPL
+
+```lisp
+(block ta-da!
+  (cond ((= (+ 1 1) 2)
+         (return-from ta-da! t))
+        ((= (+ 1 1) 3)
+         (return-from ta-da! nil))
+        (t
+         (return-from ta-da! "Wait, what?"))))
+```
+
+### What You Should See
+
 ```lisp
 (block ta-da!
   (cond ((= (+ 1 1) 2)
@@ -82,8 +96,6 @@ Many forms in Common Lisp introduce an *implicit* lexical scope.  That is, you d
         (t
          (return-from ta-da! "Wait, what?"))))
 T
-
-
 ```
 
 ## Exercise 1.12.3
