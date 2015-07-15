@@ -104,6 +104,26 @@ T
 
 Common Lisp has seprate namespaces for Functions and Variables.  This means that you can define a function and variable within the same dynamic or lexical scope that share the same symbol name, and Lisp will generally figure out on its own which you mean by its context---*i.e.*, where in an S-Expression the symbol appears.
 
+### In the REPL
+
+```lisp
+(defparameter nonce 1.4)
+
+(defun nonce (n)
+  (* (random 128) n))
+
+(inspect 'nonce)
+> 2
+> u
+> 3
+> 0
+> u
+> 1
+> q
+```
+
+### What You Should See
+
 You can inspect any object in Lisp.  When you inspect a symbol, you get its symbol table in the form of a menu with a new prompt, `>`.  This allows you to choose an entry in the table by number, and see more information about it.  You can return to the Common Lisp REPL by entering `q`, or navigate back up a level with `u`.  When you've defined both a variable and a function with the same name, you can then see them both in the symbol table and inspect every object that they consist of.
 
 ```lisp
