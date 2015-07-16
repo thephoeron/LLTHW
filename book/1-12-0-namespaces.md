@@ -178,12 +178,20 @@ As mentioned in the previous exercise, Lisp will assume that when a symbol appea
 
 This is the reader macro `#'`.  Prepend it to a symbol, and the Lisp reader will know to treat that parameter as a first-class function instead of as a variable.
 
-Now, first-class functions are very different than a function application that happens to be in parameter position.  Lisp code is evaluated innermost-form first, so a form in source-code can almost always be replaced by its return value---and as far as Lisp is concerned, it is.  This is known in Comp-Sci parlance as "pass-by-value" or "call-by-value", which is to say that a form is actually evaluated to a result, and the result itself is passed to the parent form and copied---anything done to that value has no effect on the original.  For a function application, this doesn't mean much because the evaluation usually *computes* this original value in the first place---but for first-class function objects and variables, this is quite important.
+### In the REPL
 
 ```lisp
 (mapcar #'nonce '(128 123 118 113 108 103 98 93))
+```
+
+### What You Should See
+
+```lisp
+* (mapcar #'nonce '(128 123 118 113 108 103 98 93))
 (13184 12300 10502 13786 3564 1751 4998 5115)
 ```
+
+First-class functions are very different than a function application that happens to be in parameter position.  Lisp code is evaluated innermost-form first, so a form in source-code can almost always be replaced by its return value---and as far as Lisp is concerned, it is.  This is known in Comp-Sci parlance as "pass-by-value" or "call-by-value", which is to say that a form is actually evaluated to a result, and the result itself is passed to the parent form and copied---anything done to that value has no effect on the original.  For a function application, this doesn't mean much because the evaluation usually *computes* this original value in the first place---but for first-class function objects and variables, this is quite important.
 
 ## Exercise 1.12.5
 
