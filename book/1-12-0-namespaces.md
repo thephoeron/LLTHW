@@ -197,9 +197,25 @@ First-class functions are very different than a function application that happen
 
 **Symbol Names**
 
-Symbol names are stored as case-sensitive strings in the symbol table.  Typically, the Lisp reader upcases symbol-names when they are interned unless forced to do otherwise.
+Symbol names are stored as case-sensitive strings in the symbol table.  Typically, the Lisp reader upcases symbol-names when a symbol is created unless forced to do otherwise, such as with the `INTERN` function.
 
-Symbols exist within packages, so their full name is prefixed with their package.  When your working package is the same namespace as where the symbol was interned, you can omit the package prefix---but it is still there.
+### In the REPL
+
+```lisp
+(symbol-name 'pi)
+
+(intern "myCamelCaseSymbol")
+
+(symbol-name '|myCamelCaseSymbol|)
+
+(symbol-name 'cl-user::|myCamelCaseSymbol|)
+
+(export '|myCamelCaseSymbol|)
+
+(symbol-name 'cl-user:|myCamelCaseSymbol|)
+```
+
+### What You Should See
 
 ```lisp
 (symbol-name 'pi)
@@ -224,6 +240,8 @@ T
 "myCamelCaseSymbol"
 
 ```
+
+Symbols exist within packages, so their full name is prefixed with their package.  When your working package is the same namespace as where the symbol was interned, you can omit the package prefix---but it is still there.
 
 ## Exercise 1.12.6
 
