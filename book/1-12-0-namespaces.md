@@ -299,7 +299,7 @@ Note how in your new package, you have to explicitly namespace-resolve symbols f
 
 You can give your packages shorter, alternative nicknames which can be used for namespace-resolution on symbols, instead of having to type the full package name every single time.  You have already seen this in the previous exercise, where you had to refer to Common Lisp functions and variables prefixed with `cl`.  This is a package nickname for the `COMMON-LISP` package.
 
-You define a package's nicknames inside the `defpackage` macro.  You can have as many nicknames as you want; but like package names themselves, they have to be unique.
+### In the REPL
 
 ```lisp
 (defpackage my-new-package
@@ -319,6 +319,38 @@ my-new-package:*hello-world*
 mnp:*hello-world*
 
 newpack:*hello-world*
+```
+
+### What You Should See
+
+You define a package's nicknames inside the `defpackage` macro.  You can have as many nicknames as you want; but like package names themselves, they have to be unique.
+
+```lisp
+(defpackage my-new-package
+  (:nicknames :mnp :newpack))
+#<PACKAGE "MY-NEW-PACKAGE">
+
+(in-package :my-new-package)
+#<COMMON-LISP:PACKAGE "MY-NEW-PACKAGE">
+
+(cl:defparameter *hello-world*
+  (cl:format cl:nil "Hello ~A!" 'multiverse))
+*HELLO-WORLD*
+
+(cl:export '*hello-world*)
+T
+
+(cl:in-package :cl-user)
+#<PACKAGE "COMMON-LISP-USER">
+
+my-new-package:*hello-world*
+"Hello MULTIVERSE!"
+
+mnp:*hello-world*
+"Hello MULTIVERSE!"
+
+newpack:*hello-world*
+"Hello MULTIVERSE!"
 ```
 
 ## Exercise 1.12.8
