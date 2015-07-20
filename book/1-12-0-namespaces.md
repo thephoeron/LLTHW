@@ -310,15 +310,13 @@ You can give your packages shorter, alternative nicknames which can be used for 
 (cl:defparameter *hello-world*
   (cl:format cl:nil "Hello ~A!" 'multiverse))
 
-(cl:export '*hello-world*)
-
 (cl:in-package :cl-user)
 
-my-new-package:*hello-world*
+my-new-package::*hello-world*
 
-mnp:*hello-world*
+mnp::*hello-world*
 
-newpack:*hello-world*
+newpack::*hello-world*
 ```
 
 ### What You Should See
@@ -337,19 +335,16 @@ You define a package's nicknames inside the `defpackage` macro.  You can have as
   (cl:format cl:nil "Hello ~A!" 'multiverse))
 *HELLO-WORLD*
 
-(cl:export '*hello-world*)
-T
-
 (cl:in-package :cl-user)
 #<PACKAGE "COMMON-LISP-USER">
 
-my-new-package:*hello-world*
+my-new-package::*hello-world*
 "Hello MULTIVERSE!"
 
-mnp:*hello-world*
+mnp::*hello-world*
 "Hello MULTIVERSE!"
 
-newpack:*hello-world*
+newpack::*hello-world*
 "Hello MULTIVERSE!"
 ```
 
