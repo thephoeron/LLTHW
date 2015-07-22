@@ -411,7 +411,7 @@ You can export your defined units of code either with the `export` form, or spec
 
 When you *use* a package in your package, you are telling Lisp to add all the exported symbols of that package to your current package-internal namespace, so that you can call any unit of code locally as if you defined it yourself in your current package.
 
-At the very minimum, you will want to *use* the `COMMON-LISP` package, which has the `CL` nickname; and if you plan to do a lot of work at the REPL from your package, you will also want to *use* the `COMMON-LISP-USER` package, which imports all the extra default features of your Lisp implementation.  While you develop your library, it can be useful to call out units of code from other packages and libraries explicitly, so that there is no confusion on your dev team as to what code is being called---if you find that you're relying heavily enough on a library that typing out its package nickname before each symbol becomes tedious, annoying, and a source of existential woe, that is a good indicator the library should be *used*, and your full dev team deeply familiar with its interface.
+### In the REPL
 
 ```lisp
 (defpackage my-new-package
@@ -419,7 +419,47 @@ At the very minimum, you will want to *use* the `COMMON-LISP` package, which has
   (:use :cl :cl-user)
   (:export #:*hello-world*))
 
+(in-package :my-new-package)
+
+(defparameter *hello-world*
+  (format nil "Hello ~A!" 'multiverse))
+
+(in-package :cl-user)
+
+my-new-package:*hello-world*
+
+mnp:*hello-world*
+
+newpack:*hello-world*
 ```
+
+### What You Should See
+
+```lisp
+(defpackage my-new-package
+  (:nicknames :mnp :newpack)
+  (:use :cl :cl-user)
+  (:export #:*hello-world*))
+
+(in-package :my-new-package)
+
+(defparameter *hello-world*
+  (format nil "Hello ~A!" 'multiverse))
+
+(in-package :cl-user)
+
+my-new-package:*hello-world*
+
+mnp:*hello-world*
+
+newpack:*hello-world*
+```
+
+The first thing you should notice is that now you no longer have to refer to symbols from the Common Lisp language proper using their package namespace from within your new package.  You will (almost) always want to, at minimum, *use* the `COMMON-LISP` package in your packages; and since you will be working a lot in the REPL from your new package, you will also want to *use* the `COMMON-LISP-USER` package as well, since in addition to the full Common Lisp language, it includes all the utilities that your Lisp implementation includes for a more complete experience.
+
+While you develop your library, it can be useful to call out units of code from other packages and libraries explicitly, using their full package-namespaced symbol, so that there is no confusion on your dev team as to what code is being called---if you find that you're relying heavily enough on a library that typing out its package nickname before each symbol becomes tedious, annoying, and a source of existential woe, that is a good indicator the library should be *used*, and your full dev team made deeply familiar with its interface.
+
+Once development is complete, you will want to remove the `COMMON-LISP-USER` package from your packages before release unless you explicitly need it.
 
 ## Exercise 1.12.10
 
