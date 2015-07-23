@@ -467,6 +467,14 @@ Once development is complete, you will want to remove the `COMMON-LISP-USER` pac
 
 You won't always need to *use* a full library; more often than not, you will only need to import a handful of specific symbols.  This is another advantage of typing out the full symbol, package namespace included, while developing your library---you can search through your source code for references to a given package, and make a judgment call as to whether you need to use it or only import the symbols you need.  This helps to avoid cluttering your namespace, among other things.
 
+### In the REPL
+
+```lisp
+
+```
+
+### What You Should See
+
 ```lisp
 
 ```
@@ -476,6 +484,14 @@ You won't always need to *use* a full library; more often than not, you will onl
 **More Packages: Shadowing-Imports**
 
 Sometimes, you will come across naming collisions between libraries you need to use, which at first glance may seem to force you to manually import, symbol by symbol, everything from a library except the offender.  That's not very efficient, however, so Lisp has you covered---you can *shadow-import*, which lets you tell Lisp exactly which symbol from which package you want to favour in the case of a naming collision.
+
+### In the REPL
+
+```lisp
+
+```
+
+### What You Should See
 
 ```lisp
 
