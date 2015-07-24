@@ -507,6 +507,8 @@ ASDF focuses on the concept of a *System*.  A System is a collection of Lisp sou
 
 ASDF Systems are typically defined in their own `*.asd` files, instead of `*.lisp`.  However, they are still written using Common Lisp syntax.
 
+### In a New File
+
 In your `~/quicklisp/local-projects/` directory, create a subdirectory called `my-new-project/`, and in it, create a new file called `my-new-project.asd`.  The contents of this file should look like the following, with the appropriate personalizations completed:
 
 ```lisp
@@ -521,6 +523,12 @@ In your `~/quicklisp/local-projects/` directory, create a subdirectory called `m
   :version "1.0.0"
   :license "MIT"
   :author "A.B. <a.b@example.org>")
+
+```
+
+### What You Should See
+
+```lisp
 
 ```
 
