@@ -574,6 +574,8 @@ In the same directory as `my-new-project.asd`, create empty files for `packages.
 
 You don't have to specify that the files you're including in components are `*.lisp` files, you only have to specify their names, without the file extension.
 
+### In the File
+
 Revise `my-new-project.asd` to look like the following:
 
 ```lisp
@@ -592,6 +594,12 @@ Revise `my-new-project.asd` to look like the following:
   :serial t
   :components ((:file "packages")
                (:file "my-new-project")))
+
+```
+
+### What You Should See
+
+```lisp
 
 ```
 
