@@ -540,6 +540,8 @@ ASDF allows you to specify library dependencies in your system definition; the p
 
 If you *use* a library in any package within your project, you must include it in the system's `:depends-on` form, to ensure that it is available to your project wherever it is run or installed.
 
+### In the File
+
 Revise `my-new-project.asd` to look like the following:
 
 ```lisp
@@ -555,6 +557,12 @@ Revise `my-new-project.asd` to look like the following:
   :license "MIT"
   :author "A.B. <a.b@example.org>"
   :depends-on (:ironclad))
+
+```
+
+### What You Should See
+
+```lisp
 
 ```
 
