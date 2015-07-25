@@ -652,14 +652,22 @@ Now that you have your new project configured for ASDF, you can automatically lo
 
 Quicklisp runs *inside* your Lisp image, not from the command-line.
 
-It is considered best practice to not call Quicklisp inside your Lisp source-code, but to rely on ASDF and portable Common Lisp; for deploying executables, tools such as `BUILDAPP` will use Quicklisp automatically to retrieve dependencies and include them in your binary, without adding the overhead of the Quicklisp system to your binary.  The Lisp API to Quicklisp, however, is very useful for testing, exploring, and interactively programming with Lisp libraries from the REPL.  For example, you can now automatically load the library you've created in this chapter into a new Lisp image, and start playing with it right away.
+### From the REPL
 
 ```lisp
-(ql:quickload :my-lisp-project)
-To load "my-lisp-project":
+(ql:quickload :my-new-project)
+
+(in-package :my-new-project)
+```
+
+### What You Should See
+
+```lisp
+(ql:quickload :my-new-project)
+To load "my-new-project":
   Load 1 ASDF system:
-    my-lisp-project
-; Loading "my-lisp-project"
+    my-new-project
+; Loading "my-new-project"
 ..................................................
 [package base58]..................................
 [package cl-base64]...............................
@@ -668,14 +676,14 @@ To load "my-lisp-project":
 ..................................................
 ..................................................
 ..................................................
-[package my-lisp-project]..
-(PROVE MY-LISP-PROJECT)
+[package my-new-project]..
+(:MY-NEW-PROJECT)
 
-(in-package :my-lisp-project)
-#<PACKAGE "MY-LISP-PROJECT">
-
-
+(in-package :my-new-project)
+#<PACKAGE "MY-NEW-PROJECT">
 ```
+
+It is considered best practice to not call Quicklisp inside your Lisp source-code, but to rely on ASDF and portable Common Lisp; for deploying executables, tools such as `BUILDAPP` will use Quicklisp automatically to retrieve dependencies and include them in your binary, without adding the overhead of the Quicklisp system to your binary.  The Lisp API to Quicklisp, however, is very useful for testing, exploring, and interactively programming with Lisp libraries from the REPL.  For example, you can now automatically load the library you've created in this chapter into a new Lisp image, and start playing with it right away.
 
 <ul class="pager">
   <li class="previous"><a href="/book/1-11-0-text-adventure/">&laquo; Previous</a></li>
