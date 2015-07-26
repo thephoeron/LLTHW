@@ -648,6 +648,14 @@ The important thing to remember about ASDF is that it has no bearing on your pro
 
 **ASDF Systems: Serial mode vs. Dependency Tree**
 
+### In the File
+
+```lisp
+
+```
+
+### What You Should See
+
 ```lisp
 
 ```
