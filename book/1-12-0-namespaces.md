@@ -609,7 +609,7 @@ Revise `my-new-project.asd` to look like the following:
 
 *Modules* in ASDF system definitions correspond to subdirectories of your project folder.  Your modules may correspond to their own packages---and this is a common design pattern---but they don't have to.  This is fairly different from other programming languages, where project directory structure corresponds rigidly to namespacing.  Lisp is more flexible---you can span your entire project with a single package namespace, you can give each and every file its own package, or anywhere in-between.
 
-The important thing to remember about ASDF is that it has no bearing on your project's namespace and organization.  It exists to collect metadata and compilation instructions---and it doesn't care about what packages you use, or how many.  It only needs to know where to find your source-code to compile it, in the right order.
+### In the File
 
 Revise `my-new-project.asd` to look like the following:
 
@@ -635,6 +635,14 @@ Revise `my-new-project.asd` to look like the following:
                (:file "my-new-project")))
 
 ```
+
+### What You Should See
+
+```lisp
+
+```
+
+The important thing to remember about ASDF is that it has no bearing on your project's namespace and organization.  It exists to collect metadata and compilation instructions---and it doesn't care about what packages you use, or how many.  It only needs to know where to find your source-code to compile it, in the right order.
 
 ## Extra Credit Exercise 1.12.16
 
