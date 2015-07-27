@@ -648,6 +648,10 @@ The important thing to remember about ASDF is that it has no bearing on your pro
 
 **ASDF Systems: Serial mode vs. Dependency Tree**
 
+You may have noticed in the preceding exercises a casual inclusion of the keyword `:serial` in the `defsystem` forms, set to `t`.  This is actually quite significant, as it forces each sequential file and module in the system definition to be compiled *in the order that they appear*.
+
+You do not *have* to serialize the compilation, however; and in some cases, you will not want to.  For such cases, you can explicitly define a dependency tree for each file and module, so that ASDF can work its magic in optimizing the compilation process.
+
 ### In the File
 
 ```lisp
