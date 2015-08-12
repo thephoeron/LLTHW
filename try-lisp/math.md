@@ -23,5 +23,5 @@ Prefix notation and expressions also make order of operation clearer:
 The innermost expressions are evaluated first, from left to right.
 
 <p class="text-right">
-  <a class="btn btn-primary" id="try-lisp-next" href="/try-lisp/math/">Next &raquo;</a>
+  <a class="btn btn-primary" id="try-lisp-next" href="/try-lisp/print/">Next &raquo;</a>
 </p>
