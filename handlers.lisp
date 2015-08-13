@@ -72,6 +72,11 @@
     (cl-who:with-html-output (hunchentoot::*standard-output*)
       (str (3bmd:parse-and-print-to-stream "try-lisp/print.md" hunchentoot::*standard-output* :format :html)))))
 
+(define-easy-handler (llthw-try-lisp-end :uri "/try-lisp/end/") ()
+  (try-lisp-basic-page ()
+    (cl-who:with-html-output (hunchentoot::*standard-output*)
+      (str (3bmd:parse-and-print-to-stream "try-lisp/end.md" hunchentoot::*standard-output* :format :html)))))
+
 ;; Reference pages
 
 (define-easy-handler (llthw-reference :uri "/reference/") (ref-page)
