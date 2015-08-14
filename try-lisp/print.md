@@ -6,6 +6,10 @@ You can print any string using the `print` function.  In the REPL, this string i
 
 `(print "This is a string")`
 
+The `format` function is a little more flexible.
+
+`(format nil "Hello, ~A!~%" 'lisp)`
+
 <p class="text-right">
   <a class="btn btn-primary" id="try-lisp-next" href="/try-lisp/end/">Next &raquo;</a>
 </p>
