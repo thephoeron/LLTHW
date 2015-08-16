@@ -6,13 +6,17 @@ You can print any string using the `print` function.  In the REPL, this string i
 
 `(print "This is a string")`
 
-The `format` function is a little more flexible; you can choose whether to have it return a value, print it and return only `nil`, or send it to any other stream.
+The `format` function is a little more flexible.
 
 `(format nil "Hello, ~A!~%" 'lisp)`
 
 `(format t "Hello, ~A!~%" 'lisp)`
 
-It takes a *format string* which includes directives, the tilde character followed by a character.  As you can see, some directives consume arguments (like the `~A` above), others don't.
+`(format t "Hello, ~A!~%" "Lisp")`
+
+`(format t "Hello, ~S~%" "Lisp")`
+
+It takes a *format string* which includes directives, a tilde followed by a character.  As you can see, some directives consume arguments (like the `~A` above), others don't (like the `~%` for outputting a newline character).
 
 <p class="text-right">
   <a class="btn btn-primary" id="try-lisp-next" href="/try-lisp/end/">Next &raquo;</a>
