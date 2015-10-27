@@ -85,7 +85,7 @@ If you are using Linux or OS X, you can install Emacs Live with a convenient "br
 Either from your favorite GIT client or from the command line, clone the Emacs Live repo as `.emacs.d` into `C:\emacs`:
 
 ```sh
-$ git clone git://github.com/overtone/emacs-live.gt C:\emacs\.emacs.d
+$ git clone git://github.com/overtone/emacs-live.git C:\emacs\.emacs.d
 ```
 
 Create the directory `.live-packs` under `C:\emacs`, and copy the directory `C:\emacs\.emacs.d\packs\template` to `C:\emacs\.live-packs`.  Rename `C:\emacs\.live-packs\template` to `C:\emacs\.live-packs\{your-username}-pack`, replacing "{your-username}" with your actual username on the computer, no spaces or special characters.  This gives you a special Live Pack to add your own customizations to Emacs Live later.
