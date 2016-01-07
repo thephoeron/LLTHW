@@ -92,7 +92,7 @@ Calling the function `getf` on a `plist` and a key will try to find that key in 
 The `getf` function also takes an optional argument, `default`, which it will return if the given key is not found in the given `plist`. The default `default` is `NIL`.
 
 ```lisp
-* (getf (list :foo "a" :bar "b" :baz) :mumble)
+* (getf (list :foo "a" :bar "b") :mumble)
 NIL
 
 * (getf (list :foo "a" :bar "b") :mumble 'great-googly-moogly)
@@ -331,8 +331,8 @@ Similarly, you can use the standard `remove`/`remove-if` functions on `alist`s t
 * (remove-if (lambda (p) (eq 'c (car p))) '((a . 1) (b . "two") (c . three)))
 ((A . 1) (B . "two"))
 
-* (remove-if 
-    (lambda (pair) 
+* (remove-if
+    (lambda (pair)
       (numberp (car pair)))
     '((a . 1) (1 . a) (b . "two") (2 . b) (c . three)))
 ((A . 1) (B . "two") (C . THREE))
@@ -482,7 +482,7 @@ LOOKUP
 (4 . D)
 ```
 
-Notice that we don't compare against all of the preceding elements in order to get to ours. We only compare against 3. A tree of four key--value pairs isn't the best demonstration of this, of course. 
+Notice that we don't compare against all of the preceding elements in order to get to ours. We only compare against 3. A tree of four key--value pairs isn't the best demonstration of this, of course.
 
 ## Exercise 1.5.10
 
@@ -491,7 +491,7 @@ Notice that we don't compare against all of the preceding elements in order to g
 Since we're doing more work on trees, we may as well go [SICP](TODO link)-style and define the functional interface.
 
 ```lisp
-* (defun tree (val left right) 
+* (defun tree (val left right)
     (list val left right))
 TREE
 
@@ -522,8 +522,8 @@ Now that we have that, a naive `insert` looks like
     (if (null tree)
         (tree (cons key value) nil nil)
         (let ((k (car (tree-value tree))))
-          (cond ((> k key) 
-                 (tree (tree-value tree) 
+          (cond ((> k key)
+                 (tree (tree-value tree)
                        (insert key value (tree-left tree))
                        (tree-right tree)))
                 ((< k key)
@@ -643,9 +643,9 @@ A Trie is a value and a (possibly empty) dictionary of key parts to Tries. Which
 (NIL ((1 NIL ((2 NIL ((3 "ah ah ah." NIL)))))))
 
 * '(nil
-    ((this nil 
+    ((this nil
       ((sentence nil
-        ((is nil 
+        ((is nil
           ((a nil ((key "This sentence is a key" nil)))
            (not nil ((a nil ((key "This sentence is NOT a key" nil)))))
            (meaningless t nil)))))))))
@@ -699,7 +699,7 @@ So lets go explicit-interface-style on this problem.
     (list val map))
 TRIE
 
-* (defun empty-trie () 
+* (defun empty-trie ()
     (trie nil nil))
 EMPTY-TRIE
 
@@ -740,8 +740,8 @@ TRIE-ALIST-INSERT
                (next (trie-assoc k trie)))
           (trie (trie-value trie)
                 (trie-alist-insert
-                 k 
-                 (trie-insert 
+                 k
+                 (trie-insert
                   (rest key) value
                   (or next (trie nil nil)))
                  (trie-table trie))))
@@ -1109,7 +1109,7 @@ Speaking of Objects, there are two constructs in Common Lisp that give you some 
 
 ```lisp
 * (defclass foo ()
-    ((a :initform 1) 
+    ((a :initform 1)
      (b :initform 2)
      (c :initform 3)))
 #<STANDARD-CLASS FOO>
@@ -1183,20 +1183,20 @@ Unlike the key--value constructs we've seen so far, there isn't an easy and port
 
 ```lisp
 * (defun class-slots (class)
-    #+openmcl-native-threads (ccl:class-slots class) 
-    #+cmu (pcl:class-slots class) 
-    #+sbcl (sb-pcl:class-slots class) 
-    #+lispworks (hcl:class-slots class) 
-    #+allegro (mop:class-slots class) 
+    #+openmcl-native-threads (ccl:class-slots class)
+    #+cmu (pcl:class-slots class)
+    #+sbcl (sb-pcl:class-slots class)
+    #+lispworks (hcl:class-slots class)
+    #+allegro (mop:class-slots class)
     #+clisp (clos:class-slots class))
 CLASS-SLOTS
 
 * (defun slot-definition-name (slot)
-    #+openmcl-native-threads (ccl:slot-definition-name slot) 
-    #+cmu (pcl:slot-definition-name slot) 
-    #+sbcl (sb-pcl:slot-definition-name slot) 
-    #+lispworks (hcl:slot-definition-name slot) 
-    #+allegro (mop:slot-definition-name slot) 
+    #+openmcl-native-threads (ccl:slot-definition-name slot)
+    #+cmu (pcl:slot-definition-name slot)
+    #+sbcl (sb-pcl:slot-definition-name slot)
+    #+lispworks (hcl:slot-definition-name slot)
+    #+allegro (mop:slot-definition-name slot)
     #+clisp (clos:slot-definition-name slot))
 
 * (defun map-slots (fn instance)
