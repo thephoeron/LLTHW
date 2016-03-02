@@ -50,3 +50,11 @@ The version of SBCL available in the Debian repositories tends to be substantial
 * Visit <http://www.sbcl.org/platform-table.html> and click the link at the top of the page to download the latest source release, and unpack it in your user home directory.
 * Install SBCL from the debian repositories
 * Follow the instructions that come with the source release to compile the latest SBCL from source code.
+
+## FreeBSD/PCBSD
+
+The FreeBSD (and thus PCBSD) ports contain SBCL. Just install it from the terminal via
+
+```sh
+$ sudo pkg install sbcl
+```
