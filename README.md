@@ -1,5 +1,6 @@
 # LLTHW
 
+[![DOI](https://zenodo.org/badge/15644205.svg)](https://zenodo.org/badge/latestdoi/15644205)
 [![Quicklisp](http://quickdocs.org/badge/llthw.svg)](http://quickdocs.org/llthw/)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/LispTO/llthw?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
