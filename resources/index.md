@@ -9,6 +9,7 @@
     * join #lisp for technical discussion of the Common Lisp language
     * join #lispgames for discussing game development in Common Lisp
     * or, join #lispcafe for casual conversations on Lisp and related interests
+* [Lisp on Reddit](http://www.reddit.com/r/lisp/), has loads of useful links and reference documents in the sidebar.
 * [Lisp on Google+](https://plus.google.com/communities/101016130241925650833)
 * [Lisp on LinkedIn](http://www.linkedin.com/groups?home=&gid=830547&trk=anet_ug_hm)
 * [Planet Lisp](http://planet.lisp.org/), syndicated Lisp Hacker blogs
