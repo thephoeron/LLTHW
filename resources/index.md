@@ -24,6 +24,7 @@
 * [common-lisp.net](http://common-lisp.net/)
 * [Where to learn how to practically use Common Lisp](http://stackoverflow.com/questions/7224823/where-to-learn-how-to-practically-use-common-lisp?noredirect=1&lq=1), a question on StackOverflow, with many useful links in the answers.
 
+
 ## Lisp Books on the Web
 
 These are books that are freely accessible online.
@@ -41,14 +42,16 @@ These are books that are freely accessible online.
 * [ANSI Common Lisp by Paul Graham](http://www.paulgraham.com/acl.html)
 * [Common Lisp Recipes by Edmund Weitz](http://weitz.de/cl-recipes/)
 * [Paradigms of Artificial Intelligence Programming](http://norvig.com/paip.html), has many interesting applications of Lisp, but is not a good reference for AI any more.
-* The Little Lisper
-* Land of Lisp
-* Lisp in Small Pieces
+* [The Little Schemer](https://mitpress.mit.edu/books/little-schemer), formerly known as The Little LISPer.
+* [Land of Lisp](http://landoflisp.com/), an introduction to Lisp that uses comics and text adventure games. Available as an [ebook](https://www.nostarch.com/lisp.htm).
+* [Lisp in Small Pieces](https://pages.lip6.fr/Christian.Queinnec/WWW/LiSP.html), "[an] excellent book on Lisp implementation. You'll get a lot out of it, whether you are interested in writing compilers and interpreters (for Lisp or any language) or whether you just want to see how Lisp works." - Peter Norvig, review on the [Amazon product page](https://www.amazon.com/Lisp-Small-Pieces-Christian-Queinnec/dp/0521545668/).
+
 
 ## Lisp Libraries
 
 * [Quicklisp](https://www.quicklisp.org/beta/), a package management platform for Lisp libraries.
 * [Quickdocs](http://quickdocs.org/), documentation for projects in Quicklisp
+
 
 ## Pre-packages Lisp Environments
 
