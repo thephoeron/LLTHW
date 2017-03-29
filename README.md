@@ -27,7 +27,7 @@ It is the intention of the authors to bring this title to print, so please be aw
 
 Technically, any open-source material which is relevant to the project and compatible with an MIT License can be contributed to the site and its additional resources (*i.e.*, everything except for the book proper), however, attribution is required and you should always check with the author or maintainer before submitting material which is not of your own creation.
 
-As an LxTHW book, the style and format should follow [Zed Shaw's guidelines](https://gitorious.org/learn-x-the-hard-way/learn-x-the-hard-way/source/663fd4f6afd17f9d16fe10bafe3e64fdfb29e629:README) (under "Recommended Contents").  This is a show-don't-tell style, so the emphasis should be on source code examples that illustrate a point, and not a point that is illustrated by source-code.
+As an LxTHW book, the style and format should follow [Zed Shaw's guidelines](https://gitorious.org/learn-x-the-hard-way/learn-x-the-hard-way/source/663fd4f6afd17f9d16fe10bafe3e64fdfb29e629:README?p=learn-x-the-hard-way:learn-x-the-hard-way.git;a=blob_plain;f=README;hb=HEAD) (under "Recommended Contents").  This is a show-don't-tell style, so the emphasis should be on source code examples that illustrate a point, and not a point that is illustrated by source-code.
 
 The full book outline is already complete, so if you find a chapter that covers your specialty, you can claim it by creating an issue or a pull request on the repo.
 
