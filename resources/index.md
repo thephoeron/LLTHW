@@ -33,7 +33,7 @@ These are books that are freely accessible online.
 * [Common Lisp: An interactive approach by Stuart C. Shapiro](https://www.cse.buffalo.edu/~shapiro/Commonlisp/), was used as a course textbook, course notes accompany the book on the website.
 * [Common Lisp, the Language by Guy L. Steele](https://www.cs.cmu.edu/Groups/AI/html/cltl/cltl2.html), a description of the Common Lisp language. According to the [CLiki](http://cliki.net/Getting+Started) it is outdated, but it contains better descriptions of the [loop macro](http://www.cs.cmu.edu/afs/cs.cmu.edu/project/ai-repository/ai/html/cltl/clm/node235.html#SECTION003000000000000000000) and [format](http://www.cs.cmu.edu/afs/cs.cmu.edu/project/ai-repository/ai/html/cltl/clm/node200.html) than the Common Lisp Hyperspec does.
 * [On Lisp by Paul Graham](http://www.paulgraham.com/onlisp.html), a great book for intermediately experienced Lispers.
-* [Let Over Lambda by Doug Hoyte](http://letoverlambda.com/), [several people reccomend](https://www.reddit.com/r/lisp/comments/3actsc/let_over_lambda/) that you be comfortable with On Lisp before reading this book, and that the start is slow. A very in-depth look at macros.
+* [Let Over Lambda by Doug Hoyte](http://letoverlambda.com/), [several people recommend](https://www.reddit.com/r/lisp/comments/3actsc/let_over_lambda/) being comfortable with On Lisp before reading this book, and that the start is slow. A very in-depth look at macros.
 
 
 ## Other Books on Lisp
@@ -53,8 +53,8 @@ These are books that are freely accessible online.
 ## Pre-packages Lisp Environments
 
 These are Lisp editing environments that are easy to install and get started with because everything you need is pre-packaged and pre-configured.
-* [Portacle](https://shinmera.github.io/portacle/) is a portable and multiplatform Common Lisp environment. It ships a slightly customized Emacs with Slime, SBCL (a popular Common Lisp implementation), Quicklisp and Git. No installation needed, so it's a very quick and easy way to get going.
-* [Lispbox](https://common-lisp.net/project/lispbox/) is an IDE (Emacs + SLIME), Common Lisp environment (Clozure Common Lisp) and library manager (Quicklisp), pre-packaged as archives for Windows, Mac OSX and Linux. Descendant of "Lisp in a Box" Recommended in the Practical Common Lisp book.
+* [Portacle](https://shinmera.github.io/portacle/), a portable and multiplatform Common Lisp environment. It ships a slightly customized Emacs with Slime, SBCL (a popular Common Lisp implementation), Quicklisp and Git. No installation needed, so it's a very quick and easy way to get going.
+* [Lispbox](https://common-lisp.net/project/lispbox/), an IDE (Emacs + SLIME), Common Lisp environment (Clozure Common Lisp) and library manager (Quicklisp), pre-packaged as archives for Windows, Mac OSX and Linux. Descendant of "Lisp in a Box" [mentioned](http://www.gigamonkeys.com/book/lather-rinse-repeat-a-tour-of-the-repl.html) in Practical Common Lisp.
 
 
 ## Lisp Jobs
