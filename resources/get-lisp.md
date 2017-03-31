@@ -3,7 +3,16 @@
   <li class="active">Get Lisp</li>
 </ol>
 
-Download and Installation instructions for Steel Bank Common Lisp on Windows, OS X, Linux, and Debian/Ubuntu
+<div class="alert alert-warning">
+  <p>
+  Common Lisp was designed as a platform-agnostic language, and through the whole book we promote this style of programming, independent of specific details of any particular implementation. However, for practical reasons, we have to choose a single implementation with which you'll actually learn from this book, and we pick SBCL as the implementation of choice.
+  </p>
+  <p>
+  Do note, however, that as we stick to implementation-independent code examples, you'll have no troubles in case you choose different implementation. Most current ones at the end of 2015 are SBCL, <a href="http://ccl.clozure.com/">CCL</a>, <a href="https://common-lisp.net/project/ecl/">ECL</a> (compiles to native code), <a href="https://common-lisp.net/project/armedbear/">ABCL</a>  (based on Java runtime), <a href="http://franz.com/products/allegrocl/">Allegro</a> (commercial implementation number one) and <a href="http://www.lispworks.com/">LispWorks</a> (commercial implementation number two), and you can also try <a href="http://www.gnu.org/software/gcl/">GCL</a> (GNU implementation, unmaintained), <a href="http://www.clisp.org/">Clisp</a> (unmaintained) and <a href="https://github.com/drmeister/clasp">Clasp</a> (interoperates with C++, very recent) as well.
+  </p>
+</div>
+
+**Following are download and installation instructions for Steel Bank Common Lisp on Windows, OS X, general Linux-based distro, and lastly Debian/Ubuntu in specific**
 
 <div class="alert alert-info">
   <p>
