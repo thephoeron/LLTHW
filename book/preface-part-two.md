@@ -62,7 +62,7 @@ If you copy-and-paste the code from the exercises into the Lisp REPL instead of 
 The point of these exercises is to train your hands, your eyes, your brain, and your mind how to read, write, see, think, and dream code.  When you cheat here, you're only cheating yourself.
 
 <ul class="pager">
-  <li class="previous"><a href="/book/preface/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/preface.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/preface-part-three/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/preface-part-three.md">Next &raquo;</a><li>
 </ul>

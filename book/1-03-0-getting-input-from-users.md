@@ -275,7 +275,7 @@ abcdef
 **Handling Input from Custom Prompts**
 
 <ul class="pager">
-  <li class="previous"><a href="/book/1-02-00-input-output/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-02-00-input-output.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-04-0-lists/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-04-0-lists.md">Next &raquo;</a><li>
 </ul>

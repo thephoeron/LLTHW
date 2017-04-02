@@ -156,7 +156,7 @@ Output to:
 ```
 
 <ul class="pager">
-  <li class="previous"><a href="/book/3-01-00-web-apps/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-01-00-web-apps.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/3-03-00-mobile/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-03-00-mobile.md">Next &raquo;</a><li>
 </ul>

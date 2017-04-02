@@ -89,7 +89,7 @@ Notice the last function in the examples above, `file-namestring`? It gives you 
 Try out the extra namestring functions, `namestring`, `directory-namestring`, `host-namestring`, and `enough-namestring`.  Can you get them to run?  Can you predict the results you get from them?
 
 <ul class="pager">
-  <li class="previous"><a href="/book/1-02-13-more-format/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-02-13-more-format.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-02-15-streams/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-02-15-streams.md">Next &raquo;</a><li>
 </ul>

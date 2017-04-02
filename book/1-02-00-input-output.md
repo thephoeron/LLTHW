@@ -20,28 +20,28 @@ Since development in Lisp is so inherently interactive, it makes sense to think 
 
 ### Exercises:
 
-* [Strings](/book/1-02-01-strings/)
-* [More Strings](/book/1-02-02-more-strings/)
-* [Unicode and Strings](/book/1-02-03-unicode/)
-* [Characters](/book/1-02-04-chars/)
-* [More Characters](/book/1-02-05-more-chars/)
-* [Character Codes](/book/1-02-06-char-codes/)
-* [Strings from Chars](/book/1-02-07-strings-from-chars/)
-* [Printing](/book/1-02-08-printing/)
-* [More Printing](/book/1-02-09-more-printing/)
-* [Printing With prin1](/book/1-02-10-prin1/)
-* [Printing With princ](/book/1-02-11-princ/)
-* [A Brief Introduction to Format](/book/1-02-12-format/)
-* [A Little Bit More on Format](/book/1-02-13-more-format/)
-* [Pathnames](/book/1-02-14-pathnames/)
-* [Streams](/book/1-02-15-streams/)
-* [File Streams](/book/1-02-16-file-streams/)
-* [Binary Streams](/book/1-02-17-binary-streams/)
-* [Prompting Users](/book/1-02-18-prompting-users/)
-* [Pretty-Printing](/book/1-02-19-pretty-printing/)
+* [Strings](/book/1-02-01-strings.md)
+* [More Strings](/book/1-02-02-more-strings.md)
+* [Unicode and Strings](/book/1-02-03-unicode.md)
+* [Characters](/book/1-02-04-chars.md)
+* [More Characters](/book/1-02-05-more-chars.md)
+* [Character Codes](/book/1-02-06-char-codes.md)
+* [Strings from Chars](/book/1-02-07-strings-from-chars.md)
+* [Printing](/book/1-02-08-printing.md)
+* [More Printing](/book/1-02-09-more-printing.md)
+* [Printing With prin1](/book/1-02-10-prin1.md)
+* [Printing With princ](/book/1-02-11-princ.md)
+* [A Brief Introduction to Format](/book/1-02-12-format.md)
+* [A Little Bit More on Format](/book/1-02-13-more-format.md)
+* [Pathnames](/book/1-02-14-pathnames.md)
+* [Streams](/book/1-02-15-streams.md)
+* [File Streams](/book/1-02-16-file-streams.md)
+* [Binary Streams](/book/1-02-17-binary-streams.md)
+* [Prompting Users](/book/1-02-18-prompting-users.md)
+* [Pretty-Printing](/book/1-02-19-pretty-printing.md)
 
 <ul class="pager">
-  <li class="previous"><a href="/book/1-01-09-emacs-live/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-01-09-emacs-live.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-02-01-strings/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-02-01-strings.md">Next &raquo;</a><li>
 </ul>

@@ -103,7 +103,7 @@ In this chapter, we will review the basic organization of operating systems, and
 ```
 
 <ul class="pager">
-  <li class="previous"><a href="/book/3-20-00-neurotech/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-20-00-neurotech.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/3-22-00-lisp-machine/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-22-00-lisp-machine.md">Next &raquo;</a><li>
 </ul>

@@ -89,7 +89,7 @@ We have already seen some foreign libraries in action---such as `lispbuilder-sdl
 ```
 
 <ul class="pager">
-  <li class="previous"><a href="/book/2-15-0-docs-and-inspection/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/2-15-0-docs-and-inspection.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/2-17-0-debugging-testing/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/2-17-0-debugging-testing.md">Next &raquo;</a><li>
 </ul>

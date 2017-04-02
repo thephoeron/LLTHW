@@ -131,7 +131,7 @@ Lastly, we will wrap up our first tour of concurrency in this chapter with a loo
 ```
 
 <ul class="pager">
-  <li class="previous"><a href="/book/2-05-0-extended-types/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/2-05-0-extended-types.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/2-07-0-logic-and-more-math/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/2-07-0-logic-and-more-math.md">Next &raquo;</a><li>
 </ul>

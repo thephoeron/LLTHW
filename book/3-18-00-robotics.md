@@ -149,7 +149,7 @@ http://www.robotshop.com/
 ```
 
 <ul class="pager">
-  <li class="previous"><a href="/book/3-17-00-ai/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-17-00-ai.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/3-19-00-space-tech/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-19-00-space-tech.md">Next &raquo;</a><li>
 </ul>

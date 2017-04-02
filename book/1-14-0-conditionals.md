@@ -108,7 +108,7 @@ Extra Credit exercises (mostly from Alexandria):
 **DESTRUCTURING-CASE**
 
 <ul class="pager">
-  <li class="previous"><a href="/book/1-13-0-simple-web-app/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-13-0-simple-web-app.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-15-0-command-line-utility/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-15-0-command-line-utility.md">Next &raquo;</a><li>
 </ul>

@@ -101,7 +101,7 @@ In this chapter, we will revisit the methodology from Chapters 3.12 on Scientifi
 ```
 
 <ul class="pager">
-  <li class="previous"><a href="/book/3-13-00-scientific-computing/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-13-00-scientific-computing.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/3-15-00-quantum-computing/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-15-00-quantum-computing.md">Next &raquo;</a><li>
 </ul>

@@ -38,7 +38,7 @@ Now, if you *didn't* quote the above function definition, it *would* be evaluate
 Lisp's Pretty Printing facilities are pretty complex, and that's to say nothing of pretty-printing with `format`. Throughout this book, you'll see more ways to take advantage of the Pretty Printer along the way.  But that's all for Chapter 1.2!
 
 <ul class="pager">
-  <li class="previous"><a href="/book/1-02-18-prompting-users/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-02-18-prompting-users.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-03-0-getting-input-from-users/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-03-0-getting-input-from-users.md">Next &raquo;</a><li>
 </ul>

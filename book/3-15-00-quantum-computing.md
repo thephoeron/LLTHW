@@ -149,7 +149,7 @@ Quantum Turing Completeness
 ```
 
 <ul class="pager">
-  <li class="previous"><a href="/book/3-14-00-computational-physics/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-14-00-computational-physics.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/3-16-00-nlp/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-16-00-nlp.md">Next &raquo;</a><li>
 </ul>

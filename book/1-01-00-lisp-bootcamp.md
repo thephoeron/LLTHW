@@ -16,18 +16,18 @@ It's time to dive head-first into Lisp, no mercy.  You'll need discipline to app
 
 There is a reason, after all, the military uses this methodology for training---it's an application of the metaphor of alchemy, realized in nuclear physics: given enough heat and pressure, you can in fact turn lead into gold. But now, on to Lisp.  Here is everything you need to know to get hacking in Lisp right this second.
 
-* [Syntax Overview in 5 Minutes](/book/1-01-01-syntax-overview/)
-* [The REPL](/book/1-01-02-repl/)
-* [Expressions, Parentheses, and Return Values](/book/1-01-03-expressions/)
-* [Lists, Cons-Cells, and Memory](/book/1-01-04-lists-cons-cells/)
-* [Symbols and Namespaces](/book/1-01-05-symbols/)
-* [Prefix Notation](/book/1-01-06-prefix-notation/)
-* [Common Lisp Style Guide](/book/1-01-07-style-guide/)
-* [Configuring Your Development Environment](/book/1-01-08-configuration/)
-* Extra Credit: [Set up and Learn Emacs Live](/book/1-01-09-emacs-live/)
+* [Syntax Overview in 5 Minutes](/book/1-01-01-syntax-overview.md)
+* [The REPL](/book/1-01-02-repl.md)
+* [Expressions, Parentheses, and Return Values](/book/1-01-03-expressions.md)
+* [Lists, Cons-Cells, and Memory](/book/1-01-04-lists-cons-cells.md)
+* [Symbols and Namespaces](/book/1-01-05-symbols.md)
+* [Prefix Notation](/book/1-01-06-prefix-notation.md)
+* [Common Lisp Style Guide](/book/1-01-07-style-guide.md)
+* [Configuring Your Development Environment](/book/1-01-08-configuration.md)
+* Extra Credit: [Set up and Learn Emacs Live](/book/1-01-09-emacs-live.md)
 
 <ul class="pager">
-  <li class="previous"><a href="/book/1-0-0-overview/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-0-0-overview.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-01-01-syntax-overview/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-01-01-syntax-overview.md">Next &raquo;</a><li>
 </ul>

@@ -131,7 +131,7 @@ In this chapter, we will review the basic concepts of Neuroscience and the vario
 ```
 
 <ul class="pager">
-  <li class="previous"><a href="/book/3-19-00-space-tech/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-19-00-space-tech.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/3-21-00-lispos/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-21-00-lispos.md">Next &raquo;</a><li>
 </ul>

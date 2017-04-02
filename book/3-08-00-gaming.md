@@ -95,7 +95,7 @@ In this chapter, we will be modelling a basic 3+1n Spacetime, to get you thinkin
 ```
 
 <ul class="pager">
-  <li class="previous"><a href="/book/3-07-00-graphics/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-07-00-graphics.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/3-09-00-audio/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-09-00-audio.md">Next &raquo;</a><li>
 </ul>

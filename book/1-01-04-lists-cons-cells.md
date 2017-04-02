@@ -77,7 +77,7 @@ Consider again the examples above. Now you can more clearly see how lists are bu
 A common focal-point of Lisp source code optimization centers on minimizing the number of conses performed by your application.  Note how a dotted-pair only conses once, while a two item list that contains the same information conses twice; so by using an `alist` instead of other list-based data structures such as `plists`, you are already eliminating half the memory and processing requirements.
 
 <ul class="pager">
-  <li class="previous"><a href="/book/1-01-03-expressions/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-01-03-expressions.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-01-05-symbols/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-01-05-symbols.md">Next &raquo;</a><li>
 </ul>

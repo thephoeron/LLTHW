@@ -1215,7 +1215,7 @@ MAP-SLOTS
 **Acyclic Graphs**
 
 <ul class="pager">
-  <li class="previous"><a href="/book/1-04-0-lists/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-04-0-lists.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-06-0-math/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-06-0-math.md">Next &raquo;</a><li>
 </ul>

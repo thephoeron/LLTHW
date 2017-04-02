@@ -191,7 +191,7 @@ Lisp is particularly good for generating 3D graphics without having to use asset
 ```
 
 <ul class="pager">
-  <li class="previous"><a href="/book/2-06-0-threads-memos-parallel/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/2-06-0-threads-memos-parallel.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/2-08-0-number-theory/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/2-08-0-number-theory.md">Next &raquo;</a><li>
 </ul>

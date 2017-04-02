@@ -291,7 +291,7 @@ To open a new terminal in your current buffer, use <kbd>M-x</kbd> `multi-term`. 
 You now have the command line right in Emacs, alongside your editor and REPL!
 
 <ul class="pager">
-  <li class="previous"><a href="/book/1-01-08-configuration/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-01-08-configuration.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-02-00-input-output/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-02-00-input-output.md">Next &raquo;</a><li>
 </ul>
