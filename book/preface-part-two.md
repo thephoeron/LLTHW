@@ -64,5 +64,5 @@ The point of these exercises is to train your hands, your eyes, your brain, and 
 <ul class="pager">
   <li class="previous"><a href="/book/preface/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/preface-part-three/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/preface-part-three.md">Next &raquo;</a><li>
 </ul>

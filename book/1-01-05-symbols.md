@@ -104,5 +104,5 @@ There are some symbol names you can't use, however---at least not without tricke
 <ul class="pager">
   <li class="previous"><a href="/book/1-01-04-lists-cons-cells/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-01-06-prefix-notation/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-01-06-prefix-notation.md">Next &raquo;</a><li>
 </ul>

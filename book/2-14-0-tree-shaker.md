@@ -141,5 +141,5 @@ aka, Optimize, Collect, Shake, Save, Purify, Compress and Die
 <ul class="pager">
   <li class="previous"><a href="/book/2-13-0-compiler/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/2-15-0-docs-and-inspection/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/2-15-0-docs-and-inspection.md">Next &raquo;</a><li>
 </ul>

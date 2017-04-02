@@ -40,5 +40,5 @@ When you type a string at the REPL and hit <kbd>Return</kbd> to evaluate it, Lis
 <ul class="pager">
   <li class="previous"><a href="/book/1-02-00-input-output/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-02-02-more-strings/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-02-02-more-strings.md">Next &raquo;</a><li>
 </ul>

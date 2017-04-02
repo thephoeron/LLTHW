@@ -129,5 +129,5 @@ In this chapter, we will explore a very high-level overview of a selection of th
 <ul class="pager">
   <li class="previous"><a href="/book/3-18-00-robotics/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/3-20-00-neurotech/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-20-00-neurotech.md">Next &raquo;</a><li>
 </ul>

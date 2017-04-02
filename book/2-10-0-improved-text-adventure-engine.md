@@ -127,5 +127,5 @@ As a final note, it bears mentioning that this isn't a book on AI---so we'll sim
 <ul class="pager">
   <li class="previous"><a href="/book/2-09-0-binary-octets-bits/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/2-11-0-conditions/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/2-11-0-conditions.md">Next &raquo;</a><li>
 </ul>

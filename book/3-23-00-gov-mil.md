@@ -195,5 +195,5 @@ In this chapter, we will review the basic requirements of Government and Militar
 <ul class="pager">
   <li class="previous"><a href="/book/3-22-00-lisp-machine/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/">Next &raquo;</a><li>
+  <li class="next"><a href="/book.md">Next &raquo;</a><li>
 </ul>

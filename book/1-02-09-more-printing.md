@@ -69,5 +69,5 @@ Obviously, you'll notice, the `print` function is doing something different---bu
 <ul class="pager">
   <li class="previous"><a href="/book/1-02-08-printing/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-02-10-prin1/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-02-10-prin1.md">Next &raquo;</a><li>
 </ul>

@@ -722,5 +722,5 @@ The question marks aren't there so you can figure out what the results are suppo
 <ul class="pager">
   <li class="previous"><a href="/book/1-03-0-getting-input-from-users/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-05-0-lookups-trees/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-05-0-lookups-trees.md">Next &raquo;</a><li>
 </ul>

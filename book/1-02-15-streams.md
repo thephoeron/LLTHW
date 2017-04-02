@@ -66,5 +66,5 @@ In the next exercise, we'll look at creating, and reading and writing to binary 
 <ul class="pager">
   <li class="previous"><a href="/book/1-02-14-pathnames/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-02-16-file-streams/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-02-16-file-streams.md">Next &raquo;</a><li>
 </ul>

@@ -47,5 +47,5 @@ Then we'll build our first application, a straight-forward text-adventure, using
 <ul class="pager">
   <li class="previous"><a href="/book/acknowledgements/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-01-00-lisp-bootcamp/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-01-00-lisp-bootcamp.md">Next &raquo;</a><li>
 </ul>

@@ -66,5 +66,5 @@ But notice how changing the defaults in the last three examples changed the way 
 <ul class="pager">
   <li class="previous"><a href="/book/1-02-07-strings-from-chars/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-02-09-more-printing/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-02-09-more-printing.md">Next &raquo;</a><li>
 </ul>

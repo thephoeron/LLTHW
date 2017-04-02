@@ -29,5 +29,5 @@ There is a reason, after all, the military uses this methodology for training---
 <ul class="pager">
   <li class="previous"><a href="/book/1-0-0-overview/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-01-01-syntax-overview/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-01-01-syntax-overview.md">Next &raquo;</a><li>
 </ul>

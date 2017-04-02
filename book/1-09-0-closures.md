@@ -144,5 +144,5 @@ Functions can be passed as an argument to another function.
 <ul class="pager">
   <li class="previous"><a href="/book/1-08-0-variables/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-10-0-functions/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-10-0-functions.md">Next &raquo;</a><li>
 </ul>

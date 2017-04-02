@@ -43,5 +43,5 @@ Since development in Lisp is so inherently interactive, it makes sense to think 
 <ul class="pager">
   <li class="previous"><a href="/book/1-01-09-emacs-live/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-02-01-strings/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-02-01-strings.md">Next &raquo;</a><li>
 </ul>

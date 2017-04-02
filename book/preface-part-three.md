@@ -54,5 +54,5 @@ This is where the term 'grokking' comes into the picture.  It was coined by spec
 <ul class="pager">
   <li class="previous"><a href="/book/preface-part-two/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/introduction/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/introduction.md">Next &raquo;</a><li>
 </ul>

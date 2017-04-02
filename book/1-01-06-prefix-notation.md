@@ -33,5 +33,5 @@ The handling of arguments is particular to the type of operator.  While function
 <ul class="pager">
   <li class="previous"><a href="/book/1-01-05-symbols/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-01-07-style-guide/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-01-07-style-guide.md">Next &raquo;</a><li>
 </ul>

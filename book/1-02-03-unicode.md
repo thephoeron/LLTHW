@@ -37,5 +37,5 @@ On Arch Linux, the `ttf-akkadian` package is available in AUR.  For other platfo
 <ul class="pager">
   <li class="previous"><a href="/book/1-02-02-more-strings/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-02-04-chars/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-02-04-chars.md">Next &raquo;</a><li>
 </ul>

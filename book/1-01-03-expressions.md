@@ -103,5 +103,5 @@ Lisp code is meant to be simple and elegant; if you find yourself staring into a
 <ul class="pager">
   <li class="previous"><a href="/book/1-01-02-repl/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-01-04-lists-cons-cells/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-01-04-lists-cons-cells.md">Next &raquo;</a><li>
 </ul>

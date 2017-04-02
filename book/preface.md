@@ -20,5 +20,5 @@ The biggest secret to Lisp is that it is actually the simplest programming langu
 <ul class="pager">
   <li class="previous disabled"><a href="#">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/preface-part-two/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/preface-part-two.md">Next &raquo;</a><li>
 </ul>

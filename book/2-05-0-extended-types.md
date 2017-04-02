@@ -165,5 +165,5 @@ Where the ANSI standard falls short of your needs, it provides a mature and rich
 <ul class="pager">
   <li class="previous"><a href="/book/2-04-0-data-persistence/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/2-06-0-threads-memos-parallel/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/2-06-0-threads-memos-parallel.md">Next &raquo;</a><li>
 </ul>

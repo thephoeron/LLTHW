@@ -79,5 +79,5 @@ A common focal-point of Lisp source code optimization centers on minimizing the 
 <ul class="pager">
   <li class="previous"><a href="/book/1-01-03-expressions/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-01-05-symbols/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-01-05-symbols.md">Next &raquo;</a><li>
 </ul>

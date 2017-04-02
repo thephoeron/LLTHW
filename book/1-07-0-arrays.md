@@ -147,5 +147,5 @@ This chapter will contain exercises on:
 <ul class="pager">
   <li class="previous"><a href="/book/1-06-0-math/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-08-0-variables/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-08-0-variables.md">Next &raquo;</a><li>
 </ul>

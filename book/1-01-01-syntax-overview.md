@@ -96,5 +96,5 @@ From this amazingly simple syntax, you can express any program you can imagine, 
 <ul class="pager">
   <li class="previous"><a href="/book/1-01-00-lisp-bootcamp/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-01-02-repl/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-01-02-repl.md">Next &raquo;</a><li>
 </ul>

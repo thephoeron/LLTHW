@@ -73,5 +73,5 @@ Now notice that with the standard and write control sequences, the argument gets
 <ul class="pager">
   <li class="previous"><a href="/book/1-02-11-princ/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-02-13-more-format/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-02-13-more-format.md">Next &raquo;</a><li>
 </ul>

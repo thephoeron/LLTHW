@@ -99,5 +99,5 @@ This chapter will contain exercises on:
 <ul class="pager">
   <li class="previous"><a href="/book/1-17-0-iterate/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-19-0-dsl/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-19-0-dsl.md">Next &raquo;</a><li>
 </ul>

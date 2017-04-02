@@ -44,5 +44,5 @@ This part of the book will also be less prescriptive, and leave you to rely on y
 <ul class="pager">
   <li class="previous"><a href="/book/2-21-0-review/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/3-01-00-web-apps/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-01-00-web-apps.md">Next &raquo;</a><li>
 </ul>

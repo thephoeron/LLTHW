@@ -29,5 +29,5 @@ See you in Part Two!
 <ul class="pager">
   <li class="previous"><a href="/book/1-19-0-dsl/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/2-0-0-overview/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/2-0-0-overview.md">Next &raquo;</a><li>
 </ul>

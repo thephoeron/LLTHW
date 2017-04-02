@@ -173,5 +173,5 @@ This chapter will contain exercises on:
 <ul class="pager">
   <li class="previous"><a href="/book/1-09-0-closures/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-11-0-text-adventure/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-11-0-text-adventure.md">Next &raquo;</a><li>
 </ul>

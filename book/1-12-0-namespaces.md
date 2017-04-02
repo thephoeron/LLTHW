@@ -708,5 +708,5 @@ It is considered best practice to not call Quicklisp inside your Lisp source-cod
 <ul class="pager">
   <li class="previous"><a href="/book/1-11-0-text-adventure/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-13-0-simple-web-app/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-13-0-simple-web-app.md">Next &raquo;</a><li>
 </ul>

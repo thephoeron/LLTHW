@@ -109,5 +109,5 @@ In this chapter we will explore the structure of binary applications as output b
 <ul class="pager">
   <li class="previous"><a href="/book/3-05-00-system-utils/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/3-07-00-graphics/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-07-00-graphics.md">Next &raquo;</a><li>
 </ul>

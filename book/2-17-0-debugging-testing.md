@@ -123,5 +123,5 @@ You've seen the interactive debugger enough times by now to have a general idea 
 <ul class="pager">
   <li class="previous"><a href="/book/2-16-0-foreign-libs/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/2-18-0-ffi/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/2-18-0-ffi.md">Next &raquo;</a><li>
 </ul>

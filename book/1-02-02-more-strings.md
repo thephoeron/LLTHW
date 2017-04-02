@@ -37,5 +37,5 @@ Once again, you get back exactly what you typed.
 <ul class="pager">
   <li class="previous"><a href="/book/1-02-01-strings/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-02-03-unicode/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-02-03-unicode.md">Next &raquo;</a><li>
 </ul>

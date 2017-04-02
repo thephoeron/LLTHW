@@ -91,5 +91,5 @@ Try out the extra namestring functions, `namestring`, `directory-namestring`, `h
 <ul class="pager">
   <li class="previous"><a href="/book/1-02-13-more-format/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-02-15-streams/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-02-15-streams.md">Next &raquo;</a><li>
 </ul>

@@ -95,5 +95,5 @@ For a list of further readings on cryptography, please consult the Resources sec
 <ul class="pager">
   <li class="previous"><a href="/book/3-10-00-data/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/3-12-00-fintech/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-12-00-fintech.md">Next &raquo;</a><li>
 </ul>

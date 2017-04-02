@@ -40,5 +40,5 @@ Lisp's Pretty Printing facilities are pretty complex, and that's to say nothing 
 <ul class="pager">
   <li class="previous"><a href="/book/1-02-18-prompting-users/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/1-03-0-getting-input-from-users/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/1-03-0-getting-input-from-users.md">Next &raquo;</a><li>
 </ul>

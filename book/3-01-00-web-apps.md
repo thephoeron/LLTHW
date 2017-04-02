@@ -122,5 +122,5 @@ Also, include an exercise that shows how to set up a secure load-balanced cloud 
 <ul class="pager">
   <li class="previous"><a href="/book/3-00-00-overview/">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
-  <li class="next"><a href="/book/3-02-00-typesetting/">Next &raquo;</a><li>
+  <li class="next"><a href="/book/3-02-00-typesetting.md">Next &raquo;</a><li>
 </ul>
