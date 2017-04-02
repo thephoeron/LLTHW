@@ -66,7 +66,7 @@ You can force the insertion of a `#\Newline` character with `~%`.  It doesn't co
 And you can insert a `#\Newline` only if the output stream is not already at the beginning of a line with `~&`.  It doesn't consume any arguments either.
 
 <ul class="pager">
-  <li class="previous"><a href="/book/1-02-12-format/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-02-12-format.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/1-02-14-pathnames.md">Next &raquo;</a><li>
 </ul>

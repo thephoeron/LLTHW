@@ -245,7 +245,7 @@ CLOS, along with the Meta-Object Protocol, are considered *the be-all and end-al
 ```
 
 <ul class="pager">
-  <li class="previous"><a href="/book/2-02-0-regex/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/2-02-0-regex.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/2-04-0-data-persistence.md">Next &raquo;</a><li>
 </ul>

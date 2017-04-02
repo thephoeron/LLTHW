@@ -31,7 +31,7 @@ Valid operators can be a symbol representing a function, macro, or special opera
 The handling of arguments is particular to the type of operator.  While functions, for example, can only receive a single return value from any parameter expressions, special operators have their own rules.  Macros allow you to arbitrarily change the syntax and semantics of Lisp---so, obviously, the rules are defined by the macro definition form itself.  Exactly how one should apply the raw power of macros is a subject of much debate in the Lisp community.
 
 <ul class="pager">
-  <li class="previous"><a href="/book/1-01-05-symbols/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-01-05-symbols.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/1-01-07-style-guide.md">Next &raquo;</a><li>
 </ul>

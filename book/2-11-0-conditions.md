@@ -123,7 +123,7 @@ In this chapter, we'll take a tour through all of Lisp's built-in tools for hand
 ```
 
 <ul class="pager">
-  <li class="previous"><a href="/book/2-10-0-improved-text-adventure-engine/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/2-10-0-improved-text-adventure-engine.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/2-12-0-2d-game.md">Next &raquo;</a><li>
 </ul>

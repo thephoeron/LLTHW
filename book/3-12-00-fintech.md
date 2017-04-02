@@ -136,7 +136,7 @@ Two methods:
 ```
 
 <ul class="pager">
-  <li class="previous"><a href="/book/3-11-00-cryptosec/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-11-00-cryptosec.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/3-13-00-scientific-computing.md">Next &raquo;</a><li>
 </ul>

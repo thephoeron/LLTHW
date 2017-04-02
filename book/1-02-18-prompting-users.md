@@ -48,7 +48,7 @@ Try each of these functions out a few times.  Ask any question you want in the s
 We will be looking at more involved prompts in Chapter 1.3, where your user can type more than just "y" or "n", or "yes" or "no".  But first, in the next exercise we'll take a look at Lisp's pretty-printer.
 
 <ul class="pager">
-  <li class="previous"><a href="/book/1-02-17-binary-streams/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-02-17-binary-streams.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/1-02-19-pretty-printing.md">Next &raquo;</a><li>
 </ul>

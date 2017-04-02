@@ -125,7 +125,7 @@ Oh right, this is Lisp.  You can get into the REPL of any running Lisp applicati
 ```
 
 <ul class="pager">
-  <li class="previous"><a href="/book/2-14-0-tree-shaker/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/2-14-0-tree-shaker.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/2-16-0-foreign-libs.md">Next &raquo;</a><li>
 </ul>

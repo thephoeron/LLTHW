@@ -60,7 +60,7 @@ Don't worry too much about the `do` loop constructor I've introduced; all you ne
 In the next exercise, we'll be dipping our toes into *binary streams*.
 
 <ul class="pager">
-  <li class="previous"><a href="/book/1-02-15-streams/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-02-15-streams.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/1-02-17-binary-streams.md">Next &raquo;</a><li>
 </ul>

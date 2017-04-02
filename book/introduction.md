@@ -48,7 +48,7 @@ The mysterious force driving human society towards the technological singularity
 Quantum Computing, the next big leap in computing and a fundamental aspect of the singularity, also currently happens to rely entirely on Lisp.  There are efforts underway to adapt quantum computer programming to all sorts of languages and familiar syntaxes, but the only real quantum computers currently available are effectively Quantum Lisp Machines, and have their operating system written in Common Lisp.  The power, simplicity, and elegance of Lisp really shines where it matters most: quantum computer programming is nearly impossible to understand unless you're a Lisp Hacker, but for a Lisp Hacker, it makes more sense than classical computing.
 
 <ul class="pager">
-  <li class="previous"><a href="/book/preface/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/preface.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/acknowledgements.md">Next &raquo;</a><li>
 </ul>

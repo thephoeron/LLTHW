@@ -45,7 +45,7 @@ Then we'll build our first application, a straight-forward text-adventure, using
 20. [Part One in Review](/book/1-20-0-review.md)
 
 <ul class="pager">
-  <li class="previous"><a href="/book/acknowledgements/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/acknowledgements.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/1-01-00-lisp-bootcamp.md">Next &raquo;</a><li>
 </ul>

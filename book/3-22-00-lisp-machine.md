@@ -137,7 +137,7 @@ This chapter will contain a review of available FPGA-based boards and ASIC manuf
 ```
 
 <ul class="pager">
-  <li class="previous"><a href="/book/3-21-00-lispos/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-21-00-lispos.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/3-23-00-gov-mil.md">Next &raquo;</a><li>
 </ul>

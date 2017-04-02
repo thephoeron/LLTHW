@@ -45,7 +45,7 @@ When you enter a character object at the REPL, it returns itself.  When you want
 </div>
 
 <ul class="pager">
-  <li class="previous"><a href="/book/1-02-04-chars/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-02-04-chars.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/1-02-06-char-codes.md">Next &raquo;</a><li>
 </ul>

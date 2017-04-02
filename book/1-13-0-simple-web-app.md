@@ -95,7 +95,7 @@ This chapter will contain exercises on:
 **A Distributed Lisp Web Application**
 
 <ul class="pager">
-  <li class="previous"><a href="/book/1-12-0-namespaces/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-12-0-namespaces.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/1-14-0-conditionals.md">Next &raquo;</a><li>
 </ul>

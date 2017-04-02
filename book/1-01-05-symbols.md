@@ -102,7 +102,7 @@ newpack::*my-private-var*
 There are some symbol names you can't use, however---at least not without trickery.  As a general rule, you cannot use any of the 978 external symbols in the COMMON-LISP package for either a function or a variable, even if that binding does not exist in the Common Lisp standard.  All the names of symbols exported by the COMMON-LISP package are *reserved*.
 
 <ul class="pager">
-  <li class="previous"><a href="/book/1-01-04-lists-cons-cells/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-01-04-lists-cons-cells.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/1-01-06-prefix-notation.md">Next &raquo;</a><li>
 </ul>

@@ -64,7 +64,7 @@ With the first three examples, you probably noticed that you're getting back the
 But notice how changing the defaults in the last three examples changed the way `write` *printed* the arguments, but didn't change the actual return value in any way (*i.e.,* the integer 10,000)?  This is how `write` works.  First it prints the *object* parameter you pass it, according to any changes you've made to the instructions for the Lisp Printer using `write`'s keyword parameters, and then when it's done it *returns* the original object as well.
 
 <ul class="pager">
-  <li class="previous"><a href="/book/1-02-07-strings-from-chars/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-02-07-strings-from-chars.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/1-02-09-more-printing.md">Next &raquo;</a><li>
 </ul>

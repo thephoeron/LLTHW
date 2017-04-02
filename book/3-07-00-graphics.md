@@ -107,7 +107,7 @@ In this chapter we will explore various methods for generating both vector and b
 ```
 
 <ul class="pager">
-  <li class="previous"><a href="/book/3-06-00-reverse-engineering/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-06-00-reverse-engineering.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/3-08-00-gaming.md">Next &raquo;</a><li>
 </ul>

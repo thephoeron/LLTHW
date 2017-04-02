@@ -71,7 +71,7 @@ First up, notice that when you tell `format` to *return* the formatted string, y
 Now notice that with the standard and write control sequences, the argument gets printed literally?  That is, it includes the double-quote syntax that would tell the Lisp Reader that this is a string object, if you were to have Lisp try and read such a string---but since there's other junk in the string that Lisp wouldn't understand, it's not a good idea to try.
 
 <ul class="pager">
-  <li class="previous"><a href="/book/1-02-11-princ/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-02-11-princ.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/1-02-13-more-format.md">Next &raquo;</a><li>
 </ul>

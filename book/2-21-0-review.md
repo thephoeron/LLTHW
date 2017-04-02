@@ -33,7 +33,7 @@ The final challenge before you move on to Part Three is this:
 Only once you've fully internalized the Common Lisp HyperSpec, can you proudly boast that you're a Lisp Hacker; and then you can move on to Part Three.  Good luck, and see you there!
 
 <ul class="pager">
-  <li class="previous"><a href="/book/2-20-0-packaging-libs/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/2-20-0-packaging-libs.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/3-00-00-overview.md">Next &raquo;</a><li>
 </ul>

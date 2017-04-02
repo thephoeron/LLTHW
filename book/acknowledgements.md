@@ -18,7 +18,7 @@ To the generations of Lisp Hackers before me, for keeping the language alive eve
 And lastly, to Zed A. Shaw for creating and releasing to open-source the LxTHW package for writing your own Learn Code The Hard Way book, so that I could finally bring my ideas into being for a better Lisp book; he has already gone a long way on his own to improve programming education as a whole, and to make programming more accessible to people all over the world.
 
 <ul class="pager">
-  <li class="previous"><a href="/book/introduction/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/introduction.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/1-0-0-overview.md">Next &raquo;</a><li>
 </ul>

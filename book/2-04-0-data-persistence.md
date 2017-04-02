@@ -159,7 +159,7 @@ Lastly, you can also dump an entire Lisp session to your file system, and run it
 ```
 
 <ul class="pager">
-  <li class="previous"><a href="/book/2-03-0-objects-control/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/2-03-0-objects-control.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/2-05-0-extended-types.md">Next &raquo;</a><li>
 </ul>

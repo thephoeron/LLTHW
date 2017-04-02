@@ -27,7 +27,7 @@ There is a reason, after all, the military uses this methodology for training---
 * Extra Credit: [Set up and Learn Emacs Live](/book/1-01-09-emacs-live.md)
 
 <ul class="pager">
-  <li class="previous"><a href="/book/1-0-0-overview/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-0-0-overview.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/1-01-01-syntax-overview.md">Next &raquo;</a><li>
 </ul>

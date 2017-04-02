@@ -55,7 +55,7 @@ TO-DO: Profile CLASP, ECL, SBCL, and CCL native app development.
 ```
 
 <ul class="pager">
-  <li class="previous"><a href="/book/3-02-00-typesetting/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/3-02-00-typesetting.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/3-04-00-gui.md">Next &raquo;</a><li>
 </ul>

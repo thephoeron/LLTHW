@@ -706,7 +706,7 @@ To load "my-new-project":
 It is considered best practice to not call Quicklisp inside your Lisp source-code, but to rely on ASDF and portable Common Lisp; for deploying executables, tools such as `BUILDAPP` will use Quicklisp automatically to retrieve dependencies and include them in your binary, without adding the overhead of the Quicklisp system to your binary.  The Lisp API to Quicklisp, however, is very useful for testing, exploring, and interactively programming with Lisp libraries from the REPL.  For example, you can now automatically load the library you've created in this chapter into a new Lisp image, and start playing with it right away.
 
 <ul class="pager">
-  <li class="previous"><a href="/book/1-11-0-text-adventure/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-11-0-text-adventure.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/1-13-0-simple-web-app.md">Next &raquo;</a><li>
 </ul>

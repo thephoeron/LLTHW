@@ -116,7 +116,7 @@ This chapter will contain exercises on:
 **Even More LOOP**
 
 <ul class="pager">
-  <li class="previous"><a href="/book/1-15-0-command-line-utility/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-15-0-command-line-utility.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/1-17-0-iterate.md">Next &raquo;</a><li>
 </ul>

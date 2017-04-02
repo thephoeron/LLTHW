@@ -52,7 +52,7 @@ Lisp is, at its heart, a very mystical language which blurs the line between pro
 This is where the term 'grokking' comes into the picture.  It was coined by speculative/science fiction author Robert A. Heinlein in his novel, Stranger in a Strange Land, to describe the experience of knowing something so deeply that you become a part of it as much as it becomes a part of you.  In short, Grokking is gnosis for the transhuman age.  So being that learning Lisp shares so much in common with mystical initiation, using the initiatory techniques of Occult orders in teaching Lisp makes a lot of sense.  This is why the Hard Way is the road to the Lisp Way, and why even experienced Lisp, Scheme, Clojure, Haskell, and OCaml programmers will benefit as greatly from this book as an absolute beginner.
 
 <ul class="pager">
-  <li class="previous"><a href="/book/preface-part-two/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/preface-part-two.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/introduction.md">Next &raquo;</a><li>
 </ul>

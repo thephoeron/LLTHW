@@ -42,7 +42,7 @@ But enough with the metaphors for now.  From a practical standpoint, in Part Two
 21. [Detailed Syntax Review](/book/2-21-0-review.md)
 
 <ul class="pager">
-  <li class="previous"><a href="/book/1-20-0-review/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-20-0-review.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/2-01-0-programming-paradigms.md">Next &raquo;</a><li>
 </ul>

@@ -62,7 +62,7 @@ This chapter will contain exercises on:
 **Rewrite Your Web App as a Daemon**
 
 <ul class="pager">
-  <li class="previous"><a href="/book/1-14-0-conditionals/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/1-14-0-conditionals.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/1-16-0-map-loop.md">Next &raquo;</a><li>
 </ul>

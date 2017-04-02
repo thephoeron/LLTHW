@@ -155,7 +155,7 @@ In this chapter we will go into much more detail on the subject of binary stream
 ```
 
 <ul class="pager">
-  <li class="previous"><a href="/book/2-08-0-number-theory/">&laquo; Previous</a></li>
+  <li class="previous"><a href="/book/2-08-0-number-theory.md">&laquo; Previous</a></li>
   <li><a href="/book/">Table of Contents</a></li>
   <li class="next"><a href="/book/2-10-0-improved-text-adventure-engine.md">Next &raquo;</a><li>
 </ul>
