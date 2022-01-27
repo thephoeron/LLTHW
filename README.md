@@ -13,7 +13,7 @@
 
 ```
 
-Learn Lisp The Hard Way source-code and full book text. This is a work in progress, but you can read the draft online at http://learnlispthehardway.org/
+Learn Lisp The Hard Way source-code and full book text. This is a work in progress.
 
 Based on Zed Shaw's LxTHW Open-Source project for writing your own programming language book, available as a Git repository on Gitorious:
 
